@@ -1,0 +1,30 @@
+1.What is DevOps?
+
+DevOps is a software development approach that combines software development (Dev) and information-technology operations (Ops) in order to shorten the 
+systems development life cycle and provide continuous delivery with high software quality. DevOps aims to establish a culture and environment where 
+building, testing, and releasing software can happen rapidly, frequently, and more reliably.
+
+The philosophy of DevOps emphasizes collaboration between developers and IT professionals, automating the build, test, and release process, and using 
+data to drive decision-making and continuous improvement. It aims to provide faster delivery of new features, higher quality of service, and more 
+dependable releases.
+
+2.Which articles should I perfer?
+
+There are many articles available that can provide a good overview of DevOps and how it can be implemented. Here are a few suggestions:
+
+  1."The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win" by Gene Kim, Kevin Behr, 
+     and George Spafford is a popular book that uses a fictional story to illustrate the principles of DevOps.
+     
+  2."The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology 
+     Organizations" by Gene Kim, Jez Humble, Patrick Debois, and John Willis is a comprehensive guide to 
+     implementing DevOps practices in an organization.
+    
+  3."The Five Ideals of DevOps" by Jez Humble, co-author of "The DevOps Handbook," provides a brief overview of
+     the principles of DevOps.
+  
+  4."The Seven Deadly Sins of DevOps" by James Wickett and Rebecca Parsons, also co-authors of "The DevOps Handbook,"
+     discusses common pitfalls to avoid when implementing DevOps.
+     
+     
+     
+I hope these articles will be helpful to you!
