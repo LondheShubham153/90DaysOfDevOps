@@ -1,0 +1,3 @@
+DevOps is methodolgy which resolve the gap between Dev and Ops team by using Open Source Automation Build tools.
+This are the articles which I refered - 
+https://www.javatpoint.com/devops
