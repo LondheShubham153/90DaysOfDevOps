@@ -2,3 +2,13 @@
 DevOps combines development (Dev) and operations (Ops) to unite people, process, and technology in application planning, development, delivery, and operations.
 
 ## What is Automation, Scaling, Infrastructure?
+- Automation: Automation refers to the use of technology to perform tasks without the need for human input. Automation can be used in a variety of contexts, such as manufacturing, transportation, and information technology.
+- Scaling: Scaling is the ability of a system to handle an increasing workload. This can be achieved through horizontal scaling, which involves adding more resources to a system.
+- Infrastructure: Infrastructure is viewed as code that can be managed and maintained through the use of automation and configuration management tools.
+
+## Why DevOps is Important?
+- Faster delivery of software updates
+- Increased reliability and stability
+- Better security
+- Easy deployment
+- Better efficiency and scalability
