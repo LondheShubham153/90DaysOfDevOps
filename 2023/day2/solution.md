@@ -2,12 +2,14 @@
 ## Basic linux commands
 
 -  ``ls``  list the sub directories and files avaiable in the present directory
--  
+
 ![ls](https://user-images.githubusercontent.com/76457594/210222403-35776fbc-e509-4c9c-a0ad-e5975599ffab.png)
 
 - ``` ls -l ```--> 
-- 
+
+
 ![Uploading ls -l.png…]()
+
 
 
 - ```ls -a ```-->
@@ -15,13 +17,17 @@
 ![ls -a](https://user-images.githubusercontent.com/76457594/210223013-9353abf0-159c-4797-a19f-3b78a8d4ef00.png)
 
 - ```ls *.sh``` -->
--
+
+
 ![ls * sh](https://user-images.githubusercontent.com/76457594/210223067-f5c3a5bf-09b4-4525-90e7-9ce61186ae2e.png)
 
 
 - ```ls -i ``` -->
 
-![Uploading ls-i.png…]()
+- ![Uploading ls-i.png…]()
+
+
+
 
 - ``` ls -d */``` -->
 
