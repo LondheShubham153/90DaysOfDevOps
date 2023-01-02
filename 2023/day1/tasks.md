@@ -2,7 +2,16 @@
 
 This is the day you have to Take this challenge and start your #90DaysOfDevOps with the #TrainWithShubham Community
 
+- Fork this Repo.
+- Start with a DevOps Roadmap[https://youtu.be/iOE9NTAG35g]
+- Write a LinkedIn post or a small article about your understanding of DevOps
+ - What is DevOps
+ - What is Automation, Scaling, Infrastructure
+ - Why DevOps is Important, etc
+
+--------------------------------------------
 ## Motivation
+
    The motivation behind the learning of DEVOPS is simple and clear . I observed DEVOPS role bit challenging, Everyday needs to be learned new things, Has scope to        interact with every team in the whole process of software development, Great carreer growth , Global remote and normal opportunities, High demand
 
 
@@ -11,7 +20,7 @@ This is the day you have to Take this challenge and start your #90DaysOfDevOps w
 
 
 --Read till end (Best thing at end)
------------------------------------
+
 ## Application Release Process :
 
 Every software(application) will gone through a several lifecycles before come into the public(live). The stages involved in it are :
@@ -111,7 +120,7 @@ since, As i said above Devops born to make collaboration between DEV team and OP
 	There is a fundamental difference between the “I am an expert” and “He is an expert”. Saying “I am an expert” does not cost you anything and hence has no actual value. 
 o	Network with other experts and engage in conversations
 
-**Resources : **
+**Resources :**
 
 - [Devops Guide blog ](https://yourdevopsmentor.com/blog/how-to-become-a-devops-engineer/)
 - [Simple and clear Devops Roadmap_Hindi] (https://youtu.be/iOE9NTAG35g)
