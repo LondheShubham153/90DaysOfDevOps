@@ -1,2 +1,4 @@
-DevOps is a methodology which Involves practices to bridge the gap of Dev and ops team by using Open source automation build tools.
-These are the articles which I refered to,
+## What is Devops?
+DevOps combines development (Dev) and operations (Ops) to unite people, process, and technology in application planning, development, delivery, and operations.
+
+## What is Automation, Scaling, Infrastructure?
