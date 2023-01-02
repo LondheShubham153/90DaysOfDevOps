@@ -1,0 +1,23 @@
+Day 2 Task: Basics linux command
+
+Task: What is the linux command to
+
+Check your present working directory = pwd
+List all the files or directories including hidden files = ls -a
+Create a nested directory A/B/C/D/E = mkdir -p A/B/C/D/E
+
+Few More :) 
+
+Apropos (Keyword) = apropos command helps the user when they don’t remember the exact command but knows a few keywords related to the command that define its uses or functionality.It searches the Linux man page with the help of the keyword provided by the user to find the command and its functions.
+          
+Sudo!!  = Running the command without specifying sudo command will give you permission denied error. So, you don’t need to rewrite the whole
+          command again just put ‘!!‘ will grab the last command.
+
+Shuf    = The “shuf” command randomly select lines/files/folder from a file/folder. First list the contents of a folder using ls command.
+
+ss      = The “ss” stands for socket statistics. The command investigates the socket and shows information similar to netstat command. 
+          It can display more TCP and state informations than other tools.
+ 
+last    = The “last” command show the history of last logged in users. This command searches through the file “/var/log/wtmp” and shows a list of logged-in and logged-out users along with tty’s.
+
+
