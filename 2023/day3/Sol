@@ -1,0 +1,7 @@
+cat filename
+chmod +rwx /chmod777 
+history
+rmdir directory name
+touch fruits.txt and cat > file name
+echo 'anuj, ankit, deepak' >> devops.txt
+cat devops.txt | head -3
