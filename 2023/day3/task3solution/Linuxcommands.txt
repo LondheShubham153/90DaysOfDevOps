@@ -1,0 +1,101 @@
+ Basic Linux Commands - part 2
+
+Task: What is the linux command to
+
+1)Linux command to view what's written in a file.
+i)The simplest way to view text files in Linux is the cat command. 
+It displays the complete contents in the command line without using inputs to scroll through it.
+ii) nl
+The nl command is almost like the cat command. The only difference is that it prepends line numbers while displaying the text in the terminal.
+iii) Less
+Less command views the file one page at a time. The best thing is that you exit less (by pressing q), there are no lines displayed on the screen. Your terminal remains clean and pristine.
+
+2)Linux command to change the access permissions of files.
+In linux there are three types of owners:user ,groups and others.
+Linux user: A user is the owner of the file.
+Linux group: Group is a collection of users.
+Other: Any users who is not part of our user or group category is called other.
+
+Linux file permissions:
+i)Read permission: Read permission allow users to open and read the file only.
+ii)Write permission: It allows user to modify the file.
+iii)Executable permission: It allows the user to run an executable script.
+
+Note that we can find permissions of files and folders using long listing (ls -l) on a Linux terminal.
+chmod is the command which is used to change the access permission of files.
+Syntax :
+chmod permissions filename
+
+Permissions can be changed using two modes:
+Symbolic mode
+Absolute mode
+
+We will take an example of Absolute mode
+Absolute mode uses numbers to represent permissions and mathematical operators to modify them.
+Permissions are provided using addition
+Permission | Provide permission
+read       |  add 4
+write      |  add 2
+execute    |  add 1
+
+Permissions are revoked using subtraction
+Permission | Provide permission
+read       |  subtract 4
+write      |  subtract 2
+execute    |  subtract 1
+
+Example:
+
+Set read (add 4) for user, read (add 4) and execute (add 1) for group, and only execute (add 1) for others.
+chmod 451 file-name
+
+
+
+3)Linux command to check which commands you have run till now.
+History command is used to check the commands you have run till now
+
+To view history one page at a time,you can use the following:
+history | less
+To view just the last ten commands, you can use the following:
+history | tail
+To view the last 25 commands, just use the following:
+history 25
+
+4)Linux command to remove a directory/ Folder.
+The rm command removes complete directories, including subdirectories and files.
+The rmdir command removes empty directories.
+It is important to note that the rm and rmdir commands permanently remove directories without moving them to the Trash directory.
+ This means that you cannot restore a directory removed using these commands.
+
+5)Linux command to create a fruits.txt file and to view the content.
+So to create a fruits.txt file we are using echo command and then we use cat command to display the contents
+eg:
+echo Happy new year >> fruits.txt
+cat fruits.txt
+
+6)Linux command to add content in devops.txt (One in each line) - Apple, Mango, Banana, Cherry, Kiwi, Orange, Guava.
+We are going to use echo command to concatenate each line to the devops.txt file.
+eg:
+echo Apple >> devops.txt
+echo Mango >> devops.txt
+
+7)Linux command to show only top three fruits from the file.
+-To show only first three fruits we will use Head command,however by default it shows 10 lines.We can pass a -n, where n is the number of lines from top that we want as an output.
+
+To Show only bottom three fruits from the file.
+-To show only bottom three fruits we will use tail command,however by default it shows 10 lines.We can pass a -n, where n is the number of lines from bottom that we want as an output. -To show only first three fruits we will use head command,however by default it shows 10 lines.We can pass a -n, where n is the number of lines from bottom that we want as an output.
+
+
+-To create another file Colors.txt and to view the content.
+-We are going to use touch command to create the file and cat command to view the content of the file 
+
+Add content in Colors.txt (One in each line) - Red, Pink, White, Black, Blue, Orange, Purple, Grey.
+-We can add each color in the file using echo command.
+eg:
+echo Red >> Colors.txt
+echo Pink >> Pink
+
+To find the difference between fruits.txt and Colors.txt file.
+-To find the difference between content of two files we can use diff command.
+eg
+diff fruits.txt Colors.txt
