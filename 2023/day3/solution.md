@@ -24,9 +24,10 @@
 
       - ``` rm filename ``` 
       
-![3 4](https://user-images.githubusercontent.com/76457594/210308917-7281e0eb-6fcb-4554-8ffe-835cf0b961d1.png)
+ ![3 4](https://user-images.githubusercontent.com/76457594/210308917-7281e0eb-6fcb-4554-8ffe-835cf0b961d1.png)
 
-  - ``` rmdir foldername ``` 
+    - ``` rmdir foldername ``` 
+    
  ![3 4b](https://user-images.githubusercontent.com/76457594/210309299-367e6253-7e11-4ead-a19c-6eb3922780d1.png)
 
  
