@@ -50,3 +50,4 @@ Note: [Check this file for reference](basic_linux_commands.md)
   ![image](https://user-images.githubusercontent.com/89054489/210256767-15663305-259b-473d-ba03-9318e43e4b1f.png)
 
   [source](https://youtu.be/P90wg2SfpzM)
+  
