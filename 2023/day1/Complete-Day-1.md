@@ -22,6 +22,6 @@ Infrastructure refers to the underlying systems, technologies, and processes tha
 
 
 write detaild blog on this.
-check out here - https://rushikesh-mashidkar.hashnode.dev/before-youre-starting-devops-journey-you-need-to-know-these-basics-fundamentals-of-devops
+
 check out here -[Why should learn DevOps & Why DevOps is Important]( https://rushikesh-mashidkar.hashnode.dev/before-youre-starting-devops-journey-you-need-to-know-these-basics-fundamentals-of-devops )
-check out here -[epub](Why should learn DevOps & Why DevOps is Important)
+
