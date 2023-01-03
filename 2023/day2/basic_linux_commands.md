@@ -39,3 +39,6 @@ mkdir /home/user/Mydirectory   # make a new folder in a specific location
 
 mkdir -p  A/B/C/D              # make a nested directory
 ```
+
+
+check out written blog at ([Basic Linux Commands](https://rushikesh-mashidkar.hashnode.dev/basic-linux-commands-all-in-one-linux-commands-cheetsheet))
