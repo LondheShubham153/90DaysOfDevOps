@@ -1,0 +1,49 @@
+#90DaysofDevops challenge
+Here is the day 1 summary of the #90DaysofDevops challenge
+
+What is DevOps?
+DevOps is a software engineering culture and practice that aims to unify software development (Dev) and software operation (Ops) and IT operations.
+The main goal of DevOps is to shorten the systems development life cycle and provide continuous delivery with high software quality. 
+DevOps promotes collaboration, communication, and integration between software developers and IT operations.
+The philosophy of DevOps aims to bring applications and services faster to the market.
+
+
+What is Automation?
+Automation refers to the use of technology to perform tasks without the need for human input.
+Automation can be used in a variety of contexts, such as manufacturing, transportation, and information technology. 
+Automation typically refers to the use of software tools and scripts to perform tasks that would otherwise be done manually by a person.
+Automation can be used to improve efficiency and speed by eliminating the need for manual processes also it can help reduce the risk of errors.
+
+What is Scaling?
+Scaling is the ability of a system to handle an increasing workload.
+This can be achieved through horizontal scaling, which involves adding more resources to a system 
+e.g. adding more servers to a network, or through vertical scaling, which involves increasing the capacity of individual resources 
+e.g. upgrading the hardware of a single server)
+
+What is Infrastructure?
+Infrastructure is viewed as code that can be managed and maintained through the use of automation and configuration management tools.T
+his means that rather than manually configuring and maintaining infrastructure, the infrastructure can be defined and managed using code and automation tools.
+This enables the infrastructure to be treated in the same way as the application code, with the ability to version control, test, and deploy infrastructure changes alongside application code changes.
+Managing infrastructure in this way can help to improve the reliability, scalability, and security of the infrastructure,
+
+What are the common technologies used in DevOps?
+1) Version control systems (e.g. Git) for managing and tracking code changes
+
+2)Continuous integration tools (e.g. Jenkins, Travis CI) for automating the build and testing of code
+
+3) Containerization technologies (e.g. Docker) for packaging and deploying applications
+
+4) Configuration management tools (e.g. Ansible, Puppet) for automating the configuration and management of infrastructure
+
+5) Monitoring tools (e.g. Nagios, New Relic) for tracking the performance and availability of systems
+
+6)Cloud platforms (e.g. AWS, Azure, GCP) for providing infrastructure and services for deployment
+
+Why DevOps is Important?
+1)Faster delivery of software updates: By automating the build, test, and deployment process, DevOps enables organizations to deliver software updates faster and more frequently.
+
+2)Improved collaboration: DevOps promotes collaboration between software developers and IT operations, which can help to improve communication and integration between these teams.
+
+3)Increased reliability and stability: By automating the deployment process and implementing testing and monitoring at various stages, DevOps can help to improve the reliability and stability of systems. This can reduce the risk of errors and downtime, and can help to improve the overall quality of the software.
+
+4)Better security: By incorporating security testing and monitoring into the development and deployment process, DevOps can help to improve the security of systems. This can help to protect against vulnerabilities and threats and can help to ensure that systems are compliant with relevant security standards and regulations.

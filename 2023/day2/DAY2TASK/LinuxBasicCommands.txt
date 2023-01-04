@@ -1,0 +1,40 @@
+#90DaysofDevops challenge
+Here is the day 2 summary of the #90DaysofDevops challenge
+
+What is Linux?
+
+Linux is an open-source operating system (OS). An operating system is software that directly manages a system’s hardware and resources, like CPU, memory, and storage. The OS sits between applications and hardware and makes the connections between all of your software and the physical resources that do the work.
+
+What are the Features of Linux Operating Systems?
+
+Free and Open-Source.
+Extremely Flexible.
+Lightweight Infrastructure.
+Graphical User Interface (GUI)
+End-to-end encryption
+Portable Environment
+Shell/ Command-line Interface
+Customized keyboard
+Basic Linux command:
+
+1. Linux command to check your present working directory.
+pwd command is used to find the path of your current working directory.
+Simply entering pwd will return the full current path — a path of all the directories that starts with a forward slash (/).
+For example, /home/username.
+
+The pwd command uses the following syntax:
+pwd [option]
+It has two acceptable options:
+
+-L or –logical prints environment variable content, including symbolic links.
+-P or –physical prints the actual path of the current directory.
+
+2. Linux command to list all the files or directories including hidden files.
+
+The ls command lists files and directories within a system. Running it without a flag or parameter will show the current working directory’s content.
+“ls -la” is the command to list all the files or directories including hidden files.
+Using ‘l’ will display a long listing format of content one per line of the current directory.
+Using “a” will list all including hidden files and directories in the Linux machine.
+
+3. Linux command to create a nested directory A/B/C/D/E
+The command to create a nested directory is mkdir -p A/B/C/D/E. The -p switch creates parents' directories.

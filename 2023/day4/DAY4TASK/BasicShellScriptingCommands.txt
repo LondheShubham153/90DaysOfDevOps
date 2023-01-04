@@ -1,0 +1,45 @@
+Here is the day 4 summary of the #90DaysofDevops challenge
+What is Kernel?
+The kernel is a computer program that is the core of a computer's operating system, with complete control over everything in the system.
+
+What is Shell?
+A shell is a special user program that provides an interface for the user to use operating system services. 
+Shell accepts human-readable commands from users and converts them into something which the kernel can understand. 
+It is a command language interpreter that executes commands read from input devices such as keyboards or from files. 
+The shell gets started when the user logs in or starts the terminal.
+
+What is Linux Shell Scripting for DevOps?
+Shell Scripting is a program to write a series of commands for the shell to execute. 
+Shell is a command-line interpreter and Shell script is nothing but a list of commands executed by the shell. 
+It can combine lengthy and repetitive sequences of commands into a single and simple script that can be stored and executed anytime which, reduces programming efforts.
+
+What is #!/bin/bash?
+#!/bin/bash is a shebang line used in script files to set bash, present in the '/bin' directory, as the default shell for executing commands present in the file.
+"#!" is a shebang in the character sequence consisting of the character's number sign and exclamation mark ( #!) at the beginning of a script.
+
+Can we write #!/bin/sh as well?
+#!/bin/sh: It is used to execute the file using sh, which is a Bourne shell, or a compatible shell.
+Just like that, we have #!/bin/csh. It is used to execute the file using csh, the C shell, or a compatible shell.
+
+Write a Shell Script that prints "I will complete #90DaysofDeVops challenge"
+-> echo "I will complete #90DaysofDevops challenge
+
+Write a Shell Script to take user input, input from arguments, and print the variables.
+->echo "what is you age:"
+  read age
+  echo "your age is $age"
+
+Write an Example of If else in Shell Scripting by comparing two numbers
+-> echo -n "enter the first number:"; read a
+   echo -n "enter the second number:"; read b
+  if ["$a" -lt "$b"]
+  then 
+  echo "a is smaller than b"
+  else
+  echo "b is smaller than a"
+
+  if [ "$a" -eq "$b"]
+  then
+  echo " a and b are both same"
+
+  fi
