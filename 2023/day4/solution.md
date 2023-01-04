@@ -38,6 +38,11 @@ read age
 Print the variables
 echo "Your name is $name and your age is $age."
 
+![Uploading 3.4.png…]()
+![4 6](https://user-images.githubusercontent.com/76457594/210495429-5a6ae140-1c19-4d97-8dd5-742fe21a56d8.png)
+
+
+
 
 ## Write an Example of If else in Shell Scripting by comparing 2 numbers?
 
