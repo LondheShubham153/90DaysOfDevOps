@@ -15,7 +15,7 @@ Yes, you can also write #!/bin/sh as the shebang to use the Bourne shell to inte
 ## Write a Shell Script which prints I will complete #90DaysOofDevOps challenge
 
 ```plaintext
--- #!/bin/bash
+#!/bin/bash
 
 echo "I will complete #90DaysOofDevOps challenge"
 ```
