@@ -15,12 +15,34 @@
  **Tasks**
 
  - Explain in your own words and examples, what is Shell Scripting for DevOps.
+      scripts are small piece of code  mostly used for automation in DevOps.
  - What is `#!/bin/bash?` can we write `#!/bin/sh` as well?
+      bash and sh are two different shells. Basically bash is sh, with more features and better syntax.So yes , we can use both.         
  - Write a Shell Script which prints `I will complete #90DaysOofDevOps challenge`
+      #!/bin/bash
+      echo "I will complete #90DaysOofDevOps challenge"
+      
  - Write a Shell Script to take user input, input from arguments and print the variables.
+      #!/bin/bash
+      name=damini
+      #defining variables
+      echo " ${name} has accepted 90DaysofDevOps challenge"
+      #user argument
+      echo " I completed $1 tasks "
+      # $1 takes the 1st argument
+      
+      #save this file and run with arguments.
  - Write an Example of If else in Shell Scripting by comparing 2 numbers
+      #!/bin/bash
+     if [2 -gt 7]
+     then
+        echo "2 is greater than 7"
+     else
+        echo "2 is not greater than 7"
+     fi
 
  Was it difficult?
+     No
  
  - Post about it on LinkedIn and Let me know :)
 
