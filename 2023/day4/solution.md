@@ -18,6 +18,10 @@ Yes, you can also write #!/bin/sh as the shebang to use the Bourne shell to inte
 
 echo "I will complete #90DaysOofDevOps challenge"
 
+![4 1](https://user-images.githubusercontent.com/76457594/210493628-508b9912-76cf-4023-96fa-325f9fd2474d.png)
+
+![4 2](https://user-images.githubusercontent.com/76457594/210493627-6a43f061-cf4d-4b37-a510-3ab7beddf2a0.png)
+
 
 ## Write a Shell Script to take user input, input from arguments and print the variables.
 
