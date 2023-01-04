@@ -25,6 +25,7 @@ echo "I will complete #90DaysOofDevOps challenge"
 ![4 2](https://user-images.githubusercontent.com/76457594/210493627-6a43f061-cf4d-4b37-a510-3ab7beddf2a0.png)
 
 
+
 ## Write a Shell Script to take user input, input from arguments and print the variables.
 ```plaintext
 #!/bin/bash
@@ -41,9 +42,9 @@ Print the variables
 echo "Your name is $name and your age is $age."
 ```
 
-![3 4](https://user-images.githubusercontent.com/76457594/210495815-ff44b01a-d5aa-4fc5-92e7-e56444404265.png)
-![4 6](https://user-images.githubusercontent.com/76457594/210495429-5a6ae140-1c19-4d97-8dd5-742fe21a56d8.png)
 
+![4 6](https://user-images.githubusercontent.com/76457594/210495429-5a6ae140-1c19-4d97-8dd5-742fe21a56d8.png)
+![nn](https://user-images.githubusercontent.com/76457594/210497932-9332609d-cf32-4f8f-b41d-a02efa01a835.png)
 
 
 
