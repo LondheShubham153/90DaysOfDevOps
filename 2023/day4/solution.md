@@ -38,7 +38,7 @@ read age
 Print the variables
 echo "Your name is $name and your age is $age."
 
-![Uploading 3.4.png…]()
+![3 4](https://user-images.githubusercontent.com/76457594/210495815-ff44b01a-d5aa-4fc5-92e7-e56444404265.png)
 ![4 6](https://user-images.githubusercontent.com/76457594/210495429-5a6ae140-1c19-4d97-8dd5-742fe21a56d8.png)
 
 
