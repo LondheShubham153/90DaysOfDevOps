@@ -25,7 +25,8 @@ then it creates 50 directories as ```Movie20 Movie21 Movie23 ...Movie50```
 Notes:
 You may need to use loops or commands (or both), based on your preference . [Check out this reference: https://www.geeksforgeeks.org/bash-scripting-for-loop/](https://www.geeksforgeeks.org/bash-scripting-for-loop/)
 
-2) Create a Script to backup all your work done till now.
+
+ 2) Create a Script to backup all your work done till now.
 
  Backups are an important part of DevOps Engineers day to Day activities
  The video in References will help you to understand How a DevOps Engineer takes backups (it can feel a bit difficult but keep trying, Nothing is impossible.)
@@ -33,19 +34,22 @@ You may need to use loops or commands (or both), based on your preference . [Che
  
  In case of Doubts, post it in [Discord Channel for #90DaysOfDevOps](https://discord.gg/hs3Pmc5F)
 
-3) Read About Cron and Crontab, to automate the backup Script
+
+ 3) Read About Cron and Crontab, to automate the backup Script
  
  Cron is the system's main scheduler for running jobs or tasks unattended. A command called crontab allows the user to submit, edit or delete entries to cron. A crontab file is a user file that holds the scheduling information.
 
  Watch This video as a Reference to Task 2 and 3 [https://youtu.be/aolKiws4Joc](https://youtu.be/aolKiws4Joc)
 
-4) Read about User Management and Let me know on Linkedin if you're ready for Day 6. 
+
+ 4) Read about User Management and Let me know on Linkedin if you're ready for Day 6. 
 
 A user is an entity, in a Linux operating system, that can manipulate files and perform several other operations. Each user is assigned an ID that is unique for each user in the operating system. In this post, we will learn about users and commands which are used to get information about the users. After installation of the operating system, the ID 0 is assigned to the root user and the IDs 1 to 999 (both inclusive) are assigned to the system users and hence the ids for local user begins from 1000 onwards.
 
-5) Create 2 users and just display their Usernames
+
+ 5) Create 2 users and just display their Usernames
 
 [Check out this reference: https://www.geeksforgeeks.org/user-management-in-linux/](https://www.geeksforgeeks.org/user-management-in-linux/)
 
-Post your daily work on Linkedin and le [me](https://www.linkedin.com/in/shubhamlondhe1996/) know , writing an article is the best :)
+ Post your daily work on Linkedin and le [me](https://www.linkedin.com/in/shubhamlondhe1996/) know , writing an article is the best :)
 
