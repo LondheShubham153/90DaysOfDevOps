@@ -9,7 +9,7 @@ The reason for making this Public is so that others can learn from the community
 ## Steps:
 - Fork[https://github.com/LondheShubham153/90DaysOfDevOps/fork] the Repo.
 - Learn Everyday and add your learnings in the day wise folders.
-- Chek out what others are Learning and help/learn from them.
+- Check out what others are Learning and help/learn from them.
 - Showcase your learnings on LinkedIn
 
 
