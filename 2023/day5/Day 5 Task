@@ -1,0 +1,36 @@
+1:  You have to do the same using Shell Script i.e using either Loops or command with start day and end day variables using arguments -
+
+#!/bin/bash
+
+for (( i=1;i<=$2;i++))
+do
+        mkdir $1-$i
+done
+
+ls
+2:  Create a Script to backup all your work done till now.
+ #!/bin/bash
+
+Backup_directory="/Users/wd-21121/Desktop/DevOps/*"
+Backups="/Users/wd-21121/Desktop/backup"
+date=$(date +"%d-%b-%Y")
+
+mkdir $Backups/$date
+cp -r $Backup_directory $Backups/$date
+
+echo "Backup created in $Backups/$date"
+
+3: Read About Cron and Crontab, to automate the backup Script:
+ Cron is the system's main scheduler for running jobs or tasks unattended. A command called crontab allows the user to submit, 
+ edit or delete entries to cron. A crontab file is a user file that holds the scheduling information.
+ 01 09 * * * bash/Users/wd-21121/Desktop/Day5/basckup.sh
+ 
+4: Read about User Management: .
+   User management is an organizational function that enables users to access and control digital assets, such as applications, devices, networks, and cloud services. 
+   Organizations are now exploring even more advanced solutions.
+5: Create 2 users and just display their Usernames: 
+  sudo useradd Thakur
+  sudo useradd Mohan
+  sudo cat /etc/passwd
+  sudo gpasswd Mohan
+  awk -F':' '{ print $1}' /etc/passwd
