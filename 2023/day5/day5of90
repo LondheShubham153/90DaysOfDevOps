@@ -1,0 +1,8 @@
+#!/bin/bash
+num1=$2
+num2=$3
+for (( i=$num1; i<=$num2; i++ )) 
+do
+        mkdir "$1""$i"
+done
+
