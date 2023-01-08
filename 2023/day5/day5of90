@@ -6,3 +6,6 @@ do
         mkdir "$1""$i"
 done
 
+print last 2 created usename only
+
+cat /etc/passwd | awk -F':' '{print $1}'|tail -2
