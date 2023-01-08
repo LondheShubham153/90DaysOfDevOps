@@ -39,3 +39,5 @@ systemctl is used to examine and control the state of “systemd” system and s
 ![image](https://user-images.githubusercontent.com/89054489/211152031-e8522488-eb51-424e-bd7a-1722bb71b81e.png)
 ![image](https://user-images.githubusercontent.com/89054489/211152743-6128bdbb-4a99-496a-bd04-f096da998d28.png)
 ![image](https://user-images.githubusercontent.com/89054489/211153055-9ef7f43d-bac1-44ba-b14e-95465c4079d7.png)
+
+[For more detailed information about installation](https://www.jenkins.io/doc/book/installing/linux/)
