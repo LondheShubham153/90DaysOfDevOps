@@ -1,4 +1,4 @@
 this is feat1
 this is new feature
 this is for creating conflict 
-this if also for creating conflict from local
+this if also for creating conflict from remote
