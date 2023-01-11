@@ -19,7 +19,32 @@
         git push --all origin
 
 
+Tasks
+task-1:
+Set your user name and email address, which will be associated with your commits.
+        
+        git config --global user.name "Your Name"
+        git config --global user.email "Your EmailId'
+task-2:
 
+Create a repository named "Devops" on GitHub
+Connect your local repository to the repository on GitHub.
+        
+        git clone [url of the repo] 
+Create a new file in Devops/DevOps-Practice/Day9.txt & add some content to it
+        
+        vi  day9.txt
+        [added few lines]
+        
+Push your local commits to the repository on GitHub
+        
+        git add .
+        git commit -m "message"
+        git push origin main
+
+reff :- https://youtu.be/AT1uxOLsCdk
+
+Note: These steps assume that you have already installed Git on your computer and have created a GitHub account. If you need help with these prerequisites, you can refer to the day-08
 
             
             
