@@ -1,0 +1,20 @@
+What is DevOps?
+- Complete process of development and operations cycle of software.
+- Process : 1) Developer part plans to build any software
+            2) Developer execute that plan and code the whole software
+            3) Buildup of software come to the part
+            4) Test the software on developer end before deployement
+            5) Now sideways operations part comes to rescue and release the software
+            6) Deploy over the server/ cloud
+            7) Operate the software as like it's working
+            8) At last monitor the software as if issue arise
+- This complete lifecycle continue to work even after the software deployed as any issue generated it should be resolved while the softare is already on the run
+
+
+What is Automation, Scaling, Infrastructure?
+- Automation: The continuity buildup of the lifecycle to keep the software/ application in running phase alongside resolving the issues created is described as automation. It is the main task a DevOps engineer has to do.
+- Scaling: methodology to reside to automate the process of suitable technologies to grow the software / applications quality. It is best practice to go with right tools for better build quality of the software to keep it on run for longer term, it is responsibility of the enterprises to go with the best available technologies available.
+- Infrastrcture: The whole lifecycle buildup requires a plan and that plan termed to be infrastructure, complete lifecycle depends on the infrastructure it is to be created. It requires the most in depth knowledge about the tools to be used as per the applicatiins requirement.
+
+Why Devops is important?
+- General need for the software is to be great build quality, better deployement operations, longer run time. this all is been covered with devops, which develops the application with proper planning and operates the software as per the client need and usually checks the whole deplyment, testing and monitoring part.
