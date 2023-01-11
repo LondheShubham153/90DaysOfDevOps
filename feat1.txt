@@ -1,0 +1,8 @@
+this is feat1
+this is new feature
+this is for creating conflict 
+<<<<<<< HEAD
+local: i don't want this line
+=======
+remote:i want this line 
+>>>>>>> 79bee8ea1805c51deaa706c482c65348c51854c3
