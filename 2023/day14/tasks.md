@@ -48,6 +48,6 @@ Write a program to add `Digital Ocean` to the list of cloud_providers and sort t
 
 [Hint: Use keys to built in functions for Lists]
 
-If you want to deep dive further, Watch [Python](youtube.com/watch?v=abPgj_3hzVY&list=PLlfy9GnSVerS_L5z0COaF7rsbgWmJXTOM)
+If you want to deep dive further, Watch [Python](https://youtu.be/abPgj_3hzVY)
 
 You can share the learning with everyone over linkedin and tag us along 😃
