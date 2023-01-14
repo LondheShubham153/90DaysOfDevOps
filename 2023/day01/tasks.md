@@ -7,4 +7,4 @@ This is the day you have to Take this challenge and start your #90DaysOfDevOps w
 - Write a LinkedIn post or a small article about your understanding of DevOps
 - What is DevOps [_Done_]
 - What is Automation, Scaling, Infrastructure
-- Why DevOps is Important, etc
+- Why DevOps is Important, etc [_Done_]
