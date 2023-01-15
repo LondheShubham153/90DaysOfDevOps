@@ -25,7 +25,7 @@ r -> 4 , x -> 1 , w -> 2
 ``cat fruits.txt | head -3``
 - To Show only bottom three fruits from the file.  
 ``cat fruits.txt | tail -3``
-To create another file Colors.txt and to view the content.    
+- To create another file Colors.txt and to view the content.    
 ``touch Colors.txt`` -> ``cat Colors.txt``
 - Add content in Colors.txt (One in each line) - Red, Pink, White, Black, Blue, Orange, Purple, Grey.  
 1. ``echo -e "Red \n, Pink \n, White \n, Black \n, Blue \n, Orange \n, Purple \n, Grey" >> Colors.txt``
