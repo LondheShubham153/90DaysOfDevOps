@@ -1,0 +1,23 @@
+Day 3 Task: Basic Linux Commands
+Task: What is the linux command to
+1. To view what's written in a file.
+ cat command is used to display what's written in a file.
+2. To change the access permissions of files.
+ chmod command is used to change the access permissions of files
+3. To check which commands you have run till now.
+ history command is used to check which commands you have run till now.
+4. To remove a directory/ Folder.
+ To remove a directory/ folder rmdir command is used.
+5. To create a fruits.txt file and to view the content.
+ vim fruits.txt
+6. Add content in devops.txt (One in each line) - Apple, Mango, Banana, Cherry, Kiwi, Orange, Guava.
+ vim devops.txt and added fruits name one by one.
+7. To Show only top three fruits from the file.
+ cat devops.txt | head -3
+8. To Show only bottom three fruits from the file.
+ cat devops.txt | tail -3
+9. To create another file Colors.txt and to view the content. Add content in Colors.txt (One in each line)
+- Red, Pink, White, Black, Blue, Orange, Purple, Grey.
+ same as answer 6.
+10. To find the difference between fruits.txt and Colors.txt file.
+ diff fruits.txt colors.txt
