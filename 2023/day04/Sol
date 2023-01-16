@@ -1,0 +1,48 @@
+1.  Shell scripting is a method of automating tasks in a Linux or Unix-based operating system by writing a script, or series of commands, in a shell, such as Bash or Zsh. These scripts can be used for various purposes, including system administration and automation of repetitive tasks. In the context of DevOps, shell scripts are often used to automate the deployment and configuration of software and infrastructure, as well as for monitoring and reporting. This allows for faster and more efficient management of IT systems, and can help to reduce errors and improve overall system reliability.
+2.  The line "#!/bin/bash" is called the shebang line. It is the first line in a shell script and is used to specify the interpreter to be used for executing the commands in the script. The "#!" characters are commonly called "hash bang" or "shebang" and is followed by the path to the interpreter. In this case, it is "/bin/bash", indicating that the script should be executed with the Bash shell.
+You can also use "#!/bin/sh" as the shebang line, which would indicate that the script should be executed with the Bourne shell or POSIX shell, which is a more basic and minimal shell that is present on most Unix-like systems. Some scripts that are intended to be portable across different Unix-like systems may use "#!/bin/sh" to ensure compatibility with the Bourne shell.
+That being said, using "#!/bin/bash" is more common in practice since bash provides more features and functionalities than sh, and is more widely available.
+3.  You can save this script in a file with a .sh extension, for example 90daysofdevops.sh, and then make it executable by running chmod +x 90daysofdevops.sh. Once the file is executable, you can run the script by typing ./90daysofdevops.sh in the terminal.
+
+You can also add this command directly in the terminal by typing echo "I will complete #90DaysOofDevOps challenge".
+4.  #!/bin/bash
+
+echo "Enter your name:"
+read name
+echo "Your name is $name"
+
+echo "Enter your age:"
+read age
+echo "Your age is $age"
+
+echo "Command-line arguments are: $@"
+
+The script starts by using the echo command to prompt the user to enter their name. The read command is then used to read the user's input and store it in the variable name. The script then uses the echo command to print the value of the name variable.
+
+The script then prompts the user to enter their age and uses the read command to store the user's input in the variable age. The script then uses the echo command to print the value of the age variable.
+
+The script then uses the echo command to print the command-line arguments passed to the script. The special variable $@ holds all the command-line arguments passed to the script.
+
+You can save this script in a file with a .sh extension, for example userinput.sh, and then make it executable by running chmod +x userinput.sh. Once the file is executable, you can run the script by typing ./userinput.sh in the terminal.
+
+You can also pass command-line arguments to the script, when you run it. For example: ./userinput.sh arg1 arg2 and the script will print the command-line arguments passed to the script which are arg1 and arg2.
+
+5.  #!/bin/bash
+
+echo "Enter the first number:"
+read num1
+
+echo "Enter the second number:"
+read num2
+
+if [ $num1 -gt $num2 ]; then
+  echo "$num1 is greater than $num2"
+else
+  echo "$num2 is greater than $num1"
+fi
+
+This script prompts the user to enter two numbers, using the read command to store the user's input in the variables num1 and num2. The script then uses the if-else statement to compare the two numbers.
+
+The [ and ] are used to evaluate the expression inside of them, $num1 -gt $num2 is a condition that compares if num1 is greater than num2 using -gt operator. If the condition is true, the script will execute the commands inside the if block, which is echo "$num1 is greater than $num2". If the condition is false, the script will execute the commands inside the else block, which is echo "$num2 is greater than $num1".
+
+You can save this script in a file with a .sh extension, for example compare_numbers.sh, and then make it executable by running chmod +x compare_numbers.sh. Once the file is executable, you can run the script by typing ./compare_numbers.sh in the terminal.
