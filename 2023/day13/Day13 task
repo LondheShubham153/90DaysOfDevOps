@@ -1,0 +1,44 @@
+Task Day 13: 
+
+Install Python in your respective OS, and check the version.
+
+      install in ubuntu 20.4
+
+      open terminal 
+
+      update system: sudo apt-get update
+
+      install python: sudo apt install python3.8
+
+      check version : python3 --version
+
+2: Read about different Data Types in Python.
+
+Integer: Integers are whole numbers, both positive and negative. They are represented by the int data type in Python. Examples of integers include -5, 0, and 100.
+
+Floating Point: Floating point numbers are numbers with decimal points. They are represented by the float data type in Python. Examples of floating point numbers include 3.14, -0.1, and 2.5.
+
+
+String: Strings are sequences of characters. They are represented by the str data type in Python. Examples of strings include "Hello World!", "Python is fun", and "123".
+
+
+Boolean: Booleans are used for true/false values. They are represented by the bool data type in Python. Examples of booleans include True and False.
+
+
+List: Lists are ordered collections of items. They are represented by the list data type in Python. Examples of lists include [1, 2, 3], ["apple", "banana", "orange"], and [True, False, True].
+
+
+Tuple: Tuples are similar to lists, but they are immutable (cannot be changed). They are represented by the tuple data type in Python. Examples of tuples include (1, 2, 3), ("apple", "banana", "orange"), and (True, False, True).
+
+
+Dictionary: Dictionaries are collections of key-value pairs. They are represented by the dict data type in Python. Examples of dictionaries include {"name": "John", "age": 30}, {"color": "red", "shape": "circle"} and {"is_student": True, "grade": "A"}
+
+
+Set: Sets are unordered collections of unique items. They are represented by the set data type in Python. Examples of sets include {1, 2, 3}, {"apple", "banana", "orange"} and {True, False, True}.
+
+
+Complex: Complex numbers are numbers with a real and imaginary part. They are represented by the complex data type in Python. Examples of complex numbers include 3+4j, 2-5j and 0+0j.
+
+
+Bytes and Bytearray: Bytes and Bytearray are used to represent binary data. They are represented by the bytes and bytearray data types in Python. Examples of bytes and bytearray include b'Hello World!', bytearray(b'Python is fun') and b'123'.
+
