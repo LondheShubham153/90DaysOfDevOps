@@ -23,6 +23,7 @@ Example 2: When the script is executed as
 then it creates 50 directories as ```Movie20 Movie21 Movie23 ...Movie50```
 
 Ans:->I have created the createDirectories.sh file and tried to replicate the above examples and its working you can see in this folder the directories are created.
+Created the directories but as they are empty directories, git will not track it.
 Notes:
 You may need to use loops or commands (or both), based on your preference . [Check out this reference: https://www.geeksforgeeks.org/bash-scripting-for-loop/](https://www.geeksforgeeks.org/bash-scripting-for-loop/)
 
