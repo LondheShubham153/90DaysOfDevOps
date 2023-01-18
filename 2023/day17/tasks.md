@@ -1,6 +1,6 @@
 ## Day 17 Task: Docker Project for DevOps Engineers.
 
-# You people are doing amezing in **90daysofdevops**. Today's challange is so special Because You are going to do DevOps project today with Docker. Are You Exited 😍
+### You people are doing just amazing in **#90daysofdevops**. Today's challenge is so special Because You are going to do DevOps project today with Docker. Are You Exited 😍
 
 # Dockerfile
 
