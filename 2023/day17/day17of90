@@ -15,6 +15,12 @@ To run a container in daemon mode from the built image
 To check the running conatiners 
   docker ps -a
   
+To tag and push a docker image to dockerhub
+  docker tag node-todo-app:latest amritpanda4u/todo-nodejs-app:latest
+  docker login
+  docker push amritpanda4u/todo-nodejs-app:latest
+
+  
 
    
 
