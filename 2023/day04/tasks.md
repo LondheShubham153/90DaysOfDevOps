@@ -15,13 +15,24 @@
  **Tasks**
 
  - Explain in your own words and examples, what is Shell Scripting for DevOps.
+ans => `shell scripting can be used to for bootstrapping to automatically carried out the certain task on booting`
+
  - What is `#!/bin/bash?` can we write `#!/bin/sh` as well?
+ ans => `it is known as shebang which is used to identify the path of shell to execute.`
+
  - Write a Shell Script which prints `I will complete #90DaysOofDevOps challenge`
+ ans => `echo "I will complete #90DaysOofDevOps challenge"`
+
  - Write a Shell Script to take user input, input from arguments and print the variables.
+ ans => 
+    " input from the user " => `read -sp "Enter a number: " num`
+    " input from arguments  "  => `echo $1`
+
  - Write an Example of If else in Shell Scripting by comparing 2 numbers
+ ans => `if [ $a > $b ]; then echo "$a is greater then $b"; else echo "$b is greater than $a"; fi`
 
  Was it difficult?
- 
+ ans => `No`
  - Post about it on LinkedIn and Let me know :)
 
  Article Reference: [Click here to read basic Linux Shell Scripting](https://devopscube.com/linux-shell-scripting-for-devops/)
