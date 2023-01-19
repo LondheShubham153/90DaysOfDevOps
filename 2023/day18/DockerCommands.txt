@@ -1,0 +1,106 @@
+docker tag node-todo-app:latest amritpanda4u/todo-nodejs-app:latest
+  262  docker image ls
+  263  docker push amritpanda4u/todo-nodejs-app:v1
+  264  docker push amritpanda4u/todo-nodejs-app:latest
+  265  docker login
+  266  docker push amritpanda4u/todo-nodejs-app:latest
+  267  history
+  268  docker ps -a
+  269  docker stop docker login
+  270  docker stop b6aeecfa9573
+  271  docker ps -a
+  272  docker rm b6aeecfa9573
+  273  docker image ls
+  274  docker image rm b6aeecfa9573 
+  275  docker rm 
+  276  docker image
+  277  docker image rm
+  278  docker image ls
+  279  docker image rm -force b1bf67b95be2
+  280  docker image rm -f b1bf67b95be2
+  281  docker image ls
+  282  docker image rm c71129e054cd b8b183d50555 4343200eeafc 502d06d3bfdf
+  283  docker image ls
+  284  clear
+  285  docker-compose
+  286  sudo apt-get install docker-compose
+  287  clear
+  288  docker-compose
+  289  clear
+  290  cd projects/
+  291  cd node-todo-cicd/
+  292  ls
+  293  vi docker-compose.yaml
+  294  docker-compose up
+  295  vi docker-compose.yaml
+  296  docker-compose up
+  297  vi docker-compose.yaml
+  298  docker-compose up
+  299  vi docker-compose.yaml
+  300  docker-compose up
+  301  cd projects/node-todo-cicd/
+  302  ls
+  303  clear
+  304  ls
+  305  docker-compose up -d
+  306  docker ps -a
+  307  docker-compose down
+  308  docker ps -a
+  309  docker image ls
+  310  docker image rm f0ebe8a31560 4df1245e2e50 502d06d3bfdf
+  311  docker image ls
+  312  clear
+  313  cat Dockerfile 
+  314  cat docker-compose.yaml 
+  315  docker-compose up -d
+  316  docker ps -a
+  317  docker rm 342b55aff75d d606f580c10a 
+  318  docker ps -a
+  319  cd projects/node-todo-cicd/
+  320  ls
+  321  vi docker-compose.yaml 
+  322  docker image ls
+  323  docker-compose up -d
+  324  docker-compose down -d
+  325  docker-compose down 
+  326  docker image ls
+  327  vi docker-compose.yaml 
+  328  docker-compose down -d
+  329  docker-compose up -d
+  330  docker ps -a
+  331  docker ps
+  332  docker exec -it cd5d96b23062 bash
+  333  docker ps
+  334  docker exec -it cd5d96b23062 bash
+  335  docker-swarm init
+  336  sudo apt install docker-swarm
+  337  docker swarm init
+  338  docker ps -a
+  339  clear
+  340  docker node ls
+  341  ls 
+  342  cd projects/node-todo-cicd/
+  343  ls
+  344  cp docker-compose.yaml deployment.yaml
+  345  ls
+  346  vim deployment.yaml 
+  347  docker stack deploy -c deployment.yaml todo-app-stack
+  348  docker ps -a
+  349  docker kill f761508bf8f7
+  350  docker ps -a
+  351  docker stack 
+  352  docker stack rm
+  353  docker stack ls
+  354  docker stack rm todo-app-stack 
+  355  docker stack ls
+  356  docker ps -a
+  357  clear
+  358  docker service create --name todo-service --replica 3 --publish 8000:8000 amritpanda4u/todo-nodejs-app:latest
+  359  docker ps -a
+  360  docker service create --name todo-service --replicas 3 --publish 8000:8000 amritpanda4u/todo-nodejs-app:latest
+  361  docker ps -a
+  362  docker stop 5370c50c8074
+  363  docker ps -a
+  364  clear
+  365  docker service
+  366  docker service ls

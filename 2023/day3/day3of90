@@ -1,0 +1,10 @@
+To check the contents of the file - cat filename
+To change the permission of a file - chmod permision filename
+examples : chmod 777 file1.txt
+777 - > user usergroup others, 7 represents read write and execute permission for user 
+To check the commands executed - history
+To remove a folder/directory -> rm -r dirname
+To create a fruits.txt file and view its content -> touch fruits.txt && cat fruits.txt
+To show top 3 fruits from the file -> cat filename |head -3
+To show bottom 3 fruits from file -> cat filename | tail -3
+To show the difference between 2 files -> diff file1 file2

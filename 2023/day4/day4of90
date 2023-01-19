@@ -1,0 +1,30 @@
+What is shell scripting?
+Shell scripting is a progmamming language using which a set of instructions can be written in a file to instruct the Kernel using shell.
+
+What is #!/bin/bash ?
+This is first line which is written in a shell script to define the shell we intend to use. This is also know as shebang. And the shell used is Bourne again shell.
+By default if the first line is skipped the #!/bin/sh is used. 
+
+Write a Shell Script which prints I will complete #90DaysOofDevOps challenge 
+#!/bin/sh
+echo "I will complete #90DaysOofDevOps challenge"
+
+Write a Shell Script to take user input, input from arguments and print the variables.
+#!/bin/bash
+echo "Enter value"
+read a
+string1=10
+echo "The user input is $a"
+echo "The variable used in this script is $string1 and the argument passed by the user is $1"
+
+Write an Example of If else in Shell Scripting by comparing 2 numbers
+#!/bin/sh
+if [ $1 -gt $2 ]
+then
+        echo "$1 is greater than $2"
+elif [ $1 -lt $2 ]
+then 
+        echo "$1 is less than $2"
+else
+        echo " $1 equals $2"
+fi

@@ -1,0 +1,11 @@
+#!/bin/bash
+num1=$2
+num2=$3
+for (( i=$num1; i<=$num2; i++ )) 
+do
+        mkdir "$1""$i"
+done
+
+print last 2 created usename only
+
+cat /etc/passwd | awk -F':' '{print $1}'|tail -2
