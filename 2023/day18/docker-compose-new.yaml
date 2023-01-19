@@ -1,0 +1,12 @@
+version: '3.9'
+services:
+  web-app:
+    build: .
+    ports:
+      - 8000:8000
+  my-db:
+    image: ubuntu/mysql
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: 'Test@123'
