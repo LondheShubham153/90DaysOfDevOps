@@ -1,6 +1,5 @@
 # Day 8 Task: Basic Git & GitHub for DevOps Engineers.
 
-
 ## What is Git?
 Git is a version control system that allows you to track changes to files and coordinate work on those files among multiple people. It is commonly used for software development, but it can be used to track changes to any set of files.
 
@@ -46,5 +45,4 @@ Overall, the decentralized nature of a DVCS allows for greater collaboration, fl
 
 
 Reff :- https://youtu.be/AT1uxOLsCdk
-
 Post your daily work on Linkedin and le me know , writing an article is the best :)
