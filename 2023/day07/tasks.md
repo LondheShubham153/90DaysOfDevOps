@@ -1,13 +1,11 @@
 # Day 7 Task: Understanding package manager and systemctl
 
 ### What is a package manager in Linux?
- 
  In simpler words, a package manager is a tool that allows users to install, remove, upgrade, configure and manage software packages on an operating system. The package manager can be a graphical application like a software center or a command line tool like apt-get or pacman.
 
  You’ll often find me using the term ‘package’ in tutorials and articles, To understand package manager, you must understand what a package is.
 
 ### What is a package?
- 
  A package is usually referred to an application but it could be a GUI application, command line tool or a software library (required by other software programs). A package is essentially an archive file containing the binary executable, configuration file and sometimes information about the dependencies.
 
 ### Different kinds of package managers
@@ -17,9 +15,8 @@
 
 
 ## Tasks
-
  1) You have to install docker and jenkins in your system from your terminal using package managers
-
+    ans => `sudo apt install docker.io -y`
  2) Write a small blog or article to install these tools using package managers on Ubuntu and CentOS
 
 
@@ -31,15 +28,23 @@
 ## Tasks
 
  1) check the status of docker service in your system (make sure you completed above tasks, else docker won't be installed)
+    Ans => `systemctl status docker`
 
  2) stop the service jenkins and post before and after screenshots
+    Ans => `systemctl stop jenkins`
 
  3) read about the commands systemctl vs service
 
+ i. systemctl and service are both used to manage system services on Linux, but they function slightly differently.
+
+ii. systemctl is a command line tool used to control and manage systemd, a system and service manager for Linux operating systems. It is used to start, stop, enable, and disable system services, as well as to check the status of services. Additionally, systemctl can be used to manage other aspects of the system, such as the system's hostname, logging, and network configuration.
+
+iii. service is a command line tool that is used to control system services on Linux distributions that do not use systemd. It is typically used to start, stop, and check the status of services, but it does not have the same level of functionality as systemctl.
+
+iv. In summary, systemctl is used to manage systemd and its services, while service is a more basic tool that is used to manage services on distributions that don't use systemd.
  eg. `systemctl status docker` vs `service docker status`
 
 For Reference, read [this](https://www.howtogeek.com/devops/how-to-check-if-the-docker-daemon-or-a-container-is-running/#:~:text=Checking%20With%20Systemctl&text=Check%20what%27s%20displayed%20under%20%E2%80%9CActive,running%20sudo%20systemctl%20start%20docker%20.)
 
 
 #### Post about this and bring your friends to this #90DaysOfDevOps challenge.
-
