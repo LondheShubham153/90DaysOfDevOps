@@ -2,17 +2,34 @@
 
 ## Git Branching
  Use a branch to isolate development work without affecting other branches in the repository. Each repository has one default branch, and can have multiple other branches. You can merge a branch into another branch using a pull request.
-
+`git branch`
  Branches allow you to develop features, fix bugs, or safely experiment with new ideas in a contained area of your repository.
+ `git checkout -b dev`
 
 ## Git Revert and Reset
  Two commonly used tools that git users will encounter are those of git reset and git revert . The benefit of both of these commands is that you can use them to remove or edit changes you’ve made in the code in previous commits.
+
+# Reset
+i. mainly used to delete the Current Head Commit
+eg. `git reset --hard Head~1` or `git reset --hard f85f8` to reset back commit head to one level below 
+ii. reset does not keep the track of records of deleted commit
+iii. it is mainly used in Local repo.
+
+
+# Revert
+i. mainly used to delete the current Head Commit
+eg. `git revert f85f8` to revert back commit to the specific commit
+ii. revert keeps the track of records of deleted commit by commiting a new revert commit
+iii. it is mainly used when changes has been pushed in remote repo
 
 ## Git Rebase and Merge
  ### What Is Git Rebase?
 
  Git rebase is a command that lets users integrate changes from one branch to another, and the logs are modified once the action is complete. Git rebase was developed to overcome merging’s shortcomings, specifically regarding logs.
-
+    `git checkout master`
+    `git pull`
+    `git checkout dev`
+    `git rebase master`
  ### What Is Git Merge?
 
  Git merge is a command that allows developers to merge Git branches while the logs of commits on branches remain intact.
@@ -20,8 +37,10 @@
  The merge wording can be confusing because we have two methods of merging branches, and one of those ways is actually called “merge,” even though both procedures do essentially the same thing.
 
  Refer to this article for a better understanding of Git Rebase and Merge [Read here](https://www.simplilearn.com/git-rebase-vs-merge-article)
-
-
+    `git checkout master`
+    `git pull`
+    `git checkout dev`
+    `git merge master`
 ## Task 1:
  Add a text file called version01.txt inside the Devops/Git/ with “This is first feature of our application” written inside. 
  This should be in a branch coming from `master`, 
