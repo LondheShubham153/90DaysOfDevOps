@@ -1,0 +1,40 @@
+pipeline {
+    agent any
+    
+    stages {
+        stage('Code'){
+            steps {
+                git credentialsId: 'github', url: 'git@github.com:amritpanda4u/django-todo-app.git', branch: 'main'
+            }
+           }
+        stage('Build'){
+            steps {
+                sh 'docker build -t amritpanda4u/django-todo-app:latest .'
+            }
+            
+        }
+        stage('Publish image'){
+            steps {
+                withCredentials([usernamePassword(credentialsId: 'dockerhubCredentials', passwordVariable: 'dockerHubPassword', usernameVariable: 'dockerHubUser')]) {
+        	        sh "docker login -u ${env.dockerHubUser} -p ${env.dockerHubPassword}"
+                    sh 'docker push amritpanda4u/django-todo-app:latest'
+                }
+                
+            }
+            
+        }
+        stage('Test'){
+            steps {
+                echo 'Testing ...'
+            }
+            
+        }
+        stage('Deploy'){
+            steps {
+                sh 'docker-compose down'
+                sh 'docker-compose up -d'
+            }
+            
+        }
+    }
+}
