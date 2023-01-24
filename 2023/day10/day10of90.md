@@ -25,7 +25,9 @@
 ## Task 1:
  Add a text file called version01.txt inside the Devops/Git/ with “This is first feature of our application” written inside. 
  This should be in a branch coming from `master`, 
- [hint try `git checkout -b dev`], 
+ 
+           git push origin dev
+           
  swithch to `dev` branch ( Make sure your commit message will reflect as "Added new feature").
  [Hint use your knowledge of creating branches and Git commit command]
 
@@ -34,6 +36,7 @@
 
  Add new commit in `dev` branch after adding below mentioned content in Devops/Git/version01.txt:
  While writing the file make sure you write these lines
+ 
  
  - 1st line>>  This is the bug fix in development branch
  - Commit this with message “ Added feature2 in development branch”
