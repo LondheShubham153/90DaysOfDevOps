@@ -12,7 +12,6 @@ To check what is the data type of the variable used, we can simply write:
 ```type(your_variable)```
 
 ### Data Structures
-
  Data Structures are a way of organizing data so that it can be accessed more efficiently depending upon the situation. Data Structures are fundamentals of any programming language around which a program is built. Python helps to learn the fundamental of these data structures in a simpler way as compared to other programming languages.
 
 - Lists
@@ -25,8 +24,8 @@ Python Tuple is a collection of Python objects much like a list but Tuples are i
 Python dictionary is like hash tables in any other language with the time complexity of O(1). It is an unordered collection of data values, used to store data values like a map, which, unlike other Data Types that hold only a single value as an element, Dictionary holds the key:value pair. Key-value is provided in the dictionary to make it more optimized
 
 ## Tasks
-1. Give the Difference between List, Tuple and set. Do Handson and put screenshots as per your understanding.
-2. Create below Dictionary and use Dictionary methods to print your favourite tool just by using the keys of the Dictionary.
+1. Give the Difference between List, Tuple and set. Do Hands on and put screenshots as per your understanding.
+2. Create below Dictionary and use Dictionary methods to print your favorite tool just by using the keys of the Dictionary.
 ```
 fav_tools = 
 { 
