@@ -1,0 +1,23 @@
+day 1 Taks-
+
+-Fork Repo 
+
+-DevOps Roadmap 
+   1)Linux - The operating system mostly used by DevOps engineers. Networking, Service configuration and Storage Management can be easily done using linux commands.
+   2)Git or Github - Version control system used for development by DevOps teams.Best platform to start open source journey.
+   3)Docker and Docker swarm - used for running and delpoying the code in containers by OS- Level Virtualization 
+   4)Jenkins - Automation platform used by DevOps Teams for continous integration.
+   5)kubernetes - helps in container management
+   6)Cloud - Online services like storage ,databases , network and hosting which are accesible remotely
+   7)IaC (Information as Code)- used for provisioning and management of infrastructure.
+   8)Grafana- Monitoring tool
+   9)YAML - data-serialization language used for configuration of files.
+   
+-What is DevOps
+   Combination of software development and Operation Management.
+   
+-Infrastructure Automation and scaling
+   process of creating scripts or functions that are repeatable and can be used either by other software or on command to reduce human interference.
+
+
+   
