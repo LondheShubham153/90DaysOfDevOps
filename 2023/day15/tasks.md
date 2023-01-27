@@ -3,7 +3,7 @@
 ### Reading JSON and YAML in Python
 
 - As a DevOps Engineer you should be able to parse files, be it txt, json, yaml, etc. 
-- You should know what all libraries one should use in Pythonfor DevOps.
+- You should know what all libraries one should use in Python for DevOps.
 - Python has numerous libraries like `os`, `sys`, `json`, `yaml` etc that a DevOps Engineer uses in day to day tasks.
 
 
