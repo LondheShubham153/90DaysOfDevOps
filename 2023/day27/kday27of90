@@ -1,0 +1,15 @@
+Declarative pipeline - It is one of the latest way of writing or defining the tasks using the below syntax.
+
+pipeline{
+agent any
+
+stages{
+      stage("name"){
+      
+        sh 'command'
+     }
+  }
+
+}
+
+Scipted pipeline : It is the traditional way of designing a pipeline by selecting differnt tasks
