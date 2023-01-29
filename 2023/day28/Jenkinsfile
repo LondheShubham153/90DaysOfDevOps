@@ -1,0 +1,28 @@
+#run pipeline with agen and label
+pipeline {
+    agent {label 'java'}
+    
+    stages {
+        stage("code"){
+             steps{
+                     git 'https://github.com/amritpanda4u/node-todo-cicd.git'
+                }
+            }
+        stage("build"){
+            steps{
+                     sh 'docker build -t amritpanda4u/nodo-todo-app .'
+                }
+            }
+        stage("test"){
+            steps{
+                        echo 'testing...'
+                }
+            }
+        stage("deploy"){
+            steps{
+                 sh 'docker-compose down'
+                 sh 'docker-compose up -d'
+            }
+        }
+    }
+}
