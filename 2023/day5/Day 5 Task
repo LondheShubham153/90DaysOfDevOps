@@ -34,3 +34,6 @@ echo "Backup created in $Backups/$date"
   sudo cat /etc/passwd
   sudo gpasswd Mohan
   awk -F':' '{ print $1}' /etc/passwd
+
+
+  end 
