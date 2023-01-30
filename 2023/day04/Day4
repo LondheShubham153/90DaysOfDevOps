@@ -1,0 +1,21 @@
+What is Shell Scripting :
+          Shell scripting is a method of automating tasks in a shell environment by writing scripts in a shell language. In DevOps, shell scripts are used to automate various tasks such as setting up environment, installing software, deploying applications, and performing system maintenance. These scripts help to simplify and speed up repetitive tasks, improve reliability, and promote standardization.
+
+What is `bash?#!/bin/` can we write `#!/bin/sh` as well?
+    #!/bin/bash is known as the shebang line in a shell script. It specifies the path to the shell interpreter that should be used to run the script. #!/bin/bash indicates that the script should be interpreted by the Bash shell.
+
+Yes, you can write #!/bin/sh as well, which indicates that the script should be interpreted by the sh (Bourne shell) interpreter. In some systems, /bin/sh is a symbolic link to /bin/bash, which means the script will be interpreted by the Bash shell. But, in other systems, /bin/sh points to a different shell like dash, which has different syntax and behavior compared to Bash. So, it's always better to use #!/bin/bash to ensure the script is interpreted by Bash.
+
+
+Write a Shell Script which prints `I will complete #90DaysOofDevOps challenge`
+
+#!/bin/bash
+echo " I will complete #90DaysOofDevOps challenge"
+
+Write a Shell Script to take user input, input from arguments and print the variables.
+ 
+
+Write an Example of If else in Shell Scripting by comparing 2 numbers
+
+
+      
