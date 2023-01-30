@@ -1,0 +1,24 @@
+Kubernetes:
+It is an open source orchestration tool used to manage, deploy, auto-heal and auto-scale mutiple containers. Used in micro services.
+It is called K8S as because there are 8 letter in between the first and letter of KUBERNETES i.e between K and S.
+
+Benifits:
+  Auto-scale
+  Auto-healing
+  Better management
+  Less down-time
+  Back ups & restore
+  
+  
+K8S architecture:
+
+Kubernetes cluster comprises of two important components Master and nodes. 
+Master consits of APIServer, scheduller, controll manager and etcd.
+APIServer - It is the entry point to the nodes. It accepts the command from the user by kubectl and passes to the differnt components of master.
+Scheduller - It schedules the deployment of pods as per the instruction received from API server.
+Control manger - Keeps the control of teh pods running in the nodes.
+etcd - it is the database which keeps the record of all the nodes/pods and acordingly sends the status to control manager.
+
+Kubectl - it is the cli that the user uses to send command to API Server
+Kubelet - It exiists inside all the nodes and receives the command from API server.
+
