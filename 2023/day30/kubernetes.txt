@@ -1,0 +1,71 @@
+What is Kubernetes? Write in your own words and why do we call it k8s:
+
+Kubernetes is an open-source platform for automating deployment, scaling, and management of containerized applications. It was designed to provide a way to efficiently run and manage containers at scale.
+
+Kubernetes is often referred to as "k8s" because "k" is the 8th letter in the word. The name "Kubernetes" was inspired by Greek language, meaning "helmsman" or "pilot", implying the platform’s role as the navigator for containers in an application
+
+What are the benefits of using k8s?
+
+Scalability: Kubernetes can easily scale applications up or down as needed, making it easier to handle fluctuations in demand.
+
+Automation: Kubernetes automates many manual processes, reducing the chances of errors and freeing up time for other tasks.
+
+Resilience: Kubernetes can automatically detect and replace failed containers, ensuring high availability for applications.
+
+Portability: Kubernetes can run on a variety of infrastructure, from on-premises to cloud, making it easier to move applications as needed.
+
+Cost-effectiveness: Kubernetes can optimize resource usage and reduce costs by allowing administrators to manage multiple containers as a single unit.
+
+Ease of management: Kubernetes provides a centralized and unified management system for containers, making it easier to manage large, complex applications.
+
+Explain the architecture of Kubernetes:
+
+ Kubernetes architecture consists of several components working together to manage containers:
+
+API Server: The central management component that exposes the Kubernetes API and handles all requests to the cluster.
+
+etcd: A distributed key-value store that holds configuration data used by the API Server and other components.
+
+Scheduler: Component responsible for assigning work to nodes in the cluster.
+
+Controller Manager: Component that manages various controllers that handle tasks such as replicating pods, monitoring the health of nodes and other tasks.
+
+Kubelet: Runs on each node, responsible for communication between the node and the API Server, managing the containers on the node, and reporting node status.
+
+Container runtime: Software responsible for running containers on a node, such as Docker or CRI-O.
+
+Pods: The smallest deployable units in a Kubernetes cluster, containing one or more containers.
+
+Services: Provide network connectivity to pods, allowing communication between different parts of the application.
+
+Labels and Annotations: Used to organize and categorize resources in a Kubernetes cluster.
+
+These components work together to ensure containers are deployed and managed in an efficient, reliable and scalable manner.
+
+Control Plane in kubernetes:
+
+    The control plane in Kubernetes refers to a set of components that manage the state of the cluster and enforce the desired state. The control plane components are responsible for maintaining the desired state of the cluster, and make decisions based on the current state of the cluster and the desired state as defined in manifests or via API calls.
+
+ Difference between kubectl and kubelets.:
+
+kubectl and kubelet are two important components in a Kubernetes cluster:
+
+kubectl: The command-line tool used to interact with a Kubernetes cluster. kubectl allows administrators to manage resources in the cluster, such as creating and updating pods and services, and monitoring the health of the cluster.
+
+kubelet: The component running on each node in the cluster, responsible for communicating with the API Server and managing containers on the node. The kubelet ensures that containers are running as expected and reports the status of the node to the API Serve
+
+Explain the role of the API server.
+
+The API Server is a central component in a Kubernetes cluster, responsible for exposing the Kubernetes API and handling all requests to the cluster. The API Server is the frontend for the Kubernetes control plane, responsible for:
+
+Exposing the Kubernetes API: The API Server provides a RESTful interface for managing resources in the cluster, such as pods, services, and configmaps.
+
+Validating and Persisting Cluster State: The API Server validates incoming requests and ensures that the state of the cluster is stored and persisted in etcd.
+
+Controlling Access to the Cluster: The API Server enforces authentication and authorization policies, ensuring that only authorized users can access the cluster.
+
+Scheduling Work: The API Server works with the scheduler component to schedule work to nodes in the cluster.
+
+Providing a Single Source of Truth: The API Server is the authoritative source of truth for the state of the cluster, providing a single source of truth for all components in the control plane.
+
+The API Server is an essential component in a Kubernetes cluster, ensuring that the state of the cluster is maintained, that resources are managed efficiently, and that access to the cluster is controlled and secure.
