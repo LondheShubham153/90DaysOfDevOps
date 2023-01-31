@@ -1,4 +1,12 @@
-apiVersion: app/v1
+apiVersion: v1
 kind: pod
 metadata:
-  name: 
+  name: node-todo-pod
+  namespace: django-todo-app
+ spec:
+  containers:
+    - name: django-todo-ctr
+      image: amritpanda4u/django-todo-app:latest
+      ports:
+        - containerPort: 8001
+  
