@@ -1,3 +1,4 @@
+#pod.yaml file for Nginx
 apiVersion: v1
 kind: pod
 metadata: 
