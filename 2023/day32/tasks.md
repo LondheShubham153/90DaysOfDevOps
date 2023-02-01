@@ -21,7 +21,7 @@ You describe a desired state in a Deployment, and the Deployment Controller chan
 Let's make your resume shine with one more project ;)
 
 
-**Having an issue? Don't worry, adding a sample deployment file , you can always refer that or wathch [this video]()**
+**Having an issue? Don't worry, adding a sample deployment file , you can always refer that or wathch [this video](https://youtu.be/ONrbWFJXLLk)**
 
 
 
