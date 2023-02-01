@@ -1,0 +1,21 @@
+Introduction - Day 1 - Solution by PrithishG
+
+Fork this Repo == Done
+
+What is DevOps
+
+DevOps is a methodology which creates bridge between different infrastructure for Integration & automation among various tools with scalability.
+
+What is Automation, Scaling, Infrastructure
+
+Automation is a process of DevOps thorugh which we can accomplish tasks automatically by using scripts , methods .
+
+Why DevOps is Important, etc 
+
+DevOps is Important & required for these reasons : 
+
+1. creates bridge between development & operation teams .
+2. for better avaliablity,scalable,secure & maintainable of any large scale system .
+3. for automating manual processes in a mapped way .
+4. To deliver any distributed system faster .
+
