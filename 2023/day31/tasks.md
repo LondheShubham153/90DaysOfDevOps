@@ -1,5 +1,5 @@
 
-## Day 30 Task: Launching your First Kubernetes Cluster with Nginx running
+## Day 31 Task: Launching your First Kubernetes Cluster with Nginx running
 
   
 
