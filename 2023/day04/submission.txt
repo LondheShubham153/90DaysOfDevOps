@@ -1,0 +1,47 @@
+# Day 4 Task: Basic Linux Shell Scripting for DevOps Engineers.
+
+## What is Kernel
+
+ The kernel is a computer program that is the core of a computer’s operating system, with complete control over everything in the system.
+ 
+ ## What is Shell
+
+ A shell is special user program which provide an interface to user to use operating system services. Shell accept human readable commands from user and convert them into something which kernel can understand. It is a command language interpreter that execute commands read from input devices such as keyboards or from files. The shell gets started when the user logs in or start the terminal.
+ 
+ ## What is Linux Shell Scripting?
+
+ A shell script is a computer program designed to be run by a linux shell, a command-line interpreter. The various dialects of shell scripts are considered to be scripting languages. Typical operations performed by shell scripts include file manipulation, program execution, and printing text.
+
+ **Tasks**
+
+ - Explain in your own words and examples, what is Shell Scripting for DevOps.
+ Ans: A shell script is a computer program designed to be run by a linux shell, in devops we use shell scripts to automate the execution of commands and process which are repetative and performed in a sequence.
+ 
+ - What is `#!/bin/bash?` can we write `#!/bin/sh` as well?
+ Ans: This first line (#!/bin/bash or #!/bin/sh) has a name. It is known as ‘she-bang‘(shabang). 
+    It basically instructs the operating system to use Bash as a default shell to run the script
+    In any simplest case if we analyse a shell script, it is nothing but a list of commands stored in a file. 
+    It reduces our effort to run the same task or commands again and again. So if we look at the beginning of the script the first line starts with a hash (#) and an exclamation mark (!).
+    As you already must be knowing that any line starting with a hash (#) , is read as a comment. 
+    Thus when we execute the script, the first line is read as a comment and interpreter goes to the second line. 
+    But the first line has already done it’s job.
+    the she-bang at the head of the script tells the system that this file is a set of commands to be fed to the command interpreter indicated. 
+    "#!bin/bash" if we write like this then it means execute the script using the Bourne shell or a compatible shell, with path /bin/sh
+    "#!/bin/bash" means execute the script using the Bash shell.
+
+ - Write a Shell Script which prints `I will complete #90DaysOofDevOps challenge`
+ Ans-> created a shell script task1.sh which will print the result.
+
+ - Write a Shell Script to take user input, input from arguments and print the variables.
+Ans ->created a shell script task2.sh which will print the result.
+
+ - Write an Example of If else in Shell Scripting by comparing 2 numbers
+Ans: created a  shell script task3.sh which will do this task
+
+ Was it difficult?
+ 
+ - Post about it on LinkedIn and Let me know :)
+
+ Article Reference: [Click here to read basic Linux Shell Scripting](https://devopscube.com/linux-shell-scripting-for-devops/)
+
+ YouTube Vedio: [EASIEST Shell Scripting Tutorial for DevOps Engineers](https://www.youtube.com/watch?v=_-D6gkRj7xc&list=PLlfy9GnSVerQr-Se9JRE_tZJk3OUoHCkh&index=3)
