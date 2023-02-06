@@ -1,0 +1,44 @@
+ 1) You have to install docker and jenkins in your system from your terminal using package manager
+       sudo apt install docker.io
+       sudo apt-get install jenkins
+             
+ 3) check the status of docker service in your system (make sure you completed above tasks, else docker won't be installed)
+       systemctl status docker
+
+ 3)Installing Tools using Package Managers on Ubuntu and CentOS
+
+
+Ubuntu:
+Ubuntu uses the APT (Advanced Package Tool) package manager, which allows you to install, update, and remove packages from the command line.
+
+To install a package, use the following command:
+sudo apt-get install [package name]
+
+To update the package list, use:
+sudo apt-get update
+
+To upgrade the packages, use:
+sudo apt-get upgrade
+
+CentOS:
+CentOS uses the YUM (Yellowdog Updater, Modified) package manager, which allows you to install, update, and remove packages from the command line.
+
+To install a package, use the following command:
+sudo yum install [package name]
+
+To update the package list, use:
+sudo yum update
+
+To upgrade the packages, use:
+sudo yum upgrade
+
+ 4) stop the service jenkins and post before and after screenshots
+
+      sudo systemctl stop jenkins
+
+        sudo systemctl status jenkins 
+
+ 5) read about the commands systemctl vs service
+      systemctl is the newer command that is used in modern Linux distributions such as Fedora, CentOS, and Ubuntu. It provides a unified and more efficient way to manage system services. With systemctl, you can start, stop, restart, enable, or disable services. It also provides additional features such as viewing service status, viewing logs, and changing service properties.
+
+service, on the other hand, is an older command that is still used in some older Linux distributions. It is simpler in its functionality compared to systemctl and is used to only start, stop, and restart services.
