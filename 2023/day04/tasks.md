@@ -1,4 +1,4 @@
-# Day 4 Task: Basic Linux Shell Scripting for DevOps Engineers.
+# Day 4 Task: Basic Linux Shell Scripting for DevOps Engineers Solution by PrithishG
 
  ## What is Kernel
 
@@ -15,10 +15,49 @@
  **Tasks**
 
  - Explain in your own words and examples, what is Shell Scripting for DevOps.
+
+Shell scripting for DevOps means set of instruction given by user which will use in process's like automation , installation , services etc.
+
  - What is `#!/bin/bash?` can we write `#!/bin/sh` as well?
+
+`#!/bin/bash` is shebang , basically a interpreter for scripts .
+
+yes we can write #!/bin/sh as it specifies the basic shell features does not required bash specific features.
+
  - Write a Shell Script which prints `I will complete #90DaysOofDevOps challenge`
+
+
+#!/bin/bash
+read -p "enter input" input
+echo "$input"
+
+
  - Write a Shell Script to take user input, input from arguments and print the variables.
+
+#!/bin/bash
+read -p "value" value
+arg_value=$1
+echo "result : $value"
+echo "arg_result : $arg_value"
+
+
  - Write an Example of If else in Shell Scripting by comparing 2 numbers
+
+#!/bin/bash
+
+read -p "value" value
+
+read -p "value2" value2
+
+if [ $value -gt $value2 ]
+
+then echo "good"
+
+else echo "not good"
+
+fi
+
+
 
  Was it difficult?
  

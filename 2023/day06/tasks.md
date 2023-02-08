@@ -1,4 +1,4 @@
-# Day 6 Task: File Permissions and Access Control Lists
+# Day 6 Task: File Permissions and Access Control Lists Solution by PrithishGc
 
 ### Today is more on Reading, Learning and Implementing File permissions
 
@@ -21,7 +21,34 @@
 
 2) Write an article about File Permissions based on your understanding from the notes.
 
+- file permissions are set of rules that can provide access to specified users with specific roles such as read , write , group etc. basically these permissions are assigned to the file owners,any members of the file group & other's as well .
+for file permissions we need to use chmod set of commands in order to provide access or changing access for special groups and all .
+The read permission represented by " r " allows user to view content .
+The write permission represented by " w " allows user to edit access .
+The execute permissiom represented by " x " allows user to run a file .
+The " ls " command can be viewed the permissions of a file or directory .
+
+file permissions is very important aspect of managing files and directories in ubuntu . By understanding how to view and file permissions we can ensure 
+files and directories are properly accessible.
+
 3) Read about ACL and try out the commands `getfacl` and `setfacl`
+
+ACL command is used for only managing advanced permission and providing more fine grained control over file and directory access.
+By using ACL additional users or groups can be grant specific permissions. it is mainly used to set and manage ACLs using command line tools.
+
+Example : getfactl and setfactl
+
+getfactl : used to display the acls associated with a file or directory .
+
+![](https://github.com/imprithwishghosh/90_days_of_devOps_pics/blob/master/getfacl_acl.png)
+
+
+
+setfactl : used to set or modify acl entries for files and directories .
+
+![](https://github.com/imprithwishghosh/90_days_of_devOps_pics/blob/master/setfacl.png)
+
+
 
 In case of any doubts, post it on [Discord Community](https://discord.gg/hs3Pmc5F)
 
