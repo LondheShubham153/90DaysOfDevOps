@@ -22,10 +22,10 @@ Ans => `docker container stats`
 - Use the `docker top` command to view the processes running inside a container.
 Ans => `docker top mywebsite`
 
-- Use the `docker save` command to save an image to a tar archive.
+- Use the `docker export` command to save an image to a tar archive.
 Ans => `docker container export mywebsite -o mysite.tar`
 
-- Use the `docker load` command to load an image from a tar archive.
+- Use the `docker import` command to load an image from a tar archive.
 Ans => `docker image import mysite.tar website:1.0`
         `docker container run -itd -p 80:80 --name mysite website:1.0`
 
