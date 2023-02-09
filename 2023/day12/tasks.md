@@ -1,5 +1,5 @@
 ## Finally!! 🎉
-You have completed the Linux & Git-GitHub handson and I hope you have learned something interesting from it.🙌
+You have completed the Linux & Git-GitHub hands on and I hope you have learned something interesting from it.🙌
 
 Now why not make an interesting 😉 assignment, which  not only will help you for the future but also for the DevOps Community!
 
