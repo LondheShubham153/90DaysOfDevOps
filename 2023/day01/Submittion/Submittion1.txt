@@ -1,0 +1,17 @@
+## Introduction - Day 1- 
+
+08-02-2023 This is the day I took this challenge and start your #90DaysOfDevOps with the #TrainWithShubham Community
+
+- Fork this Repo. Done
+- Start with a DevOps Roadmap[https://youtu.be/iOE9NTAG35g]  Done
+- Write a LinkedIn post or a small article about your understanding of DevOps Done
+ - What is DevOps
+ Devops is change in cluture/Proccess and adoption of new tool and technologies in developing the software application.
+ So we can achive the fast place application development and fast placed application delivery.
+ - What is Automation, Scaling, Infrastructure
+ The application of technology, programs, robotics or proccess to achive output with minimal hunam input.
+ - Why DevOps is Important, etc
+ 1. Always we are ahead of competiteors of the market
+ 2. High customer satisfaction and batter ROI 
+ 3. We can quickly develop and deliver software application, so every one can adopt the use software in the world
+ 
