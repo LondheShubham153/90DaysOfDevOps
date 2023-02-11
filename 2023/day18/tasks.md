@@ -23,15 +23,28 @@ Learn how to use the docker-compose.yml file, to set up the environment, configu
 
 ## Task-2
 - Pull a pre-existing Docker image from a public repository (e.g. Docker Hub) and run it on your local machine. Run the container as a non-root user (Hint- Use `usermod ` command to give user permission to docker). Make sure you reboot instance after giving permission to user.
+Ans => `sudo usermod -aG docker $USER`
+        `reboot`
+
 - Inspect the container's running processes and exposed ports using the docker inspect command.
+Ans => `docker container inspect mywebsite`
+        `docker container port mywebsite`
+
 - Use the docker logs command to view the container's log output.
+Ans => `docker container logs mywebsite`
+
 - Use the docker stop and docker start commands to stop and start the container.
+Ans => `docker container stop mywebsite`
+        `docker container start mywebsite`
+
 - Use the docker rm command to remove the container when you're done.
+Ans => `docker container rm mywebsite`
 
 ## How to run Docker commands without sudo?
 - Make sure docker is installed and system is updated (This is already been completed as a part of previous tasks):
-- sudo usermod -a -G docker $USER 
-- Reboot the machine.
+- `sudo usermod -aG docker $USER` 
+- Reboot the machine. 
+Ans => `reboot`
 
 For reference you can watch this [video](https://youtu.be/Tevxhn6Odc8)
 
