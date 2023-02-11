@@ -10,6 +10,7 @@ All 90 directories within seconds using a simple command.
 1) You have to do the same using Shell Script i.e using either Loops or command with start day and end day variables using arguments -
 
  So Write a bash script createDirectories.sh that when the script is executed with three given arguments (one is directory name and second is start number of directories and third is the end number of directories ) it creates specified number of directories with a dynamic directory name.
+  Ans= ./createDirectories.sh task 1 90
 
 Example 1: When the script is executed as
 
@@ -31,7 +32,27 @@ You may need to use loops or commands (or both), based on your preference . [Che
  Backups are an important part of DevOps Engineers day to Day activities
  The video in References will help you to understand How a DevOps Engineer takes backups (it can feel a bit difficult but keep trying, Nothing is impossible.)
  Watch [this video](https://youtu.be/aolKiws4Joc) 
- 
+ Ans = #!/bin/bash #typically the first line of the bash scripts
+       BACKUPTIME=`date +%b-%d-%y` #get the current date
+       DESTINATION=/home/usr/path/backup-$BACKUPTIME.tar.gz #create a backup file using the current date in it's name
+       SOURCEFOLDER=/home/usr/path/data_folder #the folder that contains the files that we want to backup
+       tar -cpzf $DESTINATION $SOURCEFOLDER #create the backup
+ or
+ # create directory for backups
+mkdir /backups
+
+# copy contents of user1
+cp -a /home/user1/* /backups/
+
+# copy contents of user2
+cp -a /home/user2/* /backups/
+
+# compress the backup directory
+tar -czvf /backups.tar.gz /backups
+
+# delete the backup directory
+rm -rf /backups
+
  In case of Doubts, post it in [Discord Channel for #90DaysOfDevOps](https://discord.gg/hs3Pmc5F)
 
 
@@ -47,7 +68,17 @@ You may need to use loops or commands (or both), based on your preference . [Che
 A user is an entity, in a Linux operating system, that can manipulate files and perform several other operations. Each user is assigned an ID that is unique for each user in the operating system. In this post, we will learn about users and commands which are used to get information about the users. After installation of the operating system, the ID 0 is assigned to the root user and the IDs 1 to 999 (both inclusive) are assigned to the system users and hence the ids for local user begins from 1000 onwards.
 
 
- 5) Create 2 users and just display their Usernames
+ 5) Create 2 users and just display their Usernames:
+ Ans =  #create user 1
+        useradd -m user1
+
+        #create user 2
+        useradd -m user2
+
+        #display usernames
+        echo"Usernames:"
+        echo "user1"
+        echo "user2"
 
 [Check out this reference: https://www.geeksforgeeks.org/user-management-in-linux/](https://www.geeksforgeeks.org/user-management-in-linux/)
 

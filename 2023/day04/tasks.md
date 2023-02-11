@@ -15,10 +15,34 @@
  **Tasks**
 
  - Explain in your own words and examples, what is Shell Scripting for DevOps.
+   Ans = A shell script is a computer program designed to be run by the Unix shell, a command-line interpreter.
  - What is `#!/bin/bash?` can we write `#!/bin/sh` as well?
+   Ans = bash is the default shell for most Linux distributions, and /bin/sh is normally some sort of link to bash on a Linux system
  - Write a Shell Script which prints `I will complete #90DaysOofDevOps challenge`
+   Ans = 1.create an empty file : $ touch devops.sh
+         2. open the file : $ vi devops.sh
+         3. write content in this file :  #!/bin/sh
+                                          echo "#90DaysOfDevOps"
+            (#!/bin/sh  is the path of the system shell)                              
+         4.Give permission to execute the script :$ chmod +x devops.sh
+         (chmod to make file executable)
+         6. Run this file :$ ./devops.sh                                  
  - Write a Shell Script to take user input, input from arguments and print the variables.
+   Ans = $ cat devops.sh
+         #!usr/bin/env bash
+          read name
+          echo "Hello, $name"
  - Write an Example of If else in Shell Scripting by comparing 2 numbers
+   Ans = #!/bin/bash
+         a=2
+         b=7
+         if [ $a -ge $b ]
+         then
+         echo "The variable 'a' is greater than the variable 'b'."
+         else
+         echo "The variable 'b' is greater than the variable 'a'."
+         fi
+      o/p:The variable 'b' is greater than the variable 'a'.   
 
  Was it difficult?
  
