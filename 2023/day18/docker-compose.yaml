@@ -14,8 +14,7 @@ services:
   web:
     depends_on:
       - db
-    image: wordpress:php8.0-fpm-alpine
-
+    image: wordpress
     container_name: wordpress 
     restart: always
     ports:
