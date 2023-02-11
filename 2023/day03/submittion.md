@@ -24,8 +24,12 @@ cat fruits.txt
 
 7. To Show only top three fruits from the file.
 
+awk '{print $3}' input.txt 
+
 
 8. To Show only bottom three fruits from the file.
+
+tail -3 filename
 
 
 9. To create another file Colors.txt and to view the content.
