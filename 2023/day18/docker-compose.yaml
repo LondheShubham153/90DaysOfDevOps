@@ -3,6 +3,7 @@ services:
   db:
     image: mysql:5.7.20
     container_name: mysql-db
+    # restart: always
     volumes:
       - db_data:/var/lib/mysql
     env_file: .env
@@ -11,14 +12,26 @@ services:
       MYSQL_DATABASE: wordpress_db
     networks:
       - wordpress-network
-  web:
-    depends_on:
-      - db
-    image: wordpress:4.8-apache
-    container_name: wordpress 
-    restart: always
+
+  load-balancer:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: nginx
     ports:
       - "80:80"
+    networks:
+      - wordpress-network
+
+  wordpress:
+    depends_on:
+      - db
+      - load-balancer
+    image: wordpress:4.8-apache
+    # container_name: wordpress 
+    deploy:
+      replicas: 2
+    # restart: always
     environment:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_USER: wordpress_user
