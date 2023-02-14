@@ -13,5 +13,6 @@ To configure this WordPress site, you will create the following resources in AWS
 - An Amazon RDS for MySQL database to store your WordPress data.
 - Setup the server and post your new Wordpress app.
 
+Read [this](https://aws.amazon.com/getting-started/hands-on/deploy-wordpress-with-amazon-rds/) for a detailed explanation
 Happy Learning :)
 
