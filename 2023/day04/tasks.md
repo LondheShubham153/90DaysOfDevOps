@@ -1,4 +1,4 @@
-# Day 4 Task: Basic Linux Shell Scripting for DevOps Engineers.
+Day 4 Task: Basic Linux Shell Scripting for DevOps Engineers.
 
  What is Kernel
 
@@ -15,10 +15,19 @@
  **Tasks**
 
  - Explain in your own words and examples, what is Shell Scripting for DevOps.
+   Shell scripting - 
+
  - What is `#!/bin/bash?` can we write `#!/bin/sh` as well?
+   #!/bin/bash -
+
  - Write a Shell Script which prints `I will complete #90DaysOofDevOps challenge`
+
+
  - Write a Shell Script to take user input, input from arguments and print the variables.
+
+
  - Write an Example of If else in Shell Scripting by comparing 2 numbers
+
 
  Was it difficult?
  
