@@ -1,6 +1,6 @@
 1. To view what's written in a file.
 
-Cat filename
+Cat filename 
 
 2. To change the access permissions of files.
 
@@ -20,6 +20,8 @@ touch fruits.txt
 cat fruits.txt
 
 6. Add content in devops.txt (One in each line) - Apple, Mango, Banana, Cherry, Kiwi, Orange, Guava.
+vim fruit.txt
+cat fruit.txt
 
 
 7. To Show only top three fruits from the file.
@@ -37,6 +39,8 @@ tail -3 filename
 touch Color.txt, cat Color.txt
 
 10. Add content in Colors.txt (One in each line) - Red, Pink, White, Black, Blue, Orange, Purple, Grey.
-
+vim color.txt
+cat color.txt
 
 11. To find the difference between fruits.txt and Colors.txt file.
+diff fruits.txt color.txt
