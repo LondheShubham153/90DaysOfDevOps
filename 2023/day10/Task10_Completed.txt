@@ -56,7 +56,15 @@ as a practice try git rebase too, see what difference you get.
 
 Ans:-
      1) git checkout -b Dev
-     2) vi version01.txt, add 
+     2) vi version01.txt, add Gadbad code in a file and save
+     3) git add .
+     4) git commit -m "Gadbad code from Development branch"
+     5) switch to master branch ( git checkout master )
+     6) git merge Dev  OR
+     7) git rebase Dev
+
+
+
 
 Note:
 We should learn and follow the best practices , industry follows for branching.
