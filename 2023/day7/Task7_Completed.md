@@ -1,10 +1,13 @@
 ### Tasks:- 
-1) You have to install docker and jenkins in your system from your terminal using package managers
-ANSWER:-
+### 1) You have to install docker and jenkins in your system from your terminal using package managers
+### ANSWER:-
        See ANSWER no 2.
 
-2) Write a small blog or article to install these tools using package managers on Ubuntu and CentOS
-ANSWER:- 
+
+
+
+### 2) Write a small blog or article to install these tools using package managers on Ubuntu and CentOS
+### ANSWER:- 
         1) UBUNTU DOCKER INSTALLATION:-
                 1) sudo su
                 2) apt-get update -y 
