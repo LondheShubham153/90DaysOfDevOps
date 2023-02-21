@@ -102,7 +102,8 @@
      8) git cherry-pick --continue
      9) File opens, add comment "Optimized the feature" and save 
      10) git log  ( to verify changes ), check below screenshot
-     <img width="471" alt="Capture" src="https://user-images.githubusercontent.com/121779953/220292584-4a9be09a-7b51-4591-af4e-f603d34c7f22.PNG">
+     ![image](https://user-images.githubusercontent.com/121779953/220293180-89cce8dd-ede9-4b05-951f-280ef9a2dbf1.png)
+
 
       
 
