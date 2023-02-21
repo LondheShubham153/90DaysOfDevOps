@@ -30,7 +30,8 @@
                                         chmod 777 file1.txt
                                         
       For example, 
-               Suppose you want to give read,write.execute permission to owner, read,execute to user and read to others, so how can we do this ---->
+               Suppose you want to give read,write.execute permission to owner, read,execute to user and read to others,
+               so how can we do this ---->
                
                what is the number of read --> 4 , write --> 2 , execute --> 1 right ?
                i) so if we want to give read write execute permission to owner, we need to add all 3 --> 4+2+1 = 7
@@ -45,7 +46,9 @@
                                         
 ### 3) Read about ACL and try out the commands getfacl and setfacl.
 ### ANSWER:- 
-         ACL ---> It allows you to give more specific permissions to a file or directory without changing the base ownership and permissions.
+         ACL ---> It allows you to give more specific permissions to a file or directory without changing the base 
+         ownership and permissions.
+         
          Commands ---> getfacl and setfacl
          
          i) For adding permissions for user 
