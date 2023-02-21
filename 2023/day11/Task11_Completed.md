@@ -102,13 +102,10 @@
      8) git cherry-pick --continue
      9) File opens, add comment "Optimized the feature" and save 
      10) git log  ( to verify changes ), check below screenshot
-     
-     ![image](https://user-images.githubusercontent.com/121779953/220292320-b05b53ed-02c0-45e9-9abf-ec98139287c2.png)
+     <img width="471" alt="Capture" src="https://user-images.githubusercontent.com/121779953/220292584-4a9be09a-7b51-4591-af4e-f603d34c7f22.PNG">
 
+      
 
-     
-     
-     
      
 Reference video
 You can Post on LinkedIn and let us know what you have learned from this task by #90DaysOfDevOps Challange. Happy Learning :)
