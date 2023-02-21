@@ -21,6 +21,7 @@
          
          
          Non-Primitive Data types:-
+         
          1) Tuple ---> Tuples are created by placing the values seperated by "comma" with pr without paranthesis.
             Ex:-
                 Tuple1 = ( "Madhup","Pandey" )\
@@ -47,8 +48,8 @@
                 print(Array)
                 
                 
-         5) Dictionary ---> Dictionary can be created by placing a sequence of elements within curly {} braces, separated by ‘comma’. Values in 
-            a dictionary can be duplicated. 
+         5) Dictionary ---> Dictionary can be created by placing a sequence of elements within curly {} braces, separated by ‘comma’.
+            Values in a dictionary can be duplicated. 
             Ex:-
                 Dict = {1: "madhup", 2: "pandey"}
                 print(Dict)
