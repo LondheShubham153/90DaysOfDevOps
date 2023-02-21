@@ -103,7 +103,8 @@
      9) File opens, add comment "Optimized the feature" and save 
      10) git log  ( to verify changes ), check below screenshot
      
-     <img width="471" alt="Capture" src="https://user-images.githubusercontent.com/121779953/220292074-538b0b89-597b-48a9-baa9-5608e13f40d1.PNG">
+     ![image](https://user-images.githubusercontent.com/121779953/220292320-b05b53ed-02c0-45e9-9abf-ec98139287c2.png)
+
 
      
      
