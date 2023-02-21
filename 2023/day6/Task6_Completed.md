@@ -1,13 +1,17 @@
-1) Create a simple file and do ls -ltr to see the details of the files refer to Notes.
-ANSWER:-
-         [root@ip-172-31-42-218 scripts]# ls -lrt
-                                        total 0
-                                        -rw-rw-r-- 1 ec2-user ec2-user 0 Jan  9 04:07 Day1File6.txt
-                                        -rw-rw-r-- 1 ec2-user ec2-user 0 Jan  9 04:07 Day1File5.txt
-                                        -rw-rw-r-- 1 ec2-user ec2-user 0 Jan  9 04:07 Day1File4.txt
-                                        -rw-rw-r-- 1 ec2-user ec2-user 0 Jan  9 04:07 Day1File3.txt
-                                        -rw-rw-r-- 1 ec2-user ec2-user 0 Jan  9 04:07 Day1File2.txt
-                                        -rw-rw-r-- 1 ec2-user ec2-user 0 Jan  9 04:07 Day1File1.txt
+### 1) Create a simple file and do ls -ltr to see the details of the files refer to Notes.
+### ANSWER:-
+            [root@ip-172-31-42-218 scripts]# ls -lrt
+                                           total 0
+                                           -rw-rw-r-- 1 ec2-user ec2-user 0 Jan  9 04:07 Day1File6.txt
+                                           -rw-rw-r-- 1 ec2-user ec2-user 0 Jan  9 04:07 Day1File5.txt
+                                           -rw-rw-r-- 1 ec2-user ec2-user 0 Jan  9 04:07 Day1File4.txt
+                                           -rw-rw-r-- 1 ec2-user ec2-user 0 Jan  9 04:07 Day1File3.txt
+                                           -rw-rw-r-- 1 ec2-user ec2-user 0 Jan  9 04:07 Day1File2.txt
+                                           -rw-rw-r-- 1 ec2-user ec2-user 0 Jan  9 04:07 Day1File1.txt
+                                           
+                                           
+                                           
+                                           
                                         
 2) Write an article about File Permissions based on your understanding from the notes.
 ANSWER:-
