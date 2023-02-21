@@ -15,16 +15,19 @@ Day 4 Task: Basic Linux Shell Scripting for DevOps Engineers.
  **Tasks**
 
  - Explain in your own words and examples, what is Shell Scripting for DevOps.
-   Shell scripting - 
+   Shell scripting - Shellscript is a file in which we write bunch of shell commands/instructions that we wanted to execute repeatedly over the period of time in sequence order and pass it as an input to the shell interpreter. The shell interpreter reads the shell commands from the file and executes them from top to bottom in linear/sequential order one after of the another one is called "shellscripting"
 
  - What is `#!/bin/bash?` can we write `#!/bin/sh` as well?
-   #!/bin/bash -
+   #!/bin/bash - bash = shebhang
+       shebang is instruction we are writing to the shellinterpreter asking to use which shell to execute the instructions in the file
+       in the above statement we are telling the interpreter program to use bash interpreter to execute the instructions/commands in the file
+
 
  - Write a Shell Script which prints `I will complete #90DaysOofDevOps challenge`
     echo "I will compleate #90 days of challenge"
 
  - Write a Shell Script to take user input, input from arguments and print the variables.
-
+    
 
  - Write an Example of If else in Shell Scripting by comparing 2 numbers
 
