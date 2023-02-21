@@ -1,4 +1,4 @@
-# Day 50: Your CI/CD pipeline on AWS 🚀 ☁
+# Day 50: Your CI/CD pipeline on AWS - Part-1 🚀 ☁
 
 What if I tell you, in next 4 days, you'll be making a CI/CD pipeline on AWS with these tools.
 
