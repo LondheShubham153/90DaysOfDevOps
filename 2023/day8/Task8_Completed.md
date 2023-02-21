@@ -1,4 +1,4 @@
-1) Create a new repository on GitHub and clone it to your local machine.
+### 1) Create a new repository on GitHub and clone it to your local machine.
 
 Ans:-    CREATING NEW DIRECTORY:-
          1) Navigate to top right corner click on profile  --> your repository --> on top right click on new 
