@@ -19,7 +19,7 @@ All 90 directories within seconds using a simple command.
 
  ./createDirectories.sh Movie 20 50 then it creates 50 directories as Movie20 Movie21 Movie23 ...Movie50
 
-### Notes: You may need to use loops or commands (or both), based on your preference . Check out this reference: https://www.geeksforgeeks.org/bash-scripting-for-loop/
+ Notes: You may need to use loops or commands (or both), based on your preference . Check out this reference: https://www.geeksforgeeks.org/bash-scripting-for-loop/
 
 ### ANSWER :- 
 
