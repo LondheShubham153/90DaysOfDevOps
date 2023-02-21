@@ -8,7 +8,7 @@
 ### 2. To change the access permissions of files.
 ### Ans:- 
          chmod 777 <filename>
-         
+          
          
          
          
