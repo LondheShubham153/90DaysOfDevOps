@@ -11,7 +11,7 @@
 ### Ans :-
       ls -la
       
-      
+     
       
       
 ### 3)Create a nested directory A/B/C/D/E
