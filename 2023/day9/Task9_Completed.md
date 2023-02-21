@@ -1,4 +1,4 @@
-1) What is Git and why is it important?
+### 1) What is Git and why is it important?
 Ans:-  
       Git is a DevOps tools. It is an open source version control system which helps developers to store, manage their code.
       
