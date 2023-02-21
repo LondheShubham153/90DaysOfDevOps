@@ -1,5 +1,13 @@
-1) You have to do the same using Shell Script i.e using either Loops or command with start day and end day variables using arguments -
-### So Write a bash script createDirectories.sh that when the script is executed with three given arguments (one is directory name and second is start number of directories and third is the end number of directories ) it creates specified number of directories with a dynamic directory name.
+If you noticed that there are total 90 sub directories in the directory '2023' of this repository. What did you think, how did I create 90 directories. Manually one by one or using a script, or a command ?
+
+All 90 directories within seconds using a simple command.
+
+ mkdir day{1..90}
+
+### Tasks
+
+### 1) You have to do the same using Shell Script i.e using either Loops or command with start day and end day variables using arguments -
+ So Write a bash script createDirectories.sh that when the script is executed with three given arguments (one is directory name and second is start number of directories and third is the end number of directories ) it creates specified number of directories with a dynamic directory name.
 
  Example 1: When the script is executed as
 
