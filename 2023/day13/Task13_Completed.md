@@ -11,6 +11,7 @@
 ### Read about different Data Types in Python.
 ### Ans:-
          Primitive Data types:-
+         
          1) Integer ---> If a variable has Whole number, then data type of variable is Integer
          
          2) Float ---> If a variable has Decimal number, then data type of variable is Float
