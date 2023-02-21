@@ -9,7 +9,7 @@
           
 ### 2)List all the files or directories including hidden files.
 ### Ans :-
-      ls -la
+          ls -la
       
      
       
