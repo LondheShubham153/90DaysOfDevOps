@@ -104,3 +104,6 @@ Check out this reference: https://www.geeksforgeeks.org/user-management-in-linux
               useradd -m -p Test $USER && echo "User added !!!!! $USER";
               sleep 2;
               useradd -m -p Test $USER2 && echo "User added !!!!! $USER2";
+
+
+
