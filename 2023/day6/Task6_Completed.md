@@ -13,8 +13,8 @@
                                            
                                            
                                         
-2) Write an article about File Permissions based on your understanding from the notes.
-ANSWER:-
+### 2) Write an article about File Permissions based on your understanding from the notes.
+### ANSWER:-
       File permission ---> File permission is used to give and remove permissions to a particular file/Directory.
                            There are 3 types of permissions for 3 types of users -
                            1) Read (-r) 4
@@ -40,8 +40,12 @@ ANSWER:-
                So, command looks like 
                                         chmod 754 file1.txt
                                         
-3) Read about ACL and try out the commands getfacl and setfacl.
-ANSWER:- ACL ---> It allows you to give more specific permissions to a file or directory without changing the base ownership and permissions.
+                                        
+                                        
+                                        
+### 3) Read about ACL and try out the commands getfacl and setfacl.
+### ANSWER:- 
+         ACL ---> It allows you to give more specific permissions to a file or directory without changing the base ownership and permissions.
          Commands ---> getfacl and setfacl
          
          i) For adding permissions for user 
@@ -54,4 +58,6 @@ ANSWER:- ACL ---> It allows you to give more specific permissions to a file or d
          ---> setfacl -b <targetfile>
          v) For adding permissions for user in all files inside a folder 
          ---> setfacl -Rm "u:<username>:<permission>" <directory>
+
+
 
