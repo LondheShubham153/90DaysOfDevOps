@@ -60,7 +60,7 @@ fav_tools =
                print(x)
           o/p:- {1: 'Linux', 2: 'Git', 3: 'Docker', 4: 'Kubernetes', 5: 'Terraform', 6: 'Ansible', 7: 'Chef'}
           
-         Reference for python dictionary methods:- https://www.w3schools.com/python/python_ref_dictionary.asp
+Reference for python dictionary methods:- https://www.w3schools.com/python/python_ref_dictionary.asp
          
          
          
