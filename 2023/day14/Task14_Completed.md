@@ -69,6 +69,12 @@ Reference for python dictionary methods:- https://www.w3schools.com/python/pytho
 ### cloud_providers = ["AWS","GCP","Azure"]
 ### Write a program to add Digital Ocean to the list of cloud_providers and sort the list in alphabetical order.
 
+### Ans:-
+         cloud_providers = ["AWS","GCP","Azure"]
+         cloud_providers.append("Digital Ocean")     #adds digital ocean to the list of cloud_providers
+         cloud_providers.sort()                      #sorts the list of cloud_providers in alphabetical order
+         print(cloud_providers)
+
 [Hint: Use keys to built in functions for Lists]
 
 If you want to deep dive further, Watch Python
