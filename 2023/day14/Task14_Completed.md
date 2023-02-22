@@ -9,8 +9,8 @@
      1) list is a collection of           1) Tuple is a collection of            1) Set is a collection of
         data elements.                       data elements.                         data elements.
        
-     2) lists are changable,              2) Tuples are unchangable,             2) Sets are changable,
-        ordered and allow duplicate          ordered and allow duplicate            ordered and no duplicate
+     2) lists are changable,              2) Tuples are unchangable,             2) Sets are unchangable,
+        ordered and allow duplicate          ordered and allow duplicate            unordered and no duplicate
         values.                              values.                                values.
         
      3) lists are created by placing      3) Tuples are created by placing       3) Sets are created by placing
