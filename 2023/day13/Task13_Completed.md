@@ -23,9 +23,9 @@
          
          Non-Primitive Data types:-
          
-         1) Tuple ---> Tuples are created by placing the values seperated by "comma" with pr without paranthesis.
+         1) Tuple ---> Tuples are created by placing the values seperated by "comma" with or without paranthesis.
             Ex:-
-                Tuple1 = ( "Madhup","Pandey" )\
+                Tuple1 = ( "Madhup","Pandey" )
                 print(Tuple1)
                 
                 
