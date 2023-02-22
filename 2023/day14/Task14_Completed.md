@@ -31,6 +31,40 @@ fav_tools =
   6:"Ansible", 
   7:"Chef"
 }
+
+### Ans:-
+         fav_tools = 
+         { 
+          1:"Linux", 
+          2:"Git", 
+          3:"Docker", 
+          4:"Kubernetes", 
+          5:"Terraform", 
+          6:"Ansible", 
+          7:"Chef"
+          }
+          
+          To print favourite tool just by key
+          ---> print(fav_tools[2])
+          o/p --> Git
+  
+         Dictionary Methods:
+         
+         1) clear() --> The clear() method removes all the elements from a dictionary.
+          ---> fav_tools.clear()
+               print(fav_tools)
+          o/p:- {}
+          
+         2) copy() --> The copy() method returns a copy of the specified dictionary.
+          ---> x = fav_tools.copy()
+               print(x)
+          o/p:- {1: 'Linux', 2: 'Git', 3: 'Docker', 4: 'Kubernetes', 5: 'Terraform', 6: 'Ansible', 7: 'Chef'}
+          
+         Reference for python dictionary methods:- https://www.w3schools.com/python/python_ref_dictionary.asp
+         
+         
+         
+         
 ### Create a List of cloud service providers eg.
 ### cloud_providers = ["AWS","GCP","Azure"]
 ### Write a program to add Digital Ocean to the list of cloud_providers and sort the list in alphabetical order.
