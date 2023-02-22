@@ -1,0 +1,32 @@
+- Fork this Repo.--(done)
+- Start with a DevOps Roadmap[https://youtu.be/iOE9NTAG35g]--(done)
+- Write a LinkedIn post or a small article about your understanding of DevOps
+
+
+
+
+
+
+
+
+ - What is DevOps
+		DevOps is a methodology in the software development and IT industry. 
+		Used as a set of practices and tools, DevOps integrates and automates the work of software development 
+		and IT operations as a means for improving and shortening the systems development life cycle
+or
+		DevOps is a collaboration between development and operation teams, which enables continuous delivery of applications and services to our end users.
+
+
+ - What is Automation, Scaling, Infrastructure
+		--DevOps automation is the practice or discipline of using specialized software tools and methodologies 
+		  to automate repetitive and manual tasks throughout the software development lifecycle.
+
+		--scalability means that the enterprise can configure its systems to expand during high demand, and scale down when demand falls.
+
+		-- infrastructure is the system of hardware, software, facilities and service components that support the delivery of business systems and IT-enabled processes.
+
+
+ - Why DevOps is Important
+		--DevOps is important because it's a software development and operations approach that enables faster development of new products and easier maintenance of existing deployments.
+		--Maximizes Efficiency with Automation
+		--Improves Speed and Stability of Software Development and Deployment
