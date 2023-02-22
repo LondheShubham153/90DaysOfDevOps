@@ -23,9 +23,9 @@
          
          Non-Primitive Data types:-
          
-         1) Tuple ---> Tuples are created by placing the values seperated by "comma" with or without paranthesis.
+         1) Tuple ---> Tuples are created by placing the values seperated by "comma" without paranthesis.
             Ex:-
-                Tuple1 = ( "Madhup","Pandey" )
+                Tuple1 =  "Madhup","Pandey" 
                 print(Tuple1)
                 
                 
@@ -37,9 +37,9 @@
                 
          3) Set --> Sets is an unordered collection of datatypes with iterable, mutable and no duplicate values.
             Sets can be created by using the built-in set() function 
-            or a sequence by placing the sequence inside curly braces, separated by a ‘comma’.
+            or a sequence by placing the sequence inside curly braces{}, separated by a ‘comma’.
             Ex:-
-                Set = set("madhup","pandey")
+                Set = {"madhup","pandey"}
                 print(Set)
                 
                 
