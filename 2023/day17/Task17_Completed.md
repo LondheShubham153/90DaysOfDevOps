@@ -1,6 +1,6 @@
 ### Task:
 
-### Create a Dockerfile for a simple web application (e.g. a Node.js or Python app)
+### Create a Dockerfile for a simple web application (e.g. a Node.js or Python app) 
 
 ### Ans:- 
          1) vi Dockerfile
