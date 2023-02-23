@@ -1,6 +1,6 @@
 ### Tasks
 
-As you have already installed docker in previous days tasks, now is the time to run Docker commands.
+As you have already installed docker in previous days tasks, now is the time to run Docker commands. 
 
 ### Use the docker run command to start a new container and interact with it through the command line. [Hint: docker run hello-world]
 
