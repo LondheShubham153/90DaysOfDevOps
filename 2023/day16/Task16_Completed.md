@@ -22,7 +22,7 @@ As you have already installed docker in previous days tasks, now is the time to 
 
 ### Ans:-
          1) docker images and copy container_id
-         2)docker port <container_id>
+         2) docker port <container_id>
 
 
 
