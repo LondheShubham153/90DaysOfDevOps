@@ -32,7 +32,7 @@ Kubernetes has a large and active open-source community, which means that EKS be
 In summary, EKS is a good choice if you want to use Kubernetes to manage your containerized workloads on AWS, while ECS is a good choice if you want a simpler, more managed platform for running your containerized applications.
 
 # Task :
-Set up ECS (Elastic Container Service) in AWS with cluster type as EC2 and configure it by installing Docker and the ECS agent.
+Set up ECS (Elastic Container Service) by setting up Nginx on ECS.
 
 
 
