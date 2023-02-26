@@ -1,4 +1,4 @@
-# Day 56: Understanding Ad-hoc comands in Ansible
+# Day 56: Understanding Ad-hoc commands in Ansible
 
 Ansible ad hoc commands are one-liners designed to achieve a very specific task they are like quick snippets and your compact swiss army knife when you want to do a quick task across multiple machines.
 
