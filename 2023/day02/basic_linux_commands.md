@@ -21,7 +21,7 @@ Examples:
 
 - ``` cd - ``` --> Go to the last working directory.
 
-- ``` cd ..``` --> chnage directory to one step back.
+- ``` cd ..``` --> change directory to one step back.
 
 - ``` cd ../..``` --> Change directory to 2 levels back.
 
