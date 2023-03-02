@@ -1,0 +1,11 @@
+ "#!/bin/bash" is called a shebang, and it is the first line of a shell script. It specifies the interpreter that should be
+used to run the script. In this case, /bin/bash is the path to the bash interpreter.
+
+"#!/bin/sh" can also be used as a shebang, and it is similar to #!/bin/bash. However, the sh interpreter is usually a symlink
+to another shell interpreter such as bash, dash, ash or busybox, and its behavior may differ depending on the system. 
+sh is considered to be a minimal POSIX shell, while bash is an extended shell with additional features. 
+Some scripts are written specifically for sh, others for bash, and some are written to be compatible with both.
+
+So, if you want to ensure that your script will run in any Unix-like system, you should use #!/bin/sh as it is 
+more portable across different platforms. 
+But if you want to take advantage of the extended features of bash, you should use #!/bin/bash.
