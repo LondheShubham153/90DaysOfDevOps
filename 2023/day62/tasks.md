@@ -1,4 +1,4 @@
-# Day 62 - Terraform with Docker 🔥
+# Day 62 - Terraform and Docker 🔥
 
 Terraform needs to be told which provider to be used in the automation, hence we need to give the provider name with source and version.
 For Docker, we can use this block of code in your main.tf
