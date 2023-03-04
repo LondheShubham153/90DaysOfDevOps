@@ -1,4 +1,4 @@
-# Day 57: Ansible Playbooks
+# Day 58: Ansible Playbooks
 
 Ansible playbooks run multiple tasks, assign roles, and define configurations, deployment steps, and variables. If you’re using multiple servers, Ansible playbooks organize the steps between the assembled machines or servers and get them organized and running in the way the users need them to. Consider playbooks as the equivalent of instruction manuals.
 

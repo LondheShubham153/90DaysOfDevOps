@@ -1,4 +1,4 @@
-# Day 57: Ansible Project 🔥
+# Day 59: Ansible Project 🔥
 
 Ansible playbooks are amazing, as you learned yesterday.
 What if you deploy a simple web app using ansible, sounds like a good project, right?

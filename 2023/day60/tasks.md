@@ -1,4 +1,4 @@
-# Day 58- Terraform🔥
+# Day 60 - Terraform🔥
 Hello Learners , you guys are doing every task by creating an ec2 instance (mostly). Today let’s automate this process . How to do it ? Well Terraform is the solution .
 ## What is Terraform?
    Terraform is an infrastructure as code (IaC) tool that allows you to create, manage, and update infrastructure
@@ -20,5 +20,6 @@ Refer this [link](https://phoenixnap.com/kb/how-to-install-terraform) for instal
 You can prepare for tomorrow's task from [here](https://www.youtube.com/live/965CaSveIEI?feature=share)🚀🚀
 
 We Hope this tasks will help you understand how to write a basic Terraform configuration file, how to authenticate with AWS, and how to create an EC2 instance.
+
 Don’t forget to post in on LinkedIn.
 Happy Learning:)
