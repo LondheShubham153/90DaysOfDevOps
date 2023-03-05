@@ -8,7 +8,6 @@ more quickly and effectively.
 
 
 2.What is Automation, Scaling, Infrastructure ?
-
 Automation: Automation refers to the process of using tools and software to automate manual and repetitive tasks.
            This can include anything from running automated tests on software to automatically deploying code to servers.
            Eg. We use python automation for excel sheet.
