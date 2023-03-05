@@ -24,15 +24,6 @@ find purpose of  basic Terraform commands which you'll use often
 
 
 
-## Task 2: 
-  Create a folder and use `terraform init` command.
-- Create 2 EC2 instances(t2.micro) with Ubuntu AMI with a single terraform script . 
-   Rest keep in default as of now.
-- Use `terraform destroy` command as you learned above and stop the EC2 instance.
-
-
-
-
 Also along with these tasks its important to know about Terraform in general-
 Who are Terraform's main competitors?
 The main competitors are:
