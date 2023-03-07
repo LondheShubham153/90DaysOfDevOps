@@ -7,7 +7,3 @@ pwd
 ls -a
 3. Create a nested directory A/B/C/D/E
 mkdir a b c d e
-
-Note: [Check this file for reference](basic_linux_commands.md)
-
-Check the basic_linux_commands.md file on the same directory day2
