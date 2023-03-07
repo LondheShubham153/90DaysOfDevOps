@@ -16,7 +16,7 @@
 
 ![script](https://user-images.githubusercontent.com/76991475/223536344-d20c7639-ea85-4b39-8c25-dc3e3676e597.png)
 
-- Writing file with extension of .sh and running on terminal.
+- Writing file with extension of `.sh` and running on terminal.
 
 ![script sh](https://user-images.githubusercontent.com/76991475/223536377-96044e78-1356-4954-a21c-dace547dcf98.png)
 
