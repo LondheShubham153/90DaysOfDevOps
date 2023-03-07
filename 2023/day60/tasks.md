@@ -19,7 +19,7 @@ Refer this [link](https://phoenixnap.com/kb/how-to-install-terraform) for instal
 
 You can prepare for tomorrow's task from [here](https://www.youtube.com/live/965CaSveIEI?feature=share)🚀🚀
 
-We Hope this tasks will help you understand how to write a basic Terraform configuration file, how to authenticate with AWS, and how to create an EC2 instance.
+We Hope this tasks will help you understand how to write a basic Terraform configuration file and basic commands on Terraform.
 
 Don’t forget to post in on LinkedIn.
 Happy Learning:)
