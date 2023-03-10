@@ -1,0 +1,41 @@
+- for viewing content of the file ?
+cmd :-  cat <fileName>
+
+- for changing access permission of the file ?
+cmd :- chmod <numbers for owner><numbers for group><numbers for other users> <fileName>
+example : chmod 741 names.txt
+
+- for checking your comands history ?
+cmd :- history
+you can see all the commands which you have operate on your terminal.
+
+- for removing directory/folder 
+cmd :- rmdir <directoryName> OR rm -rf <directoryName>
+
+- for removing file 
+cmd :- rm <fileName> OR rm -f <fileName> 
+f stands for forcefully
+
+- for creating fruits.txt
+cmd :- touch fruits.txt
+- for viewing content of the fruits.txt file 
+cmd :-cat fruits.txt
+
+- for adding content in any file. We use editors like vim and nano usually we use vim just because it has multiple features.
+cmd :- vim <fileName>
+Note:- we can never add content in directory/folder. we always put content in file.
+
+- for seeing only top 3 content of an any file.
+cmd :- head <fileName>
+
+- for seeing only bottom 3 content of an any file.
+cmd :- tail <fileName>
+
+- for seeing difference between two files.
+cmd :- diff <file1> <file2>
+
+- for seeing difference between more than two files.
+cmd :- diffuse <file1> <file2> <file3> <file4> <file5>
+
+
+
