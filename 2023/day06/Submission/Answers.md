@@ -14,7 +14,7 @@
 - **file**  -> The file we are trying to change.
 ---
 **`file type`**:
-- The very first charac*ter indicate the type of the file.
+- The very first character indicate the type of the file.
 - some of common terms are as follow.
 - **`-`** - regular file.
 - **`d`** - directory.
