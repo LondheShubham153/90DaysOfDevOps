@@ -63,4 +63,6 @@ Commit this with message `“Feature2 completed”`
 
 ![Screenshot from 2023-03-19 16-22-26](https://user-images.githubusercontent.com/76991475/226170852-d64f5ccb-f2f5-42df-90fd-104a29b54eb0.png)
 
+**Commit**: Optimized the feature.
+
 ---
