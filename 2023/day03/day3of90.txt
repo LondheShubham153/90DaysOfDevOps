@@ -1,0 +1,50 @@
+Day 3 Task: Basic Linux Commands
+
+Task: What is the linux command to
+
+To view what's written in a file.
+ - cat filename
+To change the access permissions of files.
+ - chmod 
+To check which commands you have run till now.
+ - History
+To remove a directory/ Folder.
+ -  rm directoryname
+To create a fruits.txt file and to view the content.
+ -  touch fruits.txt
+ -  cat fruits.txt
+Add content in devops.txt (One in each line) - Apple, Mango, Banana, Cherry, Kiwi, Orange, Guava.
+ -  sudo vi devops.txt
+To Show only top three fruits from the file.
+ - head -n 3 fruits.txt
+To Show only bottom three fruits from the file.
+ - tail -n 3 fruits.txt
+To create another file Colors.txt and to view the content.
+ - touch colors.txt
+ -cat colors.txt
+Add content in Colors.txt (One in each line) - Red, Pink, White, Black, Blue, Orange, Purple, Grey.
+ - sudo vi  colors.txt
+To find the difference between fruits.txt and Colors.txt file.
+ - diff fruits.txt colors.txt
+
+
+Something More:)
+
+Login methods in Linux :-
+1) Local text-mode console
+2) Local Graphical-mode Console
+3) Remote Text-Mode console
+4) Remote Graphical-Mode Console
+
+
+Remote Login :-
+ Linux remote access allows a user to access their Linux operating system from another computer. 
+SSH :-
+ Secure Socket Shell, is a protocol which allows you to connect securely to a remote computer or a server by using a interface.System and network administrators use this protocol the most
+SSH client :-
+ An SSH client is an application you install on the computer which you will use to connect to another computer or a server.
+SSH Server :-
+  SSH daemon that is constantly listening to a specific TCP/IP port for possible client connection requests.
+
+Refer this to know the commands used for login :-
+- https://phoenixnap.com/kb/ssh-to-connect-to-remote-server-linux-or-windows

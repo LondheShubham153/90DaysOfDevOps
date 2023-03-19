@@ -26,6 +26,10 @@ Python dictionary is like hash tables in any other language with the time comple
 
 ## Tasks
 1. Give the Difference between List, Tuple and set. Do Handson and put screenshots as per your understanding.
+
+       A list is a collection of items in a specific order.It is mutable.
+       A tuple is similar to a list, but immutable.
+       A set is a collection of unique items.
 2. Create below Dictionary and use Dictionary methods to print your favourite tool just by using the keys of the Dictionary.
 ```
 fav_tools = 
@@ -39,12 +43,21 @@ fav_tools =
   7:"Chef"
 }
 ```
+         
+      print(fav_tools[2]) 
+      Git
+      print(fav_tools[6])
+      Ansible
+
 3. Create a List of cloud service providers
 eg.
 ```
 cloud_providers = ["AWS","GCP","Azure"]
 ```
 Write a program to add `Digital Ocean` to the list of cloud_providers and sort the list in alphabetical order.
+
+           cloud_providers.append("Digital Ocean")
+           clouud_providers.sort()
 
 [Hint: Use keys to built in functions for Lists]
 
