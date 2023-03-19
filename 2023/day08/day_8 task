@@ -1,0 +1,13 @@
+1) Create a new repository on GitHub and clone it to your local machine
+      create new repo name DevOps_Projects
+      and clone in local using 
+      git clone https://github.com/Mohan736/DevOps_Projects.git
+    
+2) Make some changes to a file in the repository and commit them to the repository using Git 
+      use 
+      git add . 
+      git commit -m "changes"
+      
+       
+3) Push the changes back to the repository on GitHub
+      git push origin main

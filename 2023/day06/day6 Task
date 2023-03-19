@@ -1,0 +1,78 @@
+
+1) Create a simple file and do `ls -ltr` to see the details of the files [refer to Notes](https://github.com/LondheShubham153/90DaysOfDevOps/tree/master/2023/day6/notes)
+ 
+ Each of the three permissions are assigned to three defined categories of users. The categories are:
+-	   owner   —   The owner of the file or  application.
+-	"chown" is used to change the ownership permission of a file or directory.
+-	   group   —   The group that owns the file or application.
+-	"chgrp" is used to change the gropu permission of a file or directory.
+-	   others  —   All users with access to the system. (outised the users are in a group)
+-	"chmod" is used to change the other users permissions of a file or directory.
+
+    As a task, change the user permissions of the file and note the changes after `ls -ltr`
+
+File Ownership Commands
+
+chown: To change user ownership.
+
+chgrp: To change group ownership.
+ 
+2) Write an article about File Permissions based on your understanding from the notes.
+
+        File permissions in Ubuntu are a way to control access to files and directories on a Unix-based system. These permissions specify who can read, write, or execute a file, and also determine if a user can change the permissions of a file or not. There are three basic permissions in Ubuntu: read (r), write (w), and execute (x).
+
+There are three types of users that can have file permissions in Ubuntu: owner, group, and others.
+
+The owner is the person who created the file, and has the ability to change the permissions for the file.
+The group is a collection of users who share the same permissions for a file.
+The others are all other users who do not belong to the owner or the group.
+
+The permissions for a file are represented by a set of nine characters: rwxrwxrwx. The first three characters represent the owner's permissions, the next three represent the group's permissions, and the final three characters represent the permissions for others. Each character represents either a permission or a lack of permission:
+
+r represents the read permission, allowing the user to view the contents of the file.
+w represents the write permission, allowing the user to modify the contents of the file.
+x represents the execute permission, allowing the user to run the file as a program or script.
+represents a lack of a specific permission.
+For example, if a file has the permissions -rwxrwxrwx, the owner has all permissions (read, write, and execute), the group and others have all permissions as well.
+
+The chmod (change mode) command is used to modify file permissions in Ubuntu. There are two ways to use this command: the symbolic mode and the octal mode. The symbolic mode uses characters to represent permissions, while the octal mode uses numbers.
+
+To change permissions using the symbolic mode, use the following syntax:
+
+chmod [options] [mode] [file/directory]
+
+To change permissions using the octal mode, use the following syntax:
+
+chmod [options] [octal-mode] [file/directory]
+
+For example, to give the owner of a file read and write permissions, and give group and others only read permissions, you would use the following command in symbolic mode:
+
+chmod u+rw,g+r,o+r file
+
+In octal mode, this would be represented as:
+
+chmod 644 file
+
+It is important to understand and use file permissions in Ubuntu to ensure the security and privacy of your files. By setting the correct permissions, you can prevent unauthorized access to sensitive information.
+
+
+
+
+
+3) Read about ACL and try out the commands `getfacl` and `setfacl`
+Access Control Lists (ACLs) are an advanced feature in Linux systems, including Ubuntu, that provide a more flexible way of controlling file and directory permissions. Unlike the traditional file permissions system, ACLs allow you to specify permissions for individual users and groups on a per-file or per-directory basis.
+
+The getfacl command is used to display the ACL information for a file or directory. The syntax is as follows:
+
+getfacl [options] [file/directory]
+For example, to view the ACL information for a file named example.txt, you would run the following command:
+
+getfacl file.txt
+
+The setfacl command is used to set or modify ACL information for a file or directory. The syntax is as follows:
+setfacl [options] [acl-entries] [file/directory]
+
+
+
+  
+
