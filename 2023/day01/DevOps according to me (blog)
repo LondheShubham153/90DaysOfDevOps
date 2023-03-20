@@ -1,0 +1,79 @@
+What is DevOps?
+DevOps (a blend of “development” and “operations”) is the combination of practices and tools designed to increase an organization's ability to deliver applications and services faster than traditional software development processes.
+
+It is the combination of cultural philosophies, practices, and tools that increases an organization's ability to deliver applications and services at high velocity: evolving and improving products at a faster pace than organizations using traditional software development and infrastructure management processes. This speed enables organizations to better serve their customers and compete more effectively in the market.
+
+
+
+In another word, DevOps can be understood as a collaborative effort that helps to bring about a collaboration between IT operations and Development in a way that is repeatable and automated. It helps to boost the speed of the organization to deliver services and software applications.
+
+What are Automation, Scaling and Infrastructure?
+
+Automation in Devops :
+
+DevOps automation is the practice or discipline of using specialized software tools and methodologies to automate repetitive and manual tasks throughout the software development lifecycle.
+
+For DevOps teams, automation is a central principle that reinforces all other DevOps principles. It “takes the robot out of the human” and promotes better collaboration and communication by allowing team members to automate repetitive and routine tasks so that they can spend more time working with each other and less time doing tedious manual work.
+
+Benefits of Automation -
+
+Consistency
+
+Speed
+
+Scalability
+
+Scaling :
+
+Scalability refers to the ability of the business to set up its systems to grow during times of high demand and scale back when demand decreases. The optimum environment for achieving the appropriate level of scalability is DevOps, thanks to specific techniques. People can interact, concentrate on their work, have more creative alternatives, and swiftly deploy software through these techniques.
+
+Scaling in DevOps is characterized as an automation-driven environment where developers or enterprises can adopt DevOps culture and choose the right technologies to scale their business growth. Undoubtedly, enterprises will use a variety of approaches to establish a DevOps culture, but as businesses start to scale, new challenges may arise that make DevOps adoption challenging.
+
+5 steps for scaling DevOps -
+
+1. Start with small teams ;
+
+2. Encourage skill development ;
+
+3. Prioritize culture ;
+
+4. Incorporate feedback ;
+
+5. Automate.
+
+Infrastructure :
+
+DevOps infrastructure or Infrastructure Automation under DevOps refers to a concept that revolves around the idea of managing infrastructure with the help of code. This is done with the help of certain tools or programs which can help to carry out the tasks automatically! Some of the leading IAC tools are listed below.
+
+Ansible
+
+Terraform
+
+SaltStack
+
+CloudFormation
+
+Azure Resource Manager
+
+SpectralOps
+
+There might be several factors such as irregular allocation of resources, lack of metrics, fragmented procedures, and misalignment or improper allocation of responsibilities, that might hinder an organization from adopting and scaling the DevOps practices at full length. Of all the roadblocks, improper infrastructure management might be the most bothersome. When infrastructure is properly managed, it makes sure that the resources are configured properly, secured, backed up regularly, and monitored from time to time.
+
+DevOps Tools -
+refre the link below to find some DevOps tools.
+https://cdn.hashnode.com/res/hashnode/image/upload/v1679294724633/038aa5a7-c571-48d4-9d8f-c158a776cf81.png?auto=compress,format&format=webp
+
+
+Why DevOps is Important in the Digital Era?
+Why DevOps is required, is because it is a set of development practices aimed at improving software delivery speed by reducing the time from idea to production. It builds on the concept of Agile methodologies like extreme programming and Lean IT, but applies it to the entire software delivery process, from planning to deployment. 
+
+The main goal is to bring together all the stakeholders involved in a project, developers, testers, operations staff, and business users, so they can work together as a team. DevOps is especially important in today’s digital era because there are many different types of software being developed and deployed in increasingly complex environments. This means that DevOps needs to be part of every project from the start.
+
+One key benefit of DevOps is that it allows teams to work more closely with business users, who can provide valuable feedback early on in the process. This helps ensure that products meet user needs, rather than simply meeting technical requirements. Another benefit is that it enables developers and operations staff to work more closely together. This leads to better communication across the team and improved efficiency throughout the development cycle.
+
+
+
+Thanks for reading! Hope you find this article helpful. https://sumitramchandra.hashnode.dev/devops-according-to-me
+
+
+https://sumitramchandra.hashnode.dev/devops-according-to-me
