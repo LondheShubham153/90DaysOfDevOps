@@ -1,0 +1,71 @@
+This is my submission of Day 4
+
+**Tasks**
+
+ - Explain in your own words and examples, what is Shell Scripting for DevOps.
+
+    Shells are interactive, they accept the command as an input from users and execute them. 
+    Shell can also take commands from a file; we can write these desired commands in a file 
+    and can easily execute them in shell to avoid repetitive work. Such files are called Shell Scripts 
+    or also called Shell Programs.
+    A shell script is a text file that contains a sequence of commands for a UNIX-based operating system. 
+    It is called a shell script because it combines a sequence of commands, that would otherwise have to 
+    be typed into the keyboard one at a time, into a single script.
+
+
+ - What is `#!/bin/bash?` can we write `#!/bin/sh` as well?
+
+    It defines an absolute path /usr/bin/bash to the Bash shell. This is usually the default 
+    location of the Bash shell in almost all Unix-based operating systems. This shebang line is used 
+    to execute commands with the Bash interpreter.
+    Yes we can write '#!/bin/sh' as well, asically bash is sh, with more features and better syntax. 
+    Most commands work the same.
+
+
+ - Write a Shell Script which prints `I will complete #90DaysOofDevOps challenge`
+
+    1. create a file with .sh extension. (like new.sh)
+    2. open new.sh file in VI editor (vi new.sh)
+    3. envoke the bash by writing '#!/bin/bash' command
+    4. use 'echo' command to print the message to the terminal
+ 
+ script:-
+   -#!/bin/bash
+   -echo "I will complete #90DaysOofDevOps challenge"
+
+ - Write a Shell Script to take user input, input from arguments and print the variables.
+
+ script:-
+    -#!/bin/bash
+    #get user's name as input
+    -echo "what is your name:"
+    -read name
+
+    #input from arguments
+    -position=$1
+
+    #print the variable
+    -echo "name:$name"
+    -echo "position:$position"
+
+
+ - Write an Example of If else in Shell Scripting by comparing 2 numbers
+
+    script:-
+    #!/bin/bash
+
+    #get the two number as arguments for comparison
+    num1=$1
+    num2=$2
+
+    #compare the numbers using if else
+    if
+    if [ $num1 -gt $num2 ]
+    then
+    echo "$num1 is greater than $num2"
+    else
+    echo "$num2 is greater than $num1"
+    fi
+
+thanks for reading
+happy learning
