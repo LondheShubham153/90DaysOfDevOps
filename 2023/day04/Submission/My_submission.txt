@@ -54,18 +54,16 @@ This is my submission of Day 4
     script:-
     #!/bin/bash
 
-    #get the two number as arguments for comparison
-    num1=$1
-    num2=$2
+num1=$1
+num2=$2
 
-    #compare the numbers using if else
-    if
-    if [ $num1 -gt $num2 ]
-    then
-    echo "$num1 is greater than $num2"
-    else
-    echo "$num2 is greater than $num1"
-    fi
+if [ $num1 -gt $num2 ]
+then
+  echo "$num1 is greater than $num2"
+else
+  echo "$num2 is greater than $num1"
+fi
+
 
 thanks for reading
 happy learning
