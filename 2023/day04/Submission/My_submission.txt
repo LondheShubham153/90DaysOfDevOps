@@ -32,6 +32,8 @@ This is my submission of Day 4
  script:-
    -#!/bin/bash
    -echo "I will complete #90DaysOofDevOps challenge"
+   
+   {refer file new.sh}
 
  - Write a Shell Script to take user input, input from arguments and print the variables.
 
@@ -47,6 +49,8 @@ This is my submission of Day 4
     #print the variable
     -echo "name:$name"
     -echo "position:$position"
+    
+    {refer file input.sh}
 
 
  - Write an Example of If else in Shell Scripting by comparing 2 numbers
@@ -63,6 +67,8 @@ then
 else
   echo "$num2 is greater than $num1"
 fi
+
+{refer file num.sh}
 
 
 thanks for reading
