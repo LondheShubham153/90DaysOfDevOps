@@ -15,11 +15,23 @@
  **Tasks**
 
  - Explain in your own words and examples, what is Shell Scripting for DevOps.
+ Shell scripting is set of instructions that you want to give to your machine at specific time.
+ lets say you want to write a shell script which will install create simple react application and host it on localserver.
  - What is `#!/bin/bash?` can we write `#!/bin/sh` as well?
+ so bash and sh are different shells bascially 'bash' is 'sh', with more features and better syntax. most commands work the same, but they are different. 
  - Write a Shell Script which prints `I will complete #90DaysOofDevOps challenge`
+ echo "I will complete #90DaysOfDevOps challenge"
  - Write a Shell Script to take user input, input from arguments and print the variables.
+echo $1
+echo $2
+ ./nameScript.sh 6 9
  - Write an Example of If else in Shell Scripting by comparing 2 numbers
-
+a=10
+b=20
+if[$a<$b]
+then
+    echo"a is greater than b"
+fi
  Was it difficult?
  
  - Post about it on LinkedIn and Let me know :)
