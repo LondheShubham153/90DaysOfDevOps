@@ -18,10 +18,30 @@
 -	"chmod" is used to change the other users permissions of a file or directory.
 
     As a task, change the user permissions of the file and note the changes after `ls -ltr`
+created a file
+cat > demo.txt
+this is first line
+this is second line
 
+ls -ltr
+chown o=rw,g=r,o=r demo.txt
+ls -ltr demo.txt
 2) Write an article about File Permissions based on your understanding from the notes.
 
+file permissions are very essential part in any operating system
+I beleive what ever the requirement is there that much permission you should give to that user,owner or group its like best practice
+my prefered way to set up permission is 
+chown u=rwx,g=rw,o=r demo.txt
+there are other ways like giving numbers and setting up permissions.
 3) Read about ACL and try out the commands `getfacl` and `setfacl`
+
+getfacl command we can use to check default access for files using this command
+getfacl -a demo.txt
+-but i got to know that we cant see other details of the file like when it was created and size of file
+with setfacl command you can set the permissions 
+my favourite is to give permission to new user
+
+setfacl -m u:akshay:rw demo.txt
 
 In case of any doubts, post it on [Discord Community](https://discord.gg/hs3Pmc5F)
 
