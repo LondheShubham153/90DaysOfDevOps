@@ -9,6 +9,8 @@ All 90 directories within seconds using a simple command.
 ### Tasks 
 1) You have to do the same using Shell Script i.e using either Loops or command with start day and end day variables using arguments -
 
+first I will create a script file named 
+
  So Write a bash script createDirectories.sh that when the script is executed with three given arguments (one is directory name and second is start number of directories and third is the end number of directories ) it creates specified number of directories with a dynamic directory name.
 
 Example 1: When the script is executed as
@@ -25,13 +27,26 @@ then it creates 50 directories as ```Movie20 Movie21 Movie23 ...Movie50```
 Notes:
 You may need to use loops or commands (or both), based on your preference . [Check out this reference: https://www.geeksforgeeks.org/bash-scripting-for-loop/](https://www.geeksforgeeks.org/bash-scripting-for-loop/)
 
+fn=$1
+ul=$2
+ll=$3
+ 
+for (( i=$2; i<=$3; i++ ))
+do
+        mkdir $1$i
+done
 
  2) Create a Script to backup all your work done till now.
+
+ here is my backup script for cron tab
+
+* * * * * history > /home/oem/backup.txt
+
 
  Backups are an important part of DevOps Engineers day to Day activities
  The video in References will help you to understand How a DevOps Engineer takes backups (it can feel a bit difficult but keep trying, Nothing is impossible.)
  Watch [this video](https://youtu.be/aolKiws4Joc) 
- 
+ /home/oem/demo
  In case of Doubts, post it in [Discord Channel for #90DaysOfDevOps](https://discord.gg/hs3Pmc5F)
 
 
@@ -53,3 +68,7 @@ A user is an entity, in a Linux operating system, that can manipulate files and 
 
  Post your daily work on Linkedin and le [me](https://www.linkedin.com/in/shubhamlondhe1996/) know , writing an article is the best :)
 
+sudo su
+useradd akshay
+useradd akshay2
+cat /etc/passwd > /home/oem/demo.txt | tail -n2 demo.txt
