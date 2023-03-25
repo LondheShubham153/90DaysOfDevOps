@@ -19,6 +19,20 @@
 ## Tasks
 
  1) You have to install docker and jenkins in your system from your terminal using package managers
+install docker
+$ sudo apt-get update
+$ sudo apt install docker.io
+$ sudo snap install docker
+$ docker --version
+
+insatll jenkins
+$ curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo tee \
+  /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+$echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
+  https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+  /etc/apt/sources.list.d/jenkins.list > /dev/null
+$sudo apt-get update
+$sudo apt-get install jenkins
 
  2) Write a small blog or article to install these tools using package managers on Ubuntu and CentOS
 
@@ -31,12 +45,16 @@
 ## Tasks
 
  1) check the status of docker service in your system (make sure you completed above tasks, else docker won't be installed)
-
+sudo systemctl status docker
  2) stop the service jenkins and post before and after screenshots
-
+sudo systemctl stop jenkins
  3) read about the commands systemctl vs service
 
  eg. `systemctl status docker` vs `service docker status`
+
+ so systemctl is great and it has more features whereas service command was used in legacy systems and from my point of view systemctl is great as it holds more features compare to service
+
+ basically this two commands are useful for start,stop,status or pause of application.
 
 For Reference, read [this](https://www.howtogeek.com/devops/how-to-check-if-the-docker-daemon-or-a-container-is-running/#:~:text=Checking%20With%20Systemctl&text=Check%20what%27s%20displayed%20under%20%E2%80%9CActive,running%20sudo%20systemctl%20start%20docker%20.)
 
