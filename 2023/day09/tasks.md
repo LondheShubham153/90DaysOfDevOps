@@ -11,12 +11,36 @@
 task-1: 
 - Set your user name and email address, which will be associated with your commits.
 
+git config --global user.name "akshay ramnani linux"
+git config --global user.email "akshay@90daysofdevops.com"
+
+
 task-2: 
 - Create a repository named "Devops" on GitHub
+
+created from GUI of github
+
 - Connect your local repository to the repository on GitHub.
+
+git init
+git remote add origin https://github.com/ramnaniakshay/DevOps.git
+
 - Create a new file in Devops/Git/Day-02.txt & add some content to it
+mkdir Git
+cd Git
+touch > Day-02.txt
+Hi Akshay here
+This is second line
+This is third line
+git status
+
 - Push your local commits to the repository on GitHub
 
+git status
+git add .
+git commit -m "working on Day09 task"
+git remote add https://github.com/ramnaniakshay/DevOps.git
+git push -u origin master
 reff :- https://youtu.be/AT1uxOLsCdk
 
 
