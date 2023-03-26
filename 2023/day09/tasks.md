@@ -28,7 +28,7 @@ git remote add origin https://github.com/ramnaniakshay/DevOps.git
 - Create a new file in Devops/Git/Day-02.txt & add some content to it
 mkdir Git
 cd Git
-touch > Day-02.txt
+cat > Day-02.txt
 Hi Akshay here
 This is second line
 This is third line

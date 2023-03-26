@@ -45,7 +45,47 @@
  - Commit with message “ Added feature4 in development branch
 
  Restore the file to a previous version where the content should be “This is the bug fix in development branch”
+
+
  [Hint use git revert or reset according to your knowledge]
+Solution:
+cat > version01.txt
+This is first feature of our application
+
+git add .
+git commit -m "version 1 of my application"
+git push -u origin master
+
+git branch
+git checkout -b dev
+git checkout dev
+
+written a line
+
+git add .
+git commit -m "Added feature2 in development branch"
+
+written a line
+
+git add .
+git commit -m "Added feature3 in development branch"
+
+written a line
+
+git add .
+git commit -m "Added feature4 in development branch"
+
+git push -u origin dev
+
+git revert c4913ee82f1e4acdf3f458a2865c4ae667322f34
+
+nano version1.txt (modified the changes)
+git add .
+git revert --continue
+git status
+git push -u origin dev
+
+
 
 ## Task 2:
 
