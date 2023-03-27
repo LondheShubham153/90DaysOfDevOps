@@ -1,0 +1,17 @@
+node {
+    stage('Checkout') {
+        git url: 'https://github.com/example/repo.git'
+    }
+
+    stage('Build') {
+        sh 'mvn clean install'
+    }
+
+    stage('Test') {
+        sh 'mvn test'
+    }
+
+    stage('Deploy') {
+        sh 'mvn deploy'
+    }
+}
