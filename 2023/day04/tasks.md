@@ -1,10 +1,10 @@
 # Day 4 Task: Basic Linux Shell Scripting for DevOps Engineers.
 
- ## What is Kernel
+ ## What is Kernel (Done)
 
  The kernel is a computer program that is the core of a computer’s operating system, with complete control over everything in the system.
  
- ## What is Shell
+ ## What is Shell (Done)
 
  A shell is special user program which provide an interface to user to use operating system services. Shell accept human readable commands from user and convert them into something which kernel can understand. It is a command language interpreter that execute commands read from input devices such as keyboards or from files. The shell gets started when the user logs in or start the terminal.
  
