@@ -36,14 +36,32 @@ Overall, the decentralized nature of a DVCS allows for greater collaboration, fl
 
 - Install Git on your computer (if it is not already installed). You can download it from the official website at https://git-scm.com/downloads
 
-![](..%5C..%5C..%5C..%5C..%5C..%5CDownloads%5CWhatsApp%20Image%202023-03-27%20at%2008.03.21.jpeg)
+![image](https://user-images.githubusercontent.com/119837985/227835803-d9cfc354-a614-427d-9ebc-36b6307eb9d1.png)
 
-- Create a free account on GitHub (if you don't already have one). You can sign up at https://github.com/
+- Create a free account on GitHub (if you don't already have one). You can sign up at https://github.com/ 
 
 - Learn the basics of Git by reading through the [video](https://youtu.be/AT1uxOLsCdk) This will give you an understanding of what Git is, how it works, and how to use it to track changes to files.
 
 ## Exercises:
 
 1) Create a new repository on GitHub and clone it to your local machine 
-2) Make some changes to a file in the repository and commit them to the repository using Git
-3) Push the changes back to the repository on GitHub
+![image](https://user-images.githubusercontent.com/119837985/227835946-d6d68235-8be8-40c0-9f05-68f7b3683cdf.png)
+
+Add the name and description of your repository, make it public or private make changes as you want and create the repository.
+![image](https://user-images.githubusercontent.com/119837985/227835964-20df209f-fb82-4ad8-b7bb-2a5395640983.png)
+Copy the URL of your repository which is needed to clone it into your local machine.
+![image](https://user-images.githubusercontent.com/119837985/227835997-8861e0a9-f2a3-47ed-8a8f-d568a2493ed9.png)
+Clone your repository into your local system. <git clone URL>
+![image](https://user-images.githubusercontent.com/119837985/227836022-498410c0-f2b9-4a5b-8d88-633892ed3f2f.png)
+
+3) Make some changes to a file in the repository and commit them to the repository using Git
+create a sample file in your repository and make some changes to it.
+Add the sample file to stagged with <git add . > or <git add -A> 
+![image](https://user-images.githubusercontent.com/119837985/227836173-e0222ace-6509-4bed-9fa1-245cff0a83bf.png)
+
+Then Commit the changes by <git commit -m "add your msg"> 
+![image](https://user-images.githubusercontent.com/119837985/227836261-e27bb595-fca6-4e9a-a7ce-dc4a93c19172.png)
+
+  
+5) Push the changes back to the repository on GitHub
+![image](https://user-images.githubusercontent.com/119837985/227836291-21b15dff-f717-4214-8706-1772a5701592.png)
