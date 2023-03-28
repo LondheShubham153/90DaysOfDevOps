@@ -1,13 +1,13 @@
 ## Deep Dive in Git & GitHub.
 
 1) What is Git and why is it important?
-# ANS:
+ANS:
 Git is a popular version control system that helps developers keep track of changes made to their code over time. It allows multiple people to work on the same codebase without overwriting each other's work or losing previous versions of the code.
 
 Git is important because it helps developers collaborate more effectively and work more efficiently. With Git, developers can easily review changes made to the code, revert to previous versions if necessary, and track the progress of a project over time. It also makes it easier to share code and collaborate with other developers around the world. Overall, Git has become an essential tool for software development and is widely used in the industry.
 
 2) What is difference Between Main Branch and Master Branch?
-# ANS;
+ANS:
 In simple terms, the "main" branch and the "master" branch in Git are just two different names for the default branch in a repository. The purpose and functionality of both branches are exactly the same - they both represent the primary development branch in a repository and store the latest version of the code.
 
 The only difference is the naming convention, where "main" is a newer and more inclusive term that some developers and organizations have started using instead of "master". This change in terminology is intended to remove any potentially offensive or exclusionary language from software development practices.
@@ -15,7 +15,7 @@ The only difference is the naming convention, where "main" is a newer and more i
 So, technically, there is no practical difference between the "main" branch and the "master" branch in Git, and both can be used interchangeably.
 
 3) Can you explain the difference between Git and GitHub?
-# ANS:
+ANS:
 Git is a tool for version control, while GitHub is a platform for hosting Git repositories and collaborating with other developers.
 Git is a version control system that helps developers manage and track changes to their code over time. It allows multiple people to work on the same codebase without overwriting each other's work or losing previous versions of the code. Git is a command-line tool that is installed on a developer's computer.
 
@@ -23,7 +23,7 @@ GitHub, on the other hand, is a web-based platform that provides hosting for Git
 Git and GitHub are two different things that are often used together in software development.
 
 4) How do you create a new repository on GitHub?
-# ANS: refer the Submission of day08 task.
+ANS: refer the Submission of day08 task.
 here's a step-by-step guide on how to create a new repository on GitHub:
  
 1. Log in to your GitHub account.
@@ -37,7 +37,7 @@ here's a step-by-step guide on how to create a new repository on GitHub:
 Your new repository should now be created on GitHub and you can start adding files and making changes to it. You can also clone the repository to your local machine using Git and start working on it locally.
 
 5) What is difference between local & remote repository? How to connect local to remote
-# ANS:
+ANS:
 In Git, a local repository is the copy of a Git repository that is stored on your local machine, while a remote repository is the copy of the same repository that is stored on a remote server, such as GitHub, GitLab, or Bitbucket.
 The main difference between a local and a remote repository is that the local repository is where you make changes to your code, while the remote repository is where you store and share those changes with others.
 
@@ -55,17 +55,17 @@ task-1:
 $ git config --global user.name "userName"
 $ git config --global user.email "usermail@mail.com"
 
-image.png
+![image](https://user-images.githubusercontent.com/119837985/228170957-b6462793-0fb9-4f11-9c0a-bab776f3f557.png)
 
 task-2: 
 - Create a repository named "Devops" on GitHub
-image.png
+![image](https://user-images.githubusercontent.com/119837985/228171000-91e159d2-51ca-4a2b-988b-66f61f0ff64d.png)
 
 - Connect your local repository to the repository on GitHub.
-image.png
+![image](https://user-images.githubusercontent.com/119837985/228171061-b6a66ffd-7447-45d2-ba06-b7001e42254d.png)
 
 - Create a new file in Devops/Git/Day-02.txt & add some content to it
-image.png
+![image](https://user-images.githubusercontent.com/119837985/228171102-65074fa0-14af-4a20-b90b-dcc10e2028c8.png)
 
 - Push your local commits to the repository on GitHub
 
@@ -77,11 +77,13 @@ image.png
 
 4. git commit -m "msg" 
 
-image.png
+![image](https://user-images.githubusercontent.com/119837985/228171293-801a5724-f9bc-467c-8e35-f3a95190bc00.png)
 
 5. git push origin <branch>  to push the changes to your GitHub repository.
 
-image.png
+![image](https://user-images.githubusercontent.com/119837985/228171340-653b1893-bda8-4738-abf7-417cd32eaa13.png)
 
 See the changes:
-image.png
+![image](https://user-images.githubusercontent.com/119837985/228171385-605ae7a0-e9d3-4c33-9004-b2cccae9044f.png)
+ 
+ Thanks for Reading 
