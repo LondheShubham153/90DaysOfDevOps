@@ -24,9 +24,16 @@ When we run a container, it has its own storage space that is only accessible by
 
 ## Task-2
 - Learn how to use Docker Volumes and Named Volumes to share files and directories between multiple containers.
+
 - Create two or more containers that read and write data to the same volume using the `docker run --mount` command.
+Ans => `docker run --mount source=VOLUME_NAME,target=HOST_DIRECTORY image_name`
+
 - Verify that the data is the same in all containers by using the docker exec command to run commands inside each container.
+Ans => `docker container exec -it mysite bash`
+
 - Use the docker volume ls command to list all volumes and docker volume rm command to remove the volume when you're done.
+Ans =>  `docker volume ls`
+        `docker volume rm my-vol`
 
 ## You can use this task as *Project* to add in your resume.
 

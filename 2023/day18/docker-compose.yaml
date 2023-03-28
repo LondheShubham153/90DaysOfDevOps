@@ -1,12 +1,51 @@
-version : "3.3"
+version : "3"
 services:
-  web:
-    image: nginx:latest
+  db:
+    image: mysql:5.7.20
+    container_name: mysql-db
+    # restart: always
+    volumes:
+      - db_data:/var/lib/mysql
+    env_file: .env
+
+    environment:
+      MYSQL_DATABASE: wordpress_db
+    networks:
+      - wordpress-network
+
+  load-balancer:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: nginx
     ports:
       - "80:80"
-  db:
-    image: mysql
-    ports:
-      - "3306:3306"
+    networks:
+      - wordpress-network
+
+  wordpress:
+    depends_on:
+      - db
+      - load-balancer
+    image: wordpress:4.8-apache
+    # container_name: wordpress 
+    deploy:
+      replicas: 2
+    # restart: always
     environment:
-      - "MYSQL_ROOT_PASSWORD=test@123"
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: wordpress_user
+      WORDPRESS_DB_PASSWORD: admin@123
+      WORDPRESS_DB_NAME: wordpress_db
+    volumes:
+      - wordpress_data:/var/www/html
+    networks:
+      - wordpress-network
+
+volumes:
+  db_data: {}
+  wordpress_data: {}
+
+networks:
+  wordpress-network:
+    driver: bridge

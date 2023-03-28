@@ -15,16 +15,19 @@ task:
 - Create a Dockerfile for a simple web application (e.g. a Node.js or Python app)
 
 - Build the image using the Dockerfile and run the container
+Ans => `docker build -t blog-website:1.0 -f ./files/Dockerfile`
+        `docker container run -itd -p 5000:5000 --name blog blog-website:1.0`
 
 - Verify that the application is working as expected by accessing it in a web browser
+Ans => `curl localhost:5000`
 
 - Push the image to a public or private repository (e.g. Docker Hub )
+Ans => `docker tag blog-website:1.0 dineshtamang14/myblog:1.0`
+        `docker push dineshtamang14/myblog:1.0`
 
 For Refference Project visit [here](https://youtu.be/Tevxhn6Odc8)
 
 If you want to dive further, Watch [bootcamp](https://youtube.com/playlist?list=PLlfy9GnSVerRqYJgVYO0UiExj5byjrW8u) 
 
 You can share the learning with everyone over linkedin and tag us along 😃
-
 Happy Learning:)
-
