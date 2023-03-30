@@ -6,6 +6,9 @@ In Kubernetes, Namespaces are used to create isolated environments for resources
 # Today's task:
 ## Task 1:
 - Create a Namespace for your Deployment
+```sh
+kubectl create namespace production
+```
 
 - Use the command `kubectl create namespace <namespace-name>` to create a Namespace
 
@@ -15,6 +18,9 @@ In Kubernetes, Namespaces are used to create isolated environments for resources
  `kubectl apply -f deployment.yml -n <namespace-name>`
 
 - Verify that the Namespace has been created by checking the status of the Namespaces in your cluster.
+```sh
+kubectl get ns
+```
 
 ## Task 2:
 - Read about Services, Load Balancing, and Networking in Kubernetes. Refer official documentation of kubernetes [Link](https://kubernetes.io/docs/concepts/services-networking/)
@@ -24,5 +30,3 @@ Need help with Namespaces? Check out this [video](https://youtu.be/K3jNo4z5Jx8) 
 Keep growing your Kubernetes knowledge💥🙌
 
 Happy Learning! :)
-
-
