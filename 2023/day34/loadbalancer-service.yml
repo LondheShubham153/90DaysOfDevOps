@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: production
+  name: todo-service
+  labels:
+    app: todo-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: todo
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8000
