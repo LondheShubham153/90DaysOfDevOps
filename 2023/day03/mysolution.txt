@@ -67,7 +67,7 @@ press esc the :wq!
 
 10. Add content in Colors.txt (One in each line) - Red, Pink, White, Black, Blue, Orange, Purple, Grey.
 
-see the answer of 9
+You can use vi Colors.txt then enter the colors one by one
 
 11. To find the difference between fruits.txt and Colors.txt file.
 
