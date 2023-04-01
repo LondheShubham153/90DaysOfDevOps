@@ -25,7 +25,8 @@ So, using ConfigMaps and Secrets, you can ensure each part of your spaceship (Ku
 - Apply the updated deployment using the command: `kubectl apply -f deployment.yml -n <namespace-name>`
 - Verify that the Secret has been created by checking the status of the Secrets in your Namespace.
 
-Need help with ConfigMaps and Secrets? Check out this [video](https://youtu.be/FAnQTgr04mU) for assistance.
+
+Need help with ConfigMaps and Secrets? Check out this [video](https://www.youtube.com/FAnQTgr04mU) for assistance.
 
   
 Keep learning and expanding your knowledge of Kubernetes💥🙌
