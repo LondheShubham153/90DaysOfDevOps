@@ -49,42 +49,29 @@
 
  [Hint use git revert or reset according to your knowledge]
 Solution:
-cat > version01.txt
-This is first feature of our application
 
-git add .
-git commit -m "version 1 of my application"
-git push -u origin master
-
-git branch
-git checkout -b dev
-git checkout dev
-
-written a line
-
-git add .
-git commit -m "Added feature2 in development branch"
-
-written a line
-
-git add .
-git commit -m "Added feature3 in development branch"
-
-written a line
-
-git add .
-git commit -m "Added feature4 in development branch"
-
-git push -u origin dev
-
-git revert c4913ee82f1e4acdf3f458a2865c4ae667322f34
-
-nano version1.txt (modified the changes)
-git add .
-git revert --continue
-git status
-git push -u origin dev
-
+    cat >version01.txt
+    cat version01.txt
+    git branch
+    git branch dev
+    git checkout dev
+    nano version01.txt
+    git add .
+    cd ..
+    git status
+    git commit -m "Added feature2 in development branch"
+    nano git/version01.txt
+    cat git/version01.txt
+    git add .
+    git commit -m "Added feature3 in development branch"
+    cat git/version01.txt
+    nano git/version01.txt
+    git add .
+    git commit -m "Added feature4 in development branch"
+    git log
+    git reset --hard 8068113d34b64356d9fdf95c607e3dc800928f71
+    history
+    nano git/version01.txt
 
 
 ## Task 2:
@@ -93,6 +80,16 @@ git push -u origin dev
  - add some changes to `dev` branch and merge that branch in `master`
  - as a practice try git rebase too, see what difference you get.
 
+  nano git/version01.txt
+  git checkout master
+  git branch
+  git checkout main
+  git add .
+  git commit -m "learning merging concept"
+  git checkout main
+  git merge dev
+  nano git/version01.txt
+  git push -u origin main
 
 ## Note: 
 We should learn and follow the [best practices](https://www.flagship.io/git-branching-strategies/) , industry follows for branching.
