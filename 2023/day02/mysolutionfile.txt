@@ -1,0 +1,37 @@
+$ cat tasks.md
+Day 2 Task: Basics linux command
+
+Task: What is the linux command to
+1. Check your present working directory.
+2. List all the files or directories including hidden files.
+3. Create a nested directory A/B/C/D/E
+
+Note: [Check this file for reference](basic_linux_commands.md)
+
+Check the basic_linux_commands.md file on the same directory day2
+
+$ ls
+basic_linux_commands.md  solution.md  tasks.md
+
+#Command to check the present working directory
+$ pwd
+/c/Users/LENOVO/Desktop/work/90DaysOfDevOps/2023/day02
+
+#Command to list all the files including the hidden files
+$ ls -la
+total 25
+drwxr-xr-x 1 LENOVO 197121    0 Apr  1 20:39 ./
+drwxr-xr-x 1 LENOVO 197121    0 Apr  1 20:39 ../
+-rw-r--r-- 1 LENOVO 197121 1453 Apr  1 20:39 basic_linux_commands.md
+-rw-r--r-- 1 LENOVO 197121 3657 Apr  1 20:39 solution.md
+-rw-r--r-- 1 LENOVO 197121  352 Apr  1 20:39 tasks.md
+
+#Command to make nested directories
+$ mkdir -p A/B/C/D/E
+ ~/Desktop/work/90DaysOfDevOps/2023/day02 (day1)
+$ ls
+A/  basic_linux_commands.md  solution.md  tasks.md
+
+
+
+
