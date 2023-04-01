@@ -23,6 +23,25 @@ git status command shows the files that have conflicts, git diff command shows t
 - Switch to a different branch, make some changes and commit them.
 - Use git stash pop to bring the changes back and apply them on top of the new commits.
 
+Solution:
+git branch qa
+git checkout qa
+touch Git/featureA.txt Git/featureB.txt Git/featureC.txt
+
+git add.
+git stash
+
+git checkout main
+touch Git/main.txt
+git add .
+git commit -m "created main .txt file"
+
+git checkout qa
+git stash list
+git stash pop stash@{0}
+git commit -m "added 3 features" 
+
+
 # Task-02
 - In version01.txt of development branch add below lines after “This is the bug fix in development branch” that you added in Day10 and reverted to this commit.
 - Line2>> After bug fixing, this is the new feature with minor alteration”
@@ -36,11 +55,38 @@ git status command shows the files that have conflicts, git diff command shows t
   Commit this with message “ Feature2 completed”
 - All these commits messages should be reflected in Production branch too which will come out from Master branch (Hint: try rebase).
 
+
+Solution:
+git checkout dev
+
+  nano Git/version01.txt
+  git add .
+
+  git commit -m "Added feature2.1 in development branch"
+  nano Git/version01.txt
+  git add .
+  git commit -m "Added feature2.2 in development branch"
+  nano Git/version01.txt
+  git add .
+  git commit -m "feature 2 completed"
+  git rebase
+  git rebase main
+
 # Task-03
 - In Production branch Cherry pick Commit “Added feature2.2 in development branch” and added below lines in it:
 - Line to be added after Line3>> This is the advancement of previous feature
 - Line4>>Added few more changes to make it more optimized.
 - Commit: Optimized the feature
+
+Solution:
+ git checkout dev
+ git log
+ git cherry-pick e30adbd77bdecad01d9c552704250301a9e172c7
+ nano Git/version01.txt
+ git add .
+ git commit -m "optmized feature"
+
+
 
 
 ## Reference [video](https://youtu.be/apGV9Kg7ics)
