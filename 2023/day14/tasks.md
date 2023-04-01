@@ -26,6 +26,15 @@ Python dictionary is like hash tables in any other language with the time comple
 
 ## Tasks
 1. Give the Difference between List, Tuple and set. Do Handson and put screenshots as per your understanding.
+
+main difference between list tupple and set is
+in list we add values in [] this manner and we can add multiple items with repeating and we can modify them as and when require
+
+in tupple we add values in () this manner and we can not modify items of it
+
+in set we add collections in ({}) this manner and its unorders type with no duplicate values in it
+
+
 2. Create below Dictionary and use Dictionary methods to print your favourite tool just by using the keys of the Dictionary.
 ```
 fav_tools = 
@@ -38,6 +47,8 @@ fav_tools =
   6:"Ansible", 
   7:"Chef"
 }
+
+print(fav_tools[5])
 ```
 3. Create a List of cloud service providers
 eg.
@@ -45,6 +56,10 @@ eg.
 cloud_providers = ["AWS","GCP","Azure"]
 ```
 Write a program to add `Digital Ocean` to the list of cloud_providers and sort the list in alphabetical order.
+
+cloud_providers.append("Digital Ocean")
+cloud_providers..sort()
+print(cloud_providers)
 
 [Hint: Use keys to built in functions for Lists]
 
