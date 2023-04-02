@@ -1,0 +1,61 @@
+# Day 4 Task: Basic Linux Shell Scripting for DevOps Engineers.
+
+ ## What is Kernel
+
+ The kernel is a computer program that is the core of a computer’s operating system, with complete control over everything in the system.
+
+ ## What is Shell
+
+ A shell is special user program which provide an interface to user to use operating system services. Shell accept human readable commands from user and convert them into something which kernel can understand. It is a command language interpreter that execute commands read from input devices such as keyboards or from files. The shell gets started when the user logs in or start the terminal.
+
+ ## What is Linux Shell Scripting?
+
+ A shell script is a computer program designed to be run by a linux shell, a command-line interpreter. The various dialects of shell scripts are considered to be scripting languages. Typical operations performed by shell scripts include file manipulation, program execution, and printing text.
+
+ **Tasks**
+
+ - Explain in your own words and examples, what is Shell Scripting for DevOps.
+ 
+ For shell scripting is all about knowing things/commands that will help in doing the manual work that is done in hours, in some minutes. Is we are doing something repetetively in our project, that same work can be done ny just running a shell script by a DevOps Engineer.
+
+ - What is `#!/bin/bash?` can we write `#!/bin/sh` as well?
+
+there are diffrent type of shell on which you can write your command and interact with linux kerner, bash is also one of them. 
+#!/bin/bash is nothing but us telling the kernel that you have to use bash shell to decode the line of commands that we have written in some file.
+
+ - Write a Shell Script which prints `I will complete #90DaysOofDevOps challenge`
+
+-----Script Starting----
+
+#!/bin/bash
+
+echo "I will complete #90DaysOfDevOps challange"
+
+----Script ends-------
+
+You can save this line of code in a file which will end with ".sh" and give it executable permission with command "chmod 700 myfile.sh" and run it with command "sh myfile.sh"
+
+ - Write a Shell Script to take user input, input from arguments and print the variables.
+
+-----Script Starting----
+
+#!/bin/bash
+
+$Varible=$1
+
+echo "Your entered variable is $Variable which is now stored in some memory block of this computer, you can refrence it with "$Variable""
+
+----Script ends-------
+
+
+
+ - Write an Example of If else in Shell Scripting by comparing 2 numbers
+
+
+
+
+ Was it difficult?
+
+ - Post about it on LinkedIn and Let me know :)
+
+
