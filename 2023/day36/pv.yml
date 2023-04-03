@@ -3,8 +3,10 @@ kind: PersistentVolume
 metadata:
   name: pv-todo-app
 spec:
+  storageClassName: standard
   capacity:
     storage: 1Gi
+  volumeMode: Filesystem
   accessModes:
     - ReadWriteOnce
   persistentVolumeReclaimPolicy: Retain
