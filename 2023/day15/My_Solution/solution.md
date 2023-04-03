@@ -1,5 +1,4 @@
 # Day 15 Tasks
-refer my blog for more - [Hashnode](https://sumitramchandra.hashnode.dev/python-libraries-for-devops)
 
 # Tasks
 1. Create a Dictionary in Python and write it to a json File.
