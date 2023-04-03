@@ -6,8 +6,7 @@ metadata:
 spec:
   containers:
     - name: demo
-      image: alpine
-      command: ["sleep", "3600"]
+      image: nginx:alpine
       env:
         # Define the environment variable
         - name: PLAYER_INITIAL_LIVES # Notice that the case is different here
@@ -19,7 +18,7 @@ spec:
         - name: UI_PROPERTIES_FILE_NAME
           valueFrom:
             configMapKeyRef:
-              name: game-demo
+              name: todo-configmap
               key: ui_properties_file_name
       volumeMounts:
       - name: config
@@ -30,7 +29,7 @@ spec:
   - name: config
     configMap:
       # Provide the name of the ConfigMap you want to mount.
-      name: game-demo
+      name: todo-configmap
       # An array of keys from the ConfigMap to create as files
       items:
       - key: "game.properties"

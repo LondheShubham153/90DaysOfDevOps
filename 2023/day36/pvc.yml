@@ -3,8 +3,10 @@ kind: PersistentVolumeClaim
 metadata:
   name: pvc-todo-app
 spec:
+  storageClassName: standard
   accessModes:
     - ReadWriteOnce
+  volumeMode: Filesystem
   resources:
     requests:
       storage: 500Mi
