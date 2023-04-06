@@ -1,4 +1,5 @@
-## Finally!! 🎉
+#
+ Finally!! 🎉
 You have completed the Linux & Git-GitHub handson and I hope you have learned something interesting from it.🙌
 
 Now why not make an interesting 😉 assignment, which  not only will help you for the future but also for the DevOps Community!
@@ -11,4 +12,4 @@ Let’s  show us your knowledge mixed with your creativity😎
 
 Post it on Linkedin and Spread the knowledge.😃 
 
-**Happy Learning :)** 
+***Happy Learning :)*** 
