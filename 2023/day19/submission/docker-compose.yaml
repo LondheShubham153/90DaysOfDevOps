@@ -1,20 +1,23 @@
-version : "3.3"
+version: "3.8"
+
 services:
   web:
-    image: varsha0108/local_django:latest
+    image: ubuntu:latest
     deploy:
-        replicas: 2
+      replicas: 2
     ports:
-      - "8001-8005:8001"
+      - "8086-8090:8080"
     volumes:
-      - my_django_volume:/app
+      - volume1:/app
+
   db:
-    image: mysql
+    image: mongo:latest
     ports:
-      - "3306:3306"
-    environment:
-      - "MYSQL_ROOT_PASSWORD=test@123"
+      - "8001:27017"
+    volumes:
+      - volume1:/app
+
 volumes:
-  my_django_volume:
+  volume1:
     external: true
-   
+
