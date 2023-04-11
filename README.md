@@ -1,10 +1,9 @@
 # #90DaysOfDevOps Challenge
 ## Learn, Upskill, Grow  with the Community
 
-This repository is a Challenge for the DevOps Community to get stronger in DevOps. 
-This challenge starts on the 1st January 2023 and in the next 90 Days we promise ourselves to become better at DevOps.
+Join our DevOps community challenge starting on January 1st, 2023 and embark on a 90-day journey to become a better DevOps practitioner. This repository serves as an open invitation to all DevOps enthusiasts who are looking to enhance their skills and knowledge. By participating in this challenge, you will have the opportunity to learn from others in the community, collaborate with like-minded individuals, and ultimately strengthen your DevOps abilities. 
 
-The reason for making this Public is so that others can learn from the community and help each other grow.
+Let's come together to grow and achieve new heights in DevOps!
 
 ## Steps:
 - Fork[https://github.com/LondheShubham153/90DaysOfDevOps/fork] the Repo.
