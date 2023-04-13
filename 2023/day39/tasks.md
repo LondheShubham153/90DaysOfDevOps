@@ -29,6 +29,12 @@ Get to know IAM more deeply🏊[Click Here!!](https://www.youtube.com/watch?v=OR
 - Launch EC2 instance with already installed Jenkins on it. Once server shows up in console, hit the IP address in browser and you Jenkins page should be visible.
 - Take screenshot of Userdata and Jenkins page, this will verify the task completion.
 
+userdata:
+
+
+jenkins:
+
+
 ### Task2:
 - Read more on IAM Roles and explain the IAM Users, Groups and Roles in your own terms.
 - Create three Roles named: DevOps-User, Test-User and Admin.
