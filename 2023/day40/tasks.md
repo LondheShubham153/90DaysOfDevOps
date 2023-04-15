@@ -1,17 +1,8 @@
-
 # Day 40 AWS EC2 Automation ☁
-
 ![AWS](https://www.eginnovations.com/blog/wp-content/uploads/2021/09/Amazon-AWS-Cloud-Topimage-1.jpg)
-
-  
-  
-  
 
 I hope your journey with AWS cloud and automation is going well [](https://emojipedia.org/emoji/%F0%9F%98%8D/)
 ### 😍
-
-  
-
 ## Automation in EC2:
 
 Amazon EC2 or Amazon Elastic Compute Cloud can give you secure, reliable, high-performance, and cost-effective computing infrastructure to meet demanding business needs.
@@ -20,8 +11,6 @@ Also, if you know a few things, you can automate many things.
 
 Read from [here](https://aws.amazon.com/ec2/)
 
-  
-
 ## Launch template in AWS EC2:
 
 - You can make a launch template with the configuration information you need to start an instance. You can save launch parameters in launch templates so you don't have to type them in every time you start a new instance. 
@@ -29,11 +18,9 @@ Read from [here](https://aws.amazon.com/ec2/)
 - You can tell the Amazon EC2 console to use a certain launch template when you start an instance.
 
   
-
 Read more from [here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-launch-templates.html)
 
   
-
 ## Instance Types:
 
 Amazon EC2 has a large number of instance types that are optimised for different uses. The different combinations of CPU, memory, storage and networking capacity in instance types give you the freedom to choose the right mix of resources for your apps. Each instance type comes with one or more instance sizes, so you can adjust your resources to meet the needs of the workload you want to run.
