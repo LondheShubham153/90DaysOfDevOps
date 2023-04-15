@@ -26,7 +26,6 @@ Read more from [here](https://docs.aws.amazon.com/elasticloadbalancing/latest/us
 - Read more [here](https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/introduction.html)
 
 ## 🎯 Today's Tasks:
-
 ### Task 1:
 - launch 2 EC2 instances with an Ubuntu AMI and use User Data to install the Apache Web Server.
 - Modify the index.html file to include your name so that when your Apache server is hosted, it will display your name also do it for 2nd instance which include " TrainWithShubham Community is Super Aweasome :) ".
