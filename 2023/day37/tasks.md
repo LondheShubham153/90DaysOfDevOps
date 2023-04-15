@@ -1,7 +1,8 @@
 ## Day 37 Task: Kubernetes Important interview Questions.
 ## Questions
 1.What is Kubernetes and why it is important?
-Ans => ```
+Ans => 
+```
 Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. It was originally developed by Google and is now maintained by the Cloud Native Computing Foundation (CNCF).
 
 Containers are a way to package software into portable, self-contained units that can run reliably across different computing environments. Kubernetes makes it easier to manage and deploy containers by providing a platform for automating the deployment, scaling, and management of containerized applications.
