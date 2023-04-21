@@ -1,0 +1,8 @@
+- Fork this Repo : Done
+- Start with a DevOps Roadmap[https://youtu.be/iOE9NTAG35g] : Done
+- Write a LinkedIn post or a small article about your understanding of DevOps
+ - What is DevOps
+ - What is Automation, Scaling, Infrastructure
+ - Why DevOps is Important, etc
+ 
+https://medium.com/@manu.thakur1992/devops-101-automate-optimize-and-monitor-your-way-to-success-ffbaeaa78ed2
