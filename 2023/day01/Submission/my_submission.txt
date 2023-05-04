@@ -1,6 +1,6 @@
 This is my submission for day-1 task:
 
-Today, I learned about DevOps and its importance in software development. 
+Today, I learned about DevOps and its importance in software development.
 
 1. What is Devops?
 
@@ -16,3 +16,5 @@ Infrastructure refers to the underlying hardware, software, and networks that su
 3. Why DevOps is Important?
 
 DevOps helps organizations deliver software faster, more frequently, and with higher quality. It enables developers and operations teams to work together more closely, reducing the time and effort required to deploy and maintain software. DevOps also helps organizations respond more quickly to changing market demands, customer feedback, and emerging technologies.
+
+DevOps also helps organizations improve the scalability and reliability of their software systems. By enabling teams to scale their systems and infrastructure quickly.
