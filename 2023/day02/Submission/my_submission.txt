@@ -1,0 +1,29 @@
+`This is my submission for Day-2
+
+
+Task: What is the linux command to 
+
+1. To Check your present working directory, we use command pwd.
+
+```
+PWD
+```
+
+
+2. To list all files and directories including hidden files, you can use the command ls -a. The -a flag shows all files including hidden files.
+
+
+```
+ls -a
+```
+
+
+3. To create a nested directory A/B/C/D/E, you can use the command mkdir -p A/B/C/D/E. The -p flag creates any parent directories that do not exist.
+
+
+```
+mkdir -p A/B/C/D/E
+```
+
+
+
