@@ -33,5 +33,52 @@ When you run the script as ./createDirectories.sh day 1 90, it will create 90 di
 
 You can modify the script to suit your needs, for example, by changing the base name or the range of numbers for the directories.
 
+2. Create a Script to backup all your work done till now.
+=> Here is backup file, create file by using nano editor
 
+nano backup.sh
 
+#!/bin/bash
+
+src_dir=/c/Users/Supriya/Downloads/TWS Project/90DaysOfDevOps/2023/day05/submission/scripts
+tgt_dir=/c/Users/Supriya/Downloads/TWS Project/90DaysOfDevOps/2023/day05/submission/backups
+
+curr_timestamp=$(date "+%Y-%m-%d-%H-%M-%S")
+
+backup_file=$tgt_dir/$curr_timestamp.tgz
+
+ echo "Taking backup on $curr_timestamp"
+
+ #echo "$backup_file"
+
+Then run the file by using bash backup.sh, getting permission denied error, so give the permission using chmod : chmod 777 backup.sh 
+
+Then run ./backup.sh command to execute our scripts that's all then go to our backups directory and check our backup.
+
+3. Read About Cron and Crontab, to automate the backup Script?
+=> 1. what is Cron?
+Cron is a time-based job scheduler in Unix-like operating systems.
+
+It allows users to schedule and automate the execution of commands or scripts at specified times or intervals. 
+
+Cron jobs are created using a special syntax in a user's crontab file, which contains a list of commands and the time or frequency at which they should be executed. 
+
+Cron is commonly used for tasks such as system maintenance, backups, and automatic script execution.
+
+2. What is crontab?
+
+Crontab is a file used to schedule and automate the execution of scripts or commands at specific intervals or times on a Linux-based operating system. 
+
+It allows users to specify the exact minute, hour, day of the month, month, and day of the week when a particular script or command should be run. 
+
+The crontab file contains entries for each scheduled task, and users can easily edit or delete these entries as needed to modify or remove scheduled tasks.
+
+4. Read about User Management and Let me know on Linkedin if you're ready for Day 6.
+=> user management is the process of creating, configuring, and managing user accounts on a computer or a network.
+
+It involves tasks such as creating new user accounts, modifying existing accounts, and deleting old accounts. 
+
+User management helps to ensure that only authorized users have access to the system, and that they have the appropriate level of access based on their roles and responsibilities. It is an important aspect of system administration and security.
+
+5. Create 2 users and just display their Usernames
+=> 
