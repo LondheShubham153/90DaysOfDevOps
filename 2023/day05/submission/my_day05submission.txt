@@ -81,4 +81,32 @@ It involves tasks such as creating new user accounts, modifying existing account
 User management helps to ensure that only authorized users have access to the system, and that they have the appropriate level of access based on their roles and responsibilities. It is an important aspect of system administration and security.
 
 5. Create 2 users and just display their Usernames
-=> 
+=> here is a simple shell script to add two users with protected passwords and display their names:
+
+#!/bin/bash
+
+add_user()
+{
+    USER=$1
+    PASS=$2
+
+    useradd -m $USER
+    echo "$USER:$PASS" | chpasswd
+    echo "Successfully added user: $USER"
+}
+
+#MAIN
+
+echo "Enter username for User 1:"
+read USER1
+echo "Enter password for User 1:"
+read -s PASS1
+echo "Enter username for User 2:"
+read USER2
+echo "Enter password for User 2:"
+read -s PASS2
+
+add_user $USER1 $PASS1
+add_user $USER2 $PASS2
+
+This script prompts the user to enter a username and password for each of the two users, then creates the users with the specified usernames and passwords. After each user is added, the script outputs a success message with the username.
