@@ -1,3 +1,4 @@
+![Basic linux commands](https://fossbytes.com/wp-content/uploads/2021/01/Basic-Linux-Commands.jpg)
 ## **What Is a Linux Command?**
 
 A Linux command is a program or utility that runs on the CLI – a console that interacts with the system via texts and processes. It’s similar to the Command Prompt application in Windows.

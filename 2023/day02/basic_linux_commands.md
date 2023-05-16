@@ -1,4 +1,3 @@
-![Basic linux commands](https://fossbytes.com/wp-content/uploads/2021/01/Basic-Linux-Commands.jpg)
 ## Basic linux commands
 
 ### Listing commands
