@@ -1,0 +1,15 @@
+## Task:
+
+1. Install Git on your computer :
+=> Done
+2. Create a free account on GitHub 
+=> Done
+
+## Exercises:
+
+1) Create a new repository on GitHub and clone it to your local machine
+=> Done by using git clone command 
+2) Make some changes to a file in the repository and commit them to the repository using Git
+=> Done
+3) Push the changes back to the repository on GitHub
+=> Done
