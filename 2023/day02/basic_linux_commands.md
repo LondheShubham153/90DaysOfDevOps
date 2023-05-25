@@ -1,5 +1,17 @@
 ## Basic linux commands
 
+Uname commands and it's varients:--
+-``` uname option_flag ----> It will display OS related information..
+Examples:
+
+-``` uname --> It wil display which Operating system i logged in.
+- `` uname -m --> It will display microsystem name details
+- ```uname -r --> It will display the kernal version
+- ```uname -n --> It will display the hostname of the Operating System..
+- ```uname -a --> It will display all the details related to the Operating System,like as mentioned below
+-`````Kernelname Hostname Kernalrelease Kernalversion machinehardware(microsystemname) Operatingsystemname..
+-`````whoami---> It will display switched username or child name
+
 ### Listing commands
 ```ls option_flag arguments ```--> list the sub directories and files avaiable in the present directory
 
