@@ -1,3 +1,6 @@
+![Deep Dive in Git & GitHub for DevOps Engineers.](https://cdn.hashnode.com/res/hashnode/image/upload/v1685022491493/52af8d57-0a3d-44de-92a7-7249e1a609aa.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp)
+# Deep Dive in Git & GitHub for DevOps Engineers.
+
 ### What is Git and why is it important?
 
 Git is a version control system for tracking changes in computer files and coordinating work on those files among multiple people.
