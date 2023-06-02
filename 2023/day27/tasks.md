@@ -24,7 +24,7 @@ Day 26 was all about a Declarative pipeline, now its time to level up things, le
 stages {
         stage('Build') {
             steps {
-                sh 'docker build -t trainwithshubham/django-app:latest'
+                sh 'docker build . -t trainwithshubham/django-app:latest'
             }
         }
     }
