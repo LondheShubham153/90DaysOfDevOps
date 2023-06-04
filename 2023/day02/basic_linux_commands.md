@@ -29,7 +29,7 @@ drwxr-xr-x 2 root root 4096 Jun  3 18:04 test
 drwxr-xr-x 2 root root 4096 Jun  3 18:08 prod
 drwxr-xr-x 2 root root 4096 Jun  3 18:08 qa
 
-- ``1s -S ```--> It will list out the objects with respect to thier size in decreasing order.It wont work in sun solaris. It wont work in sun solaris.
+- ``1s -S ``--> It will list out the objects with respect to thier size in decreasing order.It wont work in sun solaris.
 - ``ls -F ``--> It provides more ways to display all the objects ending with /, @, * respectively. / --> directory, @---> link & * --> executable file.
 - ``ls -1``--> Display all the objects in a single coloumn.
 - ```ls -a ```--> list all including hidden files and directory
