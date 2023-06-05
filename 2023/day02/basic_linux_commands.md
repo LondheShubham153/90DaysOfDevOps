@@ -38,6 +38,14 @@ drwxr-xr-x 2 root root 4096 Jun  3 18:08 qa
 - ```ls -i ``` --> list the files and directories with index numbers inodes
 - ``` ls -d */``` --> list only directories.(we can also specify a pattern)
 
+### DATE Commands
+- ```date +%d/%m/%Y ```---> 05/06/2023
+- ```date +%H:%M:%S ```---> 15(Hour):58(Min):41(Seconds)
+- ```date +%B ```---> It will print the month like: June  
+- ```date +%A ``` ---> Show todays day like Monday
+- ```date -d Yesterday ``` --> It will Show yesterday date and time details.
+- ```date -d tomorrow ``` ---> It will show Tomorrow date and time details.
+
 ### Directoy commands
 - ```pwd``` --> print work directory. Gives the present working directory.
 
