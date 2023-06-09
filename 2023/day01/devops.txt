@@ -6,3 +6,9 @@ formal defination   :   "DevOps is the union of people, process, and products to
 
 The main goal of DEVOPS is to shorten cycle time. Start with the release pipeline. How long does it take to deploy a change of one line of code or configuration.
 
+
+DevOps is a software development approach that combines software development (Dev) and information technology operations (Ops) to optimize the software development life cycle. It is a set of practices, principles, and cultural values that foster collaboration and communication between development and operations teams to build, test, and release software faster and more reliably.
+
+DevOps is focused on automating and streamlining the software development process to enable faster delivery of high-quality software. It emphasizes the importance of continuous integration and delivery (CI/CD), automation, infrastructure as code (IaC), monitoring, and feedback loops to achieve this goal.
+
+Overall, DevOps is a modern software development approach that promotes collaboration, communication, and continuous improvement to create better software products.
