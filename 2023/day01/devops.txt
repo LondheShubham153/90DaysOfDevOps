@@ -1,8 +1,35 @@
-DevOps is a methodology which Involves practices to bridge the gap of Dev and ops team by using Open source automation build tools.
-These are the articles which I refered to,
+What is DevOps?
+
+Traditionally, DevOps is considered to be a combination of Development and Operation. In simple terms, the development and operation team comes together to reduce application release time. So, new updates and features can be applied without much downtime.
+
+DevOps can be defined as a combination of cultural philosophies, practices and tools to increase an Organizational ability to deliver services and applications at a fast pace.
+
+DevOps increases the productivity of developer, as well as promote collaboration and communication among teams.
 
 
-formal defination   :   "DevOps is the union of people, process, and products to enable continuous delivery of value to our end users."
+Why DevOps is Important?
 
-The main goal of DEVOPS is to shorten cycle time. Start with the release pipeline. How long does it take to deploy a change of one line of code or configuration.
+The DevOps methodology is important for the following reasons which are as follows:
 
+Continuous Delivery of Software
+
+Better communication and collaboration among teams.
+
+High efficiency and scalability
+
+Less manual intervention and more automation.
+
+
+What is Automation?
+
+Automation in DevOps means performing tasks with minimum human intervention. It accelerates processes and scales environment, as well as builds continuous integration, continuous delivery, and continuous deployment (CI/CD) workflows. There are many kinds of automation, including IT automation, business automation, robotic process automation, industrial automation, artificial intelligence, machine learning, and deep learning.
+
+
+What is Scaling?
+
+Scaling in DevOps is characterized as an automation-driven environment where developers or enterprises can adopt DevOps culture and choose the right technologies to scale their business growth.
+
+
+What is Infrastructure?
+
+In DevOps, infrastructure refers to the technology stack and resources necessary to support software applications. It includes hardware, networking, servers, storage, operating systems, and databases. Infrastructure as code treats infrastructure configuration as code, enabling automation and management. Tools like Ansible and Terraform automate provisioning and configuration. Infrastructure automation is tightly integrated with the CI/CD pipeline. Monitoring and logging tools ensure system health and performance. Treating infrastructure as code in DevOps allows for scalability, reliability, reproducibility, and faster deployments.
