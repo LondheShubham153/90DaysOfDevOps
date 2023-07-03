@@ -13,7 +13,7 @@
 -	   owner   —   The owner of the file or  application.
 -	"chown" is used to change the ownership permission of a file or directory.
 -	   group   —   The group that owns the file or application.
--	"chgrp" is used to change the gropu permission of a file or directory.
+-	"chgrp" is used to change the group permission of a file or directory.
 -	   others  —   All users with access to the system. (outised the users are in a group)
 -	"chmod" is used to change the other users permissions of a file or directory.
 
