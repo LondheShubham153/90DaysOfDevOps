@@ -6,6 +6,6 @@ This is the day you have to Take this challenge and start your #90DaysOfDevOps w
 - Start with a DevOps Roadmap[https://youtu.be/iOE9NTAG35g]
 - Write a LinkedIn post or a small article about your understanding of DevOps
  - What is DevOps
- - What is Automation, Scaling, Infrastructure
+ - What is Automation, Scaling, and Infrastructure
  - Why DevOps is Important, etc
- 
+ - Research and explore the landscape of software development before the emergence of DevOps. Gain insights into the challenges and limitations faced by organizations during this pre-DevOps era.
