@@ -30,7 +30,7 @@ YouTube Playlist for DevOps:
 https://youtube.com/playlist?list=PLlfy9GnSVerRqYJgVYO0UiExj5byjrW8u
 
 DevOps Course:
-https://bit.ly/devops-batch-2
+https://bit.ly/devops-batch-4
 
 ## Thanks to all contributors ❤
 
