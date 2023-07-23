@@ -18,3 +18,7 @@ Here is a detailed [blog over Introduction to Linux](https://paragpallavsingh.co
 Note: [Check this file for reference](basic_linux_commands.md)
 
 Check the basic_linux_commands.md file on the same directory day2
+
+
+Just ignore this image
+![image](https://github.com/paragpallavsingh/90DaysOfDevOps/assets/40052830/395419a7-b11c-4fbf-9a5e-edc682149a86)
