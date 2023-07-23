@@ -1,40 +1,37 @@
 
-# Basic Linux Commands
+# Solution for day03 Tasks
+# Adding screenshots for reference
 
 1. To view what's written in a file.
-    - ``` cat filename ``` 
-    
-![3 1](https://user-images.githubusercontent.com/76457594/210305889-d19f82d5-dbb1-46fc-99e2-b217146b6e8a.png)
-
-
+    - ``` cat <filename> ``` 
 
 2. To change the access permissions of files.
-   
-    - ``` chmod 777 foldername ``` 
-
-![Uploading 3.2.png…]()
+    - ``` chmod 777 foldername ``` : This will allow user, group and others to perform all three operations i.e., read, write and execute on the respective file/folder.
 
 3. To check which commands you have run till now.
+    - ``` history ``` 
 
-   - ``` history ``` 
-
-  ![Uploading 3.3.png…]()
-
-4. To remove a directory/ Folder.
-
-      - ``` rm filename ``` 
-      
- ![3 4](https://user-images.githubusercontent.com/76457594/210308917-7281e0eb-6fcb-4554-8ffe-835cf0b961d1.png)
-
-    -  ``` rmdir foldername ``` 
-    
- ![3 4b](https://user-images.githubusercontent.com/76457594/210309299-367e6253-7e11-4ead-a19c-6eb3922780d1.png)
+4. To remove a directory/folder. 
+    - ``` rmdir <foldername> ``` or ``` rm -r <foldername> ```
 
 5. To create a fruits.txt file and to view the content.
-    - ``` vim fruits.txt ``` 
-    -  ```  cat fruits.txt ``` 
-   
-![3 5](https://user-images.githubusercontent.com/76457594/210311435-e6f8aa0c-dc0c-44a6-84e7-6e4c91e4ea87.png)
+    - ``` vim fruits.txt ``` : This will open a new file in vim editor and we can then insert the contents of the file.
+    - ``` cat fruits.txt ``` : To view the content of the file.
 
+6. Add content in devops.txt (One in each line) - Apple, Mango, Banana, Cherry, Kiwi, Orange, Guava.
+    - ``` vim devops.txt ``` : This will open a new file in vim editor and we can then insert the contents of the file.
 
- 
+7. To show only top three fruits from the file.
+    - ``` head -3 devops.txt ``` : This will print the top three fruits from the file.
+
+8. To show only bottom three fruits from the file.
+    - ``` tail -3 devops.txt ``` : This will print the bottom three fruits from the file.
+9. To create another file colors.txt and to view the content.
+    - ``` vim colors.txt ``` : This will open a new file in vim editor and we can then insert the contents of the file.
+    - ``` cat colors.txt ``` : To view the content of the file.
+
+10. Add content in colors.txt (One in each line) - Red, Pink, White, Black, Blue, Orange, Purple, Grey.
+    - ``` vim colors.txt ``` : This will open a new file in vim editor and we can then insert the contents of the file.
+
+11. To find the difference between fruits.txt and colors.txt file.
+    - ``` diff fruits.txt colors.txt ``` : This will print the difference between the two mentioned files.
