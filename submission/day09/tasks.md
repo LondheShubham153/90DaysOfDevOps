@@ -28,6 +28,9 @@ cd 90DaysOfDevOps\submission
 vi tasks.md
 #in windows - make a new file tasks.md in respective folder and update
 ```
+
+![image](https://github.com/paragpallavsingh/90DaysOfDevOps/assets/40052830/ac7392ec-d8ec-4902-93b8-a10ceb2f3c80)
+
 * Push your local commits to the repository on GitHub
 ```
 git status
@@ -35,3 +38,4 @@ git add .
 git commit -m "update tasks.md"
 git push origin master
 ```
+![image](https://github.com/paragpallavsingh/90DaysOfDevOps/assets/40052830/f0a12d8b-968f-448f-aca8-ec22c4ff6fce)
