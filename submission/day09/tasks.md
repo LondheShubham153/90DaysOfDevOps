@@ -26,7 +26,7 @@ cd 90DaysOfDevOps\submission
 
 #in linux terminal
 vi tasks.md
-#in windows - make a new file tasks.md in respective folder
+#in windows - make a new file tasks.md in respective folder and update
 ```
 * Push your local commits to the repository on GitHub
 ```
