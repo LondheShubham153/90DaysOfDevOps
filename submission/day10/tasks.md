@@ -47,3 +47,8 @@ git rebase day10
 
 After rebase, the out looks like
 ![image](https://github.com/paragpallavsingh/90DaysOfDevOps/assets/40052830/c82da8b0-e591-458f-92e0-78b75c515696)
+
+## Addon
+When you are done with merging your changes to main/master, you can safely remove branches.
+![image](https://github.com/paragpallavsingh/90DaysOfDevOps/assets/40052830/fa3fdc02-7b52-4bb8-9230-b9a5b09412ec)
+
