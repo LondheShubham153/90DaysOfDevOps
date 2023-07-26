@@ -2,10 +2,11 @@
 
 ## We did covered a lot of commands
 
-1. Basic Commands
-| **Command**                                                     | **Description**                                                                            |
-|-----------------------------------------------------------------|--------------------------------------------------------------------------------------------|
-| ls                                                              | Lists all files and directories in the present working directory                           |
+### 1. Basic Commands
+
+| **Command** | **Description** |
+| ----------- | --------------- |
+|ls|Lists all files and directories in the present working directory|
 | ls -R                                                           | Lists files in sub-directories as well                                                     |
 | ls -a                                                           | Lists hidden files as well                                                                 |
 | ls -al                                                          | Lists files and directories with detailed information like permissions,size, owner, etc.   |
@@ -35,7 +36,8 @@
 | mail -s 'subject' -c 'cc-address' -b 'bcc-address' 'to-address' | Command to send email                                                                      |
 | mail -s "Subject" to-address < Filename                         | Command to send email with attachment                                                      |
 
-2. File Permission commands
+### 2. File Permission commands
+
 | **Command**               | **Description**                                          |
 |---------------------------|----------------------------------------------------------|
 | ls -l                     | to show file type and access permission                  |
@@ -46,7 +48,8 @@
 | Chown user                | For changing the ownership of a file/directory           |
 | Chown user:group filename | change the user as well as group for a file or directory |
 
-3. Environment Variables command
+### 3. Environment Variables command
+
 | **Command**                   | **Description**                         |
 |-------------------------------|-----------------------------------------|
 | echo $VARIABLE                | To display value of a variable          |
@@ -55,7 +58,8 @@
 | Unset                         | Remove a variable                       |
 | export Variable=value         | To set value of an environment variable |
 
-4. User management commands of linux
+### 4. User management commands of linux
+
 | **Command**                           | **Description**                  |
 |---------------------------------------|----------------------------------|
 | sudo adduser username                 | To add a new user                |
@@ -64,7 +68,8 @@
 | sudo usermod -a -G GROUPNAME USERNAME | To add a user to a group         |
 | sudo deluser USER GROUPNAME           | To remove a user from a group    |
 
-5. Networking command
+### 5. Networking command
+
 | **Command**                         | **Description**                                             |
 |-------------------------------------|-------------------------------------------------------------|
 | SSH username@ip-address or hostname | login into a remote Linux machine using SSH                 |
@@ -75,7 +80,8 @@
 | get file                            | Download ‘file’ from remote to local computer               |
 | quit                                | Logout                                                      |
 
-6. Process command
+### 6. Process command
+
 | **Command** | **Description**                                 |
 |-------------|-------------------------------------------------|
 | bg          | To send a process to the background             |
@@ -90,7 +96,8 @@
 | df          | Gives free hard disk space on your system       |
 | free        | Gives free RAM on your system                   |
 
-7. VI Editing Commands
+### 7. VI Editing Commands
+
 | **Command** | **Description**                                                                                 |
 |-------------|-------------------------------------------------------------------------------------------------|
 | i           | Insert at cursor (goes into insert mode)                                                        |
