@@ -14,7 +14,6 @@ git config --global user.email "thxxxxparag@gmail.com"
  
 * Connect your local repository to the repository on GitHub.
 ```
-
 cd /f/Workspace/github
 git clone https://github.com/paragpallavsingh/90DaysOfDevOps.git
 ```
