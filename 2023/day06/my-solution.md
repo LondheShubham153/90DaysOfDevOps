@@ -30,7 +30,7 @@ drwxr-xr-x 6 nid nid  4096 Jun 28 15:50 terraform_learn
     As a task, change the user permissions of the file and note the changes after `ls -ltr`
 
 2) Write an article about File Permissions based on your understanding from the notes.
-> post later
+> Blog link: https://devxblog.hashnode.dev/day-6-file-permissions-and-access-control-lists
 3) Read about ACL and try out the commands `getfacl` and `setfacl`
 >ACL stands for Access Control List. It is a set of permissions or rules that determine the access rights for a specific user or group to a file, directory, or system resource. ACLs provide more granular control over permissions than traditional file permissions, allowing for more fine-tuned access management.
 
