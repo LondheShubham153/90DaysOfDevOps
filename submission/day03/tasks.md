@@ -4,7 +4,7 @@ Task: What is the linux command to
 
 Prerequisite commands to replicate below
 
-#make 5 folders
+# make 5 folders
 
 ```
 mkdir folder-{1..5}
