@@ -42,17 +42,17 @@ Overall, the decentralized nature of a DVCS allows for greater collaboration, fl
 
 1) Create a new repository on GitHub and clone it to your local machine
   ````bash
-  rohan@RB MINGW64 ~/OneDrive/Desktop (master)$ git clone repo_url
+  rohan@RB MINGW64 ~/d/Git (master)$ git clone repo_url
   ````
   
 2) Make some changes to a file in the repository and commit them to the repository using Git
   ````bash
-  rohan@RB MINGW64 ~/OneDrive/Desktop (master)$ vim file.txt
-  rohan@RB MINGW64 ~/OneDrive/Desktop (master)$ git add file.txt
-  rohan@RB MINGW64 ~/OneDrive/Desktop (master)$ git commit -m "New file created"
+  rohan@RB MINGW64 ~/d/Git (master)$ vim file.txt
+  rohan@RB MINGW64 ~/d/Git (master)$ git add file.txt
+  rohan@RB MINGW64 ~/d/Git (master)$ git commit -m "New file created"
   ````
   
 3) Push the changes back to the repository on GitHub
   ````bash
-  rohan@RB MINGW64 ~/OneDrive/Desktop (master)$ git push origin master
+  rohan@RB MINGW64 ~/d/Git (master)$ git push origin master
   ````
