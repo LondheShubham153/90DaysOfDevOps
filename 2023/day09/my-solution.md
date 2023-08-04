@@ -28,16 +28,16 @@ rohan@RB MINGW64 ~/d/Git (master)$ git config --global user.email "rohanbalgotra
 
 task-2: 
 - Create a repository named "Devops" on GitHub <br>
- <b>Status ✅</b>
+ <b>Done ✅</b>
  
 - Connect your local repository to the repository on GitHub. <br>
-  <b>Status ✅</b>
+  <b>Done ✅</b>
 
 - Create a new file in Devops/Git/Day-02.txt & add some content to it <br>
-  <b>Status ✅</b>
+  <b>Done ✅</b>
 
 - Push your local commits to the repository on GitHub <br>
-  <b>Status ✅</b>
+  <b>Done ✅</b>
   ```bash
   rohan@RB MINGW64 ~/d/Git (master)$ git push origin master
   ````
