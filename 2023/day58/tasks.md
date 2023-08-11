@@ -19,3 +19,5 @@ Watch [this](https://youtu.be/089mRKoJTzo) video to learn about ansible Playbook
 Let me or anyone in the community know if you face any challenges
 
 happy Learning :)
+
+[← Previous Day](../day57/tasks.md) | [Next Day →](../day59/tasks.md)

@@ -2,17 +2,17 @@
 
 Provisioning on AWS is quite easy and straightforward with Terraform.
 
-
 ## Prerequisites
-### AWS CLI installed 
+
+### AWS CLI installed
 
 The AWS Command Line Interface (AWS CLI) is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts.
 
-### AWS IAM user 
+### AWS IAM user
 
 IAM (Identity Access Management) AWS Identity and Access Management (IAM) is a web service that helps you securely control access to AWS resources. You use IAM to control who is authenticated (signed in) and authorized (has permissions) to use resources.
 
-*In order to connect your AWS account and Terraform, you need the access keys and secret access keys exported to your machine.*
+_In order to connect your AWS account and Terraform, you need the access keys and secret access keys exported to your machine._
 
 ```
 export AWS_ACCESS_KEY_ID=<access key>
@@ -32,7 +32,9 @@ terraform {
         required_version = ">= 1.2.0"
 }
 ```
+
 Add the region where you want your instances to be
+
 ```
 provider "aws" {
 region = "us-east-1"
@@ -43,7 +45,7 @@ region = "us-east-1"
 
 - Provision an AWS EC2 instance using Terraform
 
-Hint: 
+Hint:
 
 ```
 resource "aws_instance" "aws_ec2_test" {
@@ -62,3 +64,4 @@ I can imagine, Terraform can be tricky, so best to use a Free video Course for t
 
 Happy Learning :)
 
+[← Previous Day](../day63/tasks.md) | [Next Day →](../day65/tasks.md)

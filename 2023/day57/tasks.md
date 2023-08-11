@@ -8,5 +8,6 @@ Let's make it fun now, by using a video explanation for Ansible.
 
 - Write a Blog explanation for the [ansible video](https://youtu.be/SGB7EdiP39E)
 
-
 happy Learning :)
+
+[← Previous Day](../day56/tasks.md) | [Next Day →](../day58/tasks.md)
