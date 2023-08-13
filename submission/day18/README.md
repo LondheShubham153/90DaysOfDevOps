@@ -120,3 +120,5 @@ docker rmi <image-name>
 
 
 *Please note: you can delete only untagged images. If the above command does not work, first remove the container attched then try this*
+
+Side note: https://docs.docker.com/compose/gettingstarted/ --> This is a good reference point for learners. Just understand each component step by step instead of copy paste and you will be having pretty decent understanding.
