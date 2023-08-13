@@ -1,0 +1,134 @@
+docker images #to see the images
+
+docker search image-name #to search the image with name
+
+docker pull image-name #to pull the image/app from docker hub
+
+docker run -it --name rishav image-name-hub /bin/bash  # un=creating+starting the image #-i=intreactive mode -t=terminal
+
+Service docker status  #to check service is start or not
+
+docker start container-name #to start container
+
+docker attach container-name
+
+docker ps -a # ps=process status, a=all, to see all docker container
+
+docker stop contianer-name #to stop the running container
+
+docker rm container-name #to remove the container 
+
+docker commit container-name new-image-name
+
+d0cker diff container-name
+
+#Docker file creation 
+
+FROM 
+RUN
+MAINTAINER : Suther/owner/description
+COPY
+ADD
+EXPOSE
+WORKDIR
+CMD
+ENTRYPOINT
+ENV
+ARG
+
+Create the file names Dock  erfile
+Add instruction in Dockerfile
+Build dockerfile to create image 
+Run image to create container 
+
+
+vi Dockerfile
+FROM ubuntu
+RUN echo "Rishav Sharma" > /tmp/textfile
+
+to create image out of docker file.
+docker build -t filename .
+docker ps -a 
+docker images
+
+#CREATING A VOLUME
+
+Volume is simply a directory inside our container
+Firstly we have to declare the directory as a volume and then share volume
+Even if we stop container, still we can access Volume
+Volume will be created in one container
+You can declare a directory as a volume only while creating container
+You cant create volume from existing container
+You can share one volume across any number of containers
+
+
+Volume will not be included when you update an image
+You can mapped volume in two ways
+a. Container <> container
+b. Host <> Container 
+
+        #LAB
+
+    #Creating a volume from Dockerfile
+a. create a Dockerfile and write
+FROM fedora
+VOLUME ["/myvolume1"]
+Then create image from this dockerfile
+
+docker build -t myimage .
+
+Now create a container from the image
+docker run -it --name contianer1 myimage /bin/bash
+
+Now do ls, you can see myvolume1 
+
+    
+    
+#SHARE VOLUME WITH ANOTHER CONTAINER
+
+    CONTIANER <> CONTIANER
+docker run -it --name container2 --privileged=true --volumes-from container1 fedora /bin/bash
+
+Now after creating container2, myvolume1 is visible whatever you do in One volume, can see from other volume
+
+touch /myvolume1/samplefile
+docker start Container1
+docker attach Container1
+ls/myvolume1
+you can see Samplefile here 
+existing
+
+    #NOW  TRY TO CREATE VOLUME BY USING COMMAND 
+    docker run -it --name container2 -v /volume2 fedora /bin/bash
+    Do ls >>> cd /volume2
+    Now create one file cont3file and exit
+    Now create one more container, and Share volume2
+
+    docker run -it --name container4 --privileged=true --volumes-from container3 fedora /bin/bash
+
+Now you are inside container, do ls, you can see volume2
+
+    Now create one file inside this volume and then check in container 3 if it is showing up their 
+    
+
+        # HOST >> CONTAINER
+        Verify files in /home/rishav
+        docker run -it --name container -v /home/rishav:/sharma --privileged=true fedora /bin/bash
+
+        cd /sharma
+
+        Do ls, now you can see all files of host machine
+
+        touch file2 (in container)
+
+        exit
+
+        now check in your host machine if you can see the file created in the container.
+
+            #SOME OTHER COMMANDS 
+            docker volume ls
+            docker volume create <volumename>
+            docker volume rm <volumename>
+            docker volume prune (it will removed all unused docker volume)
+            docker volume inspect <volumename>
+            docker Container inspect <containerName>
