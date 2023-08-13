@@ -102,6 +102,19 @@ docker rm <container-id>
 #refer above image
 ```
 
+> To check all the volumes created
+```
+docker volume ls
+```
+<img width="561" alt="image" src="https://github.com/paragpallavsingh/90DaysOfDevOps/assets/40052830/4fecb7c2-bf6b-49bd-9d3b-bc338d0573af">
+
+> To prune unused volumes
+```
+docker volume prune
+```
+![image](https://github.com/paragpallavsingh/90DaysOfDevOps/assets/40052830/17c2195d-c2e9-4439-8f70-6df3639a3410)
+
+
 > To check all the images
 ```
 docker images -a
@@ -116,8 +129,6 @@ docker rmi <image-name>
 <img width="526" alt="image" src="https://github.com/paragpallavsingh/90DaysOfDevOps/assets/40052830/d7079242-8635-4fa9-b2a8-9a94e45c9c36">
 
 <img width="537" alt="image" src="https://github.com/paragpallavsingh/90DaysOfDevOps/assets/40052830/2b0ff4bc-ae55-4c5a-a2eb-d103c836d487">
-
-
 
 *Please note: you can delete only untagged images. If the above command does not work, first remove the container attched then try this*
 
