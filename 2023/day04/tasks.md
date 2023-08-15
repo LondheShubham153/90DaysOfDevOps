@@ -28,4 +28,4 @@ Article Reference: [Click here to read basic Linux Shell Scripting](https://devo
 
 YouTube Vedio: [EASIEST Shell Scripting Tutorial for DevOps Engineers](https://www.youtube.com/watch?v=_-D6gkRj7xc&list=PLlfy9GnSVerQr-Se9JRE_tZJk3OUoHCkh&index=3)
 
-[← Previous Day](../Day03/tasks.md) | [Next Day →](../Day05/tasks.md)
+[← Previous Day](../day03/tasks.md) | [Next Day →](../day05/tasks.md)
