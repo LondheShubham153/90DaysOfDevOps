@@ -1,6 +1,6 @@
 # Day 5 Task: Advanced Linux Shell Scripting for DevOps Engineers with User management
 
-If you noticed that there are total 90 sub directories in the directory '2023' of this repository. What did you think, how did I create 90 directories. Manually one by one or using a script, or a command ?
+If you noticed that there are a total 90 sub-directories in the directory '2023' of this repository. What did you think, how did I create 90 directories? Manually one by one or using a script, or a command?
 
 All 90 directories within seconds using a simple command.
 
@@ -10,7 +10,7 @@ All 90 directories within seconds using a simple command.
 
 1. You have to do the same using Shell Script i.e using either Loops or command with start day and end day variables using arguments -
 
-So Write a bash script createDirectories.sh that when the script is executed with three given arguments (one is directory name and second is start number of directories and third is the end number of directories ) it creates specified number of directories with a dynamic directory name.
+So Write a bash script create directories.sh that when the script is executed with three given arguments (one is the directory name and second is start number of directories and third is the end number of directories ) it creates a specified number of directories with a dynamic directory name.
 
 Example 1: When the script is executed as
 
@@ -28,7 +28,7 @@ You may need to use loops or commands (or both), based on your preference . [Che
 
 2.  Create a Script to backup all your work done till now.
 
-Backups are an important part of DevOps Engineers day to Day activities
+Backups are an important part of DevOps Engineer's day to Day activities
 The video in References will help you to understand How a DevOps Engineer takes backups (it can feel a bit difficult but keep trying, Nothing is impossible.)
 Watch [this video](https://youtu.be/aolKiws4Joc)
 
@@ -48,6 +48,6 @@ A user is an entity, in a Linux operating system, that can manipulate files and 
 
 [Check out this reference: https://www.geeksforgeeks.org/user-management-in-linux/](https://www.geeksforgeeks.org/user-management-in-linux/)
 
-Post your daily work on Linkedin and le [me](https://www.linkedin.com/in/shubhamlondhe1996/) know , writing an article is the best :)
+Post your daily work on Linkedin and let [me](https://www.linkedin.com/in/shubhamlondhe1996/) know , writing an article is the best :)
 
 [← Previous Day](../day04/tasks.md) | [Next Day →](../day06/tasks.md)
