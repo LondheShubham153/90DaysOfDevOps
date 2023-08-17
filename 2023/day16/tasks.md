@@ -1,12 +1,12 @@
 ## Day 16 Task: Docker for DevOps Engineers.
 
-
 ### Docker
- Docker is a software platform that allows you to build, test, and deploy applications quickly. Docker packages software into standardized units called containers that have everything the software needs to run including libraries, system tools, code, and runtime. Using Docker, you can quickly deploy and scale applications into any environment and know your code will run.
+
+Docker is a software platform that allows you to build, test, and deploy applications quickly. Docker packages software into standardized units called containers that have everything the software needs to run including libraries, system tools, code, and runtime. Using Docker, you can quickly deploy and scale applications into any environment and know your code will run.
 
 # Tasks
 
- As you have already installed docker in previous days tasks, now is the time to run Docker commands.
+As you have already installed docker in previous days tasks, now is the time to run Docker commands.
 
 - Use the `docker run` command to start a new container and interact with it through the command line. [Hint: docker run hello-world]
 
@@ -22,9 +22,11 @@
 
 - Use the `docker load` command to load an image from a tar archive.
 
-These tasks involve simple operations that can be used to manage images and containers. 
+These tasks involve simple operations that can be used to manage images and containers.
 
 For reference you can watch this video:
 https://youtu.be/Tevxhn6Odc8
 
 You can Post on LinkedIn and let us know what you have learned from this task by #90DaysOfDevOps Challange. Happy Learning :)
+
+[← Previous Day](../day15/tasks.md) | [Next Day →](../day17/tasks.md)

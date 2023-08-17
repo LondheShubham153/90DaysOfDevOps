@@ -1,22 +1,14 @@
-
 ## Day 30 Task: Kubernetes Architecture
-
-  
 
 <p  align="center"><img  align="center"  src="https://kubernetes.io/images/kubernetes-horizontal-color.png"  /></p>
 
-  
-
 ## Kubernetes Overview
 
-With the widespread adoption of [containers](https://cloud.google.com/containers) among organizations, Kubernetes, the container-centric management software, has become a standard to deploy and operate containerized applications and is one of the most important parts of DevOps. 
+With the widespread adoption of [containers](https://cloud.google.com/containers) among organizations, Kubernetes, the container-centric management software, has become a standard to deploy and operate containerized applications and is one of the most important parts of DevOps.
 
-Originally developed at Google and released as open-source in 2014. Kubernetes builds on 15 years of running Google's containerized workloads and the valuable contributions from the open-source community. Inspired by Google’s internal cluster management system, [Borg](https://research.google.com/pubs/pub43438.html), 
-
+Originally developed at Google and released as open-source in 2014. Kubernetes builds on 15 years of running Google's containerized workloads and the valuable contributions from the open-source community. Inspired by Google’s internal cluster management system, [Borg](https://research.google.com/pubs/pub43438.html),
 
 ## Tasks
-
-  
 
 1. What is Kubernetes? Write in your own words and why do we call it k8s?
 
@@ -32,6 +24,6 @@ Originally developed at Google and released as open-source in 2014. Kubernetes b
 
 Kubernetes architecture is important, so make sure you spend a day understanding it. [This video](https://youtu.be/FqfoDUhzyDo) will surely help you.
 
-  
+_Happy Learning :)_
 
-*Happy Learning :)*
+[← Previous Day](../day29/tasks.md) | [Next Day →](../day31/tasks.md)
