@@ -14,3 +14,5 @@ Ansible ad hoc commands come handy when you want to perform a quick task.
 - You can refer to [this](https://www.middlewareinventory.com/blog/ansible-ad-hoc-commands/) blog to understand the different examples of ad-hoc commands and try out them, post the screenshots in a blog with an explanation.
 
 happy Learning :)
+
+[← Previous Day](../day55/tasks.md) | [Next Day →](../day57/tasks.md)

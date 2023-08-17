@@ -6,7 +6,7 @@
 
 ## What are Persistent Volumes in k8s
 
-In Kubernetes, a Persistent Volume (PV) is a piece of storage in the cluster that has been provisioned by an administrator. A Persistent Volume Claim (PVC) is a request for storage by a user. The PVC references the PV, and the PV is bound to a specific node. Read official documentation of [Persistent Volumes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/). 
+In Kubernetes, a Persistent Volume (PV) is a piece of storage in the cluster that has been provisioned by an administrator. A Persistent Volume Claim (PVC) is a request for storage by a user. The PVC references the PV, and the PV is bound to a specific node. Read official documentation of [Persistent Volumes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/).
 
 ⏰ Wait, wait, wait! 📣 Attention all #90daysofDevOps Challengers. 💪
 
@@ -47,3 +47,5 @@ Need help with Persistent Volumes? Check out this [video](https://youtu.be/U0_N3
 Keep up the excellent work🙌💥
 
 Happy Learning :)
+
+[← Previous Day](../day35/tasks.md) | [Next Day →](../day37/tasks.md)

@@ -1,12 +1,11 @@
 ## Day 21 Task: Docker Important interview Questions.
 
-
 ## Docker Interview
- Docker is a good topic to ask in DevOps Engineer Interviews, mostly for freshers.
- One must surely try these questions in order to be better in Docker
- 
-## Questions
 
+Docker is a good topic to ask in DevOps Engineer Interviews, mostly for freshers.
+One must surely try these questions in order to be better in Docker
+
+## Questions
 
 - What is the Difference between an Image, Container and Engine?
 - What is the Difference between the Docker command COPY vs ADD?
@@ -33,8 +32,9 @@
   - command to remove all stopped containers, unused networks, build caches, and dangling images?
 - What are the common docker practices to reduce the size of Docker Image?
 
-
 These questions will help you in your next DevOps Interview.
-*Write a Blog and share it on LinkedIn.*
+_Write a Blog and share it on LinkedIn._
 
-**Happy Learning :)** 
+**Happy Learning :)**
+
+[← Previous Day](../day20/tasks.md) | [Next Day →](../day22/tasks.md)

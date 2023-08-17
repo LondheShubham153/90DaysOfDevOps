@@ -1,5 +1,5 @@
 ## Day 37 Task: Kubernetes Important interview Questions.
- 
+
 ## Questions
 
 1.What is Kubernetes and why it is important?
@@ -18,7 +18,7 @@
 
 8.Can you give an example of how Kubernetes can be used to deploy a highly available application?
 
-9.What is namespace is kubernetes? Which namespace any pod  takes if we don't specify any namespace?
+9.What is namespace is kubernetes? Which namespace any pod takes if we don't specify any namespace?
 
 10.How ingress helps in kubernetes?
 
@@ -34,12 +34,10 @@
 
 16.Difference between create and apply in kubernetes?
 
-
-
-
- 
 ## These questions will help you in your next DevOps Interview.
- 
-*Write a Blog and share it on LinkedIn.*
 
-***Happy Learning :)***
+_Write a Blog and share it on LinkedIn._
+
+**_Happy Learning :)_**
+
+[← Previous Day](../day36/tasks.md) | [Next Day →](../day38/tasks.md)

@@ -19,8 +19,8 @@ What if you deploy a simple web app using ansible, sounds like a good project, r
 
 Read [this](https://medium.com/@sandeep010498/learn-ansible-with-real-time-project-cf6a0a512d45) Blog by [Sandeep Singh](https://medium.com/@sandeep010498) to clear all your doubts
 
-
-
 Let me or anyone in the community know if you face any challenges
 
 happy Learning :)
+
+[← Previous Day](../day58/tasks.md) | [Next Day →](../day60/tasks.md)

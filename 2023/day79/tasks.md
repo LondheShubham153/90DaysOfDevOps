@@ -5,7 +5,7 @@ It's an open-source system for monitoring services and alerts based on a time se
 
 Tasks:
 
----------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 1. What is the Architecture of Prometheus Monitoring?
 2. What are the Features of Prometheus?
@@ -13,6 +13,8 @@ Tasks:
 4. What database is used by Prometheus?
 5. What is the default data retention period in Prometheus?
 
----------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 Ref: https://www.devopsschool.com/blog/top-50-prometheus-interview-questions-and-answers/
+
+[← Previous Day](../day78/tasks.md) | [Next Day →](../day80/tasks.md)
