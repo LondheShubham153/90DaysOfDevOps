@@ -29,7 +29,7 @@ These are our community Links.
 YouTube Live Announcement:
 https://youtu.be/rO5Rllir-LM
 
-YouTube Playlist for DevOps:
+New YouTube Playlist for DevOps:
 https://youtube.com/playlist?list=PLlfy9GnSVerRqYJgVYO0UiExj5byjrW8u
 
 DevOps Course:
