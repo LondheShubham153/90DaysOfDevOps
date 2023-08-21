@@ -1,3 +1,5 @@
+![docker-question-cover](https://github.com/Simbaa815/90DaysOfDevOps/assets/112085387/39eb1650-e4bf-468f-90f5-e6795fe5737b)
+
 ## Docker Interview
  Docker is a good topic to ask in DevOps Engineer Interviews, mostly for freshers.
  One must surely try these questions in order to be better in Docker
