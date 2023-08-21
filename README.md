@@ -15,25 +15,49 @@ Let's come together to grow and achieve new heights in DevOps!
 - Check out what others are Learning and help/learn from them.
 - Showcase your learnings on LinkedIn
 
-These are our community Links.
+## These are our community Links
+  <a href="https://discord.com/channels/824622549182185493/824622550327623692">
+    <img width="30px" src="https://www.vectorlogo.zone/logos/discordapp/discordapp-tile.svg" />
+  </a>&ensp;
+    <a href="https://t.me/trainwithshubham">
+    <img width="30px" src="https://www.vectorlogo.zone/logos/telegram/telegram-icon.svg" />
+  </a> 
+  </a>&ensp;
 
-- Telegram Channel: https://t.me/trainwithshubham
-- Discord Channel: https://discord.gg/hs3Pmc5F
-- WhatsApp Group: https://chat.whatsapp.com/FvRlAAZVxUhCUSZ0Y1s7KY
-- YouTube Channel: https://www.youtube.com/@TrainWithShubham
-- Website: https://www.trainwithshubham.com/
-- LinkedIn: https://www.linkedin.com/in/shubhamlondhe1996/
+  <a href="https://www.linkedin.com/in/shubhamlondhe1996/">
+    <img width="30px" src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" />
+  </a>&ensp;
+
+ <a href="https://www.youtube.com/@TrainWithShubham">
+  <img width="30px" src="https://i.pinimg.com/originals/46/02/cb/4602cbc18967da9c1eba7452905cd99b.png" />
+  </a>&ensp;
+
+  <a href="https://chat.whatsapp.com/FvRlAAZVxUhCUSZ0Y1s7KY">
+  <img width="30px" src="https://www.vectorlogo.zone/logos/whatsapp/whatsapp-icon.svg" />
+</a>&ensp;
+
+
+<a href="https://www.trainwithshubham.com/">
+  <img width="30px" src="https://media.licdn.com/dms/image/C4D0BAQGokBZsFEUWHw/company-logo_200_200/0/1677354328695?e=1700092800&v=beta&t=3bw7W2tQEpn023Slj_PacUZflE-OyYpBU-9juiJNJVY" />
+</a>&ensp;
 
 ## Events
 
-YouTube Live Announcement:
-https://youtu.be/rO5Rllir-LM
+### YouTube Live Announcement:
+<a href="https://youtu.be/rO5Rllir-LM">
+  <img width="30px" src="https://i.pinimg.com/originals/46/02/cb/4602cbc18967da9c1eba7452905cd99b.png" />
+  </a>&ensp;
 
-YouTube Playlist for DevOps:
-https://youtube.com/playlist?list=PLlfy9GnSVerRqYJgVYO0UiExj5byjrW8u
+### YouTube Playlist for DevOps:
+<a href="https://youtube.com/playlist?list=PLlfy9GnSVerRqYJgVYO0UiExj5byjrW8u
+">
+  <img width="30px" src="https://i.pinimg.com/originals/46/02/cb/4602cbc18967da9c1eba7452905cd99b.png" />
+  </a>&ensp;
 
-DevOps Course:
-https://bit.ly/devops-batch-4
+### DevOps Course:
+<a href="https://bit.ly/devops-batch-4">
+  <img width="30px" src="https://media.licdn.com/dms/image/C4D0BAQGokBZsFEUWHw/company-logo_200_200/0/1677354328695?e=1700092800&v=beta&t=3bw7W2tQEpn023Slj_PacUZflE-OyYpBU-9juiJNJVY" />
+</a>&ensp;
 
 ## Thanks to all contributors ❤
 
