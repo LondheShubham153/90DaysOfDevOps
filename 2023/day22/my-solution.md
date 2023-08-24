@@ -1,7 +1,7 @@
 ## Tasks: 
 
 **1. What you understood in Jenkin, write a small article in your own words (Don't copy from Internet Directly)**<br>
-[Blog Link](www.google.com)
+[Blog Link](https://devxblog.hashnode.dev/introduction-to-jenkins-a-beginners-guide)
 
 **2.Create a freestyle pipeline to print "Hello World!!**
 - **Step 1: Create a New Freestyle Job**<br>
