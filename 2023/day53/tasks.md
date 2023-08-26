@@ -4,13 +4,13 @@ On your journey of making a CI/CD pipeline on AWS with these tools, you complete
 
 Finish Off in style with AWS CodePipeline
 
+## What is CodePipeline ?
 
-## What is CodePipeline ? 
 - CodePipeline builds, tests, and deploys your code every time there is a code change, based on the release process models you define.
-Think of it as a CI/CD Pipeline service
-
+  Think of it as a CI/CD Pipeline service
 
 # Task-01 :
+
 - Create a Deployment group of Ec2 Instance.
 - Create a CodePipeline that gets the code from CodeCommit, Builds the code using CodeBuild and deploys it to a Deployment Group.
 
@@ -18,7 +18,4 @@ For more details watch [this](https://youtu.be/IUF-pfbYGvg) video.
 
 Happy Learning :)
 
-
-
-
-
+[← Previous Day](../day52/tasks.md) | [Next Day →](../day54/tasks.md)

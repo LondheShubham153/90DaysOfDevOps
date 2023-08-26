@@ -9,17 +9,20 @@ variable "filename" {
 default = "/home/ubuntu/terrform-tutorials/terraform-variables/demo-var.txt"
 }
 ```
+
 ```
 variable "content" {
 default = "This is coming from a variable which was updated"
 }
 ```
+
 These variables can be accessed by var object in main.tf
 
 ## Task-01
 
 - Create a local file using Terraform
-Hint:
+  Hint:
+
 ```
 resource "local_file" "devops" {
 filename = var.filename
@@ -30,6 +33,7 @@ content = var.content
 ## Data Types in Terraform
 
 ## Map
+
 ```
 variable "file_contents" {
 type = map
@@ -40,21 +44,19 @@ default = {
 }
 ```
 
-## Task-02 
+## Task-02
 
 - Use terraform to demonstrate usage of List, Set and Object datatypes
 - Put proper screenshots of the outputs
 
-
 Use `terraform refresh`
 
 To refresh the state by your configuration file, reloads the variables
-
-
-
 
 # Video Course
 
 I can imagine, Terraform can be tricky, so best to use a Free video Course for terraform [here](https://bit.ly/tws-terraform)
 
 Happy Learning :)
+
+[← Previous Day](../day62/tasks.md) | [Next Day →](../day64/tasks.md)

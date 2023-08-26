@@ -22,9 +22,10 @@ task:
 
 For Refference Project visit [here](https://youtu.be/Tevxhn6Odc8)
 
-If you want to dive further, Watch [bootcamp](https://youtube.com/playlist?list=PLlfy9GnSVerRqYJgVYO0UiExj5byjrW8u) 
+If you want to dive further, Watch [bootcamp](https://youtube.com/playlist?list=PLlfy9GnSVerRqYJgVYO0UiExj5byjrW8u)
 
 You can share the learning with everyone over linkedin and tag us along 😃
 
 Happy Learning:)
 
+[← Previous Day](../day16/tasks.md) | [Next Day →](../day18/tasks.md)

@@ -1,18 +1,13 @@
 # Project-6
+
 =========
 
 # Project Description
 
-
 The project involves deploying a Node JS app on AWS ECS Fargate and AWS ECR.
 Read More about the tech stack [here](https://faun.pub/what-is-amazon-ecs-and-ecr-how-does-they-work-with-an-example-4acbf9be8415)
 
-
-
-
-
 ## Task-01
-
 
 - Get a NodeJs application from [GitHub](https://github.com/LondheShubham153/node-todo-cicd).
 
@@ -26,6 +21,6 @@ Read More about the tech stack [here](https://faun.pub/what-is-amazon-ecs-and-ec
 
 - Run the Project and share it on LinkedIn :)
 
-
-
 Happy Learning :)
+
+[← Previous Day](../day84/tasks.md) | [Next Day →](../day86/tasks.md)

@@ -11,8 +11,7 @@ Watch [this video](https://youtu.be/XYKqL5GFI-I) for more details.
 
 The AWS Command Line Interface (AWS CLI) is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts.
 
-The AWS CLI v2 offers several new features including improved installers, new configuration options such as AWS IAM Identity Center (successor to AWS SSO), and various interactive features. 
-
+The AWS CLI v2 offers several new features including improved installers, new configuration options such as AWS IAM Identity Center (successor to AWS SSO), and various interactive features.
 
 ## Task-01
 
@@ -22,7 +21,8 @@ The AWS CLI v2 offers several new features including improved installers, new co
 
 - Setup and install AWS CLI and configure your account credentials
 
-
 Let me know if you have any issues while doing the task.
 
 Happy Learning :)
+
+[← Previous Day](../day41/tasks.md) | [Next Day →](../day43/tasks.md)
