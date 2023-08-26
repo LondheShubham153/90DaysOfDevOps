@@ -50,4 +50,4 @@ Don't forget to share your progress on LinkedIn and have a great day🙌💥
 
 Happy Learning! 😃
 
-[← Previous Day](../day40/tasks.md) | [Next Day →](../day42/tasks.md)
+[← Previous Day](../day40/README.md) | [Next Day →](../day42/README.md)

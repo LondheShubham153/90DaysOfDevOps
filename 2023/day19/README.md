@@ -36,4 +36,4 @@ _hints:_
 
 You can Post on LinkedIn and let us know what you have learned from this task by #90DaysOfDevOps Challange. Happy Learning :)
 
-[← Previous Day](../day18/tasks.md) | [Next Day →](../day20/tasks.md)
+[← Previous Day](../day18/README.md) | [Next Day →](../day20/README.md)

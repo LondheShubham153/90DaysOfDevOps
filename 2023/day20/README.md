@@ -13,4 +13,4 @@ Post it on Linkedin and Spread the knowledge.😃
 
 **Happy Learning :)**
 
-[← Previous Day](../day19/tasks.md) | [Next Day →](../day21/tasks.md)
+[← Previous Day](../day19/README.md) | [Next Day →](../day21/README.md)

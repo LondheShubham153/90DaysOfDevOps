@@ -27,4 +27,4 @@ In this task you need to prepare a devops team of avengers. Create 3 IAM users o
 
 Post your progress on Linkedin. Till then Happy Learning :)
 
-[← Previous Day](../day37/tasks.md) | [Next Day →](../day39/tasks.md)
+[← Previous Day](../day37/README.md) | [Next Day →](../day39/README.md)

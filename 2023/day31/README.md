@@ -62,4 +62,4 @@ We are suggesting you make an nginx pod, but you can always show your creativity
 
 _Happy Learning :)_
 
-[← Previous Day](../day30/tasks.md) | [Next Day →](../day32/tasks.md)
+[← Previous Day](../day30/README.md) | [Next Day →](../day32/README.md)

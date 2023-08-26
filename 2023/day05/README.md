@@ -50,4 +50,4 @@ A user is an entity, in a Linux operating system, that can manipulate files and 
 
 Post your daily work on Linkedin and let [me](https://www.linkedin.com/in/shubhamlondhe1996/) know , writing an article is the best :)
 
-[← Previous Day](../day04/tasks.md) | [Next Day →](../day06/tasks.md)
+[← Previous Day](../day04/README.md) | [Next Day →](../day06/README.md)

@@ -26,4 +26,4 @@ Keep coding, automating, deploying, and innovating! 🎈
 With gratitude,
 @TrainWithShubham
 
-[← Previous Day](../day89/tasks.md)
+[← Previous Day](../day89/README.md)

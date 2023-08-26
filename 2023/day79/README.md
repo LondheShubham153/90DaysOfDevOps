@@ -17,4 +17,4 @@ Tasks:
 
 Ref: https://www.devopsschool.com/blog/top-50-prometheus-interview-questions-and-answers/
 
-[← Previous Day](../day78/tasks.md) | [Next Day →](../day80/tasks.md)
+[← Previous Day](../day78/README.md) | [Next Day →](../day80/README.md)

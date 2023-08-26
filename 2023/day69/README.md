@@ -179,4 +179,4 @@ Name = "Server ${each.key}"
 
 Happy learning :)
 
-[← Previous Day](../day68/tasks.md) | [Next Day →](../day70/tasks.md)
+[← Previous Day](../day68/README.md) | [Next Day →](../day70/README.md)

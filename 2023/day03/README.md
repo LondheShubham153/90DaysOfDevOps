@@ -16,4 +16,4 @@ Task: What is the linux command to
 
 Reference: https://www.linkedin.com/pulse/linux-commands-devops-used-day-to-day-activit-chetan-/
 
-[← Previous Day](../day02/tasks.md) | [Next Day →](../day04/tasks.md)
+[← Previous Day](../day02/README.md) | [Next Day →](../day04/README.md)

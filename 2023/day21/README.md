@@ -37,4 +37,4 @@ _Write a Blog and share it on LinkedIn._
 
 **Happy Learning :)**
 
-[← Previous Day](../day20/tasks.md) | [Next Day →](../day22/tasks.md)
+[← Previous Day](../day20/README.md) | [Next Day →](../day22/README.md)

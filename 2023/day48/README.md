@@ -37,4 +37,4 @@ In summary, EKS is a good choice if you want to use Kubernetes to manage your co
 
 Set up ECS (Elastic Container Service) by setting up Nginx on ECS.
 
-[← Previous Day](../day47/tasks.md) | [Next Day →](../day49/tasks.md)
+[← Previous Day](../day47/README.md) | [Next Day →](../day49/README.md)

@@ -27,4 +27,4 @@ For more details watch [this](https://youtu.be/p5i3cMCQ760) video.
 
 Happy Learning :)
 
-[← Previous Day](../day50/tasks.md) | [Next Day →](../day52/tasks.md)
+[← Previous Day](../day50/README.md) | [Next Day →](../day52/README.md)

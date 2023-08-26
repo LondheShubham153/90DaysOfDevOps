@@ -48,4 +48,4 @@ Reff :- https://youtu.be/AT1uxOLsCdk
 
 Post your daily work on Linkedin and le me know , writing an article is the best :)
 
-[← Previous Day](../day07/tasks.md) | [Next Day →](../day09/tasks.md)
+[← Previous Day](../day07/README.md) | [Next Day →](../day09/README.md)

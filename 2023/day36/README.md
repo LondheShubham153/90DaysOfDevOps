@@ -48,4 +48,4 @@ Keep up the excellent work🙌💥
 
 Happy Learning :)
 
-[← Previous Day](../day35/tasks.md) | [Next Day →](../day37/tasks.md)
+[← Previous Day](../day35/README.md) | [Next Day →](../day37/README.md)

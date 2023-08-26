@@ -20,4 +20,4 @@ Watch [this video](https://youtu.be/MrA6Rk1Y82E) for reference.
 
 Happy Learning
 
-[← Previous Day](../day43/tasks.md) | [Next Day →](../day45/tasks.md)
+[← Previous Day](../day43/README.md) | [Next Day →](../day45/README.md)

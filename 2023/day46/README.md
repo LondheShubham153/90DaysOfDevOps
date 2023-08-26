@@ -32,4 +32,4 @@ Keep growing your AWS knowledge💥🙌
 
 Happy Learning! :)
 
-[← Previous Day](../day45/tasks.md) | [Next Day →](../day47/tasks.md)
+[← Previous Day](../day45/README.md) | [Next Day →](../day47/README.md)

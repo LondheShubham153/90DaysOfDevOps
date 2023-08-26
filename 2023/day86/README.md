@@ -21,4 +21,4 @@ Git Hub actions allows you to perform CICD with GitHub Repository integrated.
 
 Happy Learning :)
 
-[← Previous Day](../day85/tasks.md) | [Next Day →](../day87/tasks.md)
+[← Previous Day](../day85/README.md) | [Next Day →](../day87/README.md)

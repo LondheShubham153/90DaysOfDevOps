@@ -15,4 +15,4 @@ To configure this WordPress site, you will create the following resources in AWS
 Read [this](https://aws.amazon.com/getting-started/hands-on/deploy-wordpress-with-amazon-rds/) for a detailed explanation
 Happy Learning :)
 
-[← Previous Day](../day44/tasks.md) | [Next Day →](../day46/tasks.md)
+[← Previous Day](../day44/README.md) | [Next Day →](../day46/README.md)

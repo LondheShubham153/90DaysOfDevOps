@@ -8,7 +8,7 @@ Today, make it little bit more complex but interesting 😍 and let's add one mo
 
 ## Task:
 
-- Install _Docker_ and start docker service on a Linux EC2 through [USER DATA](https://github.com/LondheShubham153/90DaysOfDevOps/blob/0999394e87192863b5c190a90896249c31ce31af/2023/day39/tasks.md) .
+- Install _Docker_ and start docker service on a Linux EC2 through [USER DATA](https://github.com/LondheShubham153/90DaysOfDevOps/blob/0999394e87192863b5c190a90896249c31ce31af/2023/day39/README.md) .
 - Create 2 Docker containers and run any basic application on those containers (A simple todo app will work).
 - Now intregrate the docker containers and share the real time logs with Grafana (Your Instance should be connected to Grafana and Docker plugin should be enabled on grafana).
 - Check the logs or docker container name on Grafana UI.
@@ -27,4 +27,4 @@ Don't forget to share this amazing work over LinkedIn and Tag us.
 
 ## Happy Learning :)
 
-[← Previous Day](../day74/tasks.md) | [Next Day →](../day76/tasks.md)
+[← Previous Day](../day74/README.md) | [Next Day →](../day76/README.md)

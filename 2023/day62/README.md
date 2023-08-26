@@ -76,4 +76,4 @@ I can imagine, Terraform can be tricky, so best to use a Free video Course for t
 
 Happy Learning :)
 
-[← Previous Day](../day61/tasks.md) | [Next Day →](../day63/tasks.md)
+[← Previous Day](../day61/README.md) | [Next Day →](../day63/README.md)

@@ -40,4 +40,4 @@ For Reference, read [this](https://www.howtogeek.com/devops/how-to-check-if-the-
 
 #### Post about this and bring your friends to this #90DaysOfDevOps challenge.
 
-[← Previous Day](../day06/tasks.md) | [Next Day →](../day08/tasks.md)
+[← Previous Day](../day06/README.md) | [Next Day →](../day08/README.md)

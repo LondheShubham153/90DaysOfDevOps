@@ -23,6 +23,6 @@ task-2:
 
 reff :- https://youtu.be/AT1uxOLsCdk
 
-Note: These steps assume that you have already installed Git on your computer and have created a GitHub account. If you need help with these prerequisites, you can refer to the [day-08](https://github.com/LondheShubham153/90DaysOfDevOps/blob/ee7c53f276edb02a85a97282027028295be17c04/2023/day08/tasks.md)
+Note: These steps assume that you have already installed Git on your computer and have created a GitHub account. If you need help with these prerequisites, you can refer to the [day-08](https://github.com/LondheShubham153/90DaysOfDevOps/blob/ee7c53f276edb02a85a97282027028295be17c04/2023/day08/README.md)
 
-[← Previous Day](../day08/tasks.md) | [Next Day →](../day10/tasks.md)
+[← Previous Day](../day08/README.md) | [Next Day →](../day10/README.md)

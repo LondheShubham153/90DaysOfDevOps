@@ -77,4 +77,4 @@ You all are doing great, and you have come so far. Well Done Everyone🎉
 
 Thode mehnat aur krni hai bas to lge rho tab tak.....Happy learning :)
 
-[← Previous Day](../day69/tasks.md) | [Next Day →](../day71/tasks.md)
+[← Previous Day](../day69/README.md) | [Next Day →](../day71/README.md)

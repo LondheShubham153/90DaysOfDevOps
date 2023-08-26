@@ -28,4 +28,4 @@ You can share the learning with everyone over linkedin and tag us along 😃
 
 Happy Learning:)
 
-[← Previous Day](../day16/tasks.md) | [Next Day →](../day18/tasks.md)
+[← Previous Day](../day16/README.md) | [Next Day →](../day18/README.md)

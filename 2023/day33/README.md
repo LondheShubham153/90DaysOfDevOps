@@ -31,4 +31,4 @@ Keep growing your Kubernetes knowledge💥🙌
 
 Happy Learning! :)
 
-[← Previous Day](../day32/tasks.md) | [Next Day →](../day34/tasks.md)
+[← Previous Day](../day32/README.md) | [Next Day →](../day34/README.md)

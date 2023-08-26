@@ -23,4 +23,4 @@ Let me or anyone in the community know if you face any challenges
 
 happy Learning :)
 
-[← Previous Day](../day58/tasks.md) | [Next Day →](../day60/tasks.md)
+[← Previous Day](../day58/README.md) | [Next Day →](../day60/README.md)

@@ -26,4 +26,4 @@ Kubernetes architecture is important, so make sure you spend a day understanding
 
 _Happy Learning :)_
 
-[← Previous Day](../day29/tasks.md) | [Next Day →](../day31/tasks.md)
+[← Previous Day](../day29/README.md) | [Next Day →](../day31/README.md)

@@ -46,4 +46,4 @@ Post your progress on Linkedin.
 
 Happy Learning :)
 
-[← Previous Day](../day39/tasks.md) | [Next Day →](../day41/tasks.md)
+[← Previous Day](../day39/README.md) | [Next Day →](../day41/README.md)

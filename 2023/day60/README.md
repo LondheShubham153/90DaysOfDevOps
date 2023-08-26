@@ -28,4 +28,4 @@ We Hope this tasks will help you understand how to write a basic Terraform confi
 Don’t forget to post in on LinkedIn.
 Happy Learning:)
 
-[← Previous Day](../day59/tasks.md) | [Next Day →](../day61/tasks.md)
+[← Previous Day](../day59/README.md) | [Next Day →](../day61/README.md)

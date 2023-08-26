@@ -56,4 +56,4 @@ You can post your progress on LinkedIn and let us know what you have learned fro
 
 Happy Learning:)
 
-[← Previous Day](../day25/tasks.md) | [Next Day →](../day27/tasks.md)
+[← Previous Day](../day25/README.md) | [Next Day →](../day27/README.md)

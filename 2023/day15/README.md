@@ -26,4 +26,4 @@ gcp : compute engine
 Python Project for your practice:
 https://youtube.com/playlist?list=PLlfy9GnSVerSzFmQ8JqP9v0XHHOAeWbjo
 
-[← Previous Day](../day14/tasks.md) | [Next Day →](../day16/tasks.md)
+[← Previous Day](../day14/README.md) | [Next Day →](../day16/README.md)

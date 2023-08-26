@@ -12,4 +12,4 @@ Do the hands-on Project, read [this](https://www.linkedin.com/posts/chetanrakhra
 
 Happy Learning :)
 
-[← Previous Day](../day80/tasks.md) | [Next Day →](../day82/tasks.md)
+[← Previous Day](../day80/README.md) | [Next Day →](../day82/README.md)

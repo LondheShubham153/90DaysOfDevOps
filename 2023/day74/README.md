@@ -16,4 +16,4 @@ Don't forget to share this amazing work over LinkedIn and Tag us.
 
 ## Happy Learning :)
 
-[← Previous Day](../day73/tasks.md) | [Next Day →](../day75/tasks.md)
+[← Previous Day](../day73/README.md) | [Next Day →](../day75/README.md)

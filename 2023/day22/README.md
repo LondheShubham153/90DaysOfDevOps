@@ -27,4 +27,4 @@ Hint: Use link for [Article](https://www.geeksforgeeks.org/what-is-jenkins)
 
 Don't forget to post your progress on Linkedin. Till then Happy learning :)
 
-[← Previous Day](../day21/tasks.md) | [Next Day →](../day23/tasks.md)
+[← Previous Day](../day21/README.md) | [Next Day →](../day23/README.md)

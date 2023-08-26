@@ -64,4 +64,4 @@ Run terraform apply to create the EC2 instance.
 
 Happy Terraforming!
 
-[← Previous Day](../day64/tasks.md) | [Next Day →](../day66/tasks.md)
+[← Previous Day](../day64/README.md) | [Next Day →](../day66/README.md)
