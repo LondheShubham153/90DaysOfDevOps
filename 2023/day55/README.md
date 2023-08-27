@@ -25,4 +25,4 @@ Write a blog on this topic with screenshots in the most creative way and post it
 
 happy learning...
 
-[← Previous Day](../day54/tasks.md) | [Next Day →](../day56/tasks.md)
+[← Previous Day](../day54/README.md) | [Next Day →](../day56/README.md)

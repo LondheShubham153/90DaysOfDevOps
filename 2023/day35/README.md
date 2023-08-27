@@ -34,4 +34,4 @@ Need help with ConfigMaps and Secrets? Check out this [video](https://youtu.be/F
 
 Keep learning and expanding your knowledge of Kubernetes💥🙌
 
-[← Previous Day](../day34/tasks.md) | [Next Day →](../day36/tasks.md)
+[← Previous Day](../day34/README.md) | [Next Day →](../day36/README.md)

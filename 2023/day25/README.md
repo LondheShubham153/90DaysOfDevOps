@@ -28,4 +28,4 @@ You can Post on LinkedIn and let us know what you have learned from this task by
 
 Happy Learning:)
 
-[← Previous Day](../day24/tasks.md) | [Next Day →](../day26/tasks.md)
+[← Previous Day](../day24/README.md) | [Next Day →](../day26/README.md)

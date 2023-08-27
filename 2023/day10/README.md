@@ -66,4 +66,4 @@ Advance Reference on branching : [video](https://youtu.be/7xhkEQS3dXw)
 
 You can Post on LinkedIn and let us know what you have learned from this task by #90DaysOfDevOps Challange. Happy Learning :)
 
-[← Previous Day](../day09/tasks.md) | [Next Day →](../day11/tasks.md)
+[← Previous Day](../day09/README.md) | [Next Day →](../day11/README.md)

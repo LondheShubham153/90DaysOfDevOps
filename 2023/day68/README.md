@@ -63,4 +63,4 @@ Congratulations🎊🎉 You have successfully scaled your infrastructure with Te
 
 Happy Learning :)
 
-[← Previous Day](../day67/tasks.md) | [Next Day →](../day69/tasks.md)
+[← Previous Day](../day67/README.md) | [Next Day →](../day69/README.md)

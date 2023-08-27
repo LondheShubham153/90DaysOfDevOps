@@ -15,4 +15,4 @@ Ansible ad hoc commands come handy when you want to perform a quick task.
 
 happy Learning :)
 
-[← Previous Day](../day55/tasks.md) | [Next Day →](../day57/tasks.md)
+[← Previous Day](../day55/README.md) | [Next Day →](../day57/README.md)

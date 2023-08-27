@@ -38,4 +38,4 @@ terraform destroy
 
 Waiting for your responses😉.....Till then Happy learning :)
 
-[← Previous Day](../day70/tasks.md) | [Next Day →](../day72/tasks.md)
+[← Previous Day](../day70/README.md) | [Next Day →](../day72/README.md)

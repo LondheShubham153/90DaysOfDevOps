@@ -10,4 +10,4 @@ Let's make it fun now, by using a video explanation for Ansible.
 
 happy Learning :)
 
-[← Previous Day](../day56/tasks.md) | [Next Day →](../day58/tasks.md)
+[← Previous Day](../day56/README.md) | [Next Day →](../day58/README.md)

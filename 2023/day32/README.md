@@ -24,4 +24,4 @@ Let's make your resume shine with one more project ;)
 
 Happy Learning :)
 
-[← Previous Day](../day31/tasks.md) | [Next Day →](../day33/tasks.md)
+[← Previous Day](../day31/README.md) | [Next Day →](../day33/README.md)

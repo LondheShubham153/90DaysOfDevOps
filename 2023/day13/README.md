@@ -26,4 +26,4 @@ Don't forget to share your Journey over linkedin. Let the community know that yo
 
 Happy Learning, Ruko Mat Phod do😃
 
-[← Previous Day](../day12/tasks.md) | [Next Day →](../day14/tasks.md)
+[← Previous Day](../day12/README.md) | [Next Day →](../day14/README.md)

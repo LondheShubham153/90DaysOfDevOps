@@ -28,4 +28,4 @@ For more details watch [this](https://youtu.be/IUF-pfbYGvg) video.
 
 Happy Learning :)
 
-[← Previous Day](../day51/tasks.md) | [Next Day →](../day53/tasks.md)
+[← Previous Day](../day51/README.md) | [Next Day →](../day53/README.md)

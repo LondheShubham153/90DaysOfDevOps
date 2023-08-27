@@ -13,4 +13,4 @@ Hello Learners , you guys are doing really a good job. You will not be there 24\
 
 ---
 
-[← Previous Day](../day71/tasks.md) | [Next Day →](../day73/tasks.md)
+[← Previous Day](../day71/README.md) | [Next Day →](../day73/README.md)

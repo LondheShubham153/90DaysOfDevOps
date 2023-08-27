@@ -38,4 +38,4 @@ Get to know IAM more deeply🏊[Click Here!!](https://www.youtube.com/watch?v=OR
 
 Post your progress on Linkedin. Till then Happy Learning :)
 
-[← Previous Day](../day38/tasks.md) | [Next Day →](../day40/tasks.md)
+[← Previous Day](../day38/README.md) | [Next Day →](../day40/README.md)

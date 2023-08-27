@@ -28,4 +28,4 @@ In case of any doubts, post it on [Discord Community](https://discord.gg/hs3Pmc5
 
 Happy Learning
 
-[← Previous Day](../day05/tasks.md) | [Next Day →](../day07/tasks.md)
+[← Previous Day](../day05/README.md) | [Next Day →](../day07/README.md)

@@ -34,4 +34,4 @@ Want a Free video Course for terraform? Click [here](https://bit.ly/tws-terrafor
 
 Don't forget to share your learnings on Linkedin ! Happy Learning :)
 
-[← Previous Day](../day60/tasks.md) | [Next Day →](../day62/tasks.md)
+[← Previous Day](../day60/README.md) | [Next Day →](../day62/README.md)

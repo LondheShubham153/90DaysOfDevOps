@@ -29,4 +29,4 @@ https://youtu.be/Tevxhn6Odc8
 
 You can Post on LinkedIn and let us know what you have learned from this task by #90DaysOfDevOps Challange. Happy Learning :)
 
-[← Previous Day](../day15/tasks.md) | [Next Day →](../day17/tasks.md)
+[← Previous Day](../day15/README.md) | [Next Day →](../day17/README.md)

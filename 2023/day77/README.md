@@ -11,4 +11,4 @@ Grafana Alerting is available for Grafana OSS, Grafana Enterprise, or Grafana Cl
 
 Check out [this blog](https://grafana.com/docs/grafana/latest/alerting/) for more details
 
-[← Previous Day](../day76/tasks.md) | [Next Day →](../day78/tasks.md)
+[← Previous Day](../day76/README.md) | [Next Day →](../day78/README.md)

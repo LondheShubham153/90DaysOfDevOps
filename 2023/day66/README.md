@@ -23,4 +23,4 @@ In the previous tasks, you have learned about the basics of Terraform, its confi
 
 Happy Terraforming:)
 
-[← Previous Day](../day65/tasks.md) | [Next Day →](../day67/tasks.md)
+[← Previous Day](../day65/README.md) | [Next Day →](../day67/README.md)

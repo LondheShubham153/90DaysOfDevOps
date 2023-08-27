@@ -29,4 +29,4 @@ Let me know if you have any questions or face any issues while doing the tasks.�
 
 Happy Learning :)
 
-[← Previous Day](../day42/tasks.md) | [Next Day →](../day44/tasks.md)
+[← Previous Day](../day42/README.md) | [Next Day →](../day44/README.md)

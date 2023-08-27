@@ -12,4 +12,4 @@ Get a netflix clone form [GitHub](https://github.com/devandres-tech/Netflix-Clon
 
 Happy Learning :)
 
-[← Previous Day](../day83/tasks.md) | [Next Day →](../day85/tasks.md)
+[← Previous Day](../day83/README.md) | [Next Day →](../day85/README.md)

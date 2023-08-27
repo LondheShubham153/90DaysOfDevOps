@@ -10,4 +10,4 @@ Note: [Check this file for reference](basic_linux_commands.md)
 
 Check the basic_linux_commands.md file on the same directory day2
 
-[← Previous Day](../day01/tasks.md) | [Next Day →](../day03/tasks.md)
+[← Previous Day](../day01/README.md) | [Next Day →](../day03/README.md)

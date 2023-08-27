@@ -18,4 +18,4 @@ We hope that these tasks will give you hands-on experience with aws services and
 
 Happy Learning :)
 
-[← Previous Day](../day46/tasks.md) | [Next Day →](../day48/tasks.md)
+[← Previous Day](../day46/README.md) | [Next Day →](../day48/README.md)

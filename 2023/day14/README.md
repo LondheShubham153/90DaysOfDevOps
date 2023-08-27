@@ -58,4 +58,4 @@ If you want to deep dive further, Watch [Python](https://youtu.be/abPgj_3hzVY)
 
 You can share the learning with everyone over linkedin and tag us along 😃
 
-[← Previous Day](../day13/tasks.md) | [Next Day →](../day15/tasks.md)
+[← Previous Day](../day13/README.md) | [Next Day →](../day15/README.md)

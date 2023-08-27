@@ -19,4 +19,4 @@ In this task, you will learn how to create and manage S3 buckets in AWS.
 
 Good luck and happy learning!
 
-[← Previous Day](../day66/tasks.md) | [Next Day →](../day68/tasks.md)
+[← Previous Day](../day66/README.md) | [Next Day →](../day68/README.md)

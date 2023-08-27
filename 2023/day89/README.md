@@ -16,4 +16,4 @@ This is a AWS Mini Project that will teach you AWS, S3, EC2, S3FS.
 
 Happy Learning :)
 
-[← Previous Day](../day88/tasks.md) | [Next Day →](../day90/tasks.md)
+[← Previous Day](../day88/README.md) | [Next Day →](../day90/README.md)

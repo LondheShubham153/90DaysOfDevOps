@@ -40,4 +40,4 @@ Let me know how are feeling after 4 weeks of DevOps Learnings,
 
 Happy Learning:)
 
-[← Previous Day](../day26/tasks.md) | [Next Day →](../day28/tasks.md)
+[← Previous Day](../day26/README.md) | [Next Day →](../day28/README.md)

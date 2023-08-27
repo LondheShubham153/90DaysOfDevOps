@@ -30,4 +30,4 @@ Read [this](https://grafana.com/tutorials/grafana-fundamentals/) in case you hav
 
 Do share some amazing Dashboards with the community
 
-[← Previous Day](../day75/tasks.md) | [Next Day →](../day77/tasks.md)
+[← Previous Day](../day75/README.md) | [Next Day →](../day77/README.md)

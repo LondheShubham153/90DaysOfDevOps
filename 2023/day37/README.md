@@ -40,4 +40,4 @@ _Write a Blog and share it on LinkedIn._
 
 **_Happy Learning :)_**
 
-[← Previous Day](../day36/tasks.md) | [Next Day →](../day38/tasks.md)
+[← Previous Day](../day36/README.md) | [Next Day →](../day38/README.md)

@@ -23,4 +23,4 @@ Read More about the tech stack [here](https://faun.pub/what-is-amazon-ecs-and-ec
 
 Happy Learning :)
 
-[← Previous Day](../day84/tasks.md) | [Next Day →](../day86/tasks.md)
+[← Previous Day](../day84/README.md) | [Next Day →](../day86/README.md)

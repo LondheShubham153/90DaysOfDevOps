@@ -20,4 +20,4 @@ Kubernetes Cluster helps in Auto-scaling and Auto-healing of your application.
 
 Happy Learning :)
 
-[← Previous Day](../day87/tasks.md) | [Next Day →](../day89/tasks.md)
+[← Previous Day](../day87/README.md) | [Next Day →](../day89/README.md)

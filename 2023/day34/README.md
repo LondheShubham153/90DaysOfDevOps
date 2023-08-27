@@ -33,4 +33,4 @@ Need help with Services in Kubernetes? Check out the Kubernetes [documentation](
 
 Happy Learning :)
 
-[← Previous Day](../day33/tasks.md) | [Next Day →](../day35/tasks.md)
+[← Previous Day](../day33/README.md) | [Next Day →](../day35/README.md)

@@ -22,4 +22,4 @@ As you people have asked to put more interview based questions as part of Daily 
 Let's share your answer on LinkedIn in best possible way thinking you are in a interview table.
 Happy Learning !! :)
 
-[← Previous Day](../day48/tasks.md) | [Next Day →](../day50/tasks.md)
+[← Previous Day](../day48/README.md) | [Next Day →](../day50/README.md)
