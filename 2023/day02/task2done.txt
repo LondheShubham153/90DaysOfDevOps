@@ -1,0 +1,10 @@
+1. Check your present working directory.
+ans- PWD command is helped us to view your currunt working directory
+and it's stand for present working directory
+
+2. List all the files or directories including hidden files.
+and- using ls -a command is used to list files and hidden file also \
+
+3. Create a nested directory A/B/C/D/E
+ans- for creating nested directory we used mkdir command
+ex. mkdir -p A/B/C/D/E
