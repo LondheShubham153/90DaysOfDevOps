@@ -1,0 +1,29 @@
+Day 3 Task: Basic Linux Commands
+
+Task: What is the linux command to
+
+1. To view what's written in a file.
+ans- using CAT command we can view the content of file
+2. To change the access permissions of files.
+ans- using chmod command we can change the file permission
+3. To check which commands you have run till now.
+ans- using history command help us to view our all command we run until now
+4. To remove a directory/ Folder.
+ans- rm and rmdir with -r and -f  
+5. To create a fruits.txt file and to view the content.
+ans-using touch command like touch fruits.txt
+6. Add content in devops.txt (One in each line) - Apple, Mango, Banana, Cherry, Kiwi, Orange, Guava.
+ans-create file using touch file and add content on this file 
+7. To Show only top three fruits from the file.
+ans- first enter file name and add top command line cat fruits top -3
+8. To Show only bottom three fruits from the file.
+using tail command with same syntax
+9. To create another file Colors.txt and to view the content.
+touch Colors.txt | cat Colors.txt
+10. Add content in Colors.txt (One in each line) - Red, Pink, White, Black, Blue, Orange, Purple, Grey.
+ans-create file using touch file and add content on this file 
+11. To find the difference between fruits.txt and Colors.txt file.
+ans- using diff command line diff fruits.txt Colors.txt
+Reference: https://www.linkedin.com/pulse/linux-commands-devops-used-day-to-day-activit-chetan-/
+
+[← Previous Day](../day02/README.md) | [Next Day →](../day04/README.md)
