@@ -18,6 +18,6 @@ Read more about S3 using aws-cli [here](https://docs.aws.amazon.com/cli/latest/r
 - Download a file from the S3 bucket using the AWS CLI.
 - Verify that the contents of the file are the same on both EC2 instances.
 
-Added Some Useful commands to complete the task. [Click here for commands](https://github.com/LondheShubham153/90DaysOfDevOps/blob/833a67ac4ec17b992934cd6878875dccc4274f56/2023/day43/aws-cli.md)
+Added Some Useful commands to complete the task. [Click here for commands](https://github.com/Simbaa815/90DaysOfDevOps/blob/master/2023/day43/aws-cli.md)
 
 # [Blog link ](https://devxblog.hashnode.dev/s3-programmatic-access-with-aws-cli)
