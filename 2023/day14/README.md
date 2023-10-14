@@ -31,8 +31,7 @@ Data Structures are a way of organizing data so that it can be accessed more eff
 2. Create below Dictionary and use Dictionary methods to print your favourite tool just by using the keys of the Dictionary.
 
 ```
-fav_tools =
-{
+fav_tools={
   1:"Linux",
   2:"Git",
   3:"Docker",
