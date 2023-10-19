@@ -1,4 +1,45 @@
-# Day 47: Test Knowledge on aws 💻 📈
+# Day 47: AWS Elastic Beanstalk
+Today, we 
+
+## What is AWS Elastic Beanstalk?
+- AWS Elastic Beanstalk is a service used to deploy and scale web applications developed by developers.
+- It supports multiple programming languages and runtime environments such as Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker.
+
+## Why do we need AWS Elastic Beanstalk?
+- Previously, developers faced challenges in sharing software modules across geographically separated teams.
+- AWS Elastic Beanstalk solves this problem by providing a service to easily share applications across different devices.
+
+## Advantages of AWS Elastic Beanstalk
+- Highly scalable
+- Fast and simple to begin
+- Quick deployment
+- Supports multi-tenant architecture
+- Simplifies operations
+- Cost efficient
+
+## Components of AWS Elastic Beanstalk
+- Application Version: Represents a specific iteration or release of an application's codebase.
+- Environment Tier: Defines the infrastructure resources allocated for an environment (e.g., web server environment, worker environment).
+- Environment: Represents a collection of AWS resources running an application version.
+- Configuration Template: Defines the settings for an environment, including instance types, scaling options, and more.
+
+## Elastic Beanstalk Environment 
+There are two types of environments: <b>web server</b> and <b>worker</b>.
+
+- <u>Web server environments</u> are front-end facing, accessed directly by clients using a URL.
+
+- <u>Worker environments</u> support backend applications or micro apps.
+
+## Task-01
+Deploy the [2048-game](https://github.com/Simbaa815/2048-game) using the AWS Elastic Beanstalk.
+
+If you ever find yourself facing a challenge, feel free to refer to this helpful [blog](https://devxblog.hashnode.dev/aws-elastic-beanstalk-deploying-the-2048-game) post for guidance and support.
+
+---
+
+# Additional work 
+
+## Test Knowledge on aws 💻 📈
 Today, we will be test the aws knowledge on services in AWS, as part of the 90 Days of DevOps Challenge.
 
 
