@@ -1,5 +1,5 @@
 # Day 47: AWS Elastic Beanstalk
-Today, we 
+Today, we explore the new AWS service- Elastic Beanstalk. We'll also cover deploying a small web application (game) on this platform
 
 ## What is AWS Elastic Beanstalk?
 - AWS Elastic Beanstalk is a service used to deploy and scale web applications developed by developers.
