@@ -58,3 +58,5 @@ Today, we will be test the aws knowledge on services in AWS, as part of the 90 D
 We hope that these tasks will give you hands-on experience with aws services and help you understand how these services work together. If you have any questions or face any issues while doing the tasks, please let us know.
 
 Happy Learning :)
+
+[← Previous Day](../day46/README.md) | [Next Day →](../day48/README.md)
