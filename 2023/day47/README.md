@@ -2,6 +2,8 @@
 Today, we explore the new AWS service- Elastic Beanstalk. We'll also cover deploying a small web application (game) on this platform
 
 ## What is AWS Elastic Beanstalk?
+![image](https://github.com/Simbaa815/90DaysOfDevOps/assets/112085387/75f69087-d769-4586-b4a7-99a87feaec92)
+
 - AWS Elastic Beanstalk is a service used to deploy and scale web applications developed by developers.
 - It supports multiple programming languages and runtime environments such as Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker.
 
