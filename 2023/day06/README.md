@@ -7,7 +7,7 @@ Here, we will be working on Linux permissions and ownership and will do tasks on
 both of them.
 Let us start with the Permissions.
 
-1. Create a simple file and do `ls -ltr` to see the details of the files [refer to Notes](https://github.com/LondheShubham153/90DaysOfDevOps/tree/master/2023/day6/notes)
+1. Create a simple file and do `ls -ltr` to see the details of the files [refer to Notes](https://github.com/LondheShubham153/90DaysOfDevOps/tree/master/2023/day06/notes)
 
 Each of the three permissions are assigned to three defined categories of users. The categories are:
 
