@@ -1,0 +1,70 @@
+## Explain in your own words and examples, what is Shell Scripting for DevOps?
+
+Shell scripting is the process of creating and executing a series of commands in a Unix shell to automate tasks and streamline processes in a DevOps environment. 
+
+In other words, shell scripting allows DevOps engineers to write scripts that automate repetitive tasks such as deploying applications, configuring servers, and monitoring system health. This saves time and effort for the team and can help ensure consistency and accuracy in the DevOps workflow.
+
+##  What is `#!/bin/bash?` can we write `#!/bin/sh` as well?
+
+#!/bin/bash is known as the shebang or hashbang line in shell scripting. It specifies the interpreter (in this case, "bash") that will be used to run the commands in the script.
+
+Yes, it is also possible to use #!/bin/sh in place of #!/bin/bash. 
+
+However, sh is typically a simpler shell that lacks some of the features of bash. Using bash may offer more functionality and compatibility with newer scripts.
+
+It's worth noting that the shebang line is not always necessary, but it's good practice to include it to ensure that the script is executed by the correct interpreter.
+
+## Write a Shell Script which prints `I will complete #90DaysOofDevOps challenge`?
+
+To print the message "I will complete #90DaysOofDevOps challenge", you could create a file called 90days.sh with the following code:
+
+#!/bin/bash
+echo "I will complete #90DaysOfDevOps challenge"
+
+To run this script, save it with a .sh file extension (e.g. script.sh), make it executable using chmod +x script.sh, and then execute it using ./script.sh. This should output the message "I will complete #90DaysOfDevOps challenge" to the console.
+
+## Write a Shell Script to take user input, input from arguments and print the variables?
+
+here's an example Shell script that takes user input and input from arguments and prints the variables:
+
+#!/bin/bash
+
+# Take user input
+echo "Enter your name:"
+read name
+
+# Take input from argument
+age=$1
+
+# Print variables
+echo "Your name is: $name"
+echo "Your age is: $age"
+
+In this example, the script first prompts the user to enter their name using the read command. It then takes an argument for age from the command line using $1. Finally, it prints the values of the name and age variables using the echo command.
+
+To run this script, save it with a .sh file extension (e.g. script.sh), make it executable using chmod +x script.sh, and then execute it using ./script.sh 30 (where "30" is an example age value passed as an argument). This should prompt the user to enter their name, take the age value as an argument, and then output both values to the console.
+
+## Write an Example of If else in Shell Scripting by comparing 2 numbers?
+
+here's an example of an if-else statement in Shell Scripting that compares two numbers:
+
+#!/bin/bash
+
+# Define two numbers
+num1=10
+num2=20
+
+# Compare the numbers using an if-else statement
+if [ $num1 -gt $num2 ]
+then
+    echo "$num1 is greater than $num2"
+else
+    echo "$num1 is less than or equal to $num2"
+fi
+
+In this example, we first define two variables (num1 and num2) with integer values. We then use an if-else statement to compare the values of these variables. The -gt operator is used to check if num1 is greater than num2. If the condition is true, then the script outputs the message "10 is greater than 20". If the condition is false, then the script outputs the message "10 is less than or equal to 20".
+
+Note that in this example we used the [ ] operator to enclose the comparison condition. This is a commonly used syntax in Shell Scripting for performing tests and comparisons.
+
+
+

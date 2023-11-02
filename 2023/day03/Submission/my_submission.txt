@@ -1,0 +1,107 @@
+This is my day-03 Task submission file
+
+
+1. To view what's written in a file:
+
+The command to view the contents of a file is "cat". For example, to view the contents of a file named "example.txt", you would run the following command:
+
+cat example.txt
+
+
+2. To change the access permissions of files:
+
+The command to change the access permissions of a file is "chmod". For example, to give read, write, and execute permissions to the owner of a file named "example.sh", you would run the following command:
+
+chmod 700 example.sh
+
+3. To check which commands you have run till now:
+
+The command to check the history of commands that have been run in the current terminal session is "history". For example, to view a list of the last 10 commands that were executed, you would run the following command:
+
+history 10
+
+4. To remove a directory/ Folder:
+
+The command to remove a directory/folder is "rmdir" or "rm". For example, to remove a directory named "exampledir", you would run the following command:
+
+rmdir exampledir
+ 
+or 
+
+rm -r exampledir
+
+The "-r" option is used to remove a directory and its contents recursively.
+
+5. To create a fruits.txt file and to view the content:
+
+The command to create a new file is "touch". For example, to create a new file named "fruits.txt", you would run the following command:
+
+touch fruits.txt
+
+to view the content of file, you would run following command :
+
+cat fruits.txt
+
+6. Add content in devops.txt (One in each line) - Apple, Mango, Banana, Cherry, Kiwi, Orange, Guava:
+
+The command to add content to a file is "echo". For example, to add the list of fruits to a file named "devops.txt", you would run the following command:
+
+
+echo "Apple
+Mango
+Banana
+Cherry
+Kiwi
+Orange
+Guava" > devops.txt
+
+The ">" symbol is used to redirect the output of the "echo" command to a file.
+
+7. To Show only top three fruits from the file:
+
+The command to show only the top three lines of a file is "head". For example, to show only the top three fruits in the "devops.txt" file, you would run the following command:
+
+head -n 3 devops.txt
+
+The "-n" option is used to specify the number of lines to show.
+
+8. To Show only bottom three fruits from the file:
+
+The command to show only the bottom three lines of a file is "tail". For example, to show only the bottom three fruits in the "devops.txt" file, you would run the following command:
+
+tail -n 3 devops.txt
+
+9. To create another file Colors.txt and to view the content:
+
+1) Open the terminal.
+2) Type the following command to create the file:
+
+touch Colors.txt
+
+3)Type the following command to open the file in vi editor:
+
+vi Colors.txt
+
+4) Press "i" to enter insert mode.
+5)Type the following content, one in each line:
+
+Red
+Pink
+White
+Black
+Blue
+Orange
+Purple
+Grey
+
+6) Press "Esc" to exit insert mode.
+
+7) Type ":wq" to save and exit the file.
+
+10. To find the difference between fruits.txt and Colors.txt files, you can use the "diff" command. Here are the steps:
+
+diff fruits.txt Colors.txt
+
+This will show you the differences between the two files. The output will show which lines are unique to each file and which lines are different between the files.
+
+

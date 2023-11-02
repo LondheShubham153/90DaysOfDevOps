@@ -1,0 +1,58 @@
+Create a simple file and do `ls -ltr` to see the details of the files [refer to Notes](https://github.com/LondheShubham153/90DaysOfDevOps/tree/master/2023/day6/notes)
+ 
+ Each of the three permissions are assigned to three defined categories of users. The categories are:
+-	   owner   —   The owner of the file or  application.
+-	"chown" is used to change the ownership permission of a file or directory.
+-	   group   —   The group that owns the file or application.
+-	"chgrp" is used to change the gropu permission of a file or directory.
+-	   others  —   All users with access to the system. (outised the users are in a group)
+-	"chmod" is used to change the other users permissions of a file or directory.
+
+    As a task, change the user permissions of the file and note the changes after `ls -ltr`
+Answer=> 
+#!/bin/bash
+
+# create a file and set permissions
+touch test_file.txt
+chmod 754 test_file.txt
+
+# list the file details before changing permissions
+echo "Before changing permissions:"
+ls -ltr test_file.txt
+
+# change the permissions to read, write, and execute for owner, read and execute for group, and read-only for others
+chmod 644 test_file.txt
+
+# list the file details after changing permissions
+echo "After changing permissions:"
+ls -ltr test_file.txt
+
+This will create the file and set the initial permissions to 754, and then change the permissions to 644 later in the script.
+
+
+OUTPUT : 
+$ chmod 400 test_file.txt
+
+Supriya@LAPTOP-LUOJ583P MINGW64 ~/Downloads/TWS Project/90DaysOfDevOps/2023/day06/submission (master)
+$ ls -ltr
+total 1
+-rw-r--r-- 1 Supriya 197609   0 May 12 04:34 my_day06submission.txt
+-rwxr-xr-x 1 Supriya 197609 425 May 12 05:10 ls-ltr.sh*
+-r--r--r-- 1 Supriya 197609   0 May 12 05:12 test_file.txt
+
+Supriya@LAPTOP-LUOJ583P MINGW64 ~/Downloads/TWS Project/90DaysOfDevOps/2023/day06/submission (master)
+$ ./ls-ltr.sh
+Before changing permissions:
+-r--r--r-- 1 Supriya 197609 0 May 12 05:13 test_file.txt
+After changing permissions:
+-rw-r--r-- 1 Supriya 197609 0 May 12 05:13 test_file.txt
+
+
+Supriya@LAPTOP-LUOJ583P MINGW64 ~/Downloads/TWS Project/90DaysOfDevOps/2023/day06/submission (master)
+$ ls -ltr
+total 50
+-rwxr-xr-x 1 Supriya 197609   425 May 12 05:10  ls-ltr.sh*
+-rw-r--r-- 1 Supriya 197609 43032 May 12 05:18 'ls-ltr snap.png'
+-rw-r--r-- 1 Supriya 197609    45 May 12 05:19  test_file.txt
+-rw-r--r-- 1 Supriya 197609  2077 May 12 05:19  my_day06submission.txt
+

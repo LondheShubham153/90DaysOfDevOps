@@ -1,0 +1,112 @@
+This is my day5 Task submission :
+
+Tasks :
+
+1) You have to do the same using Shell Script i.e using either Loops or command with start day and end day variables using arguments -
+
+ So Write a bash script createDirectories.sh that when the script is executed with three given arguments (one is directory name and second is start number of directories and third is the end number of directories ) it creates specified number of directories with a dynamic directory name.
+
+Example 1: When the script is executed as
+
+```./createDirectories.sh day 1 90```
+
+then it creates 90 directories as ```day1 day2 day3 .... day90```
+
+Ans=> To create a dynamic set of directories using Shell Script, you can use the following code in a file named createDirectories.sh:
+
+#!/bin/bash
+
+dir_name=$1
+start_num=$2
+end_num=$3
+
+for ((i=$start_num; i<=$end_num; i++))
+do
+  mkdir -p $dir_name$i
+done
+
+Press ESC :wq => To save and exit createDirectories.sh file
+
+Here, the script takes three arguments - dir_name which specifies the base name of the directories, start_num which is the starting number for the directories, and end_num which is the ending number for the directories.
+
+When you run the script as ./createDirectories.sh day 1 90, it will create 90 directories with names day1, day2, day3, and so on, till day90. The mkdir -p command creates a directory even if the parent directory does not exist.
+
+You can modify the script to suit your needs, for example, by changing the base name or the range of numbers for the directories.
+
+2. Create a Script to backup all your work done till now.
+=> Here is backup file, create file by using nano editor
+
+nano backup.sh
+
+#!/bin/bash
+
+src_dir=/c/Users/Supriya/Downloads/TWS Project/90DaysOfDevOps/2023/day05/submission/scripts
+tgt_dir=/c/Users/Supriya/Downloads/TWS Project/90DaysOfDevOps/2023/day05/submission/backups
+
+curr_timestamp=$(date "+%Y-%m-%d-%H-%M-%S")
+
+backup_file=$tgt_dir/$curr_timestamp.tgz
+
+ echo "Taking backup on $curr_timestamp"
+
+ #echo "$backup_file"
+
+Then run the file by using bash backup.sh, getting permission denied error, so give the permission using chmod : chmod 777 backup.sh 
+
+Then run ./backup.sh command to execute our scripts that's all then go to our backups directory and check our backup.
+
+3. Read About Cron and Crontab, to automate the backup Script?
+=> 1. what is Cron?
+Cron is a time-based job scheduler in Unix-like operating systems.
+
+It allows users to schedule and automate the execution of commands or scripts at specified times or intervals. 
+
+Cron jobs are created using a special syntax in a user's crontab file, which contains a list of commands and the time or frequency at which they should be executed. 
+
+Cron is commonly used for tasks such as system maintenance, backups, and automatic script execution.
+
+2. What is crontab?
+
+Crontab is a file used to schedule and automate the execution of scripts or commands at specific intervals or times on a Linux-based operating system. 
+
+It allows users to specify the exact minute, hour, day of the month, month, and day of the week when a particular script or command should be run. 
+
+The crontab file contains entries for each scheduled task, and users can easily edit or delete these entries as needed to modify or remove scheduled tasks.
+
+4. Read about User Management and Let me know on Linkedin if you're ready for Day 6.
+=> user management is the process of creating, configuring, and managing user accounts on a computer or a network.
+
+It involves tasks such as creating new user accounts, modifying existing accounts, and deleting old accounts. 
+
+User management helps to ensure that only authorized users have access to the system, and that they have the appropriate level of access based on their roles and responsibilities. It is an important aspect of system administration and security.
+
+5. Create 2 users and just display their Usernames
+=> here is a simple shell script to add two users with protected passwords and display their names:
+
+#!/bin/bash
+
+add_user()
+{
+    USER=$1
+    PASS=$2
+
+    useradd -m $USER
+    echo "$USER:$PASS" | chpasswd
+    echo "Successfully added user: $USER"
+}
+
+#MAIN
+
+echo "Enter username for User 1:"
+read USER1
+echo "Enter password for User 1:"
+read -s PASS1
+echo "Enter username for User 2:"
+read USER2
+echo "Enter password for User 2:"
+read -s PASS2
+
+add_user $USER1 $PASS1
+add_user $USER2 $PASS2
+
+This script prompts the user to enter a username and password for each of the two users, then creates the users with the specified usernames and passwords. After each user is added, the script outputs a success message with the username.

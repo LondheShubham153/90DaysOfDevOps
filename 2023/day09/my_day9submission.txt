@@ -1,0 +1,21 @@
+This is my Day-09 Submission file :
+
+## Tasks
+task-1: 
+- Set your user name and email address, which will be associated with your commits.
+=> Done
+
+$ git config --global --list
+user.name=Supriya
+user.email=surkarsupriya97@gmail.com
+
+
+task-2: 
+- Create a repository named "Devops" on GitHub
+=> Done
+- Connect your local repository to the repository on GitHub.
+=> Done
+- Create a new file in Devops/Git/Day-02.txt & add some content to it
+=> Done
+- Push your local commits to the repository on GitHub
+=> Done
