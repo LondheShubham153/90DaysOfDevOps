@@ -33,7 +33,7 @@ A freestyle project in Jenkins is a type of project that allows you to build, te
 
 For Refference jenkins Freestyle Project visit [here](https://youtu.be/wwNWgG5htxs)
 
-You can Post on LinkedIn and let us know what you have learned from this task by #90DaysOfDevOps Challange.
+You can Post on LinkedIn and let us know what you have learned from this task by #90DaysOfDevOps Challenge.
 
 Happy Learning:)
 

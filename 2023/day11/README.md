@@ -52,6 +52,6 @@ git status command shows the files that have conflicts, git diff command shows t
 
 ## Reference [video](https://youtu.be/apGV9Kg7ics)
 
-You can Post on LinkedIn and let us know what you have learned from this task by #90DaysOfDevOps Challange. Happy Learning :)
+You can Post on LinkedIn and let us know what you have learned from this task by #90DaysOfDevOps Challenge. Happy Learning :)
 
 [← Previous Day](../day10/README.md) | [Next Day →](../day12/README.md)

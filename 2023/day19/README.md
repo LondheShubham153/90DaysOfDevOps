@@ -34,6 +34,6 @@ _hints:_
 
 ## You can use this task as _Project_ to add in your resume.
 
-You can Post on LinkedIn and let us know what you have learned from this task by #90DaysOfDevOps Challange. Happy Learning :)
+You can Post on LinkedIn and let us know what you have learned from this task by #90DaysOfDevOps Challenge. Happy Learning :)
 
 [← Previous Day](../day18/README.md) | [Next Day →](../day20/README.md)
