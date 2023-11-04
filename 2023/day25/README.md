@@ -24,7 +24,7 @@ I can imagine catching up will be tough so take a small breather today and compl
 
 For Reference and entire hands-on Project visit [here](https://youtu.be/nplH3BzKHPk)
 
-You can Post on LinkedIn and let us know what you have learned from this task by #90DaysOfDevOps Challange.
+You can Post on LinkedIn and let us know what you have learned from this task by #90DaysOfDevOps Challenge.
 
 Happy Learning:)
 

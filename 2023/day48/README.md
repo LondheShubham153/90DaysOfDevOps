@@ -1,6 +1,6 @@
 # Day-48 - ECS
 
-Today will be a great learning for sure. I know many of you may not know about the term "ECS". As you know, 90 Days Of DevOps Challange is mostly about 'learning new' , let's learn then ;)
+Today will be a great learning for sure. I know many of you may not know about the term "ECS". As you know, 90 Days Of DevOps Challenge is mostly about 'learning new' , let's learn then ;)
 
 ## What is ECS ?
 
