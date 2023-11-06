@@ -10,3 +10,8 @@ This is the day you have to Take this challenge and start your #90DaysOfDevOps w
 - Why DevOps is Important, etc
 
 [Next Day →](../day02/README.md)
+
+-------------------
+Posted on LinkedIn
+
+I've recently started my journey into the realm of DevOps. DevOps is a captivating discipline that merges development and operations to enhance the management of software delivery and infrastructure.
