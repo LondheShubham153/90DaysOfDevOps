@@ -9,8 +9,19 @@
 
 
 2. To change the access permissions of files.
-   
-    - ``` chmod 777 foldername ``` 
+Two ways we can do that 1] Octal Notation : ( permission types: read (4), write (2), and execute (1). To set permissions .
+2] Symbolic Notation  :  The symbolic notation includes the following:
+u for the owner
+g for the group
+o for others
+a for all (equivalent to ugo)
++ to add a permission
+- to remove a permission
+= to set permissions exactly as specified .
+      ----chmod [options] permissions file/directory
+
+      ---- chmod 777 myfile.txt
+      ---- chmod u+r myfile.txt
 
 ![Uploading 3.2.png…]()
 
