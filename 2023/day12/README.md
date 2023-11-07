@@ -8,7 +8,7 @@ Let’s make a well articulated and documented **"cheat-sheet"** with all the co
 
 Let’s show us your knowledge mixed with your creativity😎
 
-_I have added a [cheatsheet](https://www.sqltutorial.org/wp-content/uploads/2016/04/SQL-Cheat-Sheet-2.png) for your reference, Make sure every cheatsheet must be UNIQUE_
+_I have added a [cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf) for your reference, Make sure every cheatsheet must be UNIQUE_
 
 Post it on Linkedin and Spread the knowledge.😃
 
