@@ -16,6 +16,8 @@ Posted on LinkedIn - day 0
 
 I've recently started my journey into the realm of DevOps. DevOps is a captivating discipline that merges development and operations to enhance the management of software delivery and infrastructure.
 
+https://www.linkedin.com/posts/safshah_devops-activity-7127281806847995904-ChYY?utm_source=share&utm_medium=member_desktop 
+
 --------------------
 Posted on Linked day 01
 

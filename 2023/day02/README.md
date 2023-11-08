@@ -11,3 +11,13 @@ Note: [Check this file for reference](basic_linux_commands.md)
 Check the basic_linux_commands.md file on the same directory day2
 
 [← Previous Day](../day01/README.md) | [Next Day →](../day03/README.md)
+
+----------------------
+
+Posted on LInkedIn / Day 02 - Basic Linux Commands
+
+https://www.linkedin.com/posts/safshah_day-02-basic-linux-commands-basic-linux-activity-7127970002170777600-81VF?utm_source=share&utm_medium=member_desktop
+
+
+
+
