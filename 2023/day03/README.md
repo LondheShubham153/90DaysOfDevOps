@@ -17,3 +17,8 @@ Task: What is the linux command to
 Reference: https://www.linkedin.com/pulse/linux-commands-devops-used-day-to-day-activit-chetan-/
 
 [← Previous Day](../day02/README.md) | [Next Day →](../day04/README.md)
+
+-------------------
+Posted on LinkedIn / Day 03 - Basic Linux Commands: Tasks
+
+https://www.linkedin.com/posts/safshah_day-03-basic-linux-commands-tasks-activity-7128352529398054912-I4gs?utm_source=share&utm_medium=member_desktop
