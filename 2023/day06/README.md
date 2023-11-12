@@ -31,10 +31,8 @@ Happy Learning
 [← Previous Day](../day05/README.md) | [Next Day →](../day07/README.md)
 
 
----------------------
 
-Posted on LinkedIn - Day 06: File Permissions and Access Control Lists
 
-https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopsjourney-activity-7129451736049602561-8I0Y?utm_source=share&utm_medium=member_desktop
+
 
 
