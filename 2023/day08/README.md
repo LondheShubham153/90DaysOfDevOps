@@ -49,3 +49,11 @@ Reff :- https://youtu.be/AT1uxOLsCdk
 Post your daily work on Linkedin and le me know , writing an article is the best :)
 
 [← Previous Day](../day07/README.md) | [Next Day →](../day09/README.md)
+
+
+-------------------------
+
+Posted Day 08 - Basic Git & GitHub for DevOps Engineers
+
+https://www.linkedin.com/posts/safshah_day-08-basic-git-github-for-devops-activity-7130211147395301378-5tEc?utm_source=share&utm_medium=member_desktop
+
