@@ -67,3 +67,11 @@ Advance Reference on branching : [video](https://youtu.be/7xhkEQS3dXw)
 You can Post on LinkedIn and let us know what you have learned from this task by #90DaysOfDevOps Challenge. Happy Learning :)
 
 [← Previous Day](../day09/README.md) | [Next Day →](../day11/README.md)
+
+
+-------------------------
+
+Posted on Linkedin - Advance Git & GitHub for DevOps Engineers
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-developer-activity-7130870265160335360-ov6b?utm_source=share&utm_medium=member_desktop
+
