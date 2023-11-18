@@ -15,3 +15,10 @@ Post it on Linkedin and Spread the knowledge.😃
 **Happy Learning :)**
 
 [← Previous Day](../day11/README.md) | [Next Day →](../day13/README.md)
+
+
+-------------------------
+
+Posted on LinkedIn - Linux nad Git Cheat Sheets
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-developer-activity-7131665178676391936-JGAw?utm_source=share&utm_medium=member_desktop 
