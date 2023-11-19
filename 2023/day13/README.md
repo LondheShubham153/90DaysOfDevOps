@@ -27,3 +27,10 @@ Don't forget to share your Journey over linkedin. Let the community know that yo
 Happy Learning, Ruko Mat Phod do😃
 
 [← Previous Day](../day12/README.md) | [Next Day →](../day14/README.md)
+
+
+------------------
+Posted on LinkedIn - Day 13 What Is Python?
+
+https://www.linkedin.com/posts/safshah_python-pythonprogramming-pythoncoding-activity-7131989316704079872-9OuH?utm_source=share&utm_medium=member_desktop
+
