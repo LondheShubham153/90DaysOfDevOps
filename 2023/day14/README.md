@@ -59,3 +59,9 @@ If you want to deep dive further, Watch [Python](https://youtu.be/abPgj_3hzVY)
 You can share the learning with everyone over linkedin and tag us along 😃
 
 [← Previous Day](../day13/README.md) | [Next Day →](../day15/README.md)
+
+----------------------
+
+Posted on LinkedIn - Python Data Types and Data Structures for DevOps
+
+https://www.linkedin.com/posts/safshah_python-pythonprogramming-pythoncoding-activity-7132322112668663809-Oddr?utm_source=share&utm_medium=member_desktop
