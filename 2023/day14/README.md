@@ -65,3 +65,5 @@ You can share the learning with everyone over linkedin and tag us along 😃
 Posted on LinkedIn - Python Data Types and Data Structures for DevOps
 
 https://www.linkedin.com/posts/safshah_python-pythonprogramming-pythoncoding-activity-7132322112668663809-Oddr?utm_source=share&utm_medium=member_desktop
+
+updated
