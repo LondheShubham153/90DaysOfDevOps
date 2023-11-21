@@ -27,3 +27,9 @@ Python Project for your practice:
 https://youtube.com/playlist?list=PLlfy9GnSVerSzFmQ8JqP9v0XHHOAeWbjo
 
 [← Previous Day](../day14/README.md) | [Next Day →](../day16/README.md)
+
+---------------------
+Posted on LinkedIn - Day 15 - Python Libraries for DevOps
+
+https://www.linkedin.com/posts/safshah_python-pythonprogramming-pythoncoding-activity-7132708979159298048-TEph?utm_source=share&utm_medium=member_desktop
+
