@@ -38,7 +38,7 @@ Let's come together to grow and achieve new heights in DevOps!
 
 
 <a href="https://www.trainwithshubham.com/">
-  <img width="30px" src="https://media.licdn.com/dms/image/C4D0BAQGokBZsFEUWHw/company-logo_200_200/0/1677354328695?e=1700092800&v=beta&t=3bw7W2tQEpn023Slj_PacUZflE-OyYpBU-9juiJNJVY" />
+  <img width="30px" src="https://github.com/Simbaa815/90DaysOfDevOps/assets/112085387/59312bbb-2a74-4bad-8722-76a8a63e8396" />
 </a>&ensp;
 
 ## Events
@@ -56,7 +56,7 @@ Let's come together to grow and achieve new heights in DevOps!
 
 ### DevOps Course:
 <a href="https://bit.ly/devops-batch-5">
-  <img width="30px" src="https://media.licdn.com/dms/image/C4D0BAQGokBZsFEUWHw/company-logo_200_200/0/1677354328695?e=1700092800&v=beta&t=3bw7W2tQEpn023Slj_PacUZflE-OyYpBU-9juiJNJVY" />
+  <img width="100px" src="https://github.com/Simbaa815/90DaysOfDevOps/assets/112085387/2b955cbd-e7d4-4283-a585-653b7925f145" />
 </a>&ensp;
 
 ## Thanks to all contributors ❤
