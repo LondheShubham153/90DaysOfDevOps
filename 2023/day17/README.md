@@ -29,3 +29,9 @@ You can share the learning with everyone over linkedin and tag us along 😃
 Happy Learning:)
 
 [← Previous Day](../day16/README.md) | [Next Day →](../day18/README.md)
+
+
+----------------------------
+Posted on LinkedIn - Docker for DevOps engineers - Dockerfile Explained
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7133506559808049152-KERL?utm_source=share&utm_medium=member_desktop
