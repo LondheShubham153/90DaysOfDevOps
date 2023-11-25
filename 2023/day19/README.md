@@ -37,3 +37,9 @@ _hints:_
 You can Post on LinkedIn and let us know what you have learned from this task by #90DaysOfDevOps Challenge. Happy Learning :)
 
 [← Previous Day](../day18/README.md) | [Next Day →](../day20/README.md)
+
+
+----------------------------------------
+Posted on LinkedIn - Docker Project for DevOps Engineers - Docker Volume & Docker Networks
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7134146528163635200-h9g0?utm_source=share&utm_medium=member_desktop
