@@ -41,3 +41,8 @@ For reference you can watch this [video](https://youtu.be/Tevxhn6Odc8)
 You can Post on LinkedIn and let us know what you have learned from this task by #90DaysOfDevOps Challenge. Happy Learning :)
 
 [← Previous Day](../day17/README.md) | [Next Day →](../day19/README.md)
+
+-------------------------------
+Posted Day 18 on LinkedIn - Docker Project for DevOps Engineers - Dockerfile
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7133779589448822784-nZTx?utm_source=share&utm_medium=member_desktop
