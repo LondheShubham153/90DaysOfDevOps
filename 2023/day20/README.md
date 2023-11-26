@@ -14,3 +14,8 @@ Post it on Linkedin and Spread the knowledge.😃
 **Happy Learning :)**
 
 [← Previous Day](../day19/README.md) | [Next Day →](../day21/README.md)
+
+-----------------------------------
+Posted on LinkedIn - Docker Cheat Sheet
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7134588910449426433-8ZEw?utm_source=share&utm_medium=member_desktop
