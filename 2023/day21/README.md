@@ -38,3 +38,10 @@ _Write a Blog and share it on LinkedIn._
 **Happy Learning :)**
 
 [← Previous Day](../day20/README.md) | [Next Day →](../day22/README.md)
+
+
+-----------------------------------------------------
+Posted on LinkedIn - Day 21 - Docker Important interview Questions
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7134933601896341505-cPnO?utm_source=share&utm_medium=member_desktop
+
