@@ -28,3 +28,10 @@ Hint: Use link for [Article](https://www.geeksforgeeks.org/what-is-jenkins)
 Don't forget to post your progress on Linkedin. Till then Happy learning :)
 
 [← Previous Day](../day21/README.md) | [Next Day →](../day23/README.md)
+
+--------------------------------
+
+Posted on LinkedIn - Day 22 - Whats is Jenkins?
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7135291514800263169-8WnL?utm_source=share&utm_medium=member_desktop
+
