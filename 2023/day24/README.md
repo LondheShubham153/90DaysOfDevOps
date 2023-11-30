@@ -27,3 +27,10 @@ You can Post on LinkedIn and let us know what you have learned from this task by
 Happy Learning:)
 
 [← Previous Day](../day23/README.md) | [Next Day →](../day25/README.md)
+
+----------------------------
+
+Posted on LinkedIn - Day 24 - Example Run Through - Jenkins CI/CD Project
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7136043631290826752-9pip?utm_source=share&utm_medium=member_desktop
+
