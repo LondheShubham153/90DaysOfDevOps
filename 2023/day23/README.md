@@ -38,3 +38,10 @@ You can Post on LinkedIn and let us know what you have learned from this task by
 Happy Learning:)
 
 [← Previous Day](../day22/README.md) | [Next Day →](../day24/README.md)
+
+
+---------------------------------------
+
+Posted on LinkedIn - Day 23 - Jenkins CI/CD Pipeline Explained
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7135689503620435969-XFwB?utm_source=share&utm_medium=member_desktop
