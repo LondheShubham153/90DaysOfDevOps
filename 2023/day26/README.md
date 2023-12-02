@@ -57,3 +57,8 @@ You can post your progress on LinkedIn and let us know what you have learned fro
 Happy Learning:)
 
 [← Previous Day](../day25/README.md) | [Next Day →](../day27/README.md)
+
+----------------------------------------
+Posted on LinkedIn - Day 26 Jenkins Declarative Pipeline
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7136758159884382208-lgC_?utm_source=share&utm_medium=member_desktop
