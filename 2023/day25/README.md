@@ -29,3 +29,9 @@ You can Post on LinkedIn and let us know what you have learned from this task by
 Happy Learning:)
 
 [← Previous Day](../day24/README.md) | [Next Day →](../day26/README.md)
+
+----------------------------------------
+
+Posted on LinkedIn - Day 25 - The Road Ahead ➡ Cloud and DevOps Road-map
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7136451671005548545-piJv?utm_source=share&utm_medium=member_desktop
