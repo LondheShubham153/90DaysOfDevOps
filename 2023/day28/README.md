@@ -47,3 +47,9 @@ Let me know how are feeling after 4 weeks of DevOps Learning.
 Happy Learning:)
 
 [← Previous Day](../day27/README.md) | [Next Day →](../day29/README.md)
+
+
+-----------------------------------------------------
+Posted on LinkedIn - Day 28 - Jenkins Agents
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7137495493382717440-uFtl?utm_source=share&utm_medium=member_desktop

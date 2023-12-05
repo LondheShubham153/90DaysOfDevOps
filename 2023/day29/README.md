@@ -31,3 +31,9 @@ Write a Blog and share it on LinkedIn.
 _Happy Learning :)_
 
 [← Previous Day](../day28/README.md) | [Next Day →](../day30/README.md)
+
+------------------------------------------
+Posted on LinkedIn - Day 29 - Jenkins Important interview Questions
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7137878080198492160-fofJ?utm_source=share&utm_medium=member_desktop
+

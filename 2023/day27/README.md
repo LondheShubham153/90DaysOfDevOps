@@ -41,3 +41,9 @@ Let me know how are feeling after 4 weeks of DevOps Learnings,
 Happy Learning:)
 
 [← Previous Day](../day26/README.md) | [Next Day →](../day28/README.md)
+
+
+-----------------------------------------------
+Posted on LInedIn - Day 27 - Jenkins Declarative Pipeline with Docker
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7137112011552804864-Cb_H?utm_source=share&utm_medium=member_desktop
