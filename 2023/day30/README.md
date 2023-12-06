@@ -27,3 +27,9 @@ Kubernetes architecture is important, so make sure you spend a day understanding
 _Happy Learning :)_
 
 [← Previous Day](../day29/README.md) | [Next Day →](../day31/README.md)
+
+
+---------------------------------------------
+Posted on LinkedIn - Day 30 - Kubernetes Overview
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7138237591354556416-cdM7?utm_source=share&utm_medium=member_desktop
