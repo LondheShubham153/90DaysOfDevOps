@@ -25,3 +25,8 @@ Let's make your resume shine with one more project ;)
 Happy Learning :)
 
 [← Previous Day](../day31/README.md) | [Next Day →](../day33/README.md)
+
+---------------------------------------
+Posted on LinedIn - Day 32 - Launching your Kubernetes Cluster with Deployment
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7139944405934686208-KcTd?utm_source=share&utm_medium=member_desktop
