@@ -63,3 +63,8 @@ We are suggesting you make an nginx pod, but you can always show your creativity
 _Happy Learning :)_
 
 [← Previous Day](../day30/README.md) | [Next Day →](../day32/README.md)
+
+-------------------------------------------------------
+Posted on LinkedIn - Day 31 - Exploring Kubernetes - Minikube and more....
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7138494704777666561-KwI5?utm_source=share&utm_medium=member_desktop

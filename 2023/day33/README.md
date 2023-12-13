@@ -32,3 +32,8 @@ Keep growing your Kubernetes knowledge💥🙌
 Happy Learning! :)
 
 [← Previous Day](../day32/README.md) | [Next Day →](../day34/README.md)
+
+----------------------------------
+Posted on LinkedIn - Day 33 - Namespaces and Services in Kubernetes
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7140685882457530368-sODt?utm_source=share&utm_medium=member_desktop
