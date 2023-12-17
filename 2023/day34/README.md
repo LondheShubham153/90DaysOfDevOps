@@ -34,3 +34,9 @@ Need help with Services in Kubernetes? Check out the Kubernetes [documentation](
 Happy Learning :)
 
 [← Previous Day](../day33/README.md) | [Next Day →](../day35/README.md)
+
+
+--------------------------------------
+Posted on LinkedIn - Day 34 - Working with Services in Kubernetes
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7142147296095268866-8MA_?utm_source=share&utm_medium=member_desktop
