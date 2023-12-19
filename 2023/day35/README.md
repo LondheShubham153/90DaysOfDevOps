@@ -35,3 +35,9 @@ Need help with ConfigMaps and Secrets? Check out this [video](https://youtu.be/F
 Keep learning and expanding your knowledge of Kubernetes💥🙌
 
 [← Previous Day](../day34/README.md) | [Next Day →](../day36/README.md)
+
+
+----------------------------------------
+Posted on LinkedIn - Day 35 - Mastering ConfigMaps and Secrets in Kubernetes
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7142147296095268866-8MA_?utm_source=share&utm_medium=member_desktop
