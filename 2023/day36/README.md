@@ -49,3 +49,9 @@ Keep up the excellent work🙌💥
 Happy Learning :)
 
 [← Previous Day](../day35/README.md) | [Next Day →](../day37/README.md)
+
+----------------------------------------
+
+Posted on LinkedI - Day 36 - Persistent Volumes in Your Deployment
+
+https://www.linkedin.com/posts/safshah_devops-90daysofdevops-kubernetes-activity-7142849708556767232-UXEZ?utm_source=share&utm_medium=member_desktop
