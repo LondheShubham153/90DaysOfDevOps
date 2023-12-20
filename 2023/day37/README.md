@@ -41,3 +41,9 @@ _Write a Blog and share it on LinkedIn._
 **_Happy Learning :)_**
 
 [← Previous Day](../day36/README.md) | [Next Day →](../day38/README.md)
+
+
+-------------------------------------
+Posted on LinkedIn - Day 37 - Kubernetes Important interview Questions
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7142871289202966528-HAcT?utm_source=share&utm_medium=member_desktop
