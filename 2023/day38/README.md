@@ -28,3 +28,9 @@ In this task you need to prepare a devops team of avengers. Create 3 IAM users o
 Post your progress on Linkedin. Till then Happy Learning :)
 
 [← Previous Day](../day37/README.md) | [Next Day →](../day39/README.md)
+
+------------------------------------------
+
+Posted on LunkedIn - Day 38 - Getting Started with AWS Basics
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7143260159274913793-qKFY?utm_source=share&utm_medium=member_desktop
