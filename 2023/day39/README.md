@@ -39,3 +39,10 @@ Get to know IAM more deeply🏊[Click Here!!](https://www.youtube.com/watch?v=OR
 Post your progress on Linkedin. Till then Happy Learning :)
 
 [← Previous Day](../day38/README.md) | [Next Day →](../day40/README.md)
+
+
+------------------------------------------
+
+Posted on LinkedIn - Day 39 - AWS and IAM Basics
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7143582934862630912-Uzey?utm_source=share&utm_medium=member_desktop
