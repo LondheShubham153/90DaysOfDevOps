@@ -26,3 +26,10 @@ Let me know if you have any issues while doing the task.
 Happy Learning :)
 
 [← Previous Day](../day41/README.md) | [Next Day →](../day43/README.md)
+
+
+-------------------------------------------
+Posted on LinkedIn - Day 42 - IAM Programmatic access and AWS CLI
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7144023177520709632-s0Ip?utm_source=share&utm_medium=member_desktop
+
