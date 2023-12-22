@@ -47,3 +47,11 @@ Post your progress on Linkedin.
 Happy Learning :)
 
 [← Previous Day](../day39/README.md) | [Next Day →](../day41/README.md)
+
+
+------------------------------------
+
+Posted on LikedIn - Day 40 - AWS EC2 Automation
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7143622152427098113-2u1O?utm_source=share&utm_medium=member_desktop
+
