@@ -21,3 +21,9 @@ Watch [this video](https://youtu.be/MrA6Rk1Y82E) for reference.
 Happy Learning
 
 [← Previous Day](../day43/README.md) | [Next Day →](../day45/README.md)
+
+-----------------------------------------
+Posted on LinkedIn - Day 44 - Relational Database Service (RDS) in AWS
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7144311125537406976-N7oj?utm_source=share&utm_medium=member_desktop
+
