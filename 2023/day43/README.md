@@ -30,3 +30,10 @@ Let me know if you have any questions or face any issues while doing the tasks.�
 Happy Learning :)
 
 [← Previous Day](../day42/README.md) | [Next Day →](../day44/README.md)
+
+
+-----------------------------------------------------
+
+Posted on LinkedIn - Day 43 - AWS S3 (Simple Storage Service)
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7144284108750221312-GGh-?utm_source=share&utm_medium=member_desktop
