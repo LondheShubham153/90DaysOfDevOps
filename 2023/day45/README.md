@@ -16,3 +16,8 @@ Read [this](https://aws.amazon.com/getting-started/hands-on/deploy-wordpress-wit
 Happy Learning :)
 
 [← Previous Day](../day44/README.md) | [Next Day →](../day46/README.md)
+
+-------------------------------------------
+Posted on LinkedIn - Day 45 - Deploy Wordpress website on AWS
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7144684641646518272-w2Ts?utm_source=share&utm_medium=member_desktop
