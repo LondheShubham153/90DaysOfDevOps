@@ -33,3 +33,9 @@ Keep growing your AWS knowledge💥🙌
 Happy Learning! :)
 
 [← Previous Day](../day45/README.md) | [Next Day →](../day47/README.md)
+
+----------------------
+Posted on LinedIn - Day 46 - AWS CloudWatch and AWS SNS
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7144701299475771392-oasu?utm_source=share&utm_medium=member_desktop
+
