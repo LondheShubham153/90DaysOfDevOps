@@ -62,3 +62,9 @@ We hope that these tasks will give you hands-on experience with aws services and
 Happy Learning :)
 
 [← Previous Day](../day46/README.md) | [Next Day →](../day48/README.md)
+
+----------------------------------------
+Posted on LinkedIn - Day 47 - AWS Elastic Beanstalk
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7145095669001719809-3w0A?utm_source=share&utm_medium=member_desktop
+
