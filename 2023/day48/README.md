@@ -38,3 +38,10 @@ In summary, EKS is a good choice if you want to use Kubernetes to manage your co
 Set up ECS (Elastic Container Service) by setting up Nginx on ECS.
 
 [← Previous Day](../day47/README.md) | [Next Day →](../day49/README.md)
+
+
+------------------------------------------------
+Posted on LinkedIn - Day 48 - AWS Elastic Container Service (ECS) and Elastic Kubernetes Service (EKS)
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7145106375990210560-o7c9?utm_source=share&utm_medium=member_desktop
+
