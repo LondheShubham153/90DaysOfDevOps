@@ -23,3 +23,7 @@ Let's share your answer on LinkedIn in best possible way thinking you are in a i
 Happy Learning !! :)
 
 [← Previous Day](../day48/README.md) | [Next Day →](../day50/README.md)
+
+Posted on LinedIn - Day 49 - Sample Interview Questions on AWS
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7145364869385523200-kHr1?utm_source=share&utm_medium=member_desktop
