@@ -29,3 +29,8 @@ For more details watch [this](https://youtu.be/IUF-pfbYGvg) video.
 Happy Learning :)
 
 [← Previous Day](../day51/README.md) | [Next Day →](../day53/README.md)
+
+------------------------------------------------------------------------
+Posted on LinkedIn - Day 52 - Your CI/CD pipeline on AWS - Part 3 - CodeDeploy
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7146135083391881216-DOpB?utm_source=share&utm_medium=member_desktop
