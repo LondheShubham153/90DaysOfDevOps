@@ -1,182 +1,166 @@
 # Day 69 - Meta-Arguments in Terraform
 
-When you define a resource block in Terraform, by default, this specifies one resource that will be created. To manage several of the same resources, you can use either count or for_each, which removes the need to write a separate block of code for each one. Using these options reduces overhead and makes your code neater.
-
-count is what is known as a ‘meta-argument’ defined by the Terraform language. Meta-arguments help achieve certain requirements within the resource block.
+When defining a resource block in Terraform, the default behavior is to specify the creation of one resource. To efficiently manage multiple instances of the same resource, Terraform provides meta-arguments like `count`, `for_each`, `depend_on`, `provider`, and `lifecycle`. Utilizing these options reduces redundancy in your code and enhances its clarity.
 
 ## Count
 
-The count meta-argument accepts a whole number and creates the number of instances of the resource specified.
+The `count` meta-argument accepts a whole number and generates the specified number of resource instances. Each instance created has its own distinct infrastructure object, enabling independent management during application, updates, or destruction.
 
-When each instance is created, it has its own distinct infrastructure object associated with it, so each can be managed separately. When the configuration is applied, each object can be created, destroyed, or updated as appropriate.
-
-eg.
-
-```
-
+```hcl
 terraform {
-
-required_providers {
-
-aws = {
-
-source = "hashicorp/aws"
-
-version = "~> 4.16"
-
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 4.16"
+    }
+  }
+  required_version = ">= 1.2.0"
 }
-
-}
-
-required_version = ">= 1.2.0"
-
-}
-
-
 
 provider "aws" {
-
-region = "us-east-1"
-
+  region = "us-east-1"
 }
-
-
 
 resource "aws_instance" "server" {
+  count = 4
 
-count = 4
+  ami           = "ami-08c40ec9ead489470"
+  instance_type = "t2.micro"
 
-
-
-ami = "ami-08c40ec9ead489470"
-
-instance_type = "t2.micro"
-
-
-
-tags = {
-
-Name = "Server ${count.index}"
-
+  tags = {
+    Name = "Server ${count.index}"
+  }
 }
-
-}
-
-
-
 ```
 
 ## for_each
 
-Like the count argument, the for_each meta-argument creates multiple instances of a module or resource block. However, instead of specifying the number of resources, the for_each meta-argument accepts a map or a set of strings. This is useful when multiple resources are required that have different values. Consider our Active directory groups example, with each group requiring a different owner.
+Similar to `count`, the `for_each` meta-argument creates multiple instances, but it accepts a map or set of strings. This is particularly useful when different values are needed for each resource, such as in the case of Active Directory groups with varying owners.
 
-```
-
+```hcl
 terraform {
-
-required_providers {
-
-aws = {
-
-source = "hashicorp/aws"
-
-version = "~> 4.16"
-
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 4.16"
+    }
+  }
+  required_version = ">= 1.2.0"
 }
-
-}
-
-required_version = ">= 1.2.0"
-
-}
-
-
 
 provider "aws" {
-
-region = "us-east-1"
-
+  region = "us-east-1"
 }
-
-
 
 locals {
-
-ami_ids = toset([
-
-"ami-0b0dcb5067f052a63",
-
-"ami-08c40ec9ead489470",
-
-])
-
+  ami_ids = toset([
+    "ami-0b0dcb5067f052a63",
+    "ami-08c40ec9ead489470",
+  ])
 }
-
-
 
 resource "aws_instance" "server" {
+  for_each = local.ami_ids
 
-for_each = local.ami_ids
+  ami           = each.key
+  instance_type = "t2.micro"
 
-
-
-ami = each.key
-
-instance_type = "t2.micro"
-
-tags = {
-
-Name = "Server ${each.key}"
-
+  tags = {
+    Name = "Server ${each.key}"
+  }
 }
 
-}
-
-
-
-Multiple key value iteration
-
+# Multiple key-value iteration
 locals {
-
-ami_ids = {
-
-"linux" :"ami-0b0dcb5067f052a63",
-
-"ubuntu": "ami-08c40ec9ead489470",
-
+  ami_ids = {
+    "linux"  = "ami-0b0dcb5067f052a63",
+    "ubuntu" = "ami-08c40ec9ead489470",
+  }
 }
-
-}
-
-
 
 resource "aws_instance" "server" {
+  for_each = local.ami_ids
 
-for_each = local.ami_ids
+  ami           = each.value
+  instance_type = "t2.micro"
 
+  tags = {
+    Name = "Server ${each.key}"
+  }
+}
+```
 
+## depend_on
 
-ami = each.value
+The `depend_on` meta-argument ensures proper sequencing during resource creation and updates. It specifies explicit dependencies between resources.
 
-instance_type = "t2.micro"
+```hcl
+resource "aws_instance" "example" {
+  ami           = "ami-0c55b159cbfafe1f0"
+  instance_type = "t2.micro"
 
-
-
-tags = {
-
-Name = "Server ${each.key}"
-
+  tags = {
+    Name = "example-instance"
+  }
 }
 
+resource "aws_security_group" "example_sg" {
+  name        = "example-sg"
+  description = "Example Security Group"
+
+  ingress {
+    from_port   = 22
+    to_port     = 22
+    protocol    = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+
+  # Explicitly depend on the aws_instance resource
+  depends_on = [aws_instance.example]
+}
+```
+
+## provider
+
+The `provider` meta-argument specifies the provider alias for a particular resource, allowing the use of multiple providers of the same type within a configuration.
+
+```hcl
+provider "aws" {
+  region = "us-east-1"
 }
 
+provider "aws" {
+  alias  = "mumbai"
+  region = "ap-south-1"
+}
+
+resource "google_compute_instance" "example" {
+  provider = aws.mumbai
+}
+```
+
+## lifecycle
+
+The `lifecycle` meta-argument defines the lifecycle for the resource. It provides advanced control over resource creation, updates, and destruction.
+
+```hcl
+resource "aws_instance" "example" {
+  ami           = "ami-12345678"
+  instance_type = "t2.micro"
+
+  lifecycle {
+    create_before_destroy = true
+    prevent_destroy       = false
+    ignore_changes        = [tags]
+  }
+}
 ```
 
 ## Task-01
 
-- Create the above Infrastructure as code and demonstrate the use of Count and for_each.
-- Write about meta-arguments and its use in Terraform.
+- Implement the above Infrastructure as Code and showcase the usage of `count`, `for_each`, `depend_on`, `provider`, and `lifecycle`.
+- Write about meta-arguments and their utility in Terraform.
 
-Happy learning :)
+Read more on my [blog](https://devxblog.hashnode.dev/meta-arguments-in-terraform).
 
-[← Previous Day](../day68/README.md) | [Next Day →](../day70/README.md)
+Happy learning! 🙂
