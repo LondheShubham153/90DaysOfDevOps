@@ -19,3 +19,8 @@ For more details watch [this](https://youtu.be/IUF-pfbYGvg) video.
 Happy Learning :)
 
 [← Previous Day](../day52/README.md) | [Next Day →](../day54/README.md)
+
+--------------------------------------------
+Posted on LinedIn - Day 53 - Your CI/CD pipeline on AWS - Part 4 - CodePipeline
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7146459683321495552-GSEP?utm_source=share&utm_medium=member_desktop
