@@ -156,6 +156,13 @@ resource "aws_instance" "example" {
 }
 ```
 
+# Choosing Between for_each and count in Terraform
+- for_each: Used for dynamic resource creation with different configurations for each instance.
+
+- count: Used for duplicating the block with the same configuration for each instance.
+
+ 
+
 ## Task-01
 
 - Implement the above Infrastructure as Code and showcase the usage of `count`, `for_each`, `depend_on`, `provider`, and `lifecycle`.
