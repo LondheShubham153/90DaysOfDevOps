@@ -17,3 +17,10 @@ Write a blog on this topic in the most creative way and post it on linkedIn :)
 happy learning...
 
 [← Previous Day](../day53/README.md) | [Next Day →](../day55/README.md)
+
+
+--------------------------------------------
+Posted on LinkedIn - Day 54 - Understanding Infrastructure as Code (IaC) and Configuration Management (CM)
+
+https://www.linkedin.com/posts/safshah_devopstools-devopsjourney-90daysofdevop-activity-7147190726848638976-uQVY?utm_source=share&utm_medium=member_desktop
+
