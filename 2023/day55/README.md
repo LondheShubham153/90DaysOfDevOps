@@ -26,3 +26,8 @@ Write a blog on this topic with screenshots in the most creative way and post it
 happy learning...
 
 [← Previous Day](../day54/README.md) | [Next Day →](../day56/README.md)
+
+------------------
+Posted on LinkedIn - Day 55 - Understanding Configuration Management with Ansible
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7147590964432306176-jaLM?utm_source=share&utm_medium=member_desktop
