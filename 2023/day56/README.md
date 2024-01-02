@@ -16,3 +16,9 @@ Ansible ad hoc commands come handy when you want to perform a quick task.
 happy Learning :)
 
 [← Previous Day](../day55/README.md) | [Next Day →](../day57/README.md)
+
+--------------------------------------------------
+Posted on LinkedIn - Understanding Ad-hoc commands in Ansible
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7147924296160473088-G8m4?utm_source=share&utm_medium=member_desktop
+
