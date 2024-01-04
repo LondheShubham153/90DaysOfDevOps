@@ -21,3 +21,9 @@ Let me or anyone in the community know if you face any challenges
 happy Learning :)
 
 [← Previous Day](../day57/README.md) | [Next Day →](../day59/README.md)
+
+-------------------------------------------------------
+
+Posted on LinkedIn - Day 58 - What is an Ansible Playbook?
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7148626756604755969-16gh?utm_source=share&utm_medium=member_desktop

@@ -13,7 +13,7 @@ happy Learning :)
 [← Previous Day](../day56/README.md) | [Next Day →](../day58/README.md)
 
 --------------------------------------
-Posted on LinedIn - Unlocking Efficiency: Real-world Scenarios with Ansible
+Posted on LinedIn - Day 57 - Unlocking Efficiency: Real-world Scenarios with Ansible
 
 https://www.linkedin.com/posts/safshah_devops-devopstools-devopsdays-activity-7148274739428425728-_dUn?utm_source=share&utm_medium=member_desktop
 
