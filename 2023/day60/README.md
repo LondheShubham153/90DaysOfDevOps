@@ -29,3 +29,11 @@ Don’t forget to post in on LinkedIn.
 Happy Learning:)
 
 [← Previous Day](../day59/README.md) | [Next Day →](../day61/README.md)
+
+
+-------------------------------------------
+
+Posted on LinkedIn - Day 60 - Understanding Terraform: Simplifying Infrastructure Management with Code
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7149770922659377152-WFQd?utm_source=share&utm_medium=member_desktop
+
