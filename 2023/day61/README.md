@@ -35,3 +35,8 @@ Want a Free video Course for terraform? Click [here](https://bit.ly/tws-terrafor
 Don't forget to share your learnings on Linkedin ! Happy Learning :)
 
 [← Previous Day](../day60/README.md) | [Next Day →](../day62/README.md)
+
+----------------------------
+Posted on LinkedIn - Day 61 - Terraform - Commonly used Commands
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7150077982445895680-KKOB?utm_source=share&utm_medium=member_desktop
