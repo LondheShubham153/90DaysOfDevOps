@@ -77,3 +77,7 @@ I can imagine, Terraform can be tricky, so best to use a Free video Course for t
 Happy Learning :)
 
 [← Previous Day](../day61/README.md) | [Next Day →](../day63/README.md)
+----------------------
+Posted on LinkedIn - Day 62 - Terraform and Docker
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7150547444173344769-g4lj?utm_source=share&utm_medium=member_desktop
