@@ -60,3 +60,8 @@ I can imagine, Terraform can be tricky, so best to use a Free video Course for t
 Happy Learning :)
 
 [← Previous Day](../day62/README.md) | [Next Day →](../day64/README.md)
+
+--------------
+Posted on LinkedIn - Day 63 - Terraform Variables
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7150893382251270146-Unkm?utm_source=share&utm_medium=member_desktop
