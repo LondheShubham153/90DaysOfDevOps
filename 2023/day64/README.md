@@ -65,3 +65,8 @@ I can imagine, Terraform can be tricky, so best to use a Free video Course for t
 Happy Learning :)
 
 [← Previous Day](../day63/README.md) | [Next Day →](../day65/README.md)
+
+------------------------------------
+Posted on Linked - Day 64 Terraform with AWS
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7151187567504203776-tYpN?utm_source=share&utm_medium=member_desktop
