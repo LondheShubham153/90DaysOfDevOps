@@ -65,3 +65,8 @@ Run terraform apply to create the EC2 instance.
 Happy Terraforming!
 
 [← Previous Day](../day64/README.md) | [Next Day →](../day66/README.md)
+
+------------------------------------
+Posted on LinedIn - Day 65 - Working with Terraform Resources
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7152671624670945280-krWY?utm_source=share&utm_medium=member_desktop
