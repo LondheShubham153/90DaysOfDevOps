@@ -24,3 +24,7 @@ In the previous tasks, you have learned about the basics of Terraform, its confi
 Happy Terraforming:)
 
 [← Previous Day](../day65/README.md) | [Next Day →](../day67/README.md)
+
+Day 66 - Common Terraform Interview Question
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7153327698931552257-p3UP?utm_source=share&utm_medium=member_desktop
