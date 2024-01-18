@@ -20,3 +20,8 @@ In this task, you will learn how to create and manage S3 buckets in AWS.
 Good luck and happy learning!
 
 [← Previous Day](../day66/README.md) | [Next Day →](../day68/README.md)
+
+-------------------------------------
+Day 67 - AWS S3 Bucket and Management with Terraform
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7153690679007690752-_lwQ?utm_source=share&utm_medium=member_desktop
