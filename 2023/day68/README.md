@@ -64,3 +64,8 @@ Congratulations🎊🎉 You have successfully scaled your infrastructure with Te
 Happy Learning :)
 
 [← Previous Day](../day67/README.md) | [Next Day →](../day69/README.md)
+
+------------------------------------
+Day 68 - Scaling with Terraform
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7154445445430218752-grQI?utm_source=share&utm_medium=member_desktop
