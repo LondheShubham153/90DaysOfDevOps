@@ -78,3 +78,9 @@ You all are doing great, and you have come so far. Well Done Everyone🎉
 Thode mehnat aur krni hai bas to lge rho tab tak.....Happy learning :)
 
 [← Previous Day](../day69/README.md) | [Next Day →](../day71/README.md)
+
+
+---------------------------------------------
+Day 70 - Terraform Modules
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7155206315785486337-GZfX?utm_source=share&utm_medium=member_desktop
