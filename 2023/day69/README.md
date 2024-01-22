@@ -180,3 +180,7 @@ Name = "Server ${each.key}"
 Happy learning :)
 
 [← Previous Day](../day68/README.md) | [Next Day →](../day70/README.md)
+
+Day 69 - Meta-Arguments in Terraform
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7154805955480731648-P6o2?utm_source=share&utm_medium=member_desktop
