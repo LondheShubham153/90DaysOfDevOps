@@ -14,3 +14,8 @@ Hello Learners , you guys are doing really a good job. You will not be there 24\
 ---
 
 [← Previous Day](../day71/README.md) | [Next Day →](../day73/README.md)
+
+---------------------------------
+Day 72 - Grafana
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7155872973155876864-yX6u?utm_source=share&utm_medium=member_desktop
