@@ -39,3 +39,8 @@ terraform destroy
 Waiting for your responses😉.....Till then Happy learning :)
 
 [← Previous Day](../day70/README.md) | [Next Day →](../day72/README.md)
+
+--------------------------------
+ Day 71 - Sample Interview Questions on Terraform
+
+ https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7155528018856202240-bqGi?utm_source=share&utm_medium=member_desktop
