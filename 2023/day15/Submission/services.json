@@ -1,0 +1,5 @@
+{
+    "aws": "ec2",
+    "azure": "VM",
+    "gcp": "compute engine"
+}
