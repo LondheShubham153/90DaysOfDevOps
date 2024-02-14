@@ -28,3 +28,7 @@ Don't forget to share this amazing work over LinkedIn and Tag us.
 ## Happy Learning :)
 
 [← Previous Day](../day74/README.md) | [Next Day →](../day76/README.md)
+
+Day 75 - Sending Docker Log to Grafana
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7163491249541349376-BjFr?utm_source=share&utm_medium=member_desktop
