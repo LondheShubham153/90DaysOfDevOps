@@ -31,3 +31,7 @@ Read [this](https://grafana.com/tutorials/grafana-fundamentals/) in case you hav
 Do share some amazing Dashboards with the community
 
 [← Previous Day](../day75/README.md) | [Next Day →](../day77/README.md)
+
+Day 76 - Building a Dashboard in Grafana
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7170745503603765248-DfPX?utm_source=share&utm_medium=member_desktop
