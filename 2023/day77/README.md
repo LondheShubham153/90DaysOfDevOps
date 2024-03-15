@@ -12,3 +12,7 @@ Grafana Alerting is available for Grafana OSS, Grafana Enterprise, or Grafana Cl
 Check out [this blog](https://grafana.com/docs/grafana/latest/alerting/) for more details
 
 [← Previous Day](../day76/README.md) | [Next Day →](../day78/README.md)
+
+Day 77 - Setting Up Grafana and Configuring Sample Alerting
+
+https://www.linkedin.com/posts/safshah_devops-devopsengineer-devopstools-activity-7173972111403700224-Ly8u?utm_source=share&utm_medium=member_desktop
