@@ -1,0 +1,96 @@
+Introduction:
+Welcome to Day 2 of the 90-Day DevOps Challenge! Today, we will dive into the fundamental concepts of Linux, an open-source operating system that plays a crucial role in the world of DevOps. Understanding Linux is essential for any DevOps practitioner, as it forms the foundation of many server environments and provides a powerful platform for running applications and managing resources. In this blog post, we will explore the key components of Linux, its architecture, and some basic commands to get you started on your Linux journey
+
+What is Linux?
+Linux is an open-source operating system that serves as the foundation for numerous computing systems. Unlike proprietary operating systems, Linux allows users to access and modify its source code, fostering a collaborative and customizable environment. Linux interacts directly with a system's hardware, managing resources such as the CPU, memory, and storage. It provides a robust and secure platform for running applications and servers.
+
+Components of the Linux File System:
+
+Image description
+
+a. Kernel: The Linux kernel is the core part of the operating system. It interacts directly with the hardware, providing an abstraction layer that hides low-level hardware details from system and application programs. It handles key activities and manages resources efficiently.
+
+b. **System Libraries:** Linux offers a set of system libraries that implement most of the functionalities of the operating system. These libraries provide functions and programs that allow application programs and system utilities to access the kernel's features without requiring direct access rights to the kernel modules.
+
+c. System Utility Programs: System utility programs in Linux perform specialized and individual tasks. These programs help manage the system, configure settings, perform administrative functions, and automate various operations.
+
+The architecture of Linux:
+
+Image description
+
+A Linux system consists of several layers:
+
+a. Kernel: The kernel is the heart of the Linux operating system. It handles critical tasks, manages hardware resources, and provides an interface for system processes and applications.
+
+b. System Libraries: These libraries contain pre-compiled functions and code that allow applications to interact with the kernel and access system resources. They provide an abstraction layer, simplifying the development process for software developers.
+
+c. System Utility Programs: System utility programs offer a range of functionalities to manage and configure the system. Examples include package managers, network configuration tools, and system monitoring utilities.
+
+d. Hardware Layer: This layer comprises the physical components of the system, including the CPU, hard disk drives (HDD), RAM, and other peripheral devices.
+
+e. Shell: The shell acts as an interface between the user and the kernel. It can be either a command-line shell or a graphical shell, enabling users to interact with the system and execute commands.
+
+Basic Linux Commands:
+To get started with Linux, here are some essential commands:
+
+a. ls: Lists files and directories in the current location : Command: ls
+
+b. cd: Changes the current directory : Command: cd directory_name
+
+c. mkdir: Creates a new directory : Command: mkdir directory_name
+
+d. rm: Removes a file : Command: rmdir directory_name
+
+e. cp: Copies a file : Command: cp source_file destination path
+
+f. mv: Moves or renames a file : Command: mv source_file destination
+
+g. cat: Displays the contents of a file : Command: cat file_name
+
+h. clear: Clears the terminal screen : Command: clear
+
+i. History: Shows a list of previously executed commands: Command : history
+
+j.head: Display the beginning of a file.
+
+k.tail: Display the end of a file.
+
+l.touch: Create an empty file or update timestamps.
+
+m.nano: Open a simple text editor.
+
+n.grep: Search for specific patterns in files.
+
+o.chmod: Change file permissions.
+
+p.chown: Change file ownership.
+
+Task: Linux Commands:
+
+ls --> The ls command is used to list files or directories in Linux and other Unix-based operating systems.
+Image description
+
+ls -l--> Type the ls -l command to list the contents of the directory in a table format with columns including.
+Image description
+
+ls -a --> Type the ls -a command to list files or directories including hidden files or directories. In Linux, anything that begins with a . is considered a hidden file.
+Image description
+
+ls -i --> List the files and directories with index numbers in orders
+Image description
+
+ls -d */ --> Type the ls -d */ command to list only directories.
+Image description
+
+pwd --> Print work directory. Gives the present working directory.
+Image description
+
+cd path_to_directory --> Change directory to the provided path.
+Image description
+
+mkdir directoryName --> Use to make a directory in a specific location.
+Image description
+
+9.mkdir .NewFolder --> Make a hidden directory (also . before a file to make it hidden)
+
+10.mkdir A B C D --> Make multiple directories at the same time.
