@@ -1,0 +1,51 @@
+Tasks
+1. What is Kernel?
+A kernel is a crucial part of a computer's operating system (OS) that acts as an intermediator between the hardware and the user-level applications. It plays a central role in managing key functions such as system calls, disk operations, and memory utilization.
+
+The kernel is the first component that loads into memory during the boot process and remains active until the system is shut down. Essentially, it is the core element necessary for the proper functioning of an OS on hardware. The kernel is responsible for coordinating CPU cores, allocating memory, and overseeing various hardware-related tasks.
+
+2. What is Shell?
+A shell is special user program which provide an interface to user to use operating system services. Shell accept human readable commands from user and convert them into something which kernel can understand. It is a command language interpreter that execute commands read from input devices such as keyboards or from files. The shell gets started when the user logs in or start the terminal.
+
+3. What is Linux Shell Scripting?
+
+Shell script is a computer program designed to be run by Linux shell, Command Line Interpreter. Shell Scripting in DevOps is about to make thing automatically. It's like giving list of commands to run one by one without asking again and again.
+
+Steps for writing a Shell Script:
+
+Step 1:
+Use any editor of your choice like vim, nano, gedit or vi and create a file with .sh extension.
+
+Step 2:
+After writing the script execute permission of your scripts as follows.
+
+chmod +x <script_name>
+chmod 755 <script_name>
+
+Step 3:
+
+Execute your shell script as follows:
+sh <script_name>
+./<script_name>
+
+4. What is #!/bin/bash? can we write #!/bin/sh as well?
+
+The #!/bin/bash (shebang) is a special line at the beginning of a shell script that tells the system which interpreter should be used to execute the script. In this case, it specifies the Bash shell.
+
+We can also write #!/bin/sh Shebang directs script to be executed by default shell, it might be Bash or Dash
+
+5.Write a Shell Script which prints "I will complete #90DaysOfDevOps challenge" .
+
+Image description
+
+6. Write a Shell Script to take user input, input from arguments and print the variables.
+
+Image description
+
+7. Write an Example of If else in Shell Scripting by comparing 2 numbers.
+
+Image description
+
+I hope you found this guide on learning Shell scripting for DevOps engineers both enjoyable and valuable. If you did, please consider following and like it to show your support 😄.
+
+Happy Learning !!
