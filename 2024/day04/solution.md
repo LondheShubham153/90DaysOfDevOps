@@ -15,7 +15,7 @@ Task 2: What is `#!/bin/bash`? Can we write `#!/bin/sh` as well?
 
 ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day04/image/task%202.png)
 
-Task 3: Write a Shell Script that prints "I will complete #90DaysOfDevOps challenge."
+Task 3: Write a Shell Script that prints `I will complete #90DaysOfDevOps challenge`.
 
 ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day04/image/task%203.png)
 
