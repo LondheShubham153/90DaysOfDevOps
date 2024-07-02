@@ -2,10 +2,11 @@
 # Day 4 Answers: Basic Linux Shell Scripting for DevOps Engineers
 
 Task 1: Explain in your own words and with examples what Shell Scripting means for DevOps.
-'Shell Scripting is writing a series of commands in a script file to automate tasks in the Unix/Linux shell. For DevOps, shell scripting is crucial for automating repetitive tasks, managing system configurations, deploying applications, and integrating various tools and processes in a CI/CD pipeline. It enhances efficiency, reduces errors, and saves time.'
+- 'Shell Scripting is writing a series of commands in a script file to automate tasks in the Unix/Linux shell. For DevOps, shell scripting is crucial for automating repetitive tasks, managing system configurations, deploying applications, and integrating various tools and processes in a CI/CD pipeline. It enhances efficiency, reduces errors, and saves time.'
 
 Example: Automating server setup
 ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day04/image/task%201.png)
+![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day04/image/task%2011.png)
 
 Task 2: What is `#!/bin/bash`? Can we write `#!/bin/sh` as well?
 - `#!/bin/bash` is called a "shebang" line. It indicates that the script should be run using the Bash shell.
