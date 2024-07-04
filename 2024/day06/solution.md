@@ -21,37 +21,33 @@
 
    **Answer**
 
-      - Understanding File Permissions in Linux
----
-File permissions in Linux are critical for maintaining security and proper access control. They define who can read, write, and execute a file or directory. Here, we explore the concepts and commands related to file permissions.
+      - **Understanding File Permissions in Linux**
+        - File permissions in Linux are critical for maintaining security and proper access control. They define who can read, write, and execute a file or directory. Here, we explore the concepts and commands related to file permissions.
 
-      - Basic Permissions
----
-Permissions in Linux are represented by a three-digit number, where each digit represents a different set of users: owner, group, and others.
+      - **Basic Permissions**
+        - Permissions in Linux are represented by a three-digit number, where each digit represents a different set of users: owner, group, and others.
 
-- **Highest Permission:** `7` (4+2+1)
-- **Maximum Permission:** `777`, but effectively `666` for files due to security reasons, meaning no user gets execute permission.
-- **Effective Permission for Directories:** `755`
-- **Lowest Permission:** `000` (not recommended)
-- **Minimum Effective Permission for Files:** `644` (default umask value of `022`)
-- **Default Directory Permission:** Includes execute permission for navigation
+        - **Highest Permission:** `7` (4+2+1)
+        - **Maximum Permission:** `777`, but effectively `666` for files due to security reasons, meaning no user gets execute permission.
+        - **Effective Permission for Directories:** `755`
+        - **Lowest Permission:** `000` (not recommended)
+        - **Minimum Effective Permission for Files:** `644` (default umask value of `022`)
+        - **Default Directory Permission:** Includes execute permission for navigation
 
-      - Categories of Users
----
-Each of the three permissions are assigned to three defined categories of users:
+      - **Categories of Users**
+        - Each of the three permissions are assigned to three defined categories of users:
 
-- **Owner**: The owner of the file or application.
-  - Command: `chown` is used to change the ownership of a file or directory.
-- **Group**: The group that owns the file or application.
-  - Command: `chgrp` is used to change the group permission of a file or directory.
-- **Others**: All users with access to the system.
-  - Command: `chmod` is used to change the permissions for other users.
+        - **Owner**: The owner of the file or application.
+          - Command: `chown` is used to change the ownership of a file or directory.
+        - **Group**: The group that owns the file or application.
+          - Command: `chgrp` is used to change the group permission of a file or directory.
+        - **Others**: All users with access to the system.
+          - Command: `chmod` is used to change the permissions for other users.
 
-      - Special Permissions
----
-- **SUID (Set User ID)**: If SUID is set on an executable file and a normal user executes it, the process will have the same rights as the owner of the file being executed instead of the normal user (e.g., `passwd` command).
-- **SGID (Set Group ID)**: If SGID is set on any directory, all subdirectories and files created inside will inherit the group ownership of the main directory, regardless of who creates them.
-- **Sticky Bit**: Used on folders to avoid deletion of a folder and its contents by other users though they have write permissions. Only the owner and root user can delete other users' data in the folder where the sticky bit is set.
+      - **Special Permissions**        
+        - **SUID (Set User ID)**: If SUID is set on an executable file and a normal user executes it, the process will have the same rights as the owner of the file being executed instead of the normal user (e.g., `passwd` command).
+        - **SGID (Set Group ID)**: If SGID is set on any directory, all subdirectories and files created inside will inherit the group ownership of the main directory, regardless of who creates them.
+        - **Sticky Bit**: Used on folders to avoid deletion of a folder and its contents by other users though they have write permissions. Only the owner and root user can delete other users' data in the folder where the sticky bit is set.
 
 3. **Access Control Lists (ACL):**
    - Read about ACL and try out the commands `getfacl` and `setfacl`.
