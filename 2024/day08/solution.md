@@ -41,5 +41,7 @@
    - Wildcards are special characters used to perform pattern matching when working with files. Your task is to create a bash script that utilizes wildcards to list all the files with a specific extension in a directory.
 
    **Answer**
-   
+
    ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day08/image/task6.png)     
+
+[LinkedIn](https://www.linkedin.com/in/bhavin-savaliya/)   
