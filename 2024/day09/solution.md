@@ -39,4 +39,4 @@
    
    ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day09/image/bash1.png)   
 
-[LinkedIn](https://www.linkedin.com/in/bhavin-savaliya/)
+   [LinkedIn](https://www.linkedin.com/in/bhavin-savaliya/)
