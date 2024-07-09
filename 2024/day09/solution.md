@@ -12,8 +12,27 @@
 
    **Answer**
 
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day09/image/task1.png)
+   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day09/image/task11.png)
+
+       - Note: Check `zip` install or not:
+               if not then use this command   
+         ```bash
+            apt install zip      
+     
+   Crontab Job Scheduling:  
+   
+   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day09/image/task2.png)  
+       - Auto scheduling through `crontab job scheduling`:
+         ```bash
+            * 1 * * * bash /root/backup.sh /root/datafile /root/backup   
+
+   It will take a backup every hour, and the oldest backups will be deleted, leaving only the latest three backups visible:  
+   
+   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day09/image/task3.png)  
+       - Auto scheduling through `crontab job scheduling`:
+         ```bash
+            * 1 * * * bash /root/backup.sh /root/datafile /root/backup   
 
    Bash Script:
    
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day09/image/task1-2.png)   
+   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day09/image/bash1.png)   
