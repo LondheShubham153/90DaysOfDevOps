@@ -37,6 +37,9 @@
 
    **Bash Script:**
    
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day09/image/bash1.png)   
+   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day09/image/bash1.png)
+
+   **Reference**  
+   [TrainWithShubham - Production Backup Rotation | Shell Scripting For DevOps Engineer](https://youtu.be/PZYJ33bMXAw?si=Zb50P67x_F32ikeO)   
 
    [LinkedIn](https://www.linkedin.com/in/bhavin-savaliya/)
