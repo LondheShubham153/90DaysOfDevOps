@@ -160,3 +160,6 @@ It then sorts these error messages, counts how often each one occurs using `uniq
 
 The `get_top_errors()` function finds the most common error messages in the log file and lists the top 5 along with how many times each one appeared.
 
+
+
+My [Linkedin](https://www.linkedin.com/in/mohit-kachhwaha-9577a3274/)
