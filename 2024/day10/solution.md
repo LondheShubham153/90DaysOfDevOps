@@ -34,7 +34,7 @@ Write a Bash script that automates the process of analyzing log files and genera
 
    ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day10/image/task2.png)
 
-   **Output**
+   <h2>**Output**</h2>
 
    ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day10/image/output.png)
 
