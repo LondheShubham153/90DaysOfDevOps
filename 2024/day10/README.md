@@ -36,7 +36,7 @@ Write a Bash script that automates the process of analyzing log files and genera
 
 ## Sample Log File
 
-A sample log file named `sample_log.log` has been provided in the same directory as this challenge file. You can use this file to test your script.
+A sample log file named `sample_log.log` has been provided in the same directory as this challenge file. You can use this file to test your script or use [this](https://github.com/logpai/loghub/blob/master/Zookeeper/Zookeeper_2k.log)
 
 ## How to Participate
 
