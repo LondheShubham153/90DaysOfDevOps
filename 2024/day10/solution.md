@@ -26,15 +26,15 @@ Write a Bash script that automates the process of analyzing log files and genera
 
    <h2>Answer</h2>
 
-   **First created a folder and then a log file.**
+   - **First created a folder and then a log file.**
 
    ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day10/image/task1.png)
 
-   **Bash Code for Reference.**
+   - **Bash Code for Reference.**
 
    ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day10/image/task2.png)
 
-   <h2>Output</h2>
+   - <h2>Output</h2>
 
    ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day10/image/output.png)
 
