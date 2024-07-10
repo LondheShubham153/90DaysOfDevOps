@@ -24,7 +24,7 @@ Write a Bash script that automates the process of analyzing log files and genera
    - Top 5 error messages with their occurrence count
    - List of critical events with line numbers
 
-   **Answer**
+   <h2>Answer</h2>
 
    **First created a folder and then a log file.**
 
