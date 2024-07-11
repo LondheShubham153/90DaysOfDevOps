@@ -10,7 +10,7 @@ Understanding how to handle errors in shell scripts is crucial for creating robu
 4. **Redirecting Errors**: Learn how to redirect errors to a file or `/dev/null`.
 5. **Creating Custom Error Messages**: Understand how to create meaningful error messages for debugging and user information.
 
-## Tasks with Answer
+## Tasks with Answers
 
 ### Task 1: Checking Exit Status
 - Write a script that attempts to create a directory and checks if the command was successful. If not, print an error message.
