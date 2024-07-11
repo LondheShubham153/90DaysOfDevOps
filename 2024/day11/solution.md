@@ -43,7 +43,7 @@ Understanding how to handle errors in shell scripts is crucial for creating robu
 ### Task 5: Creating Custom Error Messages
 - Modify one of the previous scripts to include custom error messages that provide more context about what went wrong.
 
-**Answer**
+**Answer** 
 
 ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day11/image/task5.png)
 
