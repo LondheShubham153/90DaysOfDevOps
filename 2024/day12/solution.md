@@ -3,7 +3,7 @@
 ## Find the answers by your understandings (Shouldn't be copied from the internet & use hand-made diagrams) of the questions below and write a blog on it.
 
 1. What is Git and why is it important?
-   - Git is a distributed version control system that allows multiple developers to work on a project simultaneously without overwriting each other's changes. It helps track changes in source code during software development, enabling collaboration, version control, and efficient management of code changes.
+   - **Git** is a distributed version control system that allows multiple developers to work on a project simultaneously without overwriting each other's changes. It helps track changes in source code during software development, enabling collaboration, version control, and efficient management of code changes.
 
    - Importance of Git:
      - **Version Control:** Keeps track of changes, allowing you to revert to previous versions if needed.
@@ -12,7 +12,7 @@
      - **Backup::** Acts as a backup of your codebase. 
 
 2. What is the difference between Main Branch and Master Branch?
-   - Traditionally, master was the default branch name in Git repositories. However, many communities have moved to using main as the default branch name to be more inclusive and avoid potentially offensive terminology.
+   - Traditionally, **master** was the default branch name in Git repositories. However, many communities have moved to using **main** as the default branch name to be more inclusive and avoid potentially offensive terminology.
    
    - Main Branch vs. Master Branch:
      -  **Main Branch:** The new default branch name used in many modern repositories.
@@ -22,13 +22,13 @@
 
 
 3. Can you explain the difference between Git and GitHub?
-   - Git is a version control system, while GitHub is a web-based platform that uses Git for version control and adds collaboration features like pull requests, issue tracking, and project management.
-   - Git:
-     - Command-line tool.
-     - Manages local repositories.
-   - GitHub:
-     - Hosting service for Git repositories.
-     - Adds collaboration tools and user interfaces.
+   - **Git** is a version control system, while **GitHub** is a web-based platform that uses Git for version control and adds collaboration features like pull requests, issue tracking, and project management.
+      - Git:
+        - Command-line tool.
+        - Manages local repositories.
+      - GitHub:
+        - Hosting service for Git repositories.
+        - Adds collaboration tools and user interfaces.
 
 4. How do you create a new repository on GitHub?
    1. Go to GitHub.
@@ -85,7 +85,10 @@
 **After that if you check it on GitHub then it's output will look like this**
 
 ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day12/image/gitui.png)
+
 ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day12/image/gitui1.png)
+
 ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day12/image/gitui2.png)
+
 
 [LinkedIn](https://www.linkedin.com/in/bhavin-savaliya/)
