@@ -21,6 +21,6 @@
 
 Reference: [YouTube Video](https://youtu.be/AT1uxOLsCdk)
 
-Note: These steps assume that you have already installed Git on your computer and have created a GitHub account. If you need help with these prerequisites, you can refer to the [Day 08](https://github.com/LondheShubham153/90DaysOfDevOps/blob/ee7c53f276edb02a85a97282027028295be17c04/2023/day08/README.md).
+Note: These steps assume that you have already installed Git on your computer and have created a GitHub account. If you need help with these prerequisites, you can refer to the [guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
 [← Previous Day](../day11/README.md) | [Next Day →](../day13/README.md)
