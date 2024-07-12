@@ -5,7 +5,7 @@
 1. What is Git and why is it important?
    - **Git** is a distributed version control system that allows multiple developers to work on a project simultaneously without overwriting each other's changes. It helps track changes in source code during software development, enabling collaboration, version control, and efficient management of code changes.
 
-   - Importance of Git:
+   **Importance of Git:**
      - **Version Control:** Keeps track of changes, allowing you to revert to previous versions if needed.
      - **Collaboration:** Multiple developers can work on the same project simultaneously.   
      - **Branching:** Allows you to work on different features or fixes in isolation.  
