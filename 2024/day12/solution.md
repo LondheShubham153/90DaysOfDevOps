@@ -80,7 +80,7 @@
 
 **Answer**
 
-![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day12/image/task2ka2.png)
+![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day12/image/push_repository.png)
 
 **After that if you check it on GitHub then it's output will look like this**
 
