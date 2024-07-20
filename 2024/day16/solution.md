@@ -11,59 +11,50 @@ As you have already installed Docker in previous tasks, now is the time to run D
 - Use the `docker run` command to start a new container and interact with it through the command line. [Hint: `docker run hello-world`]
 
 **Answer**
-
-![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day16/image/1_Start_a_New_Container.png)
-
    - This command runs the `hello-world` image, which prints a message confirming that Docker is working correctly.
+![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day16/image/1_Start_a_New_Container.png)
 
 - Use the `docker inspect` command to view detailed information about a container or image.
    - View Detailed Information About a Container or Image:
-
+   - This command runs the `hello-world` image, which prints a message confirming that Docker is working correctly.
 **Answer**
 
 ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day16/image/2_docker_inspect.png)
 
-   - This command runs the `hello-world` image, which prints a message confirming that Docker is working correctly.
-
 - Use the `docker port` command to list the port mappings for a container.
 
 **Answer**
+   - This command maps port 8181 on the host to port 82 in the container and lists the port mappings.
 
 ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day16/image/3_docker_port.png)
-
-   - This command maps port 8181 on the host to port 82 in the container and lists the port mappings.
 
 - Use the `docker stats` command to view resource usage statistics for one or more containers.
 
 **Answer**
+   - This command provides a live stream of resource usage statistics for all running containers.
 
 ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day16/image/4_docker_stats.png)
-
-   - This command provides a live stream of resource usage statistics for all running containers.
 
 - Use the `docker top` command to view the processes running inside a container.
 
 **Answer**
+   - This command lists the processes running inside the `my_container2` container.
 
 ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day16/image/5_docker_top.png)
-
-   - This command lists the processes running inside the `my_container2` container.
 
 - Use the `docker save` command to save an image to a tar archive.
 
 **Answer**
+   - This command saves the `nginx` image to a tar archive named `my_image.tar`.
 
 ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day16/image/6_docker_save.png)
-
-   - This command saves the `nginx` image to a tar archive named `my_image.tar`.
 
 - Use the `docker load` command to load an image from a tar archive.
 
 **Answer**
-
-![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day16/image/7_docker_load.png)
-
    - This command loads the image from the `my_image.tar` archive into Docker.
+   
+![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day16/image/7_docker_load.png)
 
 These tasks involve simple operations that can be used to manage images and containers.
 
