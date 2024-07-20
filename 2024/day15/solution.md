@@ -36,7 +36,7 @@ Python is an open-source, general-purpose, high-level, and object-oriented progr
 
 ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day15/image/Installation_Python.png)
 
-2. Read about different data types in Python.
+### 2. Read about different data types in Python.
    - Python supports several data types, which can be categorized as follows:
       - **Numeric Types:**
          - **int:** Integer values
