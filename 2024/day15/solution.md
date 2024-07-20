@@ -48,7 +48,7 @@ Python is an open-source, general-purpose, high-level, and object-oriented progr
          - **complex:** Complex numbers
             - `z = 3 + 5j`
 
-   - **Sequence Types:**
+      - **Sequence Types:**
          - **str:** String values
             - `name = "bhavin"`
 
