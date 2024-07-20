@@ -42,8 +42,7 @@ Python is an open-source, general-purpose, high-level, and object-oriented progr
          - **int:** Integer values
             - `x = 10`
 
-      - **float:** Floating-point values
-         - int: Integer values
+         - **float:** Floating-point values
             - `y = 10.5`
 
          - **complex:** Complex numbers
@@ -51,7 +50,7 @@ Python is an open-source, general-purpose, high-level, and object-oriented progr
 
    - **Sequence Types:**
       - **str:** String values
-         - int: Integer values
+         - **int:** Integer values
             - `name = "bhavin"`
 
          - **list:** Ordered collection of items
@@ -78,6 +77,7 @@ Python is an open-source, general-purpose, high-level, and object-oriented progr
    - **None Type:**
       - **NoneType:** Represents the absence of a value
          - `data = None`
+
 
 You can get the complete playlist [here](https://www.youtube.com/watch?v=abPgj_3hzVY&list=PLlfy9GnSVerS_L5z0COaF7rsbgWmJXTOM) 🙌
 
