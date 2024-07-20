@@ -71,7 +71,7 @@ For a better understanding of Git Rebase and Merge, check out this [article](htt
 
 ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day13/image/5%20This%20is%20the%20bug%20fix%20in%20development%20branch.png)
 
-     - 2nd line: `This is gadbad code`
+  - 2nd line: `This is gadbad code`
        ```bash
        echo "This is gadbad code" >> Devops/Git/version01.txt
        git commit -am "Added feature3 in development branch"
@@ -80,7 +80,7 @@ For a better understanding of Git Rebase and Merge, check out this [article](htt
 
 ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day13/image/6%20This%20is%20gadbad%20code.png)
 
-     - 3rd line: `This feature will gadbad everything from now`
+  - 3rd line: `This feature will gadbad everything from now`
        ```bash
        echo "This feature will gadbad everything from now" >> Devops/Git/version01.txt
        git commit -am "Added feature4 in development branch"
