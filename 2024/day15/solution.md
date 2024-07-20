@@ -49,8 +49,7 @@ Python is an open-source, general-purpose, high-level, and object-oriented progr
             - `z = 3 + 5j`
 
    - **Sequence Types:**
-      - **str:** String values
-         - **int:** Integer values
+         - **str:** String values
             - `name = "bhavin"`
 
          - **list:** Ordered collection of items
