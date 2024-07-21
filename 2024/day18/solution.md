@@ -22,9 +22,10 @@ Till now you have created a Dockerfile and pushed it to the repository. Let's mo
 Learn how to use the docker-compose.yml file to set up the environment, configure the services and links between different containers, and also to use environment variables in the docker-compose.yml file.
 
 [Sample docker-compose.yml file](https://github.com/LondheShubham153/90DaysOfDevOps/blob/master/2023/day18/docker-compose.yaml)
-   **Answer**
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day18/image/1_docker_compose_yml_file.png)
+   **Answer**
+   
+   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day18/image/1_docker_compose_yml_file.png)
 
 ## Task 2
    
@@ -82,7 +83,7 @@ Learn how to use the docker-compose.yml file to set up the environment, configur
 
    - Use the `docker rm` command to remove the container when you're done.
       - Remove the container:
-      
+
       **Answer**
 
       ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day18/image/10_Remove_the_container.png)      
