@@ -22,8 +22,7 @@ Till now you have created a Dockerfile and pushed it to the repository. Let's mo
 Learn how to use the docker-compose.yml file to set up the environment, configure the services and links between different containers, and also to use environment variables in the docker-compose.yml file.
 
 [Sample docker-compose.yml file](https://github.com/LondheShubham153/90DaysOfDevOps/blob/master/2023/day18/docker-compose.yaml)
-
-      **Answer**
+   **Answer**
 
       ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day18/image/1_docker_compose_yml_file.png)
 
@@ -49,12 +48,14 @@ Learn how to use the docker-compose.yml file to set up the environment, configur
       ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day18/image/4_Reboot_the_machine_to_apply_the_changes.png)
 
       - Run the Docker container:
+
       **Answer**
 
       ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day18/image/5_Run_the_Docker_container.png)      
 
    - **2. Inspect the container's running processes and exposed ports using the `docker inspect` command.**
       - Inspect the container:
+
       **Answer**
 
       ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day18/image/6_Inspect_the_container.png)      
@@ -81,6 +82,7 @@ Learn how to use the docker-compose.yml file to set up the environment, configur
 
    - Use the `docker rm` command to remove the container when you're done.
       - Remove the container:
+      
       **Answer**
 
       ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day18/image/10_Remove_the_container.png)      
