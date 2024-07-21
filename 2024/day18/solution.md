@@ -24,7 +24,7 @@ Learn how to use the docker-compose.yml file to set up the environment, configur
 [Sample docker-compose.yml file](https://github.com/LondheShubham153/90DaysOfDevOps/blob/master/2023/day18/docker-compose.yaml)
 
    **Answer**
-   
+
    ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day18/image/1_docker_compose_yml_file.png)
 
 ## Task 2
@@ -69,7 +69,7 @@ Learn how to use the docker-compose.yml file to set up the environment, configur
       ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day18/image/7_View_the_logs.png)
 
    - **4. Use the `docker stop` and `docker start` commands to stop and start the container.**
-      - Stop and start the container
+      - Stop the container:
 
       **Answer**
 
@@ -81,7 +81,7 @@ Learn how to use the docker-compose.yml file to set up the environment, configur
 
       ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day18/image/9_Start_the_container.png)
 
-   - Use the `docker rm` command to remove the container when you're done.
+   - **5. Use the `docker rm` command to remove the container when you're done.**
       - Remove the container:
 
       **Answer**
