@@ -15,10 +15,9 @@ As you have already installed Docker in previous tasks, now is the time to run D
 ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day16/image/1_Start_a_New_Container.png)
 
 ### 2. Use the `docker inspect` command to view detailed information about a container or image.
-   - View Detailed Information About a Container or Image:
 
 **Answer**
-   - This command runs the `hello-world` image, which prints a message confirming that Docker is working correctly.
+   - View Detailed Information About a Container or Image:
 
 ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day16/image/2_docker_inspect.png)
 
