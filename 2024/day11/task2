@@ -1,0 +1,29 @@
+#!/bin/bash
+<< Task2
+Description : Modifying the task 1 and include more commands with error handling if statement.
+Task2
+
+function err_handle {
+        if [ $? -eq 0 ] ; then
+                echo "your dir & file function is working fine"
+        else
+                echo "please check your dir & file function is not working"
+        fi  
+}
+function create_file {
+     read -p "create a file : " filename
+     file=$filename
+     touch_file=($(touch "$source_dir/$file"))
+     echo "print file name $file"
+     err_handle
+}
+function create_dir {
+     read -p "create a directory : " directory
+     source_dir=$directory
+     mk_dir=($(mkdir $source_dir))
+     echo "print directory name $source_dir"
+     err_handle
+     create_file
+     err_handle
+ }
+create_dir
