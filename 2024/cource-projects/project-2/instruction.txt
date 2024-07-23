@@ -1,6 +1,7 @@
 # Instruction to run 2-tier healt-web application #
 
 # prerequisite = Docker and Docker-compose
+# Recomended Docker-compose version v1
  
 # just simply clone the code from github by using below command
   git clone https://github.com/Bakhtawarkhan90/Health-Center.git
