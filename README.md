@@ -55,7 +55,7 @@ Let's come together to grow and achieve new heights in DevOps!
   </a>&ensp;
 
 ### DevOps Course:
-<a href="https://bit.ly/devops-batch-5">
+<a href="https://bit.ly/devops-batch-7">
   <img width="30px" src="https://media.licdn.com/dms/image/C4D0BAQGokBZsFEUWHw/company-logo_200_200/0/1677354328695?e=1700092800&v=beta&t=3bw7W2tQEpn023Slj_PacUZflE-OyYpBU-9juiJNJVY" />
 </a>&ensp;
 
