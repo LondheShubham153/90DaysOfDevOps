@@ -12,7 +12,7 @@ Welcome to the #90DaysOfDevOps Challenge with the #TrainWithShubham Community! T
    - Share your understanding of DevOps based on the video and your research. Cover the following points:
 
      - **What is DevOps:**
-       DevOps is a way of working that combines Development (Dev) and IT Operations (Ops) 🛠️. It focuses on improving teamwork, communication, and automating processes, allowing software to be developed, tested, and deployed faster & more reliably. ⚡
+       DevOps is a way of working that combines Development (Dev) and IT Operations (Ops) 🛠️. It focuses on improving teamwork, communication, and automating processes, allowing software to be developed, tested, and deployed faster & more reliably through continuous integration and delivery (CI/CD) practices. ⚡
        
      - **What is Automation, Scaling, and Infrastructure:**
        Automation 🤖: Tools that handle repetitive tasks automatically, like testing code or deploying software without manual effort.
@@ -20,7 +20,7 @@ Welcome to the #90DaysOfDevOps Challenge with the #TrainWithShubham Community! T
        Infrastructure 🖥️: The foundational hardware and software (servers, networks, etc.) that support your applications.
        
      - **Why DevOps is Important:**
-        DevOps helps companies release software faster 🚀, fix issues quickly 🛠️, improve efficiency, reduce human errors, and enhance collaboration between teams. This leads to higher-quality software and smoother operations. 🌟
+         DevOps helps companies deliver software faster 🚀, resolve issues quickly 🛠️, improve efficiency, reduce human errors, and enhance collaboration between teams. These benefits lead to higher-quality software and smoother operations. 🌟
        
 
 4. **Engage with the Community:**
