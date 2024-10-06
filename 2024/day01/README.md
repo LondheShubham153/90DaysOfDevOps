@@ -19,7 +19,7 @@ Welcome to the #90DaysOfDevOps Challenge with the #TrainWithShubham Community! T
        
      - **Why DevOps is Important:**
 
-   For 
+   For Solutions Click-Here[https://github.com/harshitsahu2311/90DaysOfDevOps-with-Harshit-Sahu/blob/new-feature/2024%20Solutions/Day1.md]
        
        
 
