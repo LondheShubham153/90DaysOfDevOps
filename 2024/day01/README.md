@@ -7,6 +7,7 @@ Welcome to the #90DaysOfDevOps Challenge with the #TrainWithShubham Community! T
 
 2. **Start with a DevOps Roadmap:**
    - Watch the introductory video on DevOps: [DevOps Roadmap](https://youtu.be/g_QHuGq3E2Y?si=fR9K56-JevZTfrBK)
+   - For PDF [Download](https://github.com/harshitsahu2311/DevOps-Tools-Notes/blob/main/DevOps-Roadmap/DevOps_RoadMap.pdf)
 
 3. **Write a LinkedIn Post or a Small Article:**
    - Share your understanding of DevOps based on the video and your research. Cover the following points:
