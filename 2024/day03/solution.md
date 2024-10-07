@@ -11,7 +11,7 @@ Task 2: Change the access permissions of files to make them readable, writable, 
 ```bash
 chmod 700 filename
 ```
-![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day03/image/task%202.png)
+![image](https://github.com/harshitsahu2311/90DaysOfDevOps-with-Harshit-Sahu/blob/new-feature/2024/day03/image/Tasking2.png)
 
 Task 3: Check the last 10 commands you have run.
 ```bash
@@ -25,7 +25,7 @@ Task 4: Remove a directory and all its contents.
 rm -rf directory_name
 ```
 
-![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day03/image/task%204.png)
+![image](https://github.com/harshitsahu2311/90DaysOfDevOps-with-Harshit-Sahu/blob/new-feature/2024/day03/image/Tasking4.png)
 
 Task 5: Create a `fruits.txt` file, add content (one fruit per line), and display the content.
 ```bash
