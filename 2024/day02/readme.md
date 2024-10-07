@@ -1,5 +1,7 @@
 ## Basic linux commands
 
+![image](https://github.com/harshitsahu2311/90DaysOfDevOps-with-Harshit-Sahu/blob/new-feature/2024/day02/linux-command.jpg)
+
 ### Listing commands
 ```ls option_flag arguments ```--> list the sub directories and files avaiable in the present directory
 
