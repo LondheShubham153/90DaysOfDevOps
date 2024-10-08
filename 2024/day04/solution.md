@@ -42,14 +42,14 @@ Usage: Using #!/bin/sh is sometimes preferred for compatibility, especially if t
 
 Task 3: Write a Shell Script that prints `I will complete #90DaysOfDevOps challenge`.
 
-![image](https://github.com/Faizan2727/90DaysOfDevOps/blob/master/2024/day03/image/task3.png)
+![image](https://github.com/Faizan2727/90DaysOfDevOps/blob/master/2024/day04/image/task3.png)
 
 Task 4: Write a Shell Script that takes user input, input from arguments, and prints the variables.
 
-![image](https://github.com/Faizan2727/90DaysOfDevOps/blob/master/2024/day03/image/task4.png)
-![image](https://github.com/Faizan2727/90DaysOfDevOps/blob/master/2024/day03/image/task4.1.png)
+![image](https://github.com/Faizan2727/90DaysOfDevOps/blob/master/2024/day04/image/task4.png)
+![image](https://github.com/Faizan2727/90DaysOfDevOps/blob/master/2024/day04/image/task4.1.png)
 
 Task 5: Provide an example of an If-Else statement in Shell Scripting by comparing two numbers.
 
-![image](https://github.com/Faizan2727/90DaysOfDevOps/blob/master/2024/day03/image/task5.png)
-![image](https://github.com/Faizan2727/90DaysOfDevOps/blob/master/2024/day03/image/task5.1.png)
+![image](https://github.com/Faizan2727/90DaysOfDevOps/blob/master/2024/day04/image/task5.png)
+![image](https://github.com/Faizan2727/90DaysOfDevOps/blob/master/2024/day04/image/task5.1.png)
