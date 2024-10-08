@@ -41,6 +41,7 @@ Task 9: Create another file `Colors.txt`, add content (one color per line), and 
 Task 10: Add content in `Colors.txt` (one in each line) - Red, Pink, White, Black, Blue, Orange, Purple, Grey. Then, prepend "Yellow" to the beginning of the file.
 
 ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day03/image/task%2010.png)
+![image](https://github.com/wulakey-tanwar/90DaysOfDevOps/blob/master/2024/day03/image/solutio10.png)
 
 Task 11: Find and display the lines that are common between `fruits.txt` and `Colors.txt`.
 
