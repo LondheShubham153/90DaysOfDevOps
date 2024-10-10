@@ -2,9 +2,9 @@
 
 ### Listing Commands
 
-```bash
-ls option_flag arguments
-``` 
+- ```bash
+  ls option_flag arguments
+  ``` 
 
 - #### List the subdirectories and files available in the present directory.
 
@@ -17,9 +17,9 @@ ls option_flag arguments
 
 ## Examples:
 
-```bash
-ls -l
-``` 
+- ```bash
+  ls -l
+  ``` 
 
 - #### List the files and directories in long list format with extra information.
 
@@ -30,9 +30,9 @@ ls -l
 ---
 
 
-```bash
-ls -a
-``` 
+- ```bash
+  ls -a
+  ``` 
 
 - #### List all including hidden files and directories.
 
@@ -43,9 +43,9 @@ ls -a
 ---
 
 
-```bash
-ls *.sh
-``` 
+- ```bash
+  ls *.sh
+  ``` 
 
 - #### List all the files having .sh extension.
 
@@ -56,9 +56,9 @@ ls *.sh
 ---
 
 
-```bash
-ls -i
-``` 
+- ```bash
+  ls -i
+  ``` 
 
 - #### List the files and directories with index numbers (inodes).
 
@@ -69,9 +69,9 @@ ls -i
 ---
 
 
-```bash
-ls -d */
-``` 
+- ```bash
+  ls -d */
+  ``` 
 
 - #### List only directories (we can also specify a pattern).
 
@@ -84,9 +84,9 @@ ls -d */
 
 ### Directory Commands
 
-```bash
-pwd
-``` 
+- ```bash
+  pwd
+  ``` 
 
 - #### Print working directory. Gives the present working directory.
 
@@ -97,9 +97,9 @@ pwd
 ---
 
 
-```bash
-cd path_to_directory
-``` 
+- ```bash
+  cd path_to_directory
+  ``` 
 
 - #### Change directory to the provided path.
 
@@ -110,14 +110,14 @@ cd path_to_directory
 ---
 
 
-```bash
-cd ~
-``` 
+- ```bash
+  cd ~
+  ``` 
 or just 
 
-```bash
-cd
-``` 
+- ```bash
+  cd
+  ``` 
 
 - #### Change directory to the home directory.
 
@@ -132,9 +132,9 @@ cd
 ---
 
 
-```bash
-cd -
-``` 
+- ```bash
+  cd -
+  ``` 
 
 - #### Go to the last working directory.
 
@@ -145,9 +145,9 @@ cd -
 ---
 
 
-```bash
-cd ..
-``` 
+- ```bash
+  cd ..
+  ``` 
 
 - #### Change directory to one step back.
 
@@ -158,9 +158,9 @@ cd ..
 ---
 
 
-```bash
-cd ../..
-``` 
+- ```bash
+  cd ../..
+  ``` 
 
 - #### Change directory to 2 levels back.
 
@@ -171,9 +171,9 @@ cd ../..
 ---
 
 
-```bash
-mkdir directoryName
-``` 
+- ```bash
+  mkdir directoryName
+  ``` 
 
 - #### Make a directory in a specific location.
 
@@ -186,9 +186,9 @@ mkdir directoryName
 
 ## Examples:
 
-```bash
-mkdir newFolder
-``` 
+- ```bash
+  mkdir newFolder
+  ``` 
 
 - #### Make a new folder 'newFolder'.
 
@@ -199,9 +199,9 @@ mkdir newFolder
 ---
 
 
-```bash
-mkdir .NewFolder
-``` 
+- ```bash
+  mkdir .NewFolder
+  ``` 
 
 - #### Make a hidden directory (also . before a file to make it hidden).
 
@@ -212,9 +212,9 @@ mkdir .NewFolder
 ---
 
 
-```bash
-mkdir A B C D
-``` 
+- ```bash
+  mkdir A B C D
+  ``` 
 
 - #### Make multiple directories at the same time.
 
@@ -225,9 +225,9 @@ mkdir A B C D
 ---
 
 
-```bash
-mkdir /home/user/Mydirectory
-``` 
+- ```bash
+  mkdir /home/user/Mydirectory
+  ``` 
 
 - #### Make a new folder in a specific location.
 
@@ -238,9 +238,9 @@ mkdir /home/user/Mydirectory
 ---
 
 
-```bash
-mkdir -p A/B/C/D
-``` 
+- ```bash
+  mkdir -p A/B/C/D
+  ``` 
 
 - #### Make a nested directory.
 
@@ -253,5 +253,3 @@ mkdir -p A/B/C/D
 ![mkdir -p amitabh/shubham/devops:](./images/Screenshot%202024-10-10%20181655.png)
 
 ---
-
-
