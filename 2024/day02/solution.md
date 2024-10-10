@@ -2,7 +2,7 @@
 
 ### Listing Commands
 
-```bash
+- ```bash
 ls option_flag arguments
 ``` 
 
@@ -14,9 +14,10 @@ ls option_flag arguments
 
 ---
 
+
 ## Examples:
 
-```bash
+- ```bash
 ls -l
 ``` 
 
@@ -28,7 +29,8 @@ ls -l
 
 ---
 
-```bash
+
+- ```bash
 ls -a
 ``` 
 
@@ -40,7 +42,8 @@ ls -a
 
 ---
 
-```bash
+
+- ```bash
 ls *.sh
 ``` 
 
@@ -52,7 +55,8 @@ ls *.sh
 
 ---
 
-```bash
+
+- ```bash
 ls -i
 ``` 
 
@@ -64,7 +68,8 @@ ls -i
 
 ---
 
-```bash
+
+- ```bash
 ls -d */
 ``` 
 
@@ -76,9 +81,10 @@ ls -d */
 
 ---
 
+
 ### Directory Commands
 
-```bash
+- ```bash
 pwd
 ``` 
 
@@ -90,7 +96,8 @@ pwd
 
 ---
 
-```bash
+
+- ```bash
 cd path_to_directory
 ``` 
 
@@ -102,11 +109,13 @@ cd path_to_directory
 
 ---
 
-```bash
+
+- ```bash
 cd ~
 ``` 
 or just 
-```bash
+
+- ```bash
 cd
 ``` 
 
@@ -122,7 +131,8 @@ cd
 
 ---
 
-```bash
+
+- ```bash
 cd -
 ``` 
 
@@ -134,7 +144,8 @@ cd -
 
 ---
 
-```bash
+
+- ```bash
 cd ..
 ``` 
 
@@ -146,7 +157,8 @@ cd ..
 
 ---
 
-```bash
+
+- ```bash
 cd ../..
 ``` 
 
@@ -158,7 +170,8 @@ cd ../..
 
 ---
 
-```bash
+
+- ```bash
 mkdir directoryName
 ``` 
 
@@ -170,9 +183,10 @@ mkdir directoryName
 
 ---
 
+
 ## Examples:
 
-```bash
+- ```bash
 mkdir newFolder
 ``` 
 
@@ -184,7 +198,8 @@ mkdir newFolder
 
 ---
 
-```bash
+
+- ```bash
 mkdir .NewFolder
 ``` 
 
@@ -196,7 +211,8 @@ mkdir .NewFolder
 
 ---
 
-```bash
+
+- ```bash
 mkdir A B C D
 ``` 
 
@@ -208,7 +224,8 @@ mkdir A B C D
 
 ---
 
-```bash
+
+- ```bash
 mkdir /home/user/Mydirectory
 ``` 
 
@@ -220,7 +237,8 @@ mkdir /home/user/Mydirectory
 
 ---
 
-```bash
+
+- ```bash
 mkdir -p A/B/C/D
 ``` 
 
@@ -235,4 +253,5 @@ mkdir -p A/B/C/D
 ![mkdir -p amitabh/shubham/devops:](./images/Screenshot%202024-10-10%20181655.png)
 
 ---
+
 
