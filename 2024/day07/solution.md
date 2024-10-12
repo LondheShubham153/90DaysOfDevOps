@@ -28,28 +28,31 @@
             sudo systemctl status docker
 
      - **Installing Jenkins**
-       - Add the Jenkins repository key to the system:
-         ```bash
-            curl -fsSL https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
-       - Add the Jenkins repository:
-         ```bash
-            sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
-       - Update the package list:
+       - Install Java: First, ensure you have Java installed (OpenJDK 17 recommended):
          ```bash
             sudo apt update
-       - Install Jenkins:
+            sudo apt install fontconfig openjdk-17-jre
+            java -version
+       - Add the Jenkins repository key: Download and add the Jenkins keyring:
          ```bash
-            sudo apt install jenkins
-       - Start Jenkins:
+            sudo wget -O /usr/share/keyrings/jenkins-keyring.asc https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
+       - Add the Jenkins repository: Add the Jenkins repository to your sources list:
          ```bash
+            echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian-stable binary/" | sudo tee /etc/apt/sources.list.d/jenkins.list > /dev/null
+       - Update the package list: Refresh your package index:
+         ```bash
+            sudo apt-get update
+       - Install Jenkins: Install Jenkins:
+         ```bash
+            sudo apt-get install jenkins
+       - Enable and start Jenkins: Enable Jenkins to start on boot and start the 
+       service:
+         ```bash
+            sudo systemctl enable jenkins
             sudo systemctl start jenkins
-       - Note:
-         - First, check whether JAVA is installed or not.
-           ```bash
-              java -version
-         - If you have not installed
-           ```bash
-              sudo apt install default-jre
+       - Check Jenkins status: Verify that Jenkins is running:
+         ```bash
+            sudo systemctl status jenkins
 
    Output
    ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day07/image/task1.png)
