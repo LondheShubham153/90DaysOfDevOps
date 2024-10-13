@@ -12,34 +12,58 @@
 
    **Answer**
 
-   **Create a Folder And Make Some File**
+**Challenge Description**
+You are tasked with creating a Bash script that:
+   - Takes a directory path as a command-line argument.
+   - Creates a timestamped backup folder inside the specified directory and copies all files into the backup folder.
+   - Retains only the last 3 backups by removing the oldest backups.
 
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day09/image/task11.png)
+**Solution: backup_with_rotation.sh**
 
-      - Note:
-         - First, check whether zip is installed or not.
-           ```bash
-              zip  
-         - If you have not installed
-           ```bash
-              sudo apt install zip
+**How It Works**
 
-   **Crontab Job Scheduling:**  
-   
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day09/image/task2.png)  
-      - Auto scheduling through `crontab job scheduling`:
-        ```bash
-           * 1 * * * bash /root/backup.sh /root/datafile /root/backup 
+   - The script accepts a directory path as an argument.
+   - It creates a backup directory with the current timestamp.
+   - The script copies all files from the specified directory into this new backup folder.
+   - It checks the total number of backups and ensures only the last 3 backups are kept by deleting older ones.
 
-   **It will take a backup every hour, and the oldest backups will be deleted, leaving only the latest three backups visible:**  
-   
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day09/image/task3.png)  
+# Script:
+ ![image](https://github.com/Faizan2727/90DaysOfDevOps/blob/master/2024/day09/image/task.png)
+![image](https://github.com/Faizan2727/90DaysOfDevOps/blob/master/2024/day09/image/task1.png)
+# Explanation:
 
-   **Bash Script:**
-   
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day09/image/bash1.png)
+# **Directory Check:** The script first checks if the directory path is provided as an argument and if the directory exists. If not, it exits with an error message.
 
-   **Reference**  
-   [TrainWithShubham - Production Backup Rotation | Shell Scripting For DevOps Engineer](https://youtu.be/PZYJ33bMXAw?si=Zb50P67x_F32ikeO)   
+# **Timestamp Generation:** The date command generates a timestamp to uniquely name the backup folder.
 
-   [LinkedIn](https://www.linkedin.com/in/bhavin-savaliya/)
+# **Backup Creation:** The script creates a new backup directory named backup_<timestamp> and copies all files from the specified directory into this folder.
+
+# **Backup Rotation:** The script identifies all backup directories (using the pattern backup_*) and counts them. If there are more than 3 backups, it deletes the oldest ones, keeping only the most recent 3.
+
+# Example Usage
+
+First Execution (2023-07-30):
+```bash
+$ ./backup_with_rotation.sh /home/ubuntu/backup1
+Backup created: /home/ubuntu/backup1/backup_2023-07-30_12-30-45
+```
+
+
+**Important Notes:**
+
+Ensure that you have proper permissions to create and remove directories inside the specified path.
+This script can be scheduled via cron for automatic execution at regular intervals.
+
+Cron Example:
+To run this script every min :
+
+```bash
+*/1 * * * * /home/ubuntu/backup_with_rotation.sh /home/ubuntu/backup1
+```
+![image](https://github.com/Faizan2727/90DaysOfDevOps/blob/master/2024/day09/image/task_2.png)
+
+# Conclusion
+
+This shell script automates the process of backing up a directory, managing backup retention, and ensuring that old backups are removed, saving both time and storage space.
+
+[LinkedIn](https://www.linkedin.com/in/faizan-shaikh-433245194/)
