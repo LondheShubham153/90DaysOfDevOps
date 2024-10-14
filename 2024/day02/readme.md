@@ -1,33 +1,36 @@
 ## Basic linux commands
 
 ### Listing commands
-```ls option_flag arguments ```--> list the sub directories and files avaiable in the present directory
+
+`ls option_flag arguments `--> list the sub directories and files avaiable in the present directory
 
 Examples:
 
-- ``` ls -l ```--> list the files and directories in long list format with extra information
-- ```ls -a ```--> list all including hidden files and directory
-- ```ls *.sh``` --> list all the files having .sh extension.
+- `ls -l`--> list the files and directories in long list format with extra information
+- `ls -a `--> list all including hidden files and directory
+- `ls *.sh` --> list all the files having .sh extension.
 
-- ```ls -i ``` --> list the files and directories with index numbers inodes
-- ``` ls -d */``` --> list only directories.(we can also specify a pattern)
+- `ls -i ` --> list the files and directories with index numbers inodes
+- ` ls -d */` --> list only directories.(we can also specify a pattern)
 
 ### Directoy commands
-- ```pwd``` --> print work directory. Gives the present working directory.
 
-- ```cd path_to_directory``` --> change directory to the provided path
+- `pwd` --> print work directory. Gives the present working directory.
 
-- ```cd ~ ``` or just  ```cd ``` --> change directory to the home directory
+- `cd path_to_directory` --> change directory to the provided path
 
-- ``` cd - ``` --> Go to the last working directory.
+- `cd ~ ` or just `cd ` --> change directory to the home directory
 
-- ``` cd ..``` --> change directory to one step back.
+- `cd -` --> Go to the last working directory.
 
-- ``` cd ../..``` --> Change directory to 2 levels back.
+- ` cd ..` --> change directory to one step back.
 
-- ``` mkdir  directoryName``` --> to make a directory in a specific location
+- ` cd ../..` --> Change directory to 2 levels back.
+
+- ` mkdir  directoryName` --> to make a directory in a specific location
 
 Examples:
+
 ```
 mkdir newFolder              # make a new folder 'newFolder'
 
@@ -39,3 +42,21 @@ mkdir /home/user/Mydirectory   # make a new folder in a specific location
 
 mkdir -p  A/B/C/D              # make a nested directory
 ```
+
+### File commands
+
+- `touch filename` --> create a file filename.
+
+- `cp -p source destination` --> Will copy the file from source to destination. -p preserves the original attributes of the file.
+
+- `mv file1 file2` --> moves/renames the file1 to file2.
+
+- `rm -i filename` --> asks you before every file removal for confirmation.
+
+- `cat filename` --> view the content of the file.
+
+- `vi filename` --> Edit a file.
+
+- `head filename` --> View the first several lines of a file.
+
+- `tail filename` --> View the last several lines of a file.
