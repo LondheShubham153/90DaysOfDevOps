@@ -35,7 +35,7 @@ Write a Bash script that automates the process of analyzing log files and genera
 
 # Check if log file path is provided as an argument
 if [ $# -eq 0 ]; then
-    echo "Usage: $0 /home/ubuntu/logs/"
+    echo "Usage: $0 /home/ubuntu/logs/sample_log_logs"
     exit 1
 fi
 
