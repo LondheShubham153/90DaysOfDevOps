@@ -64,6 +64,7 @@ Select Contact Points to specify the notification channels, such as email, Slack
 ![image](https://github.com/user-attachments/assets/941a4af6-460c-4b00-a97a-9b2ca25e317d)
 
 Our alert is now in a normal state as the CPU usage is not higher than 2% at the moment.
+
 ![image](https://github.com/user-attachments/assets/af2c8ec9-a972-45cb-a18e-5d600fb5128a)
 
 Let's stress our system using the below commands and see if the alerting system works as expected.
@@ -73,10 +74,13 @@ Let's stress our system using the below commands and see if the alerting system 
  stress --cpu 4
 ```
 We can see how our alert rule is now on 'Firing' mode and has triggered and slack alert.
+
 ![image](https://github.com/user-attachments/assets/b5072607-e078-4557-8d4d-e3757ddf8c4f)
+
 ![image](https://github.com/user-attachments/assets/61f81ae4-ee84-4101-bf48-34c17a4bc461)
 
 As soon as we stop the stress test, the system will resolve the alert and notify us via Slack.
+
 ![image](https://github.com/user-attachments/assets/c6aa2613-ccb5-425e-888f-46aae5f2675d)
 
 
