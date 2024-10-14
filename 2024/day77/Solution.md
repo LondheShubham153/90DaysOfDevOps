@@ -1,3 +1,4 @@
+# Alerting
 ![image](https://github.com/user-attachments/assets/379d909b-2bd8-4d20-b210-46e72fb824bf)
 
 # Grafana Cloud: Simplified and Scalable Monitoring
