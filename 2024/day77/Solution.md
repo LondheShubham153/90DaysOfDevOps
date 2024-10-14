@@ -18,38 +18,49 @@ Rule-based Alerts: We can create rules using PromQL (Prometheus Query Language) 
 # Task: Setup Grafana Cloud and Sample Alerting
 * Step 1: Setup Grafana Cloud Account
 Navigate to the Grafana Cloud website (grafana.com/cloud) and sign up for an account.
+
 ![image](https://github.com/user-attachments/assets/88287a00-86d4-4e99-9076-366c6a8687e7)
 
 Follow the on-screen instructions to set up your Grafana Cloud account, including providing the necessary details and configuring preferences.
+
 ![image](https://github.com/user-attachments/assets/95c51dc4-0e87-41cf-ba1a-86566a9f726e)
 
 Scroll down until you see the Prometheus option and hit the 'Send Metrics' button.
+
 ![image](https://github.com/user-attachments/assets/714f62d7-b69d-4d31-ac32-240b24d9ff63)
 
 Follow the instructions on the screen to integrate your Prometheus Server with Grafana Cloud.
+
 ![image](https://github.com/user-attachments/assets/85e54819-e2aa-464e-9704-ea0f505a0013)
 
 You will have to add the remote_write module to your existing prometheus.yml config file.
+
 ![image](https://github.com/user-attachments/assets/9c089863-afd3-4694-943e-0fe1a9b62482)
 
 Once this is set up, we can import our preferred Grafana dashboard or create our own one and start monitoring our infrastructure.
+
 ![image](https://github.com/user-attachments/assets/3deb8026-67a1-4469-9154-098e9a9565c2)
 
 * Step 2: Setup Sample Alerting
 This step will be completed in Grafana OSS.
+
 ![image](https://github.com/user-attachments/assets/257db5e0-fa91-4271-84e1-58d313eeacc0)
 
 Log in to your Grafana dashboard.
 Click on "Alerting" in the left-hand sidebar to access the Alerting configuration.
+
 ![image](https://github.com/user-attachments/assets/43e8e42b-9922-4cdf-ad4d-45ca85b1096b)
 
 Click on "Create Rule" to set up a new alerting rule.
+
 ![image](https://github.com/user-attachments/assets/6d40fa62-4e11-4824-bb61-0f3a310f5880)
 
 Define the conditions for the alerting rule based on your data and requirements. Once done, save the Alert Rule.
+
 ![image](https://github.com/user-attachments/assets/4f5bd30a-b2ff-4c13-9bff-6c88a5ebe0ed)
 
 Select Contact Points to specify the notification channels, such as email, Slack, or other integrations, where alerts will be sent when triggered. In this case, I will use Slack. You can follow the steps from the Slack Official Documentation to send messages using Incoming Webhooks.
+
 ![image](https://github.com/user-attachments/assets/941a4af6-460c-4b00-a97a-9b2ca25e317d)
 
 Our alert is now in a normal state as the CPU usage is not higher than 2% at the moment.
