@@ -28,9 +28,14 @@ All 90 directories were created within seconds using a simple command:
 4. **Read About User Management:**
    - A user is an entity in a Linux operating system that can manipulate files and perform several other operations. Each user is assigned an ID that is unique within the system. IDs 0 to 999 are assigned to system users, and local user IDs start from 1000 onwards.
    - Create 2 users and display their usernames.
+   - read about `useradd` vs `adduser` commands
    - [Check out this reference: User Management in Linux](https://www.geeksforgeeks.org/user-management-in-linux/).
+ 
+5. **Read about Groups and sudo**
+   - Create a group called developer and add both users created above to that group
+   - add a user to sudo group and login as that user and update the system.
 
-5. **Post Your Progress:**
+6. **Post Your Progress:**
    - Post your daily work on LinkedIn and let me know how it went! Writing an article about your experience is highly encouraged.
 
 **Were the tasks challenging?**

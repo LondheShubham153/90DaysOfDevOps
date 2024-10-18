@@ -38,4 +38,14 @@
    
    ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day05/image/task%204.png)
 
+5. **Read About User Management:**
+   - A group is a collection of users. The main purpose to group users is to define set of permissions for a resources that can be shared amoung users.
+   - sudo is a group that has the permission to execute all the commands in the system
+   - The file `/etc/sudoers` is the sudoers file that contains info about user/groups and their permissions
+   - only recomended way for editing sudoes file is using commnad `sudo visudo` it prevent conflict, check sysntax error
+
+   **Answer**
+
+   ![image]()
+
 [LinkedIn](https://www.linkedin.com/in/bhavin-savaliya/).
