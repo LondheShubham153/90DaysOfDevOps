@@ -46,6 +46,7 @@
 
    **Answer**
 
-   ![image]()
-
+   ![image](https://github.com/joakim077/90DaysOfDevOps/blob/group_managemet/2024/day05/image/task_5-1.png)
+   ![image](https://github.com/joakim077/90DaysOfDevOps/blob/group_managemet/2024/day05/image/task_5-2.png)
+   
 [LinkedIn](https://www.linkedin.com/in/bhavin-savaliya/).
