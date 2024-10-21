@@ -1,85 +1,111 @@
-# Day 15 Answers: Basics of Python for DevOps Engineers
 
-## What is Python?
+# Task 1: Python Installation and Data Types
 
-Python is an open-source, general-purpose, high-level, and object-oriented programming language created by Guido van Rossum. It has a vast ecosystem of libraries and frameworks, such as Django, TensorFlow, Flask, Pandas, Keras, and many more.
+## Step 1: Install Python and Check Version
 
-## How to Install Python
+### For Windows:
+1. **Download Python:**
+   - Go to the [official Python website](https://www.python.org/downloads/) and download the latest version for Windows.
+  
+2. **Install Python:**
+   - Run the installer and make sure to check the box that says “Add Python to PATH.”
+   - Follow the installation instructions.
 
-### Windows Installation
+3. **Check Python Version:**
+   - Open the Command Prompt (cmd).
+   - Type the following command and press Enter:
+     ```bash
+     python --version
+     ```
 
-1. Go to the [Python website](https://www.python.org/downloads/).
-2. Download the latest version of Python.
-3. Run the installer and follow the instructions.
-4. Check the installation by opening a command prompt and typing:
-   ```bash
-   python --version
+### For macOS:
+1. **Download Python:**
+   - Go to the [official Python website](https://www.python.org/downloads/) and download the latest version for macOS.
 
-### Ubuntu Installation
-   - `sudo apt-get update`
-   - `sudo apt-get install python3.6`
+2. **Install Python:**
+   - Open the downloaded file and follow the instructions to install Python.
 
-### macOS Installation
+3. **Check Python Version:**
+   - Open the Terminal.
+   - Type the following command and press Enter:
+     ```bash
+     python3 --version
+     ```
 
-1. Download the installer from the [Python website](https://www.python.org/downloads/macos/).
-2. Follow the installation instructions.
-3. Check the installation by opening a terminal and typing:
-   - `python3 --version`
+### For Linux:
+1. **Install Python:**
+   - Most Linux distributions come with Python pre-installed. You can check if it’s installed by opening the terminal and typing:
+     ```bash
+     python3 --version
+     ```
+   - If it’s not installed, you can install it using the package manager. For example, on Ubuntu, you can run:
+     ```bash
+     sudo apt update
+     sudo apt install python3
+     ```
 
-## Tasks with Answers
+2. **Check Python Version:**
+   - Again, in the terminal, type:
+     ```bash
+     python3 --version
+     ```
 
-### Task 1:
+## Step 2: Data Types in Python
 
-1. Install Python on your respective OS, and check the version.
+Python has several built-in data types, which can be classified into the following categories:
 
-**Answer**
+1. **Numeric Types:**
+   - **int:** Integer values (whole numbers).
+     ```python
+     a = 10      # Integer
+     ```
+   - **float:** Floating-point numbers (decimal values).
+     ```python
+     b = 10.5    # Float
+     ```
+   - **complex:** Complex numbers (a real part and an imaginary part).
+     ```python
+     c = 3 + 4j  # Complex
+     ```
 
-![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day15/image/Installation_Python.png)
+2. **Sequence Types:**
+   - **str:** String values (text).
+     ```python
+     name = "Alice"  # String
+     ```
+   - **list:** Ordered and mutable collection of items.
+     ```python
+     numbers = [1, 2, 3, 4, 5]  # List
+     ```
+   - **tuple:** Ordered and immutable collection of items.
+     ```python
+     coordinates = (10.0, 20.0)  # Tuple
+     ```
 
-### 2. Read about different data types in Python.
-   - Python supports several data types, which can be categorized as follows:
-      - **Numeric Types:**
-         - **int:** Integer values
-            - `x = 10`
+3. **Mapping Type:**
+   - **dict:** A collection of key-value pairs (unordered).
+     ```python
+     person = {"name": "Bob", "age": 25}  # Dictionary
+     ```
 
-         - **float:** Floating-point values
-            - `y = 10.5`
+4. **Set Types:**
+   - **set:** An unordered collection of unique items.
+     ```python
+     unique_numbers = {1, 2, 3}  # Set
+     ```
+   - **frozenset:** An immutable version of a set.
+     ```python
+     frozen_set = frozenset([1, 2, 3])  # Frozenset
+     ```
 
-         - **complex:** Complex numbers
-            - `z = 3 + 5j`
+5. **Boolean Type:**
+   - **bool:** Represents True or False values.
+     ```python
+     is_active = True  # Boolean
+     ```
 
-      - **Sequence Types:**
-         - **str:** String values
-            - `name = "bhavin"`
+### Summary
 
-         - **list:** Ordered collection of items
-            - `fruits = ["apple", "banana", "cherry"]`
+You have installed Python on your respective OS and checked the version. You also learned about different data types in Python, including numeric types, sequence types, mapping types, set types, and Boolean types, along with examples for each.
 
-         - **tuple:** Ordered, immutable collection of items
-            - `coordinates = (10.0, 20.0)`
-
-   - **Mapping Types:**
-      - **dict:** Key-value pairs
-         - `person = {"name": "bhavin", "age": 24}`
-
-   - **Set Types:**
-      - **set:** Unordered collection of unique items
-         - `unique_numbers = {1, 2, 3, 4, 5}`
-
-      - **frozenset:** Immutable set
-         - `frozen_numbers = frozenset([1, 2, 3, 4, 5])`
-
-   - **Boolean Type:**
-      - **bool:** Boolean values
-         - `is_active = True`
-
-   - **None Type:**
-      - **NoneType:** Represents the absence of a value
-         - `data = None`
-
-
-You can get the complete playlist [here](https://www.youtube.com/watch?v=abPgj_3hzVY&list=PLlfy9GnSVerS_L5z0COaF7rsbgWmJXTOM) 🙌
-
-**Happy Learning, Ruko Mat Phod do! 😃**
-
-[LinkedIn](https://www.linkedin.com/in/bhavin-savaliya/)
+[LinkedIn](https://www.linkedin.com/in/faizan-shaikh-433245194/)
