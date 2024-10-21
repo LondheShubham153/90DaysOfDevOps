@@ -1,87 +1,184 @@
-# Day 17 Answers: Docker Project for DevOps Engineers
 
-### You people are doing just amazing in **#90daysofdevops**. Today's challenge is so special because you are going to do a DevOps project with Docker. Are you excited? 😍
+# Day 17 Task: Docker Project for DevOps Engineers
 
-# Dockerfile
+You people are doing just amazing in **#90daysofdevops**. Today's challenge is so special because you are going to do a DevOps project with Docker. Are you excited? 😍
+
+## Dockerfile
 
 Docker is a tool that makes it easy to run applications in containers. Containers are like small packages that hold everything an application needs to run. To create these containers, developers use something called a Dockerfile.
 
 A Dockerfile is like a set of instructions for making a container. It tells Docker what base image to use, what commands to run, and what files to include. For example, if you were making a container for a website, the Dockerfile might tell Docker to use an official web server image, copy the files for your website into the container, and start the web server when the container starts.
 
-For more about Dockerfile, visit [here](https://rushikesh-mashidkar.hashnode.dev/dockerfile-docker-compose-swarm-and-volumes).
+For more about Dockerfile, visit here.
 
-## Tasks with Answers
+## Task
 
-**1. Create a Dockerfile for a simple web application (e.g. a Node.js or Python app)**
-   - **1. Create a Simple Flask Application**
-      - Create a new directory for your project and navigate into it:
+1. Create a Dockerfile for a simple web application (e.g. a Node.js or Python app)
+2. Build the image using the Dockerfile and run the container
+3. Verify that the application is working as expected by accessing it in a web browser
+4. Push the image to a public or private repository (e.g. Docker Hub)
 
-      **Answer**
+---
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day17/image/1_Create_a_new_directory.png)
+### Steps to Complete the Task:
 
-      - Create a new file named `app.py` and add the following content:
+### 1. **Create a Simple Web Application (Node.js or Python)**
 
-      **Answer**
+#### **For Node.js:**
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day17/image/2_app_py.png)
+Create a file called `app.js`:
+```javascript
+// app.js
 
-      - Create a requirements file named `requirements.txt` and add the following content:
+const express = require('express');
+const app = express();
 
-      **Answer**
+app.get('/', (req, res) => {
+  res.send('Hello, World from Dockerized Node.js App!');
+});
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day17/image/3_Create_a_requirements_file.png)
+const port = 3000;
+app.listen(port, () => {
+  console.log(`Server running on http://localhost:${port}`);
+});
+```
 
-   - **2. Create a Dockerfile**
-      - Create a file named `Dockerfile` in the same directory and add the following content:
+Now, create a `package.json` file to manage dependencies:
+```json
+{
+  "name": "docker-node-app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
+```
 
-      **Answer**
+#### **For Python (Flask):**
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day17/image/4_Create_a_Dockerfile.png)
+Create a file called `app.py`:
+```python
+# app.py
 
-**2. Build the image using the Dockerfile and run the container**
-   - To build the Docker image, run the following command in the directory containing the Dockerfile:
+from flask import Flask
+app = Flask(__name__)
 
-      **Answer**
+@app.route('/')
+def hello_world():
+    return 'Hello, World from Dockerized Python App!'
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day17/image/5_build_the_docker_image.png)
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000)
+```
 
-   - Run the Container
-      - To run the container, use the following command:
+Create a `requirements.txt` file to manage dependencies:
+```
+Flask==2.0.1
+```
 
-      **Answer**
+---
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day17/image/6_Run_the_Container.png)
+### 2. **Create a Dockerfile**
 
-**3. Verify that the application is working as expected by accessing it in a web browser**
-   - Open your web browser and navigate to `http://localhost:5000`. You should see the message "Hello, World!".
+#### **For Node.js App (Dockerfile):**
 
-      **Answer**
+```dockerfile
+# Use an official Node.js image as the base
+FROM node:14
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day17/image/7_Verify_the_Application.png)
+# Set the working directory inside the container
+WORKDIR /usr/src/app
 
-**4. Push the image to a public or private repository (e.g. Docker Hub)**
-   - To push the image to Docker Hub, you need to tag it with your Docker Hub username and repository name, then push it.
-   - **1. Tag the Image**
+# Copy package.json and install dependencies
+COPY package*.json ./
+RUN npm install
 
-      **Answer**
+# Copy the rest of the application code
+COPY . .
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day17/image/8_Tag_the_Image.png)
+# Expose the port the app runs on
+EXPOSE 3000
 
-   - **2. Push the Image**
+# Start the app
+CMD ["npm", "start"]
+```
 
-      **Answer**
+#### **For Python Flask App (Dockerfile):**
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day17/image/9_Push_the_Image.png)
+```dockerfile
+# Use an official Python runtime as the base image
+FROM python:3.9-slim
 
-For a reference project, visit [here](https://youtu.be/Tevxhn6Odc8).
+# Set the working directory inside the container
+WORKDIR /usr/src/app
 
-If you want to dive further, watch this [bootcamp](https://youtube.com/playlist?list=PLlfy9GnSVerRqYJgVYO0UiExj5byjrW8u).
+# Copy requirements.txt and install dependencies
+COPY requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt
 
-You can share your learning with everyone over LinkedIn and tag us along. 😃
+# Copy the application code
+COPY . .
 
-Happy Learning :)
+# Expose the port the app runs on
+EXPOSE 5000
 
-[Code for Reference](https://raw.githubusercontent.com/Bhavin213/90DaysOfDevOps/master/2024/day17/code.txt)
+# Start the app
+CMD ["python", "app.py"]
+```
 
-[LinkedIn](https://www.linkedin.com/in/bhavin-savaliya/)
+---
+
+### 3. **Build the Docker Image**
+
+In your terminal, navigate to the directory containing the Dockerfile and run:
+
+#### For Node.js App:
+```bash
+docker build -t docker-node-app .
+```
+
+#### For Python Flask App:
+```bash
+docker build -t docker-python-app .
+```
+
+---
+
+### 4. **Run the Container**
+
+#### For Node.js App:
+```bash
+docker run -p 3000:3000 docker-node-app
+```
+
+#### For Python Flask App:
+```bash
+docker run -p 5000:5000 docker-python-app
+```
+
+---
+
+### 5. **Push the Image to a Repository**
+
+1. **Login to Docker Hub**:
+   ```bash
+   docker login
+   ```
+
+2. **Tag your image**:
+   ```bash
+   docker tag docker-node-app yourdockerhubusername/docker-node-app
+   ```
+
+3. **Push the image**:
+   ```bash
+   docker push yourdockerhubusername/docker-node-app
+   ```
+
+---
+
+[LinkedIn](https://www.linkedin.com/in/faizan-shaikh-433245194/)
