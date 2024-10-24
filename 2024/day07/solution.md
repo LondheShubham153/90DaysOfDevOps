@@ -52,15 +52,16 @@
               sudo apt install default-jre
 
    Output
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day07/image/task1.png)
+   ![image](https://github.com/Faizan2727/90DaysOfDevOps/blob/master/2024/day07/image/task_1.png)
 
    Output (Jenkins-UI)
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day07/image/task1-2.png)
+   ![image](https://github.com/Faizan2727/90DaysOfDevOps/blob/master/2024/day07/image/task_2.png)
 
 2. **Write a Blog or Article:**
    - Write a small blog or article on how to install these tools using package managers on Ubuntu and CentOS.
 
    **Answer**
+   [Article and Blog here](https://faizanshaikh.hashnode.dev/day-7-task-understanding-package-manager-and-systemctl)
    1. Introduction:
       - Briefly introduce Docker and Jenkins.
       - Mention the operating systems (Ubuntu and CentOS) covered.
@@ -83,13 +84,13 @@ Systemctl is used to examine and control the state of the “systemd” system a
    - Check the status of the Docker service on your system (ensure you have completed the installation tasks above).
 
    **Answer**
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day07/image/task5.png)
+   ![image](https://github.com/Faizan2727/90DaysOfDevOps/blob/master/2024/day07/image/task_5.png)
 
 2. **Manage Jenkins Service:**
    - Stop the Jenkins service and post before and after screenshots.
 
    **Answer**
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day07/image/taskj2.png)
+   ![image](https://github.com/Faizan2727/90DaysOfDevOps/blob/master/2024/day07/image/task_5_1.png)
 
 3. **Read About Systemctl vs. Service:**
    - Read about the differences between the `systemctl` and `service` commands.
@@ -144,24 +145,25 @@ Systemctl is used to examine and control the state of the “systemd” system a
    - Write a script to automate the starting and stopping of Docker and Jenkins services.
 
    **Answer**
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day07/image/task4.png)
+   ![image](https://github.com/Faizan2727/90DaysOfDevOps/blob/master/2024/day07/image/task_4.png)
+   ![image](https://github.com/Faizan2727/90DaysOfDevOps/blob/master/2024/day07/image/task_4_2.png)
 
 5. **Enable and Disable Services:**
    - Use systemctl to enable Docker to start on boot and disable Jenkins from starting on boot.
 
    **Answer**
     - Enable Docker to start on boot:
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day07/image/task5.png)
+   ![image](https://github.com/Faizan2727/90DaysOfDevOps/blob/master/2024/day07/image/task_5.png)
 
     - Disable Jenkins from starting on boot:
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day07/image/task5-1.png)
+   ![image](https://github.com/Faizan2727/90DaysOfDevOps/blob/master/2024/day07/image/task_5_1.png)
 
 6. **Analyze Logs:**
    - Use journalctl to analyze the logs of the Docker and Jenkins services. Post your findings.
 
    **Answer**
     - Docker Logs:
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day07/image/task6.png)
+   ![image](https://github.com/Faizan2727/90DaysOfDevOps/blob/master/2024/day07/image/task_6.png)
 
     - Jenkins Logs:
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day07/image/task6-1.png)
+    ![image](https://github.com/Faizan2727/90DaysOfDevOps/blob/master/2024/day07/image/task_6_2.png)

@@ -1,81 +1,62 @@
-# Day 14 Answers: Create a Linux & Git-GitHub Cheat Sheet
 
-## Finally!! 🎉
+# 🐧 Linux Cheat Sheet 🐧
 
-You have completed the Linux & Git-GitHub hands-on tasks, and I hope you have learned something interesting from it. 🙌
+| **Command**                          | **Description**                                             | **Example**                                |
+|--------------------------------------|-------------------------------------------------------------|--------------------------------------------|
+| `ls`                                 | List files and directories.                                 | `ls -l`                                    |
+| `cd [directory]`                     | Change current directory.                                   | `cd /home/user/`                           |
+| `mkdir [directory]`                  | Create a new directory.                                     | `mkdir project`                            |
+| `touch [file]`                       | Create an empty file.                                       | `touch file.txt`                           |
+| `rm [file]`                          | Remove a file.                                              | `rm file.txt`                              |
+| `rmdir [directory]`                  | Remove an empty directory.                                  | `rmdir folder`                             |
+| `cp [source] [destination]`          | Copy file to a destination.                                 | `cp file.txt folder/`                      |
+| `mv [source] [destination]`          | Move or rename a file.                                      | `mv oldname.txt newname.txt`               |
+| `chmod [permissions] [file]`         | Change file permissions.                                    | `chmod 755 script.sh`                      |
+| `chown [user] [file]`                | Change the owner of a file.                                 | `chown user file.txt`                      |
+| `ps`                                 | List running processes.                                     | `ps aux`                                   |
+| `kill [PID]`                         | Terminate a process using PID.                              | `kill 12345`                               |
+| `top`                                | Display real-time process statistics.                       | `top`                                      |
+| `df -h`                              | Show disk space usage.                                      | `df -h`                                    |
+| `du -sh [directory]`                 | Show disk usage of a directory.                             | `du -sh /folder`                           |
+| `uname -a`                           | Display system information.                                 | `uname -a`                                 |
+| `uptime`                             | Show how long the system has been running.                  | `uptime`                                   |
+| `free -h`                            | Display memory usage.                                       | `free -h`                                  |
 
-Now, let's create an interesting 😉 assignment that will not only help you in the future but also benefit the DevOps community!
+---
 
-## Tasks with Answers: Create a Cheat Sheet
+# 🐙 Git & GitHub Cheat Sheet 🐙
 
-Let’s make a well-articulated and documented **cheat sheet** with all the commands you learned so far in Linux and Git-GitHub, along with a brief description of their usage.
+| **Command**                          | **Description**                                             | **Example**                                |
+|--------------------------------------|-------------------------------------------------------------|--------------------------------------------|
+| `git init`                           | Initialize a new Git repository.                            | `git init`                                 |
+| `git clone [URL]`                    | Clone a repository from GitHub.                             | `git clone https://github.com/user/repo`   |
+| `git status`                         | Show the current status of your Git repository.             | `git status`                              |
+| `git add [file]`                     | Stage a file for commit.                                    | `git add file.txt`                         |
+| `git commit -m "[message]"`          | Commit changes with a message.                              | `git commit -m "Added new feature"`        |
+| `git branch`                         | List all branches.                                          | `git branch`                               |
+| `git checkout -b [branch]`           | Create and switch to a new branch.                          | `git checkout -b dev`                      |
+| `git merge [branch]`                 | Merge a branch into the current branch.                     | `git merge dev`                            |
+| `git rebase [branch]`                | Reapply commits on top of another branch.                   | `git rebase master`                        |
+| `git push origin [branch]`           | Push your branch to GitHub.                                 | `git push origin dev`                      |
+| `git pull`                           | Fetch and merge changes from GitHub.                        | `git pull`                                 |
+| `git remote -v`                      | Display the remote repository URL.                          | `git remote -v`                            |
+| `git reset --hard [commit]`          | Reset repository to a previous commit, discarding changes.  | `git reset --hard HEAD~1`                  |
+| `git revert [commit]`                | Undo a commit by creating a new commit.                     | `git revert [commit]`                      |
+| `git tag [tagname]`                  | Create a tag for a specific commit.                         | `git tag v1.0`                             |
+| `git push origin [tagname]`          | Push a tag to GitHub.                                       | `git push origin v1.0`                     |
 
-Show us your knowledge mixed with your creativity 😎.
+---
 
-### Guidelines
+# 💡 Pro Tips 💡
 
-- The cheat sheet should be unique and reflect your understanding.
-- Include all the important commands you have learned.
-- Provide a brief description of each command's usage.
-- Make it visually appealing and easy to understand.
+| **Tip**                                          | **Description**                                                             |
+|--------------------------------------------------|-----------------------------------------------------------------------------|
+| **Use branches**                                 | Always create branches for new features to keep the code clean.             |
+| **Rebase for clean history**                     | Use `git rebase` for a linear, cleaner commit history.                      |
+| **Write meaningful commit messages**             | Clearly describe what changes you've made in your commits.                  |
+| **Check file permissions**                       | Run `ls -l` in Linux to inspect file permissions and avoid errors.          |
 
-## Linux Commands / Git Commands
 
-### File and Directory Management
-- `ls` - Lists files and directories.
-- `cd <directory>` - Changes the directory.
-- `pwd` - Prints current directory.
-- `mkdir <directory>` - Creates a new directory.
-- `rm <file>` - Removes a file.
-- `rm -r <directory>` - Removes a directory and its contents.
-- `cp <source> <destination>` - Copies files or directories.
-- `mv <source> <destination>` - Moves or renames files or directories.
-- `touch <file>` - Creates or updates a file.
 
-### Viewing and Editing Files
-- `cat <file>` - Displays file content.
-- `less <file>` - Views file content one screen at a time.
-- `nano <file>` - Edits files using nano editor.
-- `vim <file>` - Edits files using vim editor.
 
-### System Information
-- `uname -a` - Displays system information.
-- `top` - Shows real-time system processes.
-- `df -h` - Displays disk usage.
-- `free -h` - Displays memory usage.
-
-### Permissions
-- `chmod <permissions> <file>` - Changes file permissions.
-- `chown <owner>:<group> <file>` - Changes file owner and group.
-
-### Networking
-- `ping <host>` - Sends ICMP echo requests.
-- `ifconfig` - Displays or configures network interfaces.
-
-## Git Commands
-
-### Configuration
-- `git config --global user.name "Your Name"` - Sets global user name.
-- `git config --global user.email "your.email@example.com"` - Sets global user email.
-
-### Repository Management
-- `git init` - Initializes a new repository.
-- `git clone <repository>` - Clones a repository.
-
-### Basic Operations
-- `git status` - Shows working tree status.
-- `git add <file>` - Stages changes.
-- `git commit -m "message"` - Commits changes.
-- `git push` - Pushes changes to remote repository.
-- `git checkout -b dev` - Create a new branch from `master`.
-- `git checkout` - switch to another branch and check it out into your working directory.
-- `git log --oneline --graph --all` - visualize the branch structure.
-- `git push origin dev` - Push Changes to GitHub.
-- `git merge dev` - merge it into `master/main`.
-- `git log` -  show all commits in the current branch’s history.
-
-### Reference
-
-For your reference, check out this [cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf). However, ensure that your cheat sheet is unique.
-
-[LinkedIn](https://www.linkedin.com/in/bhavin-savaliya/)
+[LinkedIn](https://www.linkedin.com/in/faizan-shaikh-433245194/)

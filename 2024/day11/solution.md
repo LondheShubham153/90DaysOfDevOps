@@ -1,92 +1,136 @@
 # Day 11 Answers: Error Handling in Shell Scripting
 
-## Learning Objectives
-Understanding how to handle errors in shell scripts is crucial for creating robust and reliable scripts. Today, you'll learn how to use various techniques to handle errors effectively in your bash scripts.
+# Error handling is a crucial aspect of writing robust shell scripts. Below are the details for each task you will be covering today, including examples and explanations.
 
-## Topics to Cover
-1. **Understanding Exit Status**: Every command returns an exit status (0 for success and non-zero for failure). Learn how to check and use exit statuses.
-2. **Using `if` Statements for Error Checking**: Learn how to use `if` statements to handle errors.
-3. **Using `trap` for Cleanup**: Understand how to use the `trap` command to handle unexpected errors and perform cleanup.
-4. **Redirecting Errors**: Learn how to redirect errors to a file or `/dev/null`.
-5. **Creating Custom Error Messages**: Understand how to create meaningful error messages for debugging and user information.
+# Topics to Cover
 
-## Tasks with Answers
+# Understanding Exit Status: Each command returns an exit status, where 0 indicates success and any non-zero value indicates failure. You can capture the exit status using $? and handle it accordingly.
 
-### Task 1: Checking Exit Status
-- Write a script that attempts to create a directory and checks if the command was successful. If not, print an error message.
+# Using if Statements for Error Checking: By using if statements, you can test the success or failure of each command and react appropriately.
 
-**Answer**
+# Using trap for Cleanup: The trap command allows you to clean up resources (like temporary files) or execute commands if the script exits unexpectedly.
 
-![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day11/image/task1.png)
+# Redirecting Errors: You can redirect error messages using the standard error stream (2>), sending them to a file or /dev/null to suppress them.
 
-### Task 2: Using `if` Statements for Error Checking
-- Modify the script from Task 1 to include more commands (e.g., creating a file inside the directory) and use `if` statements to handle errors at each step.
+# Creating Custom Error Messages: Custom error messages help provide context about the problem when errors occur, making debugging easier.
 
-**Answer**
+# Tasks
 
-![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day11/image/task2.png)
+# Task 1: Checking Exit Status
 
-### Task 3: Using `trap` for Cleanup
-- Write a script that creates a temporary file and sets a `trap` to delete the file if the script exits unexpectedly.
-
-**Answer**
-
-![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day11/image/task3.png)
-
-### Task 4: Redirecting Errors
-- Write a script that tries to read a non-existent file and redirects the error message to a file called `error.log`.
-
-**Answer**
-
-![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day11/image/task4.png)
-
-### Task 5: Creating Custom Error Messages
-- Modify one of the previous scripts to include custom error messages that provide more context about what went wrong.
-
-**Answer** 
-
-![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day11/image/task5.png)
-
-   - **I also intentionally created an error by not creating the file, so it showed me this error. I did this for reference.**
-
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day11/image/task5ka1.png)
-
-## Example Scripts
-
-### Example 1: Checking Exit Status
+# Objective: Write a script that tries to create a directory and checks if the command was successful. If it fails, print an error message.
 ```bash
 #!/bin/bash
 mkdir /tmp/mydir
 if [ $? -ne 0 ]; then
   echo "Failed to create directory /tmp/mydir"
+else
+  echo "Directory /tmp/mydir created successfully."
 fi
 ```
 
-### Example 2: Trap
+# Task 2: Using if Statements for Error Checking
+
+# Objective: Extend the script to include more commands (e.g., creating a file inside the directory). Use if statements to check if each command is successful.
+
 ```bash
 #!/bin/bash
+
+# Attempt to create directory
+mkdir /tmp/mydir
+if [ $? -ne 0 ]; then
+  echo "Failed to create directory /tmp/mydir"
+  exit 1
+fi
+
+# Attempt to create a file inside the directory
+touch /tmp/mydir/myfile.txt
+if [ $? -ne 0 ]; then
+  echo "Failed to create file /tmp/mydir/myfile.txt"
+  exit 1
+fi
+
+echo "Directory and file created successfully."
+```
+
+# Task 3: Using trap for Cleanup
+
+# Objective: Write a script that creates a temporary file and sets a trap to delete the file if the script exits unexpectedly.
+
+```bash
+#!/bin/bash
+
+# Create a temporary file
 tempfile=$(mktemp)
+
+# Set a trap to clean up the temporary file on exit
 trap "rm -f $tempfile" EXIT
 
+# Write some data to the temporary file
 echo "This is a temporary file." > $tempfile
+
+# Display the contents of the temporary file
 cat $tempfile
-# Simulate an error
+
+# Simulate an error (this will trigger the trap)
 exit 1
 ```
 
-### Example 3: Redirecting Errors
+# Task 4: Redirecting Errors
+
+# Objective: Write a script that tries to read a non-existent file and redirects the error message to a file called error.log.
+
 ```bash
 #!/bin/bash
+
+# Attempt to read a non-existent file
 cat non_existent_file.txt 2> error.log
+
+# Check if the error log was written
+if [ -s error.log ]; then
+  echo "Error log created. Check error.log for details."
+else
+  echo "No errors encountered."
+fi
+
 ```
 
-### Example 4: Custom Error Messages
+# Task 5: Creating Custom Error Messages
+
+# Objective: Modify one of the previous scripts to include custom error messages that provide more context about what went wrong.
+
 ```bash
 #!/bin/bash
+
+# Attempt to create a directory with a custom error message
 mkdir /tmp/mydir
 if [ $? -ne 0 ]; then
-  echo "Error: Directory /tmp/mydir could not be created. Check if you have the necessary permissions."
+  echo "Error: Unable to create directory /tmp/mydir. Please check your permissions or if the directory already exists."
+  exit 1
 fi
+
+# Attempt to create a file inside the directory
+touch /tmp/mydir/myfile.txt
+if [ $? -ne 0 ]; then
+  echo "Error: Failed to create the file /tmp/mydir/myfile.txt. Please check if the directory is writable."
+  exit 1
+fi
+
+echo "Directory and file created successfully."
 ```
 
-[LinkedIn](https://www.linkedin.com/in/bhavin-savaliya/)
+# Summary of Key Concepts:
+
+# Exit Status ($?): Use the exit status to check if a command succeeded or failed.
+
+# if Statements: Control the flow of the script based on success/failure of commands.
+
+# trap Command: Automatically clean up resources or handle unexpected exits.
+
+# Error Redirection (2>): Redirect error messages to a file or suppress them.
+
+# Custom Error Messages: Provide meaningful error feedback for better debugging.
+
+# By completing these tasks, you'll gain a deeper understanding of error handling in shell scripting, helping you write more reliable and maintainable scripts
+
+[LinkedIn](https://www.linkedin.com/in/faizan-shaikh-433245194/)
