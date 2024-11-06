@@ -1,4 +1,4 @@
-Here's a list of 20 additional Linux commands in a similar format:
+Here's a list of 20 additional Linux commands:
 
 ---
 
