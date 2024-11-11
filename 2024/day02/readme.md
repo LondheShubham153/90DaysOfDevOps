@@ -39,3 +39,4 @@ mkdir /home/user/Mydirectory   # make a new folder in a specific location
 
 mkdir -p  A/B/C/D              # make a nested directory
 ```
+Done
