@@ -1,0 +1,41 @@
+#!/bin/bash
+
+# Day 8: Shell Scripting Challenge - All Tasks in One Script
+
+# Task 1: Comments
+# This script covers multiple tasks: using echo, defining and using variables,
+# using built-in variables, and working with wildcards in Bash.
+
+# Task 2: Echo
+# Display a greeting message to the user
+echo "Welcome to Day 8 of the #90DaysOfDevOps Challenge!"
+
+# Task 3: Variables
+# Declare variables to store data. Here, we use variables for a name and numbers.
+name="DevOps Learner"
+num1=20
+num2=30
+
+# Display the value of the "name" variable
+echo "Hello, $name! Let's learn some shell scripting."
+
+# Task 4: Using Variables
+# Calculate the sum of two numbers stored in variables
+sum=$((num1 + num2))
+# Display the result
+echo "The sum of $num1 and $num2 is: $sum"
+
+# Task 5: Using Built-in Variables
+# Bash provides several built-in variables to use.
+# Displaying three commonly used built-in variables
+echo "Current script name: $0"      # The name of the script
+echo "Number of arguments passed: $#"  # Number of arguments passed to the script
+echo "PID of the current shell: $$"  # PID of the current shell
+
+# Task 6: Wildcards
+# Using a wildcard to list all .txt files in the current directory
+echo "Listing all .txt files in the current directory:"
+ls *.txt  # List all files with .txt extension
+
+# End of Script
+echo "Script execution completed!"
