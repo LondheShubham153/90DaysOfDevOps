@@ -11,6 +11,7 @@
    **Answer**
    
    - Creating createDirectories.sh and adding below content : 
+
    ``` bash
 
       #!/bin/bash
@@ -29,9 +30,12 @@
       done
 
    ```
+
    ![task1.1](image/task1.1.png)   
 
+
    - createDirectories.sh
+
    ![task1.2](image/task1.2.png)   
 
 2. **Create a Script to Backup All Your Work:**
@@ -79,10 +83,14 @@
 
    ![task2.1](image/task2.1.png)
 
+
    - backup.sh : 
+
    ![task2.2](image/task2.2.png)
 
+
    - Output image : 
+
    ![task2.3](image/task2.3.png)
 
 3. **Read About Cron and Crontab to Automate the Backup Script:**
@@ -91,21 +99,32 @@
    **Answer**
    
    - Editing crontab for auto backup : 
+
    ![task3.1](image/task3.1.png)
 
+
    - setting a backup of Day-04 in every minute : 
+
    ![task3.2](image/task3.2.png)
    
+
    - Ensuring whether it creates backup in one minute or not : 
+
    ![task3.3](image/task3.3.png)
 
+
    - checking realtime update in backup dir through 'watch ls' command : 
+
    ![task3.4](image/task3.4.png)
 
+
    - It works for every minute :
+
    ![task3.5](image/task3.5.png)
    
+
    - Final check for backup : 
+
    ![task3.6](image/task3.6.png)
 
 4. **Read About User Management:**
@@ -114,10 +133,14 @@
 
    **Answer**
    
-   - Creating users and printing there names
+   - Creating users and printing there names : 
+
    ![task4.1](image/task4.1.png)
    
-   - Setting up password the new users
+
+   - Setting up password the new users : 
+
    ![task4.2](image/task4.2.png)
+
 
 [LinkedIn](https://www.linkedin.com/in/amitabh-devops/).
