@@ -58,3 +58,5 @@ Task 11: Find and display the lines that are common between `fruits.txt` and `Co
 Task 12: Count the number of lines, words, and characters in both `fruits.txt` and `Colors.txt`.
 
 ![task12](image/task12.png)
+
+
