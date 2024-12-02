@@ -59,5 +59,3 @@ Task 12: Count the number of lines, words, and characters in both `fruits.txt` a
 
 ![task12](image/task12.png)
 
-
-hello world
