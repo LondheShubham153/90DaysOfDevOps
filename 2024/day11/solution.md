@@ -120,8 +120,6 @@ Understanding how to handle errors in shell scripts is crucial for creating robu
 
 
 
-### Task 3: Using `trap` for Cleanup
-- Write a script that creates a temporary file and sets a `trap` to delete the file if the script exits unexpectedly.
 
 ### Task 3: Using `trap` for Cleanup
 - Write a script that creates a temporary file and sets a `trap` to delete the file if the script exits unexpectedly.
