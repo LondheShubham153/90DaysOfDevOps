@@ -126,44 +126,46 @@ Understanding how to handle errors in shell scripts is crucial for creating robu
 ### Task 3: Using `trap` for Cleanup
 - Write a script that creates a temporary file and sets a `trap` to delete the file if the script exits unexpectedly.
 
-- `trap_cleanup.sh`:
-
-  ```bash
-  #!/bin/bash
-
-  <<Info
-  Author      : Amitabh Soni
-  Date        : 6/12/24
-  Description : This script creates a temporary file and sets a trap to delete the file if the script exits unexpectedly.
-  Info
-
-  # Create a temporary directory
-  mkdir -p tmp
-
-  # Create a temporary file inside the directory
-  touch tmp/temp1.txt
-  echo "This is a temporary file." > tmp/temp1.txt
-
-  # Set a trap to delete the temporary file if the script exits unexpectedly (due to an error)
-  trap "rm -f tmp/temp1.txt; echo 'Temporary file deleted due to error.'" ERR
-
-  # Simulate script work here
-  echo "Script is running. The temporary file has been created."
-
-  # Uncomment the next line to simulate an error and test the trap
-  # invalid_command  # This will trigger an error and activate the trap
-
-  # Check the exit status of the previous command to decide what happens next
-  if [[ $? -ne 0 ]]; then
-      # Error occurred, file has been deleted by the trap
-      echo "An error occurred, script exiting."
-  else
-      # No error, continue execution
-      echo "Script completed successfully. Temporary file will not be deleted."
-  fi
-  ```
 
 - Before causing error :
+
+  - `trap_cleanup.sh`:
+
+    ```bash
+    #!/bin/bash
+
+    <<Info
+    Author      : Amitabh Soni
+    Date        : 6/12/24
+    Description : This script creates a temporary file and sets a trap to delete the file if the script exits unexpectedly.
+    Info
+
+    # Create a temporary directory
+    mkdir -p tmp
+
+    # Create a temporary file inside the directory
+    touch tmp/temp1.txt
+    echo "This is a temporary file." > tmp/temp1.txt
+
+    # Set a trap to delete the temporary file if the script exits unexpectedly (due to an error)
+    trap "rm -f tmp/temp1.txt; echo 'Temporary file deleted due to error.'" ERR
+
+    # Simulate script work here
+    echo "Script is running. The temporary file has been created."
+
+    # Uncomment the next line to simulate an error and test the trap
+    # invalid_command  # This will trigger an error and activate the trap
+
+    # Check the exit status of the previous command to decide what happens next
+    if [[ $? -ne 0 ]]; then
+        # Error occurred, file has been deleted by the trap
+        echo "An error occurred, script exiting."
+    else
+        # No error, continue execution
+        echo "Script completed successfully. Temporary file will not be deleted."
+    fi
+    ```
+
 
   - shell script written : 
 
@@ -181,6 +183,44 @@ Understanding how to handle errors in shell scripts is crucial for creating robu
 
 
 - After causing error through un-commenting `# invalid_command` in shell script : 
+
+  - `trap_cleanup.sh`:
+
+    ```bash
+    #!/bin/bash
+
+    <<Info
+    Author      : Amitabh Soni
+    Date        : 6/12/24
+    Description : This script creates a temporary file and sets a trap to delete the file if the script exits unexpectedly.
+    Info
+
+    # Create a temporary directory
+    mkdir -p tmp
+
+    # Create a temporary file inside the directory
+    touch tmp/temp1.txt
+    echo "This is a temporary file." > tmp/temp1.txt
+
+    # Set a trap to delete the temporary file if the script exits unexpectedly (due to an error)
+    trap "rm -f tmp/temp1.txt; echo 'Temporary file deleted due to error.'" ERR
+
+    # Simulate script work here
+    echo "Script is running. The temporary file has been created."
+
+    # Uncomment the next line to simulate an error and test the trap
+    invalid_command  # This will trigger an error and activate the trap
+
+    # Check the exit status of the previous command to decide what happens next
+    if [[ $? -ne 0 ]]; then
+        # Error occurred, file has been deleted by the trap
+        echo "An error occurred, script exiting."
+    else
+        # No error, continue execution
+        echo "Script completed successfully. Temporary file will not be deleted."
+    fi
+    ```
+
 
   - shell script written with error to check its working: 
 
