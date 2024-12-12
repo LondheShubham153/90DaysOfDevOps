@@ -90,7 +90,7 @@
   ![task2.2](image/task2.2.png)
 
 
-- Create a new file in Devops/Git/Day-02.txt & add some content to it.
+- Create a new file in Devops/Git/Day-12.txt & add some content to it.
 
   ![task2.3.1](image/task2.3.1.png)
 
