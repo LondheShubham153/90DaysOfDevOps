@@ -1,94 +1,115 @@
-# Day 12 Answers: Deep Dive in Git & GitHub for DevOps Engineers
+# Day 12 Task: Deep Dive in Git & GitHub for DevOps Engineers
 
 ## Find the answers by your understandings (Shouldn't be copied from the internet & use hand-made diagrams) of the questions below and write a blog on it.
 
 1. What is Git and why is it important?
-   - **Git** is a distributed version control system that allows multiple developers to work on a project simultaneously without overwriting each other's changes. It helps track changes in source code during software development, enabling collaboration, version control, and efficient management of code changes.
 
-   **Importance of Git:**
-     - **Version Control:** Keeps track of changes, allowing you to revert to previous versions if needed.
-     - **Collaboration:** Multiple developers can work on the same project simultaneously.   
-     - **Branching:** Allows you to work on different features or fixes in isolation.  
-     - **Backup::** Acts as a backup of your codebase. 
+**Answer :**
+
+  - What is Git:
+
+    **Git** is a distributed version control system, used to manage version of application during the developement of applications.
+
+  - why Git is important:
+
+    1. **Distributed** : It is distributed version control system, which mean every developer have copy of source code ,they can even work if the github server is down or code is not accessiable due to any issue. change can be made offline.
+
+    2. **Collaboration** : It allows developers to copy source code of public repositary and make changes to it , to add or update features to it , which evolues new opportunity for developers to contribute accross overall world.
+
+    3. **version history** : Git tracks all changes made to a codebase, allowing developers to roll back to a previous version if needed.
+
+    4. **branching and merging** : It allow to developers to copy production code and without touching production code they even can made changes through creating seperate branch ,which copies all the code to that branch, which helps to avoid any issues. if we made changes directly to production code it can be create issues ,so to avoid it we use branches which helps to test new features and any update to applications.
+
 
 2. What is the difference between Main Branch and Master Branch?
-   - Traditionally, **master** was the default branch name in Git repositories. However, many communities have moved to using **main** as the default branch name to be more inclusive and avoid potentially offensive terminology.
-   
-   - Main Branch vs. Master Branch:
-     -  **Main Branch:** The new default branch name used in many modern repositories.
-     - **Master Branch:** The traditional default branch name used in older repositories.
 
-     The traditional default branch name used in older repositories.
+**Answer :**
+
+  - **Master Branch** : The original default branch in Git, representing the primary line of development.
+
+  - **Main Branch** : A more modern and inclusive term used as the default branch name for new repositories, serving the same function as the master branch.
 
 
 3. Can you explain the difference between Git and GitHub?
-   - **Git** is a version control system, while **GitHub** is a web-based platform that uses Git for version control and adds collaboration features like pull requests, issue tracking, and project management.
-      - Git:
-        - Command-line tool.
-        - Manages local repositories.
-      - GitHub:
-        - Hosting service for Git repositories.
-        - Adds collaboration tools and user interfaces.
+
+**Answer :**
+
+  - **Git** : Git is a version control system which allows developers to manage and create their repositories, commits, branches, and merges locally
+
+  - **Github** : Github is also version control system which uses Git in background , it provide Web interface to create and manage Git repositories ,even it adds features for collaboration, such as pull requests, issue tracking, and code reviews. 
+
 
 4. How do you create a new repository on GitHub?
-   1. Go to GitHub.
-   2. Click on the + icon in the top right corner.
-   3. Select New repository.
-   4. Enter a repository name (e.g., "DevOps").
-   5. Click Create repository. 
+
+**Answer :**
+
+  Creating a new repository on GitHub involves the following steps:
+
+  1. **Log in to GitHub:** Open GitHub and log in with your credentials.
+
+  2. **Create a New Repository:**
+     - On the GitHub homepage, click the `+` button in the top-right corner and select `New repository`.
+     - Alternatively, you can go to [https://github.com/new](https://github.com/new).
+
+  3. **Fill in Repository Details:**
+     - **Repository Name:** Choose a name for your repository (e.g., `my-first-repo`).
+     - **Description:** Optionally, add a short description of your repository.
+     - **Visibility:** Choose whether the repository will be public or private.
+     - **Initialize with a README:** Optionally, check the box to add a README file to the repository.
+
+  4. **Create Repository:** Click the `Create repository` button to finalize the process.
+
 
 5. What is the difference between a local & remote repository? How to connect local to remote?
-   - Local Repository:
-     - Stored on your local machine.
-     - Contains your working directory and Git database. 
-   - Remote Repository:
-     - Hosted on a server (e.g., GitHub).
-     - Allows collaboration with other developers.
-   - Connecting Local to Remote:
-     1. Initialize a local repository: `git init`
-     2. Add a remote: `git remote add origin <URL>`
 
-## Tasks with Answers
+**Answer :**
+
+  - **Local Repository** : A local repository is stored on our(developers) own computer. It contains our code and version history, but it's only accessible to us unless we share it.
+
+  - **Remote Repository** : A remote repository is hosted on a server (e.g., GitHub, GitLab, Bitbucket). It acts as a central hub where multiple developers can push and pull changes.
+
+
+## Tasks
 
 ### Task 1:
 - Set your user name and email address, which will be associated with your commits.
 
-**Answer**
+- Output image : 
 
-![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day12/image/set_user_name_and_email_address.png)
+  ![task1](image/task1.png)
+
 
 ### Task 2:
 - Create a repository named "DevOps" on GitHub.
 
-**Answer**
+  ![task2.1](image/task2.1.png)
 
-![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day12/image/create_a_new_repository.png)
 
 - Connect your local repository to the repository on GitHub.
 
-**Answer**
+  ![task2.2](image/task2.2.png)
 
-![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day12/image/connect_your_local_repository_to_the_repository_on_github.png)
 
-- Create a new file in Devops/Git/Day-12.txt & add some content to it.
+- Create a new file in Devops/Git/Day-02.txt & add some content to it.
 
-**Answer**
+  ![task2.3.1](image/task2.3.1.png)
 
-![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day12/image/create_a_new_file.png)
+  ![task2.3.2](image/task2.3.2.png)
+
 
 - Push your local commits to the repository on GitHub.
 
-**Answer**
+  - remote url-setup : 
 
-![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day12/image/push_repository.png)
+    ![task2.4.1](image/task2.4.1.png)
 
-**After that if you check it on GitHub then it's output will look like this**
+  - pushing code to Github : 
 
-![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day12/image/gitui.png)
+    ![task2.4.2](image/task2.4.2.png)
 
-![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day12/image/gitui1.png)
+  - Github repo Output : 
 
-![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day12/image/gitui2.png)
+    ![task2.4.3](image/task2.4.3.png)
 
 
-[LinkedIn](https://www.linkedin.com/in/bhavin-savaliya/)
+[Linkedin](https://linkedin.com/in/amitabh-devops)
