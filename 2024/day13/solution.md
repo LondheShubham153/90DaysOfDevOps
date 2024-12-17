@@ -29,11 +29,11 @@ For a better understanding of Git Rebase and Merge, check out this [article](htt
 1. **Create a Branch and Add a Feature:**
    - Add a text file called `version01.txt` inside the `Devops/Git/` directory with “This is the first feature of our application” written inside.  
 
-    Output : 
+      Output : 
 
-      ![task1.1.1](images/task1.1.1.png)
+        ![task1.1.1](images/task1.1.1.png)
 
-      ![task1.1.2](images/task1.1.2.png)
+        ![task1.1.2](images/task1.1.2.png)
 
 
    - Create a new branch from `master`. 
@@ -41,9 +41,8 @@ For a better understanding of Git Rebase and Merge, check out this [article](htt
      git checkout -b dev
      ```
 
-    Output : 
-
-      ![task1.1.3](images/task1.1.3.png)
+      Output :
+        ![task1.1.3](images/task1.1.3.png)
       
 
    - Commit your changes with a message reflecting the added feature.
@@ -52,9 +51,8 @@ For a better understanding of Git Rebase and Merge, check out this [article](htt
      git commit -m "Added new feature"
      ```
 
-    Output : 
-
-      ![task1.1.4](images/task1.1.4.png)
+      Output : 
+        ![task1.1.4](images/task1.1.4.png)
       
 
 2. **Push Changes to GitHub:**
@@ -63,11 +61,11 @@ For a better understanding of Git Rebase and Merge, check out this [article](htt
      git push origin dev
      ```
 
-    Output : 
+      Output : 
 
       - Setting up remote url for repo : 
 
-        ![task1.2.1](images/task1.2.1.png)
+          ![task1.2.1](images/task1.2.1.png)
 
 
       - Pushing code to github : 
@@ -88,9 +86,9 @@ For a better understanding of Git Rebase and Merge, check out this [article](htt
        git commit -am "Added feature2 in development branch"
        ```
 
-      Output : 
+        Output : 
 
-        ![task1.3.1](images/task1.3.1.png)
+          ![task1.3.1](images/task1.3.1.png)
       
 
      - 2nd line: `This is gadbad code`
@@ -99,9 +97,9 @@ For a better understanding of Git Rebase and Merge, check out this [article](htt
        git commit -am "Added feature3 in development branch"
        ```
 
-      Output : 
+        Output : 
 
-        ![task1.3.2](images/task1.3.2.png)
+          ![task1.3.2](images/task1.3.2.png)
       
 
      - 3rd line: `This feature will gadbad everything from now`
@@ -110,9 +108,9 @@ For a better understanding of Git Rebase and Merge, check out this [article](htt
        git commit -am "Added feature4 in development branch"
        ```
 
-      Output : 
+        Output : 
 
-        ![task1.3.3](images/task1.3.3.png)
+          ![task1.3.3](images/task1.3.3.png)
       
 
     Output : 
@@ -129,11 +127,11 @@ For a better understanding of Git Rebase and Merge, check out this [article](htt
      ```
    - This command reverts the last two commits, effectively removing the "gadbad code" and "gadbad everything" lines.
 
-    Output : 
+      Output : 
 
-      ![task1.4.1](images/task1.4.1.png)
+        ![task1.4.1](images/task1.4.1.png)
 
-      ![task1.4.2](images/task1.4.2.png)
+        ![task1.4.2](images/task1.4.2.png)
 
 
 ### Task 2: Working with Branches
@@ -141,9 +139,9 @@ For a better understanding of Git Rebase and Merge, check out this [article](htt
 1. **Demonstrate Branches:**
    - Create 2 or more branches and take screenshots to show the branch structure.
 
-    Output : 
+      Output : 
 
-      ![task2.1](images/task2.1.png)
+        ![task2.1](images/task2.1.png)
 
 
 2. **Merge Changes into Master:**
@@ -153,9 +151,9 @@ For a better understanding of Git Rebase and Merge, check out this [article](htt
      git merge dev
      ```
 
-    Output : 
+      Output : 
 
-      ![task2.2](images/task2.2.png)
+       ![task2.2](images/task2.2.png)
 
 
 3. **Practice Rebase:**
