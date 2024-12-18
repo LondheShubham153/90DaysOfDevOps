@@ -144,7 +144,12 @@ A consolidated reference for essential Linux, Git, and DevOps-related commands t
 
 ### Reference
 
+[Read this blog for detail guide(written by me) ](https://amitabhdevops.hashnode.dev/day-14-90daysofdevops)
+
+
 For your reference, check out this [cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf). However, ensure that your cheat sheet is unique.
+
+---
 
 
 [LinkedIn](https://www.linkedin.com/in/amitabh-devops/)
