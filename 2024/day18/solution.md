@@ -32,7 +32,7 @@ Learn how to use the docker-compose.yml file to set up the environment, configur
 
       `https://github.com/LondheShubham153/Springboot-BankApp.git`
 
-   2. Dockerfile:
+   2. Create Dockerfile:
 
       ```bash
       #----------------------------------
@@ -68,9 +68,60 @@ Learn how to use the docker-compose.yml file to set up the environment, configur
       ENTRYPOINT ["java", "-jar", "/app/target/bankapp.jar"]
       ```
 
-   3. Build the image using this Dockerfile
+   3. Create docker-compose.yml:
 
-   4. Run the container using the image built in the above step.
+      ```yaml
+      version: "3.8"
+      services:
+        mysql:
+          image: mysql:latest
+          container_name: Mysql
+          environment:
+            - MYSQL_DATABASE=BankDB
+            - MYSQL_ROOT_PASSWORD=test@123
+          volumes:
+            - ./mysql-data:/var/lib/mysql
+          networks:
+            - bankapp
+          healthcheck:
+            test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
+            interval: 10s
+            timeout: 5s
+            retries: 3
+            start_period: 30s
+
+        bankapp:
+          build: .
+          container_name: Bankapp
+          environment:
+            - SPRING_DATASOURCE_USERNAME=root
+            - SPRING_DATASOURCE_URL=jdbc:mysql://mysql:3306/BankDB?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+            - SPRING_DATASOURCE_PASSWORD=test@123
+          ports:
+            - "8080:8080"
+          depends_on:
+            mysql:
+              condition: service_healthy
+          networks:
+            - bankapp
+          restart: always
+          healthcheck:
+            test: ["CMD-SHELL", "curl -f http://localhost:8080/actuator/health || exit 1"]
+            interval: 10s
+            timeout: 5s
+            retries: 5
+            start_period: 30s
+
+      networks:
+        bankapp:
+
+      volumes:
+        mysql-data:
+      ```
+
+   4. Run this docker-compose.yml using `docker-compose up -d`
+
+   5. Edit the inbound rule of an instance for port 8080
 
    5. Sample output:
 
