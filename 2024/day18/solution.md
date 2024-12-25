@@ -15,7 +15,9 @@ Till now you have created a Dockerfile and pushed it to the repository. Let's mo
 - YAML files use a .yml or .yaml extension.
 - Read more about it [here](https://www.redhat.com/en/topics/automation/what-is-yaml).
 
-## Tasks with Answers
+
+
+## Tasks with Solutions
 
 ## Task 1
 
@@ -23,86 +25,145 @@ Learn how to use the docker-compose.yml file to set up the environment, configur
 
 [Sample docker-compose.yml file](https://github.com/LondheShubham153/90DaysOfDevOps/blob/master/2023/day18/docker-compose.yaml)
 
-   **Answer**
 
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day18/image/1_docker_compose_yml_file.png)
+**Solution :**
 
-## Task 2
+   1. Clone this repo:
+
+      `https://github.com/LondheShubham153/Springboot-BankApp.git`
+
+   2. Dockerfile:
+
+      ```bash
+      #----------------------------------
+      # Stage 1
+      #----------------------------------
+
+      # Import docker image with maven installed
+      FROM maven:3.8.3-openjdk-17 as builder
+
+      # Set working directory
+      WORKDIR /app
+
+      # Copy source code from local to container
+      COPY . /app
+
+      # Build application and skip test cases
+      RUN mvn clean install -DskipTests=true
+
+      #--------------------------------------
+      # Stage 2
+      #--------------------------------------
+
+      # Import small size java image
+      FROM openjdk:17-alpine as deployer
+
+      # Copy build from stage 1 (builder)
+      COPY --from=builder /app/target/*.jar /app/target/bankapp.jar
+
+      # Expose application port
+      EXPOSE 8080
+
+      # Start the application
+      ENTRYPOINT ["java", "-jar", "/app/target/bankapp.jar"]
+      ```
+
+   3. Build the image using this Dockerfile
+
+   4. Run the container using the image built in the above step.
+
+   5. Sample output:
+
+      ![task1.1](image/task1.1.png)
+
+      ![task1.2](image/task1.2.png)
+
+
+
+
+### Task 2: Running a Container as a Non-Root User
+
+1. **Creating a User**: I have created a user called `amitabh` and added them to the Docker group, which allows Docker commands to be executed without `sudo`.
+   - The `usermod` command and reboot are important steps to ensure that the changes take effect (You can use this command `newgrp docker` to avoid instance reboot).
+
+      ![task2.1](image/task2.1.png)
+
+      ![task2.2](image/task2.2.png)
+
+
+2. **Using the Custom Image (`amitabhdevops/notes-app`)**: 
+
+   - Pull the custom image:
+     ```bash
+     docker pull amitabhdevops/notes-app
+     ```
+
+      ![task2.2.1](image/task2.2.1.png)
+
+
+   - Run the container as `amitabh`:
+     ```bash
+     docker run -d -p 8000:8000 --name notes-app amitabhdevops/notes-app
+     ```
+
+      ![task2.2.2](image/task2.2.2.png)
+
    
-   - **1. Pull a pre-existing Docker image from a public repository (e.g. Docker Hub) and run it on your local machine. Run the container as a non-root user (Hint: Use the `usermod` command to give the user permission to Docker). Make sure you reboot the instance after giving permission to the user.**
-      - Pull the Docker image:
+   - Output : 
 
-      **Answer**
+      ![task2.2.3](image/task2.2.3.png)
+      
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day18/image/2_Pull_the_Docker_image.png)
 
-      - Add the current user to the Docker group:
+3. **Inspecting the Container**: After running the container, you can inspect it:
 
-      **Answer**
+   ```bash
+   docker inspect notes-app
+   ```
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day18/image/3_Add_the_current_user_to_the_Docker_group.png)
+      ![task2.3.1](image/task2.3.1.png)
 
-      - Reboot the machine to apply the changes:
+      ![task2.3.2](image/task2.3.2.png)
 
-      **Answer**
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day18/image/4_Reboot_the_machine_to_apply_the_changes.png)
+4. **Viewing Logs**: To see the container logs, you can use:
 
-      - Run the Docker container:
+   ```bash
+   docker logs notes-app
+   ```
+   
+      ![task2.4](image/task2.4.png)
 
-      **Answer**
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day18/image/5_Run_the_Docker_container.png)      
+5. **Stopping and Starting the Container**:
 
-   - **2. Inspect the container's running processes and exposed ports using the `docker inspect` command.**
-      - Inspect the container:
+   - To stop:
+     ```bash
+     docker stop notes-app
+     ```
 
-      **Answer**
+      ![task2.5.1](image/task2.5.1.png)   
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day18/image/6_Inspect_the_container.png)      
 
-   - **3. Use the `docker logs` command to view the container's log output.**
-      - View the logs:
+   - To start:
+     ```bash
+     docker start notes-app
+     ```
 
-      **Answer**
+      ![task2.5.2](image/task2.5.2.png)
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day18/image/7_View_the_logs.png)
 
-   - **4. Use the `docker stop` and `docker start` commands to stop and start the container.**
-      - Stop the container:
+6. **Removing the Container**: Once you're done, you can remove the container:
 
-      **Answer**
+   ```bash
+   docker stop notes-app && docker rm notes-app  # You can use either Container ID or Container name
+   ```
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day18/image/8_Stop_the_container.png)
+      ![task2.6](image/task2.6.png)
 
-      - Start the container:
 
-      **Answer**
-
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day18/image/9_Start_the_container.png)
-
-   - **5. Use the `docker rm` command to remove the container when you're done.**
-      - Remove the container:
-
-      **Answer**
-
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day18/image/10_Remove_the_container.png)      
-
-## How to Run Docker Commands Without Sudo?
-
-- Make sure Docker is installed and the system is updated (This was already completed as part of previous tasks):
-   - `sudo usermod -a -G docker $USER`
-
-      **Answer**
-
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day18/image/3_Add_the_current_user_to_the_Docker_group.png)      
-
-   - Reboot the machine.
-
-      **Answer**
-
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day18/image/4_Reboot_the_machine_to_apply_the_changes.png)         
 
 For reference, you can watch this [video](https://youtu.be/Tevxhn6Odc8).
 
-[LinkedIn](https://www.linkedin.com/in/bhavin-savaliya/)
+
+[Linkedin](https://www.linkedin.com/in/amitabh-devops/)
