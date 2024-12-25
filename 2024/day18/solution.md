@@ -86,9 +86,9 @@ Learn how to use the docker-compose.yml file to set up the environment, configur
 1. **Creating a User**: I have created a user called `amitabh` and added them to the Docker group, which allows Docker commands to be executed without `sudo`.
    - The `usermod` command and reboot are important steps to ensure that the changes take effect (You can use this command `newgrp docker` to avoid instance reboot).
 
-      ![task2.1](image/task2.1.png)
+      ![task2.1.1](image/task2.1.1.png)
 
-      ![task2.2](image/task2.2.png)
+      ![task2.1.2](image/task2.1.2.png)
 
 
 2. **Using the Custom Image (`amitabhdevops/notes-app`)**: 
