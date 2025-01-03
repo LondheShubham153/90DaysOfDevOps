@@ -15,14 +15,14 @@ Kubernetes is an open-source platform designed to automate the deployment, scali
 
 "K8s" is shorthand for Kubernetes, where "8" represents the eight letters between the "K" and "s."
 
-### 3. **Benefits of Using Kubernetes**
+### 2. **Benefits of Using Kubernetes**
 - **Scalability:** Automatically scales applications up or down based on demand.
 - **Self-healing:** Restarts or replaces failed containers automatically.
 - **Portability:** Runs across on-premises, hybrid, and multi-cloud environments.
 - **Load balancing:** Efficiently distributes traffic across multiple containers.
 - **Rolling updates and rollbacks:** Seamless application updates without downtime.
 
-### 4. **Kubernetes Architecture**
+### 3. **Kubernetes Architecture**
 Kubernetes architecture includes:
 - **Control Plane:** Manages the overall state of the cluster and schedules workloads.
 - **Worker Nodes:** Where the actual containers (or pods) run.
@@ -35,14 +35,14 @@ Key components:
 - **Kubelet:** Runs on each worker node and manages pod execution.
   ![image](k8sArchitecture.jpg)
 
-### 5. **What is the Control Plane?**
+### 4. **What is the Control Plane?**
 The Control Plane is responsible for managing the Kubernetes cluster. It schedules workloads, monitors cluster health, and ensures that the desired state of the cluster is maintained.
 
-### 6. **Difference Between kubectl and Kubelet**
+### 5. **Difference Between kubectl and Kubelet**
 - **kubectl:** The CLI tool used by users to interact with the Kubernetes API and manage cluster resources.
 - **kubelet:** An agent that runs on each worker node to ensure containers are running as expected and communicate with the control plane.
 
-### 7. **Role of the API Server**
+### 6. **Role of the API Server**
 The API Server is the entry point to the Kubernetes control plane, handling requests (e.g., from `kubectl`) and coordinating with other components (like etcd, scheduler) to maintain cluster operations.
 
 Kubernetes architecture is important, so make sure you spend a day understanding it. [This video](https://youtu.be/FqfoDUhzyDo) will surely help you.
