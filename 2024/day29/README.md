@@ -40,4 +40,4 @@ These questions will help you prepare for your next DevOps interview. Consider w
 
 **Happy Learning! :)**
 
-[← Previous Day](../day28/README.md) | [Next Day →](../day30/README.md)
+[← Previous Day](../day28/README.md) | [Next Day →](../day29.5-Bonus-cicd/README.md)
