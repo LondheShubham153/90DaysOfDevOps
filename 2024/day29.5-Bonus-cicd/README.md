@@ -69,6 +69,8 @@ AWS CodePipeline is a fully managed continuous integration and continuous delive
    - **Environment**: Use a standard AWS-managed image with Node.js installed.
    - **Buildspec File**: Reference `buildspec.yml` in the repository.
 
+---
+
 2. **Sample `buildspec.yml`**:
    ```yaml
    version: 0.2
