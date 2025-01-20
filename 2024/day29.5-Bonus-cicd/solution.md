@@ -234,65 +234,7 @@ AWS CodeBuild compiles your source code, runs tests, and produces artifacts for 
     
 10. `buildspec.yml`:
     
-    ```yaml
-    version: 0.2
-    
-    env:
-      parameter-store:
-        DOCKER_REGISTRY_USERNAME: /myapp/docker-credentials/username
-        DOCKER_REGISTRY_PASSWORD: /myapp/docker-credentials/password
-        DOCKER_REGISTRY_URL: /myapp/docker-registry/url
-    
-    phases:
-      install:
-        runtime-versions:
-          nodejs: 12.2.0
-        commands:
-          - echo Installing Node.js and npm...
-          - n 12.2.0
-          - npm config set registry https://registry.npmjs.org/
-          
-      pre_build:
-        commands:
-          - echo Logging in to Docker Registry...
-          - echo "$DOCKER_REGISTRY_PASSWORD" | docker login -u "$DOCKER_REGISTRY_USERNAME" --password-stdin "$DOCKER_REGISTRY_URL"
-          - IMAGE_REPO_NAME="aws-node-todo-app-cicd"
-          - IMAGE_NAME="$DOCKER_REGISTRY_URL/$DOCKER_REGISTRY_USERNAME/$IMAGE_REPO_NAME"
-          - IMAGE_TAG=v1
-          
-      build:
-        commands:
-          - echo Build started on `date`
-          - echo Packaging application into a zip file...
-          - zip -r node-todo-app.zip * .[^.]* # Include all files and directories, including hidden files
-          - echo Building the Docker image...
-          - docker build -t $IMAGE_NAME:latest .
-          - docker tag $IMAGE_NAME:latest $IMAGE_NAME:$IMAGE_TAG
-          
-      post_build:
-        commands:
-          - echo Build completed on `date`
-          - echo Pushing the Docker image...
-          - docker push $IMAGE_NAME:latest
-          - docker push $IMAGE_NAME:$IMAGE_TAG
-          - echo Uploading zip file to S3 root location...
-          - aws s3 cp node-todo-app.zip s3://aws-node-todo-app-cicd/node-todo-app/ # Upload zip file to the root of the bucket
-          - echo Writing image definitions file...
-          - printf '{"ImageURI":"%s", "Port":8000}' $IMAGE_NAME:$IMAGE_TAG > imageDefinitions.json
-          - cat imageDefinitions.json
-    
-    artifacts:
-      files:
-        - '**/*'
-      base-directory: '.'
-      discard-paths: no
-      exclude-patterns:
-        - 'node_modules/**/*'
-        - '.git/**/*'
-        - '.gitignore'
-        - 'README.md'
-        - 'package-lock.json'
-    ```
+    > Use code from repository
     
 
 ### **Explanation of** `buildspec.yml`:
@@ -337,58 +279,21 @@ In your GitHub repository, add the following configuration files for CodeDeploy:
 
 * **appspec.yml**:
     
-    ```yaml
-    version: 0.0
-    os: linux
-    files:
-      - source: /
-        destination: /home/ubuntu/node-todo-app
-        overwrite: true
-    file_exists_behavior: OVERWRITE
-    hooks:
-      ApplicationStop:
-        - location: scripts/stop_container.sh
-          timeout: 300
-          runas: root
-      ApplicationStart:
-        - location: scripts/start_container.sh
-          timeout: 300
-          runas: root
-    ```
+    > Use code from repository
     
     The `appspec.yml` defines:
     
     * **ApplicationStop**: Stops any running Docker containers before starting a new one.
         
     * **ApplicationStart**: Starts the Docker container from the latest image in Docker Hub.
-        
-* **scripts/**start\_container.sh:
     
-    ```bash
-    #!/bin/bash
-    set -e
+* scripts/start\_container.sh:
     
-    # Pull the latest Docker image from Docker Hub
-    docker pull amitabhdevops/aws-node-todo-app-cicd:v1
+    > Use code from repository
     
-    # Run the Docker image as a container
-    docker run -d -p 8000:8000 amitabhdevops/aws-node-todo-app-cicd:v1
-    ```
+* scripts/stop\_container.sh:
     
-* **scripts/**stop\_container.sh:
-    
-    ```bash
-    #!/bin/bash
-    set -e
-    
-    # Stop any running Docker container
-    containerid=$(docker ps -q)
-    if [ -n "$containerid" ]; then
-      docker stop $containerid && docker rm -f $containerid
-    else
-      echo "No running containers to remove."
-    fi
-    ```
+    > Use code from repository
     
     These scripts manage the lifecycle of the Docker container.
     
@@ -585,6 +490,60 @@ Now, we’ll set up AWS CodePipeline to automate the entire CI/CD process. This 
         
 
 ---
+
+### Troubleshooting Steps for Day 29.5 Task
+
+1. **Environment Setup Issues**:
+   - **Problem**: The task might not work if the environment isn't set up correctly.
+   - **Solution**: 
+     - Double-check the environment variables mentioned in the README.md file.
+     - Ensure your working directory is set correctly, as any mismatch can cause the task to fail.
+
+2. **S3 Artifact Path Issues**:
+   - **Problem**: If you’re using an S3 bucket to store artifacts, incorrect paths can cause issues when retrieving the required files.
+   - **Solution**:
+     - Verify that the S3 bucket path is correct and accessible from your environment.
+     - Ensure that the S3 bucket permissions allow reading and writing of artifacts.
+     - Check the path for typos or missing directory structures.
+
+3. **Script Errors**:
+   - **Problem**: The script might not run correctly due to syntax or logic errors.
+   - **Solution**: 
+     - Review the error messages carefully as they typically highlight where the issue lies.
+     - Double-check the code in `solution.md` to ensure there are no syntax mistakes or missing parts.
+
+4. **Check `scripts/start_container.sh` for Latest Image**:
+   - **Problem**: The container may not be running the latest version of your application if the `start_container.sh` script isn’t updated with the latest image.
+   - **Solution**: 
+     - Open the `scripts/start_container.sh` file and verify that it references the latest image of your app.
+     - Update the Docker image in the script if necessary by pulling the latest image:
+       ```bash
+       docker pull <latest-image-name>
+       ```
+     - If you are using a specific tag, ensure it matches the latest tag for your application.
+
+5. **Check if the CodeDeploy Agent is Running**:
+   - **Problem**: The task may fail if the **AWS CodeDeploy agent** is not running on the instance where the deployment is being performed.
+   - **Solution**: 
+     - Check if the CodeDeploy agent is installed and running on the EC2 instance:
+       ```bash
+       sudo service codedeploy-agent status
+       ```
+     - If the agent is not running, start it using the following command:
+       ```bash
+       sudo service codedeploy-agent start
+       ```
+     - If the agent is not installed, install it by following the steps in the [AWS documentation](https://docs.aws.amazon.com/codedeploy/latest/userguide/codedeploy-agent-configuration.html).
+
+6. **Log Files and Error Messages**:
+   - **Problem**: Sometimes, tasks fail due to hidden errors that are not immediately obvious.
+   - **Solution**: 
+     - Check the log files for detailed error messages that may point to the root cause of the problem.
+     - For web-related tasks, check browser developer tools (F12) for failed network requests or console errors.
+
+
+---
+
 
 ## **Conclusion**
 
