@@ -1,5 +1,9 @@
 # **Setting Up CI/CD Pipeline with AWS CodeBuild and CodeDeploy for a Node.js Application**
 
+## **Project Workflow : **
+     
+![project-workflow](images/project-workflow.png)
+    
 
 ## **Prerequisites**
 
