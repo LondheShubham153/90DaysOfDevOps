@@ -1,0 +1,247 @@
+Week 1: Networking Challenge
+
+1. Understand OSI & TCP/IP Models
+
+OSI Model
+The OSI (Open Systems Interconnection) model is a framework that describes how data moves through a network in 7 layers. 
+Each layer has a specific role.
+
+1.Physical Layer: Handles raw data transmission over physical media.
+
+Example: Wires, cables, Wi-Fi signals, or fiber optics.
+Scenario: You plug an Ethernet cable into your computer to connect to the internet.
+
+2.Data Link Layer: Ensures error-free transfer between adjacent devices using MAC addresses.
+
+Example: Switches and Network Interface Cards (NICs).
+Scenario: A switch forwards your laptop's data packet to the correct device on your local network.
+
+3.Network Layer: Handles routing and IP addressing.
+
+Example: Routers.
+Scenario: A router directs your data from your home network to the web server.
+
+4.Transport Layer: Provides error detection and reliable data delivery using TCP or UDP.
+
+Example: TCP ensures all parts of a web page load.
+Scenario: Downloading a file without losing any pieces.
+
+5.Session Layer: Manages sessions or conversations between devices.
+
+Example: Keeps your video call active.
+Scenario: While on Zoom, this layer ensures the session continues even if there’s a brief disruption.
+
+6.Presentation Layer: Translates data into a readable format (e.g., encryption, compression).
+
+Example: Data encryption like HTTPS.
+Scenario: Ensuring your credit card details are secure when shopping online.
+
+7.Application Layer: Directly interacts with end users and provides network services.
+
+Example: Browsers, email apps.
+Scenario: You send an email using Gmail.
+
+
+TCP/IP Model
+The TCP/IP (Transmission Control Protocol/Internet Protocol) model has 4 layers that map closely to the OSI model but are more simplified.
+
+1.Network Interface Layer (OSI Layers 1 & 2): Handles physical transmission.
+
+Scenario: Your laptop connects to a Wi-Fi router.
+
+2.Internet Layer (OSI Layer 3): Manages IP addressing and routing.
+
+Scenario: Finding the quickest path to deliver an email.
+
+3.Transport Layer (OSI Layer 4): Ensures reliable delivery using TCP or faster delivery using UDP.
+
+Scenario: Streaming a video on YouTube without buffering (UDP).
+
+4.Application Layer (OSI Layers 5, 6, 7): Deals with software services.
+
+Scenario: Accessing your Facebook account via a browser.
+
+
+Real-World Application of Layers
+1.Sending an Email
+
+Application Layer: Compose and send an email.
+Transport Layer: Splits the email into packets.
+Network Layer: Finds the best route to the recipient.
+Data Link/Physical Layer: Sends the data through the network.
+
+2.Streaming a Movie
+
+Application Layer: Netflix app.
+Transport Layer: Buffers video using UDP.
+Network Layer: Finds the fastest server.
+Data Link/Physical Layer: Wi-Fi sends the movie data to your device.
+
+
+
+Essential Protocols and Ports for DevOps
+In DevOps, understanding various network protocols and their associated ports is essential to ensure smooth communication between different systems, services, and components. Whether you're deploying applications, configuring servers, or automating workflows, knowledge of these protocols is key to efficient operations. Here's a guide to some of the most commonly used protocols in DevOps and their respective port numbers.
+________________________________________
+1. HTTP (Hypertext Transfer Protocol)
+•	Port Number: 80
+•	Description: HTTP is the foundation of data communication on the World Wide Web. 
+               It's used for transferring data between web servers and clients (browsers). 
+               In DevOps, HTTP is often used for serving web applications and APIs.
+________________________________________
+2. HTTPS (Hypertext Transfer Protocol Secure)
+•	Port Number: 443
+•	Description: HTTPS is the secure version of HTTP. It encrypts data using SSL/TLS, ensuring that the data sent between clients and servers is secure. 
+               In DevOps, HTTPS is widely used for deploying secure web applications and APIs.
+________________________________________
+3. FTP (File Transfer Protocol)
+•	Port Number: 21
+•	Description: FTP is a standard network protocol used to transfer files between a client and a server over a TCP/IP network. 
+               In DevOps, FTP is often used for transferring code, configuration files, or logs to remote servers.
+________________________________________
+4. SFTP (Secure File Transfer Protocol)
+•	Port Number: 22
+•	Description: SFTP is a secure version of FTP that uses SSH (Secure Shell) to encrypt the data being transferred. 
+               This protocol is widely used in DevOps workflows for securely moving files and configuration scripts across systems.
+________________________________________
+5. SSH (Secure Shell)
+•	Port Number: 22
+•	Description: SSH is a cryptographic network protocol used for secure remote login and command execution. 
+               It’s vital for DevOps to access servers, execute scripts, and manage infrastructure securely.
+________________________________________
+6. DNS (Domain Name System)
+•	Port Number: 53
+•	Description: DNS is responsible for translating human-readable domain names (like www.example.com) into IP addresses. 
+               In DevOps, DNS is essential for managing networked systems and ensuring applications can reliably find and communicate with each other.
+________________________________________
+7. SMTP (Simple Mail Transfer Protocol)
+•	Port Number: 25 (default), 587 (for secure communication)
+•	Description: SMTP is the protocol used for sending emails. 
+               It is important in DevOps workflows for sending automated emails related to deployment status, alerts, or system notifications.
+________________________________________
+8. POP3 (Post Office Protocol version 3)
+•	Port Number: 110
+•	Description: POP3 is used by email clients to retrieve messages from the server. 
+               It's typically less common in DevOps workflows but may be used for interacting with legacy email systems.
+________________________________________
+9. IMAP (Internet Message Access Protocol)
+•	Port Number: 143 (unencrypted), 993 (encrypted)
+•	Description: IMAP is another protocol for retrieving emails. Unlike POP3, IMAP allows for more complex email management.   
+               It's not heavily used in DevOps but can be part of certain automated email workflows.
+________________________________________
+10. MySQL (Database Protocol)
+•	Port Number: 3306
+•	Description: MySQL is one of the most popular relational database management systems (RDBMS) in DevOps. 
+               Understanding this protocol is crucial when configuring and interacting with MySQL databases.
+________________________________________
+11. Redis
+•	Port Number: 6379
+•	Description: Redis is an open-source, in-memory data structure store often used as a caching layer or message broker in DevOps. 
+               It relies on this port for client-server communication.
+________________________________________
+12. MongoDB (Database Protocol)
+•	Port Number: 27017
+•	Description: MongoDB is a NoSQL database used in many DevOps applications. 
+               This port is used for client-server communication in MongoDB.
+________________________________________
+13. Docker (for Containerized Environments)
+•	Port Number: 2375 (unencrypted), 2376 (encrypted)
+•	Description: Docker is a popular containerization platform in DevOps. 
+               These ports are used to communicate with Docker daemons in remote environments.
+________________________________________
+14. Kubernetes API Server
+•	Port Number: 6443
+•	Description: Kubernetes, a popular container orchestration platform, uses this port for communication between its API server and clients or other Kubernetes components.
+________________________________________
+Conclusion
+In DevOps, efficient communication across distributed systems is essential for automated deployments, scaling, monitoring, and troubleshooting. 
+By understanding these common protocols and their associated ports, DevOps engineers can ensure their tools, services, and infrastructure are communicating securely and reliably. 
+Always ensure your network and firewall configurations are correctly set up to allow necessary traffic for these protocols to function.
+
+
+
+
+
+
+Configuring AWS EC2 Security Groups
+
+1. Log in to the AWS Management Console.
+
+2. Navigate to the EC2 Dashboard and click Launch Instance.
+
+3. Choose an AMI (e.g., Amazon Linux 2) and an Instance Type (e.g., t2.micro).
+
+4. In the Configure Security Group step, choose Create a new Security Group.
+
+    Add Inbound Rules:
+        SSH (Port 22): Allows SSH access (set source as your IP).
+        HTTP (Port 80): Allows web traffic (set source as 0.0.0.0/0).
+        HTTPS (Port 443): Allows secure web traffic (set source as 0.0.0.0/0).
+
+    Add Outbound Rules: By default, all outbound traffic is allowed.
+
+5. Review and click Launch.
+
+6. Select or create a key pair for SSH access.
+
+7. After launch, go to Instances, find the Public IP.
+
+8. SSH into your instance using:
+
+ssh -i /path/to/your-key.pem ec2-user@your-ec2-public-ip
+
+
+1. ping: Checks connectivity to a remote host.
+
+ping google.com
+
+C:\Users\Atul>ping google.com
+
+Pinging google.com [142.250.199.142] with 32 bytes of data:
+Reply from 142.250.199.142: bytes=32 time=3ms TTL=60
+Reply from 142.250.199.142: bytes=32 time=5ms TTL=60
+Reply from 142.250.199.142: bytes=32 time=2ms TTL=60
+Reply from 142.250.199.142: bytes=32 time=3ms TTL=60
+
+Ping statistics for 142.250.199.142:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 2ms, Maximum = 5ms, Average = 3ms
+
+2. traceroute (Linux/macOS) / tracert (Windows): Traces the route packets take to a destination.
+
+traceroute example.com   # Linux/macOS
+tracert example.com      # Windows
+
+C:\Users\Atul>tracert google.com
+
+Tracing route to google.com [142.250.199.142]
+over a maximum of 30 hops:
+
+  1     8 ms     1 ms     1 ms  192.168.0.1
+  2     2 ms     2 ms     2 ms  10.70.0.1
+  3     *        3 ms     2 ms  181-17-108-124.intechonline.net [124.108.17.181]
+  4     5 ms    11 ms     7 ms  94-31-241-43.intechonline.net [43.241.31.94]
+  5    12 ms     8 ms     5 ms  142.251.76.23
+  6    34 ms    25 ms    38 ms  142.251.77.101
+  7     6 ms     2 ms     2 ms  bom07s36-in-f14.1e100.net [142.250.199.142]
+
+Trace complete.
+
+
+3. netstat: Displays network connections, routing tables, and statistics.
+
+netstat -an
+
+4. curl: Makes HTTP requests, often used to fetch URLs or APIs.
+
+curl https://example.com
+
+5. dig: DNS lookup tool for querying domain information (Linux/macOS).
+
+dig example.com
+
+6. nslookup: DNS lookup tool (Windows/Linux).
+
+nslookup example.com
+
+
