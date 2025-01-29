@@ -1,3 +1,19 @@
+# Networking
+Networking in DevOps is about managing how different systems and applications communicate with each other. The key aspects are:
+
+### Infrastructure Management: 
+Setting up and maintaining networks, subnets, and routing between systems.
+### Automation: 
+Using tools like Ansible and Terraform to automate network configurations and reduce manual work.
+### Container Networking: 
+Managing communication between containerized applications using Docker and Kubernetes.
+### Cloud Integration: 
+Setting up virtual private clouds (VPCs), security groups, and connecting cloud services with on-premises systems.
+### Security: 
+Implementing firewalls, access controls, and monitoring network traffic to ensure secure communication.
+
+The main goal is to create reliable, secure, and automated network infrastructure that supports continuous development and deployment of applications. This helps teams deploy faster while maintaining stability and security.
+
 # OSI and TCP/IP Network Models Explained
 
 ## Overview
