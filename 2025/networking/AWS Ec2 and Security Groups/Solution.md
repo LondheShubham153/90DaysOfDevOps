@@ -15,8 +15,20 @@ AWS Security Groups act as virtual firewalls for your EC2 instances, controlling
 1. From the AWS Services menu, select **EC2** under "Compute."
 
 ---
+## **Step 3: Launch an EC2 Instance with the Security Group**
+1. In the EC2 Dashboard, click **Launch Instance**.
+2. **Choose an AMI**: Select a free-tier option (e.g., **Amazon Linux 2023 AMI**).
+3. **Choose Instance Type**: `t2.micro` (free tier eligible).
+4. **Configure Instance Details**: Keep defaults.
+5. **Add Storage**: Use the default 8 GiB.
+6. **Configure Security Group**:
+   - Select **Select an existing security group**.
+   - Choose the `WebServer-SG` created earlier.
+7. **Review and Launch**: Confirm settings and click **Launch**.
+8. Select or create a key pair for SSH access and launch the instance.
 
-## **Step 3: Create a Security Group**
+---
+## **Step 4: Create a Security Group**
 ### **Option A: Create a Security Group Before Launching an Instance**
 1. In the EC2 Dashboard, select **Security Groups** under **Network & Security**.
 2. Click **Create Security Group**.
@@ -48,19 +60,6 @@ AWS Security Groups act as virtual firewalls for your EC2 instances, controlling
 
 ---
 
-## **Step 4: Launch an EC2 Instance with the Security Group**
-1. In the EC2 Dashboard, click **Launch Instance**.
-2. **Choose an AMI**: Select a free-tier option (e.g., **Amazon Linux 2023 AMI**).
-3. **Choose Instance Type**: `t2.micro` (free tier eligible).
-4. **Configure Instance Details**: Keep defaults.
-5. **Add Storage**: Use the default 8 GiB.
-6. **Configure Security Group**:
-   - Select **Select an existing security group**.
-   - Choose the `WebServer-SG` created earlier.
-7. **Review and Launch**: Confirm settings and click **Launch**.
-8. Select or create a key pair for SSH access and launch the instance.
-
----
 
 ## **Step 5: Modify Security Group Rules (Post-Creation)**
 1. Go to **Security Groups** in the EC2 Dashboard.
