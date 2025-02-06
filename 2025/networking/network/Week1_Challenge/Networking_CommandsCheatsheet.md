@@ -72,6 +72,6 @@ Networking commands are essential for diagnosing, troubleshooting, and optimizin
 
 💪 **Task Completed!** 🚀
 
-📌 **GitHub Repository:** [90 Days of DevOps - Networking](https://github.com/Kisalaykisu/90DaysOfDevOps/tree/master/2025/networking)
+📌 **GitHub Repository:** [90 Days of DevOps - Networking]📌 (https://github.com/Kisalaykisu/90DaysOfDevOps/tree/master/2025/networking/network)  
 
 🚀 **Happy Networking!** 🎉
