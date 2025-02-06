@@ -96,7 +96,7 @@ Use tools like **[draw.io](https://app.diagrams.net/)** or **[excalidraw](https:
 
 ## 🎯 **Final Step: Publish & Share!**  
 
-📍 **Project Repository:** [90 Days of DevOps - Networking](https://github.com/Kisalaykisu/90DaysOfDevOps/tree/master/2025/networking)  
+📍 **Project Repository:** [90 Days of DevOps - Networking]📌 (https://github.com/Kisalaykisu/90DaysOfDevOps/tree/master/2025/networking/network)  
 
 ✍ **Contributions are welcome! Feel free to raise an issue or PR.**  
 
