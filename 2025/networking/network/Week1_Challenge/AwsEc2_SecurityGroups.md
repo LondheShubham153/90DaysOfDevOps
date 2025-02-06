@@ -95,7 +95,7 @@ By default, **all outbound traffic is allowed**.
 
 💪 **Task Completed!** 🚀  
 
-📌 **GitHub Repository:** [90 Days of DevOps - AWS](https://github.com/Kisalaykisu/90DaysOfDevOps/tree/master/2025/aws)  
+📌 **GitHub Repository:** [90 Days of DevOps - Network](https://github.com/Kisalaykisu/90DaysOfDevOps/tree/master/2025/networking/network)  
 💡 *Contributions are welcome! Feel free to raise an issue or PR.*  
 
 🚀 **Happy Cloud Learning!** 🎉
