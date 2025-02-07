@@ -82,10 +82,7 @@ Logs are crucial in DevOps! You’ll analyze logs using the **Linux_2k.log** fil
 ---
 
 ## 📚 Resources to Get Started
-- [Linux Users & Groups](https://linuxize.com/post/how-to-create-users-and-groups-in-linux/)
-- [Linux File Permissions](https://www.redhat.com/sysadmin/linux-permissions-guide)
-- [AWK for Log Analysis](https://www.baeldung.com/linux/awk-command)
-- [Linux Volume Management](https://www.tecmint.com/create-lvm-storage-in-linux/)
+- [Linux In One Shot](https://youtu.be/e01GGTKmtpc?si=FSVNFRwdNC0NZeba)
 - [Linux_2k.log (LogHub)](https://github.com/logpai/loghub/blob/master/Linux/Linux_2k.log)
 
 ---
