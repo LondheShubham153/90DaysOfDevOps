@@ -7,8 +7,7 @@ This script helps you manage user accounts on a Linux system. It can:
 
 Can run the script with different options (like -c, -d, -h, -l, -r) to perform these tasks.
 
-
-**How Does It Work?**
+## How Does It Work?
   1. Help Menu (-h)
       If you don’t know how to use the script, just run: "./user_manager.sh -h"
     It will show:
