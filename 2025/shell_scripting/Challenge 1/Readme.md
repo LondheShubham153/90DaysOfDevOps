@@ -94,7 +94,7 @@ Can run the script with different options (like -c, -d, -h, -l, -r) to perform t
 
     
    Use one of these commands based on what you want to do:
-    -  Create a user: sudo "./user_manager.sh -c"
+    -  Create a user: sudo "./user_manager.sh -c"    
     -  Delete a user: sudo "./user_manager.sh -d"
     -  Reset a password: "sudo ./user_manager.sh -r"
     -  List users: "./user_manager.sh -l"
