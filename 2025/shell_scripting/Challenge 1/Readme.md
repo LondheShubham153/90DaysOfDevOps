@@ -62,32 +62,35 @@ Can run the script with different options (like -c, -d, -h, -l, -r) to perform t
 
 
 **How Does Each Part Work?**
+
+
   Check Options:
-    The script uses a case statement to check which option (-c, -d, etc.) you provided and runs the corresponding function.
+   - The script uses a case statement to check which option (-c, -d, etc.) you provided and runs the corresponding function.
     
   Create User:
-    It uses the id command to check if the user already exists.
-    If not, it creates the user with useradd and sets their password using chpasswd.
+   - It uses the id command to check if the user already exists.
+   - If not, it creates the user with useradd and sets their password using chpasswd.
     
   Delete User:
-    It checks if the user exists using id.
-    If they exist, it deletes them using userdel.
+   - It checks if the user exists using id.
+   - If they exist, it deletes them using userdel.
     
   Reset Password:
-    It checks if the user exists using id.
-    If they exist, it resets their password using chpasswd.
+   - It checks if the user exists using id.
+   - If they exist, it resets their password using chpasswd.
     
   List Users:
-    It reads /etc/passwd (a file that stores all system users) and extracts usernames and UIDs.
+   - It reads /etc/passwd (a file that stores all system users) and extracts usernames and UIDs.
     
   Help Menu:
-    It simply prints instructions on how to use the script.
+   - It simply prints instructions on how to use the script.
 
 
 
 **How to Run This Script?**
-    Save this script as user_manager.sh.
-    Make it executable by running: "chmod +x user_manager.sh"
+
+  - Save this script as user_manager.sh.
+  - Make it executable by running: "chmod +x user_manager.sh"
 
     
    Use one of these commands based on what you want to do:
