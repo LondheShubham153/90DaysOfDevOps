@@ -91,9 +91,10 @@ Can run the script with different options (like -c, -d, -h, -l, -r) to perform t
 
   - Save this script as user_manager.sh.
   - Make it executable by running: "chmod +x user_manager.sh"
-
     
-   Use one of these commands based on what you want to do:
+
+    Use one of these commands based on what you want to do:
+   
     -  Create a user: sudo "./user_manager.sh -c"    
     -  Delete a user: sudo "./user_manager.sh -d"
     -  Reset a password: "sudo ./user_manager.sh -r"
