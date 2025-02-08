@@ -60,7 +60,7 @@ Can run the script with different options (like -c, -d, -h, -l, -r) to perform t
 
 
 
-**How Does Each Part Work?**
+## How Does Each Part Work?
 
 
   Check Options:
