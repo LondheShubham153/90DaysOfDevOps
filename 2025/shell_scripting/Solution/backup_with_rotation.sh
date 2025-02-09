@@ -28,7 +28,7 @@ backup_dir="$target_dir/backups"
 mkdir -p "$backup_dir"
 
 # Generate a timestamp for the backup file
-timestamp=$(date +"%Y%m%d%H%M%")
+timestamp=$(date +"%Y-%m-%d_%H-%M-%S")
 backup_file="$backup_dir/backup_$timestamp.zip"
 
 # Create a zip archive of the target directory
