@@ -1,5 +1,7 @@
 # Bonus Points (Optional)
 
+###
+
 If you want to enhance the functionality of the script, consider adding the following features:
 
 - Display detailed information about user accounts (e.g., home directory, shell, groups, last login time, etc.).
