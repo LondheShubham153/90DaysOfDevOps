@@ -1,5 +1,13 @@
 #!/bin/bash
 
+<<Note
+To automate backups, add a cron job:
+crontab -e
+Add this line to schedule it at 2 AM daily:
+0 2 * * * /path/to/backup_script.sh /path/to/your/directory
+
+Note
+
 # Check if the user provided a directory path
 if [ "$#" -ne 1 ]; then
     echo "Usage: $0 <directory_path>"
