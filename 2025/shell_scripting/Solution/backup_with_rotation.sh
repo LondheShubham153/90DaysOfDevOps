@@ -32,13 +32,7 @@ timestamp=$(date +"%Y-%m-%d_%H-%M-%S")
 backup_file="$backup_dir/backup_$timestamp.zip"
 
 # Create a zip archive of the target directory
-rsync -a --delete \
-    --exclude="*.tmp" \
-    --exclude="*.log" \
-    --exclude="node_modules" \
-    --exclude="__pycache__" \
-    "$target_dir/" "$backup_folder"
- > /dev/null
+rsync -a --delete "$target_dir"/ "$backup_folder" > /dev/null
 
 echo "Backup created: $backup_file"
 
