@@ -4,36 +4,42 @@
 To automate backups, add a cron job:
 crontab -e
 Add this line to schedule it at 2 AM daily:
-0 2 * * * /path/to/backup_script.sh /path/to/your/directory
+0 2 * * * /path/to/backup_script.sh /path/to/your/source_directory /path/to/your/destination_directory
 
 Note
 
-# Check if the user provided a directory path
-if [ "$#" -ne 1 ]; then
-    echo "Usage: $0 <directory_path>"
+# Check if the user provided two directory paths
+if [ "$#" -ne 2 ]; then
+    echo "Usage: $0 <source_directory> <destination_directory>"
     exit 1
 fi
 
-# Assign the directory path to a variable
-target_dir="$1"
+# Assign the directory paths to variables
+source_dir="$1"
+dest_dir="$2"
 
-# Check if the provided path is a valid directory
-if [ ! -d "$target_dir" ]; then
-    echo "Error: '$target_dir' is not a valid directory."
+# Check if the provided source directory is valid
+if [ ! -d "$source_dir" ]; then
+    echo "Error: '$source_dir' is not a valid directory."
     exit 1
 fi
 
-# Create a backup directory inside the target directory
-backup_dir="$target_dir/backups"
+# Check if the provided destination directory is valid
+if [ ! -d "$dest_dir" ]; then
+    echo "Error: '$dest_dir' is not a valid directory."
+    exit 1
+fi
+
+# Create a backup directory inside the destination directory
+backup_dir="$dest_dir/backups"
 mkdir -p "$backup_dir"
 
 # Generate a timestamp for the backup file
 timestamp=$(date +"%Y-%m-%d_%H-%M-%S")
 backup_file="$backup_dir/backup_$timestamp.zip"
 
-# Create a zip archive of the target directory
-zip -r "$backup_file" "$target_dir"/* > /dev/null
-
+# Create a zip archive of the source directory
+zip -r "$backup_file" "$source_dir"/* > /dev/null
 
 echo "Backup created: $backup_file"
 
