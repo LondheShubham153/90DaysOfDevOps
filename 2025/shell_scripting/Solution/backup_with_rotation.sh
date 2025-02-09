@@ -34,6 +34,7 @@ backup_file="$backup_dir/backup_$timestamp.zip"
 # Create a zip archive of the target directory
 zip -r "$backup_file" "$target_dir"/* > /dev/null
 
+
 echo "Backup created: $backup_file"
 
 # List existing backup files sorted by creation time (oldest first)
