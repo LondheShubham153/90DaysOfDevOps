@@ -32,7 +32,7 @@ timestamp=$(date +"%Y-%m-%d_%H-%M-%S")
 backup_file="$backup_dir/backup_$timestamp.zip"
 
 # Create a zip archive of the target directory
-rsync -a --delete "$target_dir"/ "$backup_folder" > /dev/null
+zip -r "$backup_file" "$target_dir"/* > /dev/null
 
 echo "Backup created: $backup_file"
 
