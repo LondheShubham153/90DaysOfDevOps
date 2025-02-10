@@ -1,11 +1,15 @@
 Understanding Of Networking: The OSI and TCP/IP Models
+
+
 Data communication is a process or act in which we can send or receive data. Understanding the fundamental structures of networking is crucial for anyone working with computer systems and communication. For data communication two models are available, the OSI (Open Systems Interconnection) Model, and the TCP/IP (Transmission Control Protocol/Internet Protocol) Model.
 These models work as frameworks for organizing and understanding how data moves from one device to another across networks. While both models aim to achieve similar goals, they differ in their approach, layer organization, and practical application within computer networking. We will discuss these two models in this article and also see the differences between the two models.
 
 OSI Model
  
 The data flow in the OSI (Open Systems Interconnection) model describes how data is transmitted from one device to another through the seven layers of the OSI model. This process involves encapsulation and decapsulation at each layer to ensure proper data transmission and reception.
+
 The data flow in the OSI model involves encapsulating data at each layer on the sender side, transmitting it over the network, and decapsulating it at each layer on the receiver side to ensure the data reaches its intended destination correctly and reliably.
+
 1.	Physical Layer: Deals with the physical connection between devices, including cables and signals.
 2.	Data Link Layer: Provides node-to-node data transfer and error detection/correction.
 3.	Network Layer: Manages the routing of data across different networks.
@@ -18,6 +22,7 @@ TCP/IP Model
  
 The TCP/IP model is a fundamental framework for computer networking. It stands for Transmission Control Protocol/Internet Protocol, which are the core protocols of the Internet. This model defines how data is transmitted over networks, ensuring reliable communication between devices. It consists of four layers: the Link Layer, the Internet Layer, the Transport Layer, and the Application Layer. Each layer has specific functions that help manage different aspects of network communication, making it essential for understanding and working with modern networks.
 The main work of TCP/IP is to transfer the data of a computer from one device to another. The main condition of this process is to make data reliable and accurate so that the receiver will receive the same information which is sent by the sender. To ensure that, each message reaches its final destination accurately, the TCP/IP model divides its data into packets and combines them at the other end, which helps in maintaining the accuracy of the data while transferring from one end to another end.
+
 How Does the TCP/IP Model Work?
 Whenever we want to send something over the internet using the TCP/IP Model, the TCP/IP Model divides the data into packets at the sender’s end and the same packets have to be recombined at the receiver’s end to form the same data, and this thing happens to maintain the accuracy of the data. TCP/IP model divides the data into a 4-layer procedure, where the data first go into this layer in one order and again in reverse order to get organized in the same way at the receiver’s end.
 Layers of TCP/IP Model
