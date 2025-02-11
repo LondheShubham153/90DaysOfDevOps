@@ -25,7 +25,7 @@ To make this challenge more difficult, additional steps have been added. You wil
      ```
    - Change directory into the cloned repository:
      ```bash
-     cd 2025/git
+     cd 2025/git/01_Git_and_Github_Basics
      ```
 
 ---
