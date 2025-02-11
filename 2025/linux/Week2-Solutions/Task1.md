@@ -32,5 +32,14 @@ grant sudo access.
 ![image](https://github.com/user-attachments/assets/8183f7a0-80fd-4af4-acf3-9ce244ba9594)
 
 
+AllowUsers for ssh:
+
+![image](https://github.com/user-attachments/assets/713b35d9-f930-45a7-bc58-0f42c3218d60)
+
+
+DenyUsers:
+
+![image](https://github.com/user-attachments/assets/bc4d458d-5298-4563-b48b-492aeb42563e)
+
 
 
