@@ -1,0 +1,52 @@
+Shell Scripting for DevOps
+Shell scripting is a powerful tool used by DevOps engineers to automate repetitive tasks, manage system configurations, deploy applications, and perform various administrative tasks. It allows you to write a series of commands in a script file, which can then be executed as a single unit. This helps to increase efficiency, reduce manual errors, and ensure consistency across different environments. For example, you can write a shell script to automate the deployment of a web application, which includes steps like pulling the latest code from a repository, building the application, and restarting the server.
+
+What is #!/bin/bash?
+The #!/bin/bash at the beginning of a shell script is called a "shebang" or "hashbang." It indicates which interpreter should be used to execute the script. In this case, it specifies that the script should be run using the bash shell. You can also write #!/bin/sh, which specifies the sh shell (which is often a symbolic link to bash on many systems). Here's an example of a simple script with a shebang:
+
+
+#!/bin/bash
+echo "Hello, World!"
+Shell Script to Print a Message
+Here's a script that prints "I will complete #90DaysOfDevOps challenge":
+
+
+#!/bin/bash
+echo "I will complete #90DaysOfDevOps challenge"
+Shell Script to Take User Input and Arguments
+This script takes user input and arguments, then prints the variables:
+
+
+#!/bin/bash
+
+if [ "$#" -ne 2 ]; then
+    echo "Please provide 4 arguments"
+    exit 1
+fi
+
+# Taking user input
+echo "Enter your name:"
+read userName
+
+# Taking arguments
+arg1=$1
+arg2=$2
+
+# Printing variables
+echo "Hello, $userName!"
+echo "Argument 1: $arg1"
+echo "Argument 2: $arg2"
+Example of If-Else in Shell Scripting
+Here's an example of an if-else statement comparing two numbers:
+
+
+#!/bin/bash
+
+num1=10
+num2=20
+
+if [ $num1 -gt $num2 ]; then
+    echo "$num1 is greater than $num2"
+else
+    echo "$num1 is not greater than $num2"
+fi
