@@ -1,5 +1,5 @@
 # Week 4: Git and GitHub Challenge
-# Shrikant checking conflict
+
 Welcome to the Week 4 Challenge! In this task you will practice the essential Git and GitHub commands and concepts taught by Shubham Bhaiya. This includes:
 
 - **Git Basics:** `git init`, `git add`, `git commit`
