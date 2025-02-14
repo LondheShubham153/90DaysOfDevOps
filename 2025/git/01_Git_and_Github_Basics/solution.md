@@ -9,15 +9,25 @@
  git add .
  
  git commit -m "Initial commit: Add info.txt with introductory content"
+ 
  git push origin master
+ 
  git branch feature-update
+ 
  git branch
+ 
  git switch feature-update
+
  vim info.txt
+ 
  git add info.txt
+ 
  git commit -m "Feature update: Enhance info.txt with additional details"
+ 
  git push origin feature-update
+ 
  git log --oneline
+ 
  vim solution.md
 
 
