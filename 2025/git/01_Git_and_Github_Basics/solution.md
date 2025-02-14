@@ -1,6 +1,5 @@
- git clone https://github.com/surya-edict/ProgressionInDevOps.git
- git remote add origin https://surya-edict:ghp_Vq1DbFllmXcoqvvAb1OGDKo30TxNF@github.com/surya-edict/ProgressionInDevOps.git
- git remote set-url origin https://surya-edict:ghp_lmXcgEqEJkNoqvvAb1OGDKo30TxNF@github.com/surya-edict/ProgressionInDevOps.git
+ git clone https://github.com/surya-edict/Pkey@github.com/surya-edict/ProgressionInDevOps.git
+ git remote set-url origin https://surya-edict:key@github.com/surya-edict/ProgressionInDevOps.git
  git pull origin master
  vim info.txt
  git add .
