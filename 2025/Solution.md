@@ -7,19 +7,20 @@
 
 +In Git branching strategies, developers create separate branches for individual work. This allows them to easily pull changes from different branches and merge their code into the main branch when ready.
 
-### GitHub Branching Terminologies
++## GitHub Branching Terminology
 
-Git Branch: A parallel version the code within a git repository allowing for separate development.
++Git Branch: A parallel version of code within a Git repository that allows for separate development paths.
 
-Main Branch (Means master branch): This the primary branch of git repository where the production ready code.
++Main Branch: The primary branch of a Git repository (formerly known as master) that contains production-ready code.
 
-Feature Branch: This branch is used to work on the specific feature task from the main branch.
++Feature Branch: A branch created from the main branch to develop a specific feature or task in isolation.
 
-Merge: Merge is the process to combine the code from one branch to another branch.
++Merge: The process of combining code changes from one branch into another branch.
 
-Pull Request (PR): PR is the request by the developer to merge one branch to another branch.
++Pull Request (PR): A request to merge changes from one branch into another, allowing for code review and discussion.
 
-CI/CD Pipeline: Continuous integration and continuous deployment pipeline to automate the process of building, testing, and deploying code changes.
++CI/CD Pipeline: A series of automated processes for continuously integrating, testing, and deploying code changes.
+
 Here all command that used to perform Git and GitHub Challenge are listed below with explanation
 
 Git and GitHub Command
