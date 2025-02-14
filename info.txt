@@ -1,13 +1,18 @@
 Hello, I'm Shubham Tayde.
-
-I have 3 years of experience managing servers, networks, & cloud and DevOps engineering. I enjoy automation, continuous integration, and deployment with extensive hands-on experience in DevOps and cloud computing.
-
-I've developed strong skills in Linux, shell scripting, and tools like Jenkins, Docker, Terraform, and AWS. I focus on building robust solutions and making a real difference in every project.
++With 3 years of experience in server management, networks, cloud, and DevOps engineering, my focus lies in automation, continuous integration, and deployment. 
++
++My expertise spans Linux, shell scripting, and essential tools like Jenkins, Docker, Terraform, and AWS, enabling me to build robust solutions that make a real difference in every project.
 
 My journey has been marked by hands-on experience and a deep dive into the world of cutting-edge technologies.
 
 I utilize my solid knowledge of AWS services and DevOps methodologies to optimize cloud infrastructure and ensure seamless deployment and scalability. I work with various tools and technologies, such as EC2, Lambda, VPC, IAM, CloudFormation, Cloud Storage, Route 53, RDS, EC2 Networking, Load Balancing, Git, Jenkins, Docker, Terraform, and shell scripting.
-Build DevOps CI/CD pipeline setups and deployment strategies on cloud platforms like AWS. Skilled in Docker for containerization to ensure efficient application deployment and management.
+
++Key Areas of Expertise:
++• AWS Infrastructure Optimization: EC2, Lambda, VPC, IAM, CloudFormation, S3, Route 53, RDS
++• DevOps Pipeline Implementation: Git, Jenkins, Docker, Terraform
++• Infrastructure Management: Load Balancing, Networking, Shell Scripting
++
++Specialized in building CI/CD pipelines and deployment strategies on AWS, with strong containerization skills using Docker for efficient application deployment.
 
 𝗧𝗼𝗼𝗹𝘀 ->
 ➤ Source Code Management: Git, GitHub
@@ -24,7 +29,6 @@ Build DevOps CI/CD pipeline setups and deployment strategies on cloud platforms 
 
 I believe continuous learning and development to keep myself up-to-date and up-skilled is the solution to modern-day application deployment.
 
-
-____________________________________The task I am performing is a result of DevOps wale Bhaiya._________________________________________
-
-                                Thank you so much to help us and perform better in DevOps journey
++## Acknowledgments
++
++Special thanks to my DevOps mentor for guidance and support throughout this learning journey.
