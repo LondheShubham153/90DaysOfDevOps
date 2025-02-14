@@ -1,8 +1,13 @@
  git clone https://github.com/surya-edict/Pkey@github.com/surya-edict/ProgressionInDevOps.git
+ 
  git remote set-url origin https://surya-edict:key@github.com/surya-edict/ProgressionInDevOps.git
+ 
  git pull origin master
+ 
  vim info.txt
+ 
  git add .
+ 
  git commit -m "Initial commit: Add info.txt with introductory content"
  git push origin master
  git branch feature-update
