@@ -93,7 +93,7 @@ git commit -m "Feature update: Enhance info.txt"
 git push origin feature-update
 ```
 
-🖼 **Screenshot:** ![Feature Branch](image-5.png)
+🖼 **Hands-on Example:** ![Feature Branch](image-5.png)
 
 ### 3️⃣ **Merge Feature Branch to Main**
 
@@ -103,7 +103,7 @@ git push origin feature-update
 🖼 **Example of Opening a Pull Request:** ![Option to Open PR](image-6.png)
 ![Open PR Section](image-7.png)
 
-🖼 **Example of Meeging a PR:** ![Merge PR](image-8.png)
+🖼 **Example of Merging a PR:** ![Merge PR](image-8.png)
 ![Delete Branch Option](image-9.png)
 
 ---
