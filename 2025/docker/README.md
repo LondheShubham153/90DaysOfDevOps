@@ -227,8 +227,8 @@ Complete all the tasks below and document your steps, commands, and observations
 - **[Docker Hub](https://hub.docker.com/)**  
 - **[Multi-stage Builds](https://docs.docker.com/develop/develop-images/multistage-build/)**  
 - **[Docker Compose](https://docs.docker.com/compose/)**  
-- **[Docker Scout](https://www.docker.com/blog/docker-scout-beta-docker-experimental/)**  
-- **[Containerization vs. Virtualization](https://www.docker.com/resources/what-container)**  
+- **[Docker Scan (Vulnerability Scanning)](https://docs.docker.com/engine/scan/)**  
+- **[Containerization vs. Virtualization](https://www.docker.com/resources/what-container)**
 
 ---
 
