@@ -224,7 +224,7 @@ Complete all the tasks below and document your steps, commands, and observations
 ## Additional Resources
 
 - **[Docker Documentation](https://docs.docker.com/)**  
-- **[Docker Hub](https://hub.docker.com/)**  
+- **[Docker Hub](https://docs.docker.com/docker-hub/)**  
 - **[Multi-stage Builds](https://docs.docker.com/develop/develop-images/multistage-build/)**  
 - **[Docker Compose](https://docs.docker.com/compose/)**  
 - **[Docker Scan (Vulnerability Scanning)](https://docs.docker.com/engine/scan/)**  
