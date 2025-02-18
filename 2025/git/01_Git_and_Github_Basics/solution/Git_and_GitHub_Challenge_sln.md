@@ -126,6 +126,8 @@
    - If you feel confident, create another branch (e.g., `experimental`) from your main branch, make a conflicting change to `info.txt`, then switch back to `feature-update` and merge `experimental` to simulate a merge conflict. Resolve the conflict manually, then commit the resolution.  
    > *Note: This extra step is optional and intended for those looking for an additional challenge.*
 
+![alt text](<Screenshot 2025-02-18 182517.png>)
+
 ---
 
 ### Task 6: Explain Branching Strategies
@@ -137,6 +139,9 @@
      - Facilitating parallel development
      - Reducing merge conflicts
      - Enabling effective code reviews
+
+ **Solution**
+ Please checkout the Git_command_list.txt and Branching.md file.
 
 ---
 
@@ -162,8 +167,9 @@
    - Test the SSH connection by pushing your branch:
      ```bash
      git push origin feature-update
-     ```
 
+     ```
+![alt text](<Screenshot 2025-02-18 211955.png>)
 ---
 
 
