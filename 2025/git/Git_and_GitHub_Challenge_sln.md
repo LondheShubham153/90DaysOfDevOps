@@ -78,3 +78,93 @@
      git pull origin main
      ```
 ![alt text](<Screenshot 2025-02-18 142540.png>)
+
+
+### Task 4: Explore Your Commit History
+1. **View the Git Log:**  
+   - Check your commit history using:
+     
+     git log
+     
+    ![alt text](<Screenshot 2025-02-18 155022.png>)
+
+
+### Task 5: Advanced Branching and Switching
+1. **Create a New Branch:**  
+   - Create a branch called `feature-update`:
+     ```bash
+     git branch feature-update
+     ```
+  
+2. **Switch to the New Branch:**  
+   - Switch using `git switch`:
+     ```bash
+     git switch feature-update
+     ```
+   - Alternatively, you can use:
+     ```bash
+     git checkout feature-update
+     ```
+
+3. **Modify the File and Commit Changes:**  
+   - Edit `info.txt` (for example, add more details or improvements).
+   - Stage and commit your changes:
+     ```bash
+     git add info.txt
+     git commit -m "Feature update: Enhance info.txt with additional details"
+     git push origin feature-update
+     ```
+   - Merge this branch to `main` via a Pull Request on GitHub.
+
+
+![alt text](<Screenshot 2025-02-18 171724.png>)
+
+
+   
+  
+4. **(Advanced) Optional Extra Challenge:**  
+   - If you feel confident, create another branch (e.g., `experimental`) from your main branch, make a conflicting change to `info.txt`, then switch back to `feature-update` and merge `experimental` to simulate a merge conflict. Resolve the conflict manually, then commit the resolution.  
+   > *Note: This extra step is optional and intended for those looking for an additional challenge.*
+
+---
+
+### Task 6: Explain Branching Strategies
+1. **Document Your Process:**  
+   - Create (or update) a file named `solution.md` in your repository.
+   - List all the Git commands you used in Tasks 1–4.
+   - **Explain:** Write a brief explanation on **why branching strategies are important** in collaborative development. Consider addressing:
+     - Isolating features and bug fixes
+     - Facilitating parallel development
+     - Reducing merge conflicts
+     - Enabling effective code reviews
+
+---
+
+### Bonus Task: Explore SSH Authentication
+1. **Generate an SSH Key (if not already set up):**
+   - Create an SSH key pair:
+     ```bash
+     ssh-keygen
+     ```
+   - Follow the prompts and then locate your public key (typically found at `~/.ssh/id_ed25519.pub`).
+
+2. **Add Your SSH Public Key to GitHub:**  
+   - Copy the contents of your public key and add it to your GitHub account under **SSH and GPG keys**.  
+     (See [Connecting to GitHub with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) for help.)
+
+3. **Switch Your Remote URL to SSH:**  
+   - Change the remote URL from HTTPS to SSH:
+     ```bash
+     git remote set-url origin git@github.com:<your-username>/90DaysOfDevOps.git
+     ```
+
+4. **Push Your Branch Using SSH:**  
+   - Test the SSH connection by pushing your branch:
+     ```bash
+     git push origin feature-update
+     ```
+
+---
+
+
+   
