@@ -1,0 +1,74 @@
+Clone Your Fork Locally:
+git clone <your-fork-url>
+
+cd 2025/git/01_Git_and_Github_Basics
+
+Set Up Your Challenge Directory:
+mkdir week-4-challenge
+cd week-4-challenge
+
+Initialize a Git Repository:
+git init
+
+Create a File:
+touch info.txt
+(Edit `info.txt` to add initial content)
+
+Stage and Commit Your File:
+git add info.txt
+git commit -m "Initial commit: Add info.txt with introductory content"
+
+Configure Remote URL with PAT and Push/Pull
+Configure Remote URL with Your PAT:
+
+bash
+git remote add origin https://<your-username>:<your-PAT>@github.com/<your-username>/90DaysOfDevOps.git
+Or, if the remote origin already exists:
+git remote set-url origin https://<your-username>:<your-PAT>@github.com/<your-username>/90DaysOfDevOps.git
+
+
+Push Your Commit to Remote:
+git push -u origin main
+(Optional) Pull Remote Changes:
+git pull origin main
+
+Explore Your Commit History
+View the Git Log:
+git log
+
+Advanced Branching and Switching
+Create a New Branch:
+git branch feature-update
+
+Switch to the New Branch:
+git switch feature-update
+Or:
+git checkout feature-update
+
+Modify the File and Commit Changes:
+(Edit `info.txt` to add more details or improvements)
+git add info.txt
+git commit -m "Feature update: Enhance info.txt with additional details"
+
+full list:
+
+git clone <your-fork-url>
+cd 2025/git/01_Git_and_Github_Basics
+mkdir week-4-challenge
+cd week-4-challenge
+git init
+touch info.txt
+git add info.txt
+git commit -m "Initial commit: Add info.txt with introductory content"
+git remote add origin https://<your-username>:<your-PAT>@github.com/<your-username>/90DaysOfDevOps.git
+git push -u origin main
+git pull origin main
+git log
+git branch feature-update
+git switch feature-update
+# Or:
+# git checkout feature-update
+git add info.txt
+git commit -m "Feature update: Enhance info.txt with additional details"
+git push origin feature-update
+
