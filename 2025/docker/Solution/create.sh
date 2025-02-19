@@ -20,7 +20,7 @@ num_tasks=$1
 
 # Loop to create subdirectories and files for each task
 for ((i=1; i<=num_tasks; i++)); do
-  Task_dir="task$i"
+  Task_dir="Task$i"
   mkdir -p "$Task_dir"
   touch "$Task_dir/Task${i}_sln.md"
   touch "$Task_dir/Task${i}_doc.md"

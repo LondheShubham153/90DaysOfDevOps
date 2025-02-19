@@ -1,0 +1,33 @@
+#Stage 1
+
+#Base Image
+FROM python:3.9-slim AS builder
+
+#working Dir
+WORKDIR /app
+
+#copy the code from Host to container
+COPY requirements.txt .
+
+#Running cmd to install dependencies and compile code
+RUN pip install -r requirements.txt --target=/app/deps
+
+COPY . .
+
+#Stage2
+FROM gcr.io/distroless/python3-debian12
+
+#working dir stage 2
+WORKDIR /app
+
+#copy the build fro above stage
+COPY --from=builder /app/deps /app/deps
+COPY --from=builder /app .
+
+ENV PYTHONPATH="/app/deps"
+
+#Expose the port
+EXPOSE 80
+
+#Serve the app
+CMD ["run.py"]
