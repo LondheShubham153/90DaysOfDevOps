@@ -1,0 +1,156 @@
+## Task 7: Configure Docker Networking
+
+### 1. Create a Custom Docker Network
+
+#### What is Docker Networking?
+
+Docker networking allows containers to communicate with each other and with external systems. A **custom Docker network** enables efficient and secure **inter-container communication** without exposing services to the host machine.
+
+#### Types of Docker Networks
+
+Docker provides different types of networking modes:
+
+- **Bridge Network** (Default): Used for communication between containers on the same host.
+- **Host Network**: Removes the network isolation and directly uses the host’s network.
+- **Overlay Network**: Used for multi-host container networking (e.g., Docker Swarm).
+- **Macvlan Network**: Assigns a MAC address to containers for direct network access.
+
+#### How to Create a Custom Network
+
+To create a custom Docker network, run:
+
+```sh
+docker network create my_network
+```
+
+This command creates a **user-defined bridge network** named `my_network` that containers can join.
+
+#### Verify the Created Network
+
+To list available networks, run:
+
+```sh
+docker network ls
+```
+
+To inspect network details:
+
+```sh
+docker network inspect my_network
+```
+
+---
+
+### 2. Run Containers on the Same Network
+
+#### Why Use a Custom Network?
+
+- **Isolated Communication**: Containers can talk to each other **privately** without exposing ports externally.
+- **Service Discovery**: Containers can refer to each other by name instead of IP addresses.
+- **Security**: Reduces unnecessary exposure of services.
+- **Efficient Load Balancing**: Helps distribute requests among multiple containers running the same application.
+
+#### Running Two Containers on the Same Network
+
+Run a **sample application** and a **database (MySQL)** on the same network.
+
+```sh
+docker run -d --name sample-app --network my_network <your-username>/sample-app:v1.0
+```
+
+```sh
+docker run -d --name my-db --network my_network -e MYSQL_ROOT_PASSWORD=my-secret-pass mysql:latest
+```
+
+- The `--network my_network` flag ensures that both containers join `my_network`.
+- The `sample-app` can connect to the MySQL database using the hostname `my-db` (instead of an IP address).
+
+#### Verifying Inter-Container Communication
+
+To check if `sample-app` can communicate with `my-db`, open an interactive shell in `sample-app`:
+
+```sh
+docker exec -it sample-app sh
+```
+
+Inside the container, run:
+
+```sh
+ping my-db
+```
+
+If successful, it confirms proper network communication.
+
+To test MySQL connectivity:
+
+```sh
+mysql -h my-db -u root -p
+```
+
+Enter the password (`my-secret-pass`) to access the database.
+
+#### Connecting a Web App to a Database Using Environment Variables
+
+Many applications use environment variables for database connectivity:
+
+```sh
+docker run -d --name web-app --network my_network -e DB_HOST=my-db -e DB_USER=root -e DB_PASS=my-secret-pass <your-username>/web-app:v1.0
+```
+
+This enables `web-app` to dynamically connect to `my-db` via environment variables.
+
+---
+
+### 3. Document the Process
+
+#### Benefits of Docker Networking
+
+- **Microservices Architecture**: Enables containerized services to communicate effectively.
+- **Port Management**: Reduces the need for exposing multiple ports to the host machine.
+- **Scalability**: Services can be scaled independently while maintaining connectivity.
+- **Container Name Resolution**: Services can use container names instead of hardcoded IP addresses.
+- **Multi-Host Networking**: Overlay networks allow communication across multiple Docker hosts.
+
+#### Example Use Case
+
+A **web application** running in one container needs to interact with a **database** in another container. Instead of using **localhost**, the web app can connect to the database using its **container name (my-db)**.
+
+#### Load Balancing Example with Multiple Containers
+
+To run multiple instances of `sample-app` for load balancing:
+
+```sh
+docker run -d --name sample-app-1 --network my_network <your-username>/sample-app:v1.0
+```
+
+```sh
+docker run -d --name sample-app-2 --network my_network <your-username>/sample-app:v1.0
+```
+
+Using **Docker Compose**, a load balancer like Nginx can distribute traffic between these instances.
+
+#### Cleaning Up Resources
+
+To remove the containers and network:
+
+```sh
+docker stop sample-app my-db
+```
+
+```sh
+docker rm sample-app my-db
+```
+
+```sh
+docker network rm my_network
+```
+
+### 4. Summary Notes
+
+- **Creating a custom network** isolates communication between containers.
+- **Running containers on the same network** enables easy service discovery.
+- **Verifying connectivity** ensures seamless inter-container communication.
+- **Practical usage** in microservices, distributed systems, and multi-container applications.
+- **Load balancing and scaling** are easily implemented using networks and orchestration tools like Docker Compose and Kubernetes.
+
+This concludes Task 7, demonstrating the setup and benefits of Docker Networking for **containerized application communication**. 🚀

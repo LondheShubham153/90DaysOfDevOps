@@ -1,0 +1,172 @@
+## Task 5: Manage Your Image with Docker Hub
+
+### 1. Tag Your Image
+
+#### What is Image Tagging?
+
+Image tagging in Docker is a way to label an image with a meaningful tag, typically indicating a version or specific build. Tagging helps in identifying and managing different image versions efficiently.
+
+#### How to Tag an Image
+
+Before pushing an image to Docker Hub, it needs to be appropriately tagged. The format for tagging an image is:
+
+```sh
+docker tag <image-id> <your-username>/sample-app:v1.0
+```
+
+#### Example:
+
+Assume you have built an image named `sample-app:latest`. To tag it for Docker Hub:
+
+```sh
+docker tag sample-app:latest <your-username>/sample-app:v1.0
+```
+
+This creates an alias `<your-username>/sample-app:v1.0` for the existing image.
+
+#### Real-World Scenario:
+
+Consider a development team working on a web application. They maintain different versions of their Docker images:
+
+```sh
+docker tag sample-app:latest myusername/sample-app:v1.0
+```
+
+Now, they can use version control to deploy older versions (`v0.9`, `v1.0`, etc.) if needed.
+
+#### Best Practices for Tagging:
+
+- Always use **semantic versioning** (e.g., `v1.0.1`, `v1.1.0`).
+- Avoid using **latest** in production, as it can lead to unexpected version mismatches.
+- Use **descriptive tags** like `stable`, `beta`, or `dev` for different environments.
+
+---
+
+### 2. Push Your Image to Docker Hub
+
+#### Why Push an Image?
+
+Pushing an image to Docker Hub allows it to be stored in the cloud, making it accessible from any system. This is useful for **team collaboration, deployment automation, and container orchestration**.
+
+#### Step 1: Log in to Docker Hub
+
+If you haven't logged in already, authenticate with Docker Hub using:
+
+```sh
+docker login
+```
+
+You'll be prompted to enter your **Docker Hub username** and **password**.
+
+#### Step 2: Push the Tagged Image
+
+Once authenticated, push your image to Docker Hub:
+
+```sh
+docker push <your-username>/sample-app:v1.0
+```
+
+This command uploads the image to your Docker Hub repository.
+
+#### Example:
+
+A developer working on an application pushes the image to Docker Hub for easy access across multiple servers:
+
+```sh
+docker push myusername/sample-app:v1.0
+```
+
+Now, the image can be pulled and used on any machine or cloud provider.
+
+#### Best Practices for Pushing:
+
+- Use **private repositories** for sensitive applications.
+- Regularly **remove outdated images** to free up storage.
+- Implement **CI/CD integration** to automate image builds and pushes.
+
+---
+
+### 3. (Optional) Pull the Image
+
+#### Why Pull an Image?
+
+Pulling an image ensures that the uploaded image is accessible and can be downloaded onto any machine. It’s a great way to **validate the push process and deploy the image elsewhere**.
+
+#### How to Pull an Image
+
+To download the image from Docker Hub:
+
+```sh
+docker pull <your-username>/sample-app:v1.0
+```
+
+This fetches the latest version of the specified image and stores it locally.
+
+#### Example:
+
+A new developer joins a project and needs to run the latest containerized application. Instead of setting up everything manually, they simply pull the latest image:
+
+```sh
+docker pull myusername/sample-app:v1.0
+```
+
+Now, they can immediately run the container without additional configuration.
+
+#### Best Practices for Pulling:
+
+- Always **verify the image source** before pulling.
+- Use **specific versions** instead of `latest` to avoid unexpected updates.
+- Scan images for **security vulnerabilities** after pulling.
+
+---
+
+### 4. Verify the Process
+
+After pulling the image, verify that it's available by running:
+
+```sh
+docker images
+```
+
+You should see the image `<your-username>/sample-app:v1.0` in the list.
+
+#### Example Output:
+
+```sh
+REPOSITORY                 TAG        IMAGE ID       CREATED        SIZE
+myusername/sample-app      v1.0       abc12345       5 minutes ago  50MB
+```
+
+This confirms that the image is successfully pushed and accessible from any machine.
+
+#### Additional Verification Steps:
+
+- Run the image using:
+  ```sh
+  docker run -d -p 5000:5000 <your-username>/sample-app:v1.0
+  ```
+- Check running containers:
+  ```sh
+  docker ps
+  ```
+- Stop and remove the container if needed:
+  ```sh
+  docker stop <container_id>
+  docker rm <container_id>
+  ```
+
+---
+
+### 5. Summary Notes:
+
+- **Tagging**: Assigns a version to an image for better tracking and management.
+- **Pushing**: Uploads an image to Docker Hub for cloud storage and sharing.
+- **Pulling**: Retrieves the image from Docker Hub to any machine for use.
+- **Verification**: Ensures the image is successfully pushed and can be accessed from different environments.
+- **Best Practices**:
+  - Use **descriptive and versioned tags**.
+  - Secure images using **private repositories** where necessary.
+  - Automate builds and deploys with **CI/CD pipelines**.
+  - Regularly **scan images** for vulnerabilities.
+
+This concludes Task 5, demonstrating how to manage Docker images using Docker Hub with **real-world scenarios, best practices, and practical examples**. 🚀

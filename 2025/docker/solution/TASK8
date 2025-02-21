@@ -1,0 +1,163 @@
+## Task 8: Orchestrate with Docker Compose
+
+### 1. Create a `docker-compose.yml` File
+
+#### What is Docker Compose?
+
+Docker Compose is a tool that allows you to define and run **multi-container** Docker applications using a **YAML configuration file**. It simplifies managing multiple services, networking, and volumes with a single command.
+
+#### Writing a `docker-compose.yml` File
+
+Create a `docker-compose.yml` file to define at least two services (**a web application and a database**):
+
+```yaml
+version: "3.8"
+
+services:
+  web:
+    image: <your-username>/sample-app:v1.0
+    ports:
+      - "8080:5000"
+    depends_on:
+      - db
+    networks:
+      - app_network
+    volumes:
+      - app_data:/app/data
+
+  db:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: my-secret-pass
+      MYSQL_DATABASE: sample_db
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+    volumes:
+      - db_data:/var/lib/mysql
+    networks:
+      - app_network
+
+networks:
+  app_network:
+    driver: bridge
+
+volumes:
+  db_data:
+  app_data:
+```
+
+#### Explanation of Configuration with Examples:
+
+- **`services`**: Defines multiple containers (`web` and `db`).
+- **`web` service**:
+  - Runs a simple Flask web application.
+  - Maps port `5000` inside the container to `8080` on the host.
+  - Uses `depends_on` to ensure the database starts before the app.
+  - Shares a network (`app_network`) with the database.
+  - Mounts a volume (`app_data`) to persist logs and application data.
+- **`db` service**:
+  - Runs a MySQL database.
+  - Sets environment variables for credentials.
+  - Uses a volume (`db_data`) to persist database files.
+  - Joins the same network (`app_network`) for inter-container communication.
+- **`networks`**: Creates a shared bridge network for communication between containers.
+- **`volumes`**: Ensures that the database and application data persist even if the containers stop or restart.
+
+**Example Scenario:**
+A developer is working on a full-stack web application that consists of a Flask backend and a MySQL database. Instead of manually starting and linking these services each time, Docker Compose allows them to run the application with a single command.
+
+---
+
+### 2. Deploy Your Application
+
+#### Step 1: Start the Application
+
+To start all services defined in `docker-compose.yml`, run:
+
+```sh
+docker-compose up -d
+```
+
+The `-d` flag runs the services in detached mode (background execution).
+
+#### Step 2: Verify Running Containers
+
+To list running containers and confirm deployment:
+
+```sh
+docker ps
+```
+
+#### Step 3: Test the Web Application
+
+Use a browser or `curl` command to test the web application:
+
+```sh
+curl http://localhost:8080
+```
+
+If configured correctly, the application should return **"Hello, Dockerized World!"**.
+
+#### Step 4: Shut Down the Services
+
+To stop all running containers and clean up resources:
+
+```sh
+docker-compose down
+```
+
+To remove **volumes** as well:
+
+```sh
+docker-compose down -v
+```
+
+---
+
+### 3. Document the Process
+
+#### Why Use Docker Compose?
+
+- **Simplifies Multi-Container Management**: Define all services, networks, and storage in one file.
+- **Enhances Scalability**: Scale individual services without modifying other containers.
+- **Enables Automatic Service Discovery**: Containers communicate with each other using service names.
+- **Ensures Persistent Data Storage**: Volumes allow data retention across container restarts.
+- **Automates Application Lifecycle**: Reduces manual work by bringing up and shutting down applications with a single command.
+
+#### Example Use Case:
+
+A **full-stack application** with:
+
+- A **Flask backend** for handling API requests.
+- A **MySQL database** for storing user information.
+- A **React frontend** for the UI (optional additional service).
+  Using Docker Compose, all services can be started and managed together.
+
+#### Scaling the Application
+
+If additional instances of `web` service are needed for load balancing:
+
+```sh
+docker-compose up --scale web=3 -d
+```
+
+This command runs **3 instances** of the `web` service, improving application availability.
+
+#### Cleaning Up Resources
+
+To remove stopped containers, networks, and unused volumes:
+
+```sh
+docker system prune -a
+```
+
+---
+
+### 4. Summary Notes
+
+- **Docker Compose simplifies running multiple containers** with a single command.
+- **Services, networks, and volumes are defined in a `docker-compose.yml` file**.
+- **Applications can be scaled efficiently** using Docker Compose.
+- **Ideal for microservices, full-stack applications, and CI/CD workflows**.
+
+This concludes Task 8, demonstrating **Docker Compose for orchestrating multi-container applications** with **real-world examples and use cases**. 🚀
