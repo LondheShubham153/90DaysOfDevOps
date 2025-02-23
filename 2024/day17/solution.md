@@ -10,78 +10,189 @@ A Dockerfile is like a set of instructions for making a container. It tells Dock
 
 For more about Dockerfile, visit [here](https://rushikesh-mashidkar.hashnode.dev/dockerfile-docker-compose-swarm-and-volumes).
 
-## Tasks with Answers
 
-**1. Create a Dockerfile for a simple web application (e.g. a Node.js or Python app)**
-   - **1. Create a Simple Flask Application**
-      - Create a new directory for your project and navigate into it:
+## Tasks with Solution performed by me.
 
-      **Answer**
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day17/image/1_Create_a_new_directory.png)
+### **1. Using the Python (Django Notes App) Repository**
 
-      - Create a new file named `app.py` and add the following content:
+#### Steps:
 
-      **Answer**
+1. **Clone the Repository**:
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day17/image/2_app_py.png)
+   ```bash
+   git clone -b dev https://github.com/LondheShubham153/django-notes-app.git
+   cd django-notes-app
+   ```
 
-      - Create a requirements file named `requirements.txt` and add the following content:
+   ![task1.1](image/task1.1.png)
 
-      **Answer**
+2. **Create a Dockerfile**:
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day17/image/3_Create_a_requirements_file.png)
+   Create a `Dockerfile` in the project root with the following content:
 
-   - **2. Create a Dockerfile**
-      - Create a file named `Dockerfile` in the same directory and add the following content:
+   ```dockerfile
+   FROM python:3.9-slim
 
-      **Answer**
+   WORKDIR /app
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day17/image/4_Create_a_Dockerfile.png)
+   COPY requirements.txt .
 
-**2. Build the image using the Dockerfile and run the container**
-   - To build the Docker image, run the following command in the directory containing the Dockerfile:
+   RUN pip install --no-cache-dir -r requirements.txt
 
-      **Answer**
+   COPY . .
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day17/image/5_build_the_docker_image.png)
+   EXPOSE 8000
 
-   - Run the Container
-      - To run the container, use the following command:
+   CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+   ```
 
-      **Answer**
+   ![task1.2](image/task1.2.png)
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day17/image/6_Run_the_Container.png)
 
-**3. Verify that the application is working as expected by accessing it in a web browser**
-   - Open your web browser and navigate to `http://localhost:5000`. You should see the message "Hello, World!".
+3. **Build and Run**:
 
-      **Answer**
+   ```bash
+   docker build -t django-notes-app .
+   docker run -d -p 8000:8000 django-notes-app
+   ```
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day17/image/7_Verify_the_Application.png)
+   ![task1.3.1](image/task1.3.1.png)
 
-**4. Push the image to a public or private repository (e.g. Docker Hub)**
-   - To push the image to Docker Hub, you need to tag it with your Docker Hub username and repository name, then push it.
-   - **1. Tag the Image**
+   ![task1.3.2](image/task1.3.2.png)
 
-      **Answer**
+   ![task1.3.3](image/task1.3.3.png)
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day17/image/8_Tag_the_Image.png)
 
-   - **2. Push the Image**
+4. **Access the Application**:
 
-      **Answer**
+   Visit `http://localhost:8000` to access the Django Notes App.
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day17/image/9_Push_the_Image.png)
+   ![task1.4](image/task1.4.png)
+
+---
+
+
+> Before using second application stop and remove existing above application's container to avoid error regarding ports, because we are using same port, you can use different port it is upon you.
+
+
+---
+
+
+### **2. Using the Node.js (To-Do App) Repository**
+
+#### Steps:
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone -b LondheShubham153-patch-1 https://github.com/LondheShubham153/node-todo-cicd.git
+   cd node-todo-cicd
+   ```
+
+   ![task2.1](image/task2.1.png)
+
+
+2. **Create a Dockerfile**:
+
+   Create a `Dockerfile` in the project root with the following content:
+
+   ```dockerfile
+   FROM node:12.2.0-alpine
+
+   WORKDIR /app
+
+   COPY . /app
+
+   RUN npm install
+
+   EXPOSE 8000
+
+   CMD ["node","app.js"]
+   ```
+
+   ![task2.2.1](image/task2.2.1.png)
+
+   ![task2.2.2](image/task2.2.2.png)
+
+
+3. **Build and Run**:
+
+   ```bash
+   docker build -t node-todo-app .
+   docker run -d -p 8000:8000 node-todo-app
+   ```
+
+   ![task2.3.1](image/task2.3.1.png)
+
+   ![task2.3.2](image/task2.3.2.png)
+
+
+4. **Access the Application**:
+
+   Visit `http://localhost:8000` to access the Node.js To-Do App.
+
+
+   ![task2.4](image/task2.4.png)
+
+---
+
+#### **3. Login to Docker Hub**
+
+Before tagging or pushing your images, log in to Docker Hub with your credentials:
+   ```bash
+   docker login
+   ```
+
+   - Enter your **Docker Hub username** and **password/token** when prompted.
+
+   ![task3](image/task3.png)
+
+
+### **4. Pushing Images to Docker Hub**
+
+For both projects:
+
+1. **Tag the Image**:
+
+   ```bash
+   docker tag <image-name> <your-dockerhub-username>/<repository-name>:<tag>
+   ```
+
+   - Example for Django Notes App:
+
+     ```bash
+     docker tag django-notes-app yourusername/django-notes-app:latest
+     ```
+
+     ![task4.1](image/task4.1.png)
+   
+   - Example for Node.js To-Do App:
+
+     ```bash
+     docker tag node-todo-app yourusername/node-todo-app:latest
+     ```
+
+     ![task4.2](image/task4.2.png)
+
+2. **Push to Docker Hub**:
+
+   ```bash
+   docker push <your-dockerhub-username>/<repository-name>:<tag>
+   ```
+
+     ![task4.3](image/task4.3.png)
+
+
+---
+
+
 
 For a reference project, visit [here](https://youtu.be/Tevxhn6Odc8).
 
 If you want to dive further, watch this [bootcamp](https://youtube.com/playlist?list=PLlfy9GnSVerRqYJgVYO0UiExj5byjrW8u).
 
-You can share your learning with everyone over LinkedIn and tag us along. 😃
 
-Happy Learning :)
 
-[Code for Reference](https://raw.githubusercontent.com/Bhavin213/90DaysOfDevOps/master/2024/day17/code.txt)
+[LinkedIn](https://www.linkedin.com/in/amitabh-devops/)
 
-[LinkedIn](https://www.linkedin.com/in/bhavin-savaliya/)
