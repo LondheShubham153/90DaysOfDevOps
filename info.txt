@@ -10,3 +10,5 @@ I recently participated in Hackathon and it was great learning and impleneting e
 Would like to give a big thank you to Shubham bhai. He is an amazing teacher, who understands how to get attention of the students and make sure that 3-4-5 hour long lectures are not boring and everyone are engaged enough to learn and understand the concepts thoroughly. 
 
 Thank you!
+
+EDIT: Adding details to create a conflicting merge request as extra challenge. 
