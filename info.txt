@@ -1,0 +1,12 @@
+
+Week 4 - Git and GitHub Challenge
+
+Name: Shaival Mehta
+
+We are in Week 4 of Zero to Hero Junoon Batch 9. This has been a great month of starting with basics of linux, networking, shell scripting, Git and GitHub, and now moving towards Docker, Jenkins, and further advanced topics. 
+
+I recently participated in Hackathon and it was great learning and impleneting experience. 
+
+Would like to give a big thank you to Shubham bhai. He is an amazing teacher, who understands how to get attention of the students and make sure that 3-4-5 hour long lectures are not boring and everyone are engaged enough to learn and understand the concepts thoroughly. 
+
+Thank you!
