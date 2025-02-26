@@ -1,0 +1,34 @@
+Hello, I'm Shubham Tayde.
++With 3 years of experience in server management, networks, cloud, and DevOps engineering, my focus lies in automation, continuous integration, and deployment. 
++
++My expertise spans Linux, shell scripting, and essential tools like Jenkins, Docker, Terraform, and AWS, enabling me to build robust solutions that make a real difference in every project.
+
+My journey has been marked by hands-on experience and a deep dive into the world of cutting-edge technologies.
+
+I utilize my solid knowledge of AWS services and DevOps methodologies to optimize cloud infrastructure and ensure seamless deployment and scalability. I work with various tools and technologies, such as EC2, Lambda, VPC, IAM, CloudFormation, Cloud Storage, Route 53, RDS, EC2 Networking, Load Balancing, Git, Jenkins, Docker, Terraform, and shell scripting.
+
++Key Areas of Expertise:
++• AWS Infrastructure Optimization: EC2, Lambda, VPC, IAM, CloudFormation, S3, Route 53, RDS
++• DevOps Pipeline Implementation: Git, Jenkins, Docker, Terraform
++• Infrastructure Management: Load Balancing, Networking, Shell Scripting
++
++Specialized in building CI/CD pipelines and deployment strategies on AWS, with strong containerization skills using Docker for efficient application deployment.
+
+𝗧𝗼𝗼𝗹𝘀 ->
+➤ Source Code Management: Git, GitHub
+➤ Infrastructure as Code: Terraform, AWS CloudFormation
+➤ Containerization: Docker
+➤ Container Orchestration: AWS ECS
+➤ Cloud Platforms: AWS
+➤ Automation and Scripting: Bash, Python
+➤ CI/CD Tools: Jenkins
+➤ Collaboration and Communication: Microsoft Teams, Google Chat
+➤ Security: IAM, KMS, SSL, VPN
+➤ Network: VPC, Subnet, Load Balancer
+➤ Operating Systems: Windows, Linux
+
+I believe continuous learning and development to keep myself up-to-date and up-skilled is the solution to modern-day application deployment.
+
++## Acknowledgments
++
++Special thanks to my DevOps mentor for guidance and support throughout this learning journey.
