@@ -16,3 +16,16 @@ Protocols are a set of rules that define how data is transmitted over a network.
 
 6. DNS (Port 53): DNS (Domain Name System) resolves domain names to IP addresses. It plays a crucial role in cloud-based deployments and container orchestration, ensuring that applications can communicate with services using human-readable domain names instead of IP addresses.
 
+
+
+| Protocol       | Port Number | Description & Use Case in DevOps             |
+| -------------- | ----------- | -------------------------------------------- |
+| **HTTP**       | 80          | Used for web communication & APIs            |
+| **HTTPS**      | 443         | Secure version of HTTP, encrypts web traffic |
+| **FTP**        | 21          | Transfers files between client & server      |
+| **SFTP**       | 22          | Secure file transfer over SSH                |
+| **SSH**        | 22          | Secure remote access to servers              |
+| **DNS**        | 53          | Resolves domain names to IP addresses        |
+
+
+
