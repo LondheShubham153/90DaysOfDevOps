@@ -1,10 +1,10 @@
 # Week 7 : Kubernetes Basics & Advanced Challenges
 
-This set of tasks is designed as part of the 90DaysOfDevOps challenge to simulate real-world scenarios you might encounter on the job or in technical interviews. By completing these tasks on the [online_shop repository](https://github.com/Amitabh-DevOps/online_shop), you'll gain practical experience with advanced Kubernetes topics, including architecture, core objects, networking, storage management, configuration, autoscaling, security & access control, job scheduling, and bonus topics like Helm, Service Mesh, or AWS EKS.
+This set of tasks is designed as part of the 90DaysOfDevOps challenge to simulate real-world scenarios you might encounter on the job or in technical interviews. By completing these tasks on the [SpringBoot BankApp](https://github.com/Amitabh-DevOps/Springboot-BankApp), you'll gain practical experience with advanced Kubernetes topics, including architecture, core objects, networking, storage management, configuration, autoscaling, security & access control, job scheduling, and bonus topics like Helm, Service Mesh, or AWS EKS.
 
 > [!IMPORTANT]
 >
->  1. Fork the [online_shop repository](https://github.com/Amitabh-DevOps/online_shop) and implement all tasks on your fork.  
+>  1. Fork the [SpringBoot BankApp](https://github.com/Amitabh-DevOps/Springboot-BankApp) and implement all tasks on your fork.  
 >  2. Document all steps, commands, screenshots, and observations in a file named `solution.md` within your fork.  
 >  3. Submit your `solution.md` file in the Week 7 (Kubernetes) task folder of the 90DaysOfDevOps repository.
 
@@ -39,17 +39,17 @@ Familiarize yourself with Kubernetes’ control plane and worker node components
 ## Task 2: Deploy and Manage Core Kubernetes Objects
 
 **Scenario:**  
-Deploy core Kubernetes objects for the online_shop application, including Deployments, ReplicaSets, StatefulSets, DaemonSets, and use Namespaces to isolate resources.
+Deploy core Kubernetes objects for the SpringBoot BankApp application, including Deployments, ReplicaSets, StatefulSets, DaemonSets, and use Namespaces to isolate resources.
 
 **Steps:**
 1. **Create a Namespace:**  
-   - Write a YAML file to create a Namespace for the online_shop application.
+   - Write a YAML file to create a Namespace for the SpringBoot BankApp application.
    - Apply the YAML:
      ```bash
      kubectl apply -f namespace.yaml
      ```
 2. **Deploy a Deployment:**  
-   - Create a YAML file for a Deployment (within your Namespace) that manages a set of Pods running a component of online_shop.
+   - Create a YAML file for a Deployment (within your Namespace) that manages a set of Pods running a component of SpringBoot BankApp.
    - Verify that a ReplicaSet is created automatically.
 3. **Deploy a StatefulSet:**  
    - Write a YAML file for a StatefulSet (for example, for a database component) and apply it.
@@ -70,7 +70,7 @@ Deploy core Kubernetes objects for the online_shop application, including Deploy
 ## Task 3: Networking & Exposure – Create Services, Ingress, and Network Policies
 
 **Scenario:**  
-Expose your online_shop application to internal and external traffic by creating Services and configuring an Ingress, while using Network Policies to secure communication.
+Expose your SpringBoot BankApp application to internal and external traffic by creating Services and configuring an Ingress, while using Network Policies to secure communication.
 
 **Steps:**
 1. **Create a Service:**  
@@ -95,7 +95,7 @@ Expose your online_shop application to internal and external traffic by creating
 ## Task 4: Storage Management – Use Persistent Volumes and Claims
 
 **Scenario:**  
-Deploy a component of the online_shop application that requires persistent storage by creating Persistent Volumes (PV), Persistent Volume Claims (PVC), and a StorageClass for dynamic provisioning.
+Deploy a component of the SpringBoot BankApp application that requires persistent storage by creating Persistent Volumes (PV), Persistent Volume Claims (PVC), and a StorageClass for dynamic provisioning.
 
 **Steps:**
 1. **Create a Persistent Volume and Claim:**  
@@ -117,7 +117,7 @@ Deploy a component of the online_shop application that requires persistent stora
 ## Task 5: Configuration & Secrets Management with ConfigMaps and Secrets
 
 **Scenario:**  
-Deploy a component of the online_shop application that consumes external configuration and sensitive data using ConfigMaps and Secrets.
+Deploy a component of the SpringBoot BankApp application that consumes external configuration and sensitive data using ConfigMaps and Secrets.
 
 **Steps:**
 1. **Create a ConfigMap:**  
@@ -140,7 +140,7 @@ Deploy a component of the online_shop application that consumes external configu
 ## Task 6: Autoscaling & Resource Management
 
 **Scenario:**  
-Implement autoscaling for a component of the online_shop application using the Horizontal Pod Autoscaler (HPA). Optionally, explore Vertical Pod Autoscaling (VPA) and ensure the Metrics Server is running.
+Implement autoscaling for a component of the SpringBoot BankApp application using the Horizontal Pod Autoscaler (HPA). Optionally, explore Vertical Pod Autoscaling (VPA) and ensure the Metrics Server is running.
 
 **Steps:**
 1. **Deploy an Application with Resource Requests:**  
@@ -227,7 +227,7 @@ Manage scheduled tasks and extend Kubernetes functionality by creating Jobs, Cro
 ## Task 9: Bonus Task: Advanced Deployment with Helm, Service Mesh, or EKS
 
 **Scenario:**  
-For an added challenge, deploy a component of the online_shop application using Helm, implement a basic Service Mesh (e.g., Istio), or deploy your cluster on AWS EKS.
+For an added challenge, deploy a component of the SpringBoot BankApp application using Helm, implement a basic Service Mesh (e.g., Istio), or deploy your cluster on AWS EKS.
 
 **Steps:**
 1. **Helm Deployment:**  
