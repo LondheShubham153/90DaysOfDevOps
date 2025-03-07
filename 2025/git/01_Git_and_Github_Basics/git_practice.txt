@@ -1,0 +1,1 @@
+Git practices to push code to git repo remotely
