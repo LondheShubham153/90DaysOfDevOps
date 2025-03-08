@@ -1,0 +1,6 @@
+This file contains the details of git commands and tasks for week-4-challenge
+
+
+Working on Task 5 now Advanced Branching and Switching
+
+Created branch week4_Git
