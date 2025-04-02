@@ -1,11 +1,13 @@
 #!/bin/bash
 
-read -p "Enter username: " username
 
-echo "you entered $username"
+echo "Enter your username: "
+read username
 
-read -p "Enter Password: " password
 
-sudo useradd -m $username
+echo "Enter your password: "
+read -s password
 
-echo "New User Created $username"
+
+echo "New User Created Successfully:$username"
+echo "You entered the username: $username"
