@@ -1,0 +1,156 @@
+## Task 9: Analyze Your Image with Docker Scout
+
+### 1. Run Docker Scout Analysis
+
+#### What is Docker Scout?
+
+Docker Scout is a security analysis tool designed to identify vulnerabilities, outdated dependencies, and misconfigurations in Docker images. It helps teams **secure containerized applications** before deployment by providing insights and actionable recommendations.
+
+#### Running a Docker Scout Analysis
+
+Execute Docker Scout to generate a **detailed vulnerability report**:
+
+```sh
+docker scout cves <your-username>/sample-app:v1.0
+```
+
+This scans the image for **Common Vulnerabilities and Exposures (CVEs)**, categorizing them based on severity.
+
+#### Alternative Quick Security Scan
+
+To get a **summarized security overview**, use:
+
+```sh
+docker scout quickview <your-username>/sample-app:v1.0
+```
+
+This provides a **high-level risk assessment** without listing every CVE.
+
+#### Saving the Report for Further Analysis
+
+You can **store the output in a file** for later review:
+
+```sh
+docker scout cves <your-username>/sample-app:v1.0 > scout_report.txt
+```
+
+This helps maintain security logs and compare reports over time.
+
+#### Example Scenario:
+
+A DevOps team is preparing an application for a production release. They run Docker Scout to check for vulnerabilities and find that **OpenSSL 1.1.1** has critical CVEs. Before deploying, they upgrade to **OpenSSL 3.0** based on Scout’s recommendations.
+
+---
+
+### 2. Review and Interpret the Report
+
+#### Key Areas to Focus on:
+
+- **List of CVEs**: Identifies vulnerabilities with severity levels (**Critical, High, Medium, Low**).
+- **Affected Layers/Dependencies**: Shows which **image layers** or **third-party dependencies** introduce risks.
+- **Suggested Remediations**: Provides recommendations such as **upgrading libraries**, **removing unnecessary dependencies**, or **changing the base image**.
+
+#### Comparing Reports
+
+If possible, compare the **current scan results** with previous builds to determine security improvements or regressions:
+
+```sh
+docker scout compare <previous-image> <new-image>
+```
+
+This helps teams track security trends across different releases.
+
+#### Alternative Security Tools
+
+If Docker Scout is unavailable, consider using:
+
+- **Trivy** (by Aqua Security):
+  ```sh
+  trivy image <your-username>/sample-app:v1.0
+  ```
+- **Grype** (by Anchore):
+  ```sh
+  grype <your-username>/sample-app:v1.0
+  ```
+- **Clair** (by CoreOS): Useful for deep security scanning and compliance monitoring.
+
+#### Example of Risk Mitigation
+
+If Docker Scout flags **CVE-2024-1234** (High Severity) in OpenSSL:
+
+```sh
+# Update the Dockerfile to use a secure base image
+FROM python:3.10-slim
+RUN apt-get update && apt-get install -y openssl=3.0.2
+```
+
+This replaces the vulnerable OpenSSL version with a patched release.
+
+---
+
+### 3. Document Your Findings
+
+#### Steps to Summarize the Analysis
+
+In your `solution.md`, include:
+
+- **Identified vulnerabilities and their severity levels**.
+- **Which image layers or dependencies contributed to the vulnerabilities**.
+- **Recommended patches or updates**.
+- **Security insights**: How the findings impact future container security strategies.
+
+#### Example Analysis Report
+
+| CVE ID        | Severity | Affected Component | Suggested Fix          |
+| ------------- | -------- | ------------------ | ---------------------- |
+| CVE-2024-1234 | High     | OpenSSL 1.1.1      | Upgrade to OpenSSL 3.0 |
+| CVE-2024-5678 | Medium   | Python 3.8         | Use Python 3.10        |
+| CVE-2024-9102 | Critical | glibc 2.27         | Upgrade to glibc 2.31  |
+
+#### Attaching Reports
+
+To include the saved report in documentation:
+
+```sh
+docker scout cves <your-username>/sample-app:v1.0 > scout_report.txt
+```
+
+Attach `scout_report.txt` for security audits.
+
+#### Cleaning Up Unused Images
+
+After analyzing vulnerabilities, remove outdated or insecure images to **free up disk space**:
+
+```sh
+docker rmi <image-id>
+```
+
+#### Automating Security Scans
+
+To **automate vulnerability scanning** in CI/CD pipelines, integrate Docker Scout with GitHub Actions or Jenkins:
+
+```yaml
+jobs:
+  security-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+      - name: Run Docker Scout Scan
+        run: docker scout cves <your-username>/sample-app:v1.0
+```
+
+This ensures every new build undergoes a security check before deployment.
+
+---
+
+### 4. Summary Notes
+
+- **Docker Scout** provides security insights by scanning images for vulnerabilities.
+- **Regular security scans** help prevent insecure deployments.
+- **Tracking security trends** with `docker scout compare` improves long-term risk management.
+- **Alternative tools (Trivy, Clair, Grype)** offer additional scanning methods.
+- **Automating vulnerability scans** ensures continuous security compliance.
+- **Following recommended remediations** reduces security risks before production.
+
+This concludes Task 9, demonstrating how **Docker Scout enhances security through vulnerability analysis, risk assessment, and automated scanning**. 🚀
