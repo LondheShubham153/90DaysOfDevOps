@@ -1,0 +1,473 @@
+✅ Learned OSI & TCP/IP models
+
+1.Understand OSI & TCP/IP Models
+
+OSI Model
+
+The OSI (Open Systems Interconnection) model is a conceptual model used to understand how different networking protocols interact in a computing system. It divides network communication into seven layers.
+
+Physical Layer
+Consists physical devices like fiber optics cables, mobile devices ,radio signals
+Data Link Layer
+Ensure data transmission between connected nodes via MAC (Media access control) address for addressing the devices.
+E.g. Switches, MAC addresses,Ethernet (LAN to communicate computers,routers and switches with each other),PPP(Point to Point Protocol-to establish direct connection between two network nodes)
+Network Layer
+Determines the best path for data travel using IP addresses.
+E.g. Routers, IP (Internet Protocol)
+Transport Layer
+Ensure complete data transport with reliability,flow control and error correction.
+E.g. TCP ,UDP
+Session Layer
+Manage and control session between applications
+E.g. NetBIOS, RPC
+Presentation Layer
+Encrypt/descript data into application readable format
+E.g. SSL/TLS,JPEG,GIF,ASCII
+Application Layer
+Provides network services directly to applications
+E.g. HTTP,FTP,SMTP,DNS,HTTPS
+
+Why is the OSI Model Important ?
+Help in troubleshooting network issues.
+Guides to protocol development
+
+TCP/IP Model
+The TCP/IP model (Transmission Control Protocol/Internet Protocol) practical networking Model used for internet communication. It consists 4 Layers.
+Network Access Layer
+Handles physical hardware, network interface, data link functions.
+Responsible for transmitting data between devices on the same network.
+E.g. Ethernet, Wi-fi, MAC Addresses.
+Internet Layer
+Handles logical addressing and routing of packets across multiple Layers
+Uses IP addresses for identification and forwarding packets.
+E.g. IPV4,IPV6,ICMP,ARP
+Transport Layer
+Ensure end to end connection ,error detetction ad data flow control
+User 2 main Protocols
+TCP (Transmission Control Protocol):Connection-oriented
+UDP (User Datagram Protocol):Connectionless (live streaming)
+Application Layer
+Provides network service directly on devices
+Handels user interactions,data formating ,communication protocols
+E.g. HTTP, SMPT, HTTPS, FTP, DNS, SSH, Telnet.
+
+#Networking #DevOps #90DaysOfDevOps
+
+
+2.Protocols and Ports for DevOps
+
+Application Layer Protocols
+
+Sr No
+Protocols
+Usage
+port
+1
+HTTP (Hypertext Transfer Protocol)
+Web Browsing (unencrypted)
+80
+2
+HTTPS(Hypertext Transfer Protocol Secure)
+Secure web browsing (SSL/TLS encryption)
+443
+3
+FTP (File Transfer Protocol) 
+File transfer between computers
+20(Date)
+21(control)
+4
+SFTP (Secure File Transfer Protocol)
+Secure file transfer (SSH-based)
+22
+5
+SSH (Secure Shell)
+Secure remote login & command execution
+22
+6
+Telnet
+Remote login (insecure)
+23
+7
+SMTP (Simple Mail Transfer Protocol)
+Sending emails
+25
+8
+POP3 (Post Office Protocol v3)
+Receiving emails (downloads & deletes)
+110
+9
+IMAP (Internet Message Access Protocol)
+Receiving emails (syncs with server)
+143
+10
+DNS (Domain Name System)
+Resolves domain names to IP addresses
+53
+11
+DHCP (Dynamic Host Configuration Protocol)
+Assigns IP addresses dynamically
+67-server
+68-client
+12
+TFTP(Trivial File Transfer Protocol)
+Simple file transfer(no authentication)
+69
+13
+SNMP (Simple Network Management Protocol
+Network monitoring & management
+161,162
+14
+RDP (Remote Desktop Protocol)
+Remote desktop access (Windows)
+3389
+15
+LDAP (Lightweight Directory Access Protocol)
+Directory services (user authentication)
+389
+16
+LDAPS (LDAP Secure)
+Secure directory services
+636
+17
+NTP (Network Time Protocol)
+Synchronizes time across networks
+123
+
+
+
+Transport Layer Protocols
+
+Sr No
+Protocols
+Usage
+port
+18
+TCP (Transmission Control Protocol)
+(connection oriented)
+Reliable data transmission, error correction, and flow control
+Uses multiple ports
+19
+UDP (User Datagram Protocol)
+(connectionless)
+Fast, low-latency data transfer (no error correction)
+Uses multiple ports
+20
+SCTP (Stream Control Transmission Protocol)(connection oriented)
+Supports multiple data streams, used in telephony (VoIP, signaling)
+N/A
+21
+DCCP (Datagram Congestion Control Protocol) (connectionless)
+Manages congestion for streaming & multimedia applications
+N/A
+
+
+
+Internet Layer Protocols
+
+
+
+Sr No
+Protocols
+Usage
+port
+22
+IP (Internet Protocol)
+Provides logical addressing and routing of packets across networks. It ensures packets are delivered from the source to the destination using IP addresses.
+No specific port
+23
+IPv4 (Internet Protocol version 4)
+
+
+The most widely used version of IP. It uses 32-bit addresses (e.g., 192.168.0.1).
+No specific port
+24
+ICMP (Internet Control Message Protocol)
+Provides Larger space (128-bit addresses)
+No specific port
+25
+DCCP (Datagram Congestion Control Protocol) (connectionless)
+Manages congestion for streaming & multimedia applications
+N/A
+26
+ARP(Address Resolution Protocol)
+mapsIP addresses to MAC addresses within a local network. Used by devices to find out the hardware address of another device on the same network
+No specific port(LAN)
+27
+RARP(Reverse Address Resolution Protocol)
+Used to obtain an IP address from a known MAC address (less commonly used today).
+No specific port
+
+
+Network Layer
+
+The network layer is more about the specifications for hardware devices and signal transmission methods, such as how bits are represented and transmitted, rather than protocols that govern communication in higher layers.
+It focuses on physical aspects like cables,connectors,voltages,frequencies and signal modulation.
+Ethernet(IEEE 802.3)
+Specifies standards for wired network connections (e.g., CAT5, CAT6 cables).
+Defines electrical signals and pinouts for networking cables.
+wifi(IEEE 802.11)
+Defines wireless transmission standards and modulation techniques (e.g., radio frequency signals).
+Fiber Optic Standards (e.g. 100BASE-FX, 1000BASE-SX):
+Specifies how data is transmitted over fiber optic cables using light pulses.
+Bluetooth (IEEE 802.15):
+A wireless communication standard for short-range communication between devices.
+DSL (Digital Subscriber Line):
+A family of technologies used for high-speed internet over telephone lines.
+USB (Universal Serial Bus):
+Defines a set of standards for data transfer over USB cables.
+
+Security Groups
+
+Security Groups (SGs) are virtual firewalls that control inbound and outbound traffic for cloud instances in environments like AWS, Azure, and Google Cloud. 
+Security Groups Rules
+Inbound Rules – Control incoming traffic to instances.
+Example: Allow SSH (port 22) access only from a specific IP.
+
+Outbound Rules – Control outgoing traffic from instances.
+Example: Allow all outbound traffic to the internet.
+These rules specifies Protocol,Port Range,Source/Destination 
+Significance of Security Groups 
+Let’s assume you have web application running on AWS EC2 (Cloud Server) having following components
+1.Web Server (port 80-HTTP and port 443-HTTPS)
+2.Database server (port-3306 for MySQL)
+3.SSH (port 22 for remote login) then let’s see how security group protect these servers
+1.Instance-Level Security :
+Without Security Groups, anyone on the internet could try to access your database or SSH into your server.
+Allow only HTTP (80) and HTTPS (443) for the public web. Block access to the database from the public, only allowing it from the web server.
+2.Stateful Filtering
+When a user visits your website, their request (inbound) goes to your web server.Security Groups automatically allow outbound traffic back to the user without needing extra rules.
+3.Simplified Network Management
+If you launch multiple web servers, manually configuring firewall rules for each would be hard.Attach the same Security Group to all web servers, so they follow the same rules automatically.
+4.Defense Against Unauthorized Access
+Hackers might try to brute-force into your server using SSH (port 22).Restrict SSH access to only your company's office IP address (e.g., 203.0.113.5) instead of opening it to everyone.
+5.Dynamic Scaling
+If traffic increases, AWS may automatically add more web servers.New servers automatically get the same Security Group rules, keeping them secure without manual setup.
+Best Practices in Action
+Component
+Allowed Ports
+Allowed Source
+Web Server
+80, 443
+Public (0.0.0.0/0)
+Database Server
+3306
+Only from Web Server
+SSH Access
+22
+Only from Office IP (203.0.113.5)
+
+Some real world examples of security group
+1.Web server Security group (For hosting websites)
+Purpose: Allows users to access a website.
+Common Packages: Apache (httpd), Nginx, PHP, Node.js
+Rule Type
+Protocol
+Port
+Source/Destination
+Purpose
+Inbound
+HTTP (TCP)
+80
+0.0.0.0/0 (Everyone)
+Allow public access to website
+Inbound
+HTTPS (TCP)
+443
+0.0.0.0/0 (Everyone)
+Secure SSL access
+Outbound
+All
+All
+0.0.0.0/0 (Everyone)
+Allow web server to access internet
+
+
+
+2.SSH Security Group (For Admin Access)
+Purpose: Allows developers to securely connect to cloud instances.
+Common Packages: OpenSSH, PuTTY
+Rule Type
+Protocol
+Port
+Source
+Purpose
+Inbound
+SSH (TCP)
+22
+Office IP (e.g., 203.0.113.5)
+Allow only trusted developers to access
+Outbound
+All
+All
+0.0.0.0/0 (Everyone)
+Allow admin to access the internet
+
+3.Load Balancer Security Group
+Purpose: Balances traffic between multiple web servers.
+Common Packages: AWS ALB, Nginx, HAProxy
+Rule Type
+Protocol
+Port
+Source/Destination
+Purpose
+Inbound
+HTTP (TCP)
+80
+0.0.0.0/0 (Everyone)
+Allow users to access the website
+Inbound
+HTTPS (TCP)
+443
+0.0.0.0/0 (Everyone)
+Allow secure traffic
+Outbound
+HTTP/HTTPS
+80/443
+Web Server SG
+Forward traffic to web servers
+
+
+
+
+
+
+ step-by-step guide on how to create and configure Security Groups.
+Security Groups act as virtual firewalls for cloud instances allowing and denying network traffic.
+Step 1: Open AWS console log
+Step 2: Go to E2 Dashborad
+Step 3:On left navbar -> Network and Security ->Security group
+—Creating New Security Group —------
+Step 4:Provide name and Description for security group
+Step 5: Choose VPC where the security group will be used (I chose standard)
+—Configure Inbound Rule —--
+Step 6: Create Rules by providing type ,protocol ,port range,Source Destination
+	Rule 1 :Allow HTTP traffic (for web access)
+		Type: HTTP
+Protocol: TCP
+Port Range: 80
+Source: 0.0.0.0/0 (Allows access from anywhere)
+Rule 2 :Allow HTTPS traffic (for secure web access)
+		Type: HTTPS
+Protocol: TCP
+Port Range: 443
+Source: 0.0.0.0/0 (Allows access from anywhere)
+Rule 3 :Allow SSH Access (for secure Server Management or remote access)
+		Type: SSH
+Protocol: TCP
+Port Range: 22
+Source:Your IP 84.167.211.41/32(Allows access from anywhere)
+—Configure Outbound Rule —--
+Step 7: Create Rule by providing all type,protocol,port range and source so u can have access to everywhere
+Step 8:Review all details and create security group
+Step 9:Create or find instance on Dashborad and change security group or at the time creating instance select security group (select your security group).
+
+Some Networking Commands 
+Ping : The ping command is used in networking to test the connectivity between a local machine and a remote host (such as a website or another computer in a network).
+Check Network Connectivity – Verify if a remote device is accessible.
+Measure Latency – Determine the time taken for data to travel between devices.
+Diagnose Network Issues – Identify packet loss or high latency.
+Verify Internet Connection – Ensure your computer can reach external servers.
+Troubleshoot DNS Issues – Test if a domain name is resolving correctly.
+
+Ping Command Result
+Ping command
+Image
+ping google.com
+
+ ping 8.8.8.8
+(google public DNS)
+
+ping 192.168.1.1
+(To check local network connection)
+
+
+
+Traceroute / tracert : 
+Traceroute for linux and tracert for windows. This command use to track the path that packets take from your computer to a destination (website or anothe rdevice).Helps in diagnose network issue.
+Identify Network Routing Paths – Shows each hop (router) between your system and the target.
+
+
+Diagnose Network Latency – Helps find slow or problematic network nodes.
+
+
+Troubleshoot Connectivity Issues – Pinpoints where the connection is failing.
+
+
+Check ISP Routing – See how your internet provider routes your traffic.
+
+
+Detect Firewalls or Blocks – Shows where packets stop due to security settings.
+
+
+Tracert Command Result
+Ping command
+Image
+tracert google.com
+
+tracert -h 15 google.com
+
+
+
+
+netstat :The netstat command is a powerful networking tool used to display network connections, routing tables, interface statistics, and more. It's commonly used for network troubleshooting and monitoring.
+
+1.View Active Connections:Displays all active TCP and UDP connections.
+netstat -a
+
+
+2.Show Listening Ports:Lists only the listening ports.
+netstat -
+
+
+3.Display Process IDs (PID) with Connections:Shows active connections along with the process ID (useful for identifying which program is using a port).
+netstat -ano
+
+
+4.Find a Specific Port Usage:Checks if port 80 (HTTP) is in use.
+netstat -an | grep :80
+
+
+5.View Routing Table:Shows the kernel routing table.
+netstat -r
+
+
+6.Show Network Statistics:Displays detailed statistics about the network.
+netstat -s
+
+
+7.Monitor Real-Time Network Changes:Continuously updates the network connection details.
+netstat -c
+
+
+Curl :The curl command is a powerful tool used to transfer data from or to a server using various protocols such as HTTP, HTTPS, FTP, and more. It is commonly used for testing APIs, downloading files, and troubleshooting network issues.
+1.curl :To Fetch Website 
+This retrieves the content of google.com and displays it in the terminal.
+
+
+2.curl -o : Download a File: 
+The -O flag saves the file with its original name.
+
+3.curl -o output.html 
+Saves the page as output.html.
+
+
+4.curl -l :The -L flag follows redirects if the URL is shortened or moved.
+
+5.curl -X POST -d :Sends a POST request with form data.
+
+6.curl -x POST -H :send JSON data with headers 
+
+7.curl -I :check Api headers.Fetches only the response headers.
+
+
+dig/nslookup :Both dig (Domain Information Groper) and nslookup (Name Server Lookup) are network diagnostic tools used to query DNS (Domain Name System) records. They help troubleshoot domain name resolution issues and retrieve information about domain configurations.
+1.nslookup :lookup ip address domain
+
+
+2. Nslookup example.com 8.8.8.8 :Specific to DNS server:Uses Google’s public DNS to resolve the domain.
+
+3.nslookup 8.8.8.8 :Reverse DNS Lookup (Find Domain from IP)
+
+4.nslookup :Enter Interactive Mode
+
+

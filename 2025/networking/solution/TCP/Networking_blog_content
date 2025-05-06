@@ -1,0 +1,371 @@
+Blog 1
+
+Understand OSI & TCP/IP Models 🌐
+Networking models are frameworks that define how data is transmitted and managed across computer networks. They break down complex networking processes into simpler, manageable layers, each with specific functions. The two most important networking models are the OSI (Open Systems Interconnection) model and the TCP/IP model.
+OSI Model
+The OSI (Open Systems Interconnection) model is a conceptual model used to understand how different networking protocols interact in a computing system. It divides network communication into 7 layers.
+Physical Layer 🔌
+Consists physical devices like fiber optics cables, mobile devices ,radio signals
+Data Link Layer 🖧
+Ensure data transmission between connected nodes via MAC (Media access control) address for addressing the devices.
+E.g. Switches, MAC addresses,Ethernet (LAN to communicate computers,routers and switches with each other),PPP(Point to Point Protocol-to establish direct connection between two network nodes)
+Network Layer 🌍
+Determines the best path for data travel using IP addresses.
+E.g. Routers, IP (Internet Protocol)
+Transport Layer 📦
+Ensure complete data transport with reliability,flow control and error correction.
+E.g. TCP ,UDP
+Session Layer 🔑
+Manage and control session between applications
+E.g. NetBIOS, RPC
+Presentation Layer :🔐
+Encrypt/descript data into application readable format
+E.g. SSL/TLS,JPEG,GIF,ASCII
+Application Layer📱
+Provides network services directly to applications
+E.g. HTTP,FTP,SMTP,DNS,HTTPS
+Why is the OSI Model Important ?
+Help in troubleshooting network issues.
+Guides to protocol development
+
+TCP/IP Model
+The TCP/IP model (Transmission Control Protocol/Internet Protocol) practical networking Model used for internet communication. It consists 4 Layers.
+Network Access Layer 🌐
+Handles physical hardware, network interface, data link functions.
+Responsible for transmitting data between devices on the same network.
+E.g. Ethernet, Wi-fi, MAC Addresses.
+Internet Layer🌍
+Handles logical addressing and routing of packets across multiple Layers
+Uses IP addresses for identification and forwarding packets.
+E.g. IPV4,IPV6,ICMP,ARP
+Transport Layer📦
+Ensure end to end connection ,error detetction ad data flow control
+User 2 main Protocols
+TCP (Transmission Control Protocol):Connection-oriented
+UDP (User Datagram Protocol):Connectionless (live streaming)
+Application Layer📱
+Provides network service directly on devices
+Handels user interactions,data formating ,communication protocols
+E.g. HTTP, SMPT, HTTPS, FTP, DNS, SSH, Telnet.
+
+Protocols and Ports📡🌐💬
+
+Application Layer Protocols 🖥️
+Sr No
+Protocols
+Usage
+port
+1
+HTTP (Hypertext Transfer Protocol)
+Web Browsing (unencrypted)
+80
+2
+HTTPS(Hypertext Transfer Protocol Secure)
+Secure web browsing (SSL/TLS encryption)
+443
+3
+FTP (File Transfer Protocol) 
+File transfer between computers
+20(Date)
+4
+SFTP (Secure File Transfer Protocol)
+Secure file transfer (SSH-based)
+22
+5
+SSH (Secure Shell)
+Secure remote login & command execution
+22
+6
+Telnet
+Remote login (insecure)
+23
+7
+SMTP (Simple Mail Transfer Protocol)
+Sending emails
+25
+8
+POP3 (Post Office Protocol v3)
+Receiving emails (downloads & deletes)
+110
+9
+IMAP (Internet Message Access Protocol)
+Receiving emails (syncs with server)
+143
+10
+DNS (Domain Name System)
+Resolves domain names to IP addresses
+53
+11
+DHCP (Dynamic Host Configuration Protocol)
+Assigns IP addresses dynamically
+67-server
+12
+TFTP(Trivial File Transfer Protocol)
+Simple file transfer(no authentication)
+69
+13
+SNMP (Simple Network Management Protocol
+Network monitoring & management
+161,162
+14
+RDP (Remote Desktop Protocol)
+Remote desktop access (Windows)
+3389
+15
+LDAP (Lightweight Directory Access Protocol)
+Directory services (user authentication)
+389
+16
+LDAPS (LDAP Secure)
+Secure directory services
+636
+17
+NTP (Network Time Protocol)
+Synchronizes time across networks
+123
+
+Transport Layer Protocols 🔀
+Sr No
+Protocols
+Usage
+port
+18
+TCP (Transmission Control Protocol)
+Reliable data transmission, error correction, and flow control
+Uses multiple ports
+19
+UDP (User Datagram Protocol)
+Fast, low-latency data transfer (no error correction)
+Uses multiple ports
+20
+SCTP (Stream Control Transmission Protocol)(connection oriented)
+Supports multiple data streams, used in telephony (VoIP, signaling)
+N/A
+21
+DCCP (Datagram Congestion Control Protocol) (connectionless)
+Manages congestion for streaming & multimedia applications
+N/A
+
+Internet Layer Protocols 🌍
+Sr No
+Protocols
+Usage
+port
+22
+IP (Internet Protocol)
+Provides logical addressing and routing of packets across networks. It ensures packets are delivered from the source to the destination using IP addresses.
+No specific port
+23
+IPv4 (Internet Protocol version 4)
+The most widely used version of IP. It uses 32-bit addresses (e.g., 192.168.0.1).
+No specific port
+24
+ICMP (Internet Control Message Protocol)
+Provides Larger space (128-bit addresses)
+No specific port
+25
+DCCP (Datagram Congestion Control Protocol) (connectionless)
+Manages congestion for streaming & multimedia applications
+N/A
+26
+ARP(Address Resolution Protocol)
+mapsIP addresses to MAC addresses within a local network. Used by devices to find out the hardware address of another device on the same network
+No specific port(LAN)
+27
+RARP(Reverse Address Resolution Protocol)
+Used to obtain an IP address from a known MAC address (less commonly used today).
+No specific port
+
+Network Layer 🌐
+The network layer is more about the specifications for hardware devices and signal transmission methods, such as how bits are represented and transmitted, rather than protocols that govern communication in higher layers.
+It focuses on physical aspects like cables,connectors,voltages,frequencies and signal modulation.
+Ethernet(IEEE 802.3)
+Specifies standards for wired network connections (e.g., CAT5, CAT6 cables).
+Defines electrical signals and pinouts for networking cables.
+wifi(IEEE 802.11)
+Defines wireless transmission standards and modulation techniques (e.g., radio frequency signals).
+Fiber Optic Standards (e.g. 100BASE-FX, 1000BASE-SX):
+Specifies how data is transmitted over fiber optic cables using light pulses.
+Bluetooth (IEEE 802.15):
+A wireless communication standard for short-range communication between devices.
+DSL (Digital Subscriber Line):
+A family of technologies used for high-speed internet over telephone lines.
+USB (Universal Serial Bus):
+Defines a set of standards for data transfer over USB cables.
+Conclusion
+Understanding the OSI and TCP/IP models is important for anyone interested in networking. These models simplify complex networking processes into easy-to-understand steps, helping with troubleshooting, optimizing, and designing networks. Whether you're new to networking or an experienced IT professional, knowing these models will greatly improve your understanding of how data moves through a network.
+🚀 Want to discuss more about networking? Let’s connect!
+Follow me on LInkedin
+
+Blog 2
+Security Groups: The Essential Guide to Cloud Network Security
+Security Groups (SGs) are virtual firewalls that manage incoming and outgoing traffic for cloud instances in platforms like AWS, Azure, and Google Cloud. It's important to understand and set them up correctly to keep cloud-based applications and resources secure.
+Security Group Rules
+Security Groups set rules to allow or deny network traffic based on:
+Inbound Rules: Manage incoming traffic.
+Example: Allow SSH (port 22) access only from a specific IP address.
+Outbound Rules: Manage outgoing traffic.
+Example: Allow all outbound traffic to the internet.
+Rules specify the Protocol, Port Range, and Source/Destination.nation.
+Why Security Groups Matter: A Real-World Example
+Imagine a web application running on an AWS EC2 instance with these components:
+Web Server – Listens on HTTP (port 80) and HTTPS (port 443).
+Database Server – Uses MySQL (port 3306).
+SSH Access – Allows remote login through port 22..
+How Security Groups Protect Servers
+1. Instance-Level Security
+Without Security Groups, your database and SSH access would be exposed to the internet.
+Security Groups restrict access, allowing only:
+HTTP (80) and HTTPS (443) for public web access
+Database access only from the web server
+SSH access only from a trusted IP
+2. Stateful Filtering
+Security Groups automatically allow outbound traffic in response to inbound requests.
+Example: If a user accesses your website, their request goes through an inbound rule, and the response traffic is allowed without extra configuration.
+3. Simplified Network Management
+Instead of configuring firewall rules for every new instance, attach the same Security Group to multiple instances for consistent security policies.
+4. Defense Against Unauthorized Access
+Hackers might attempt brute-force attacks on SSH (port 22).
+Best practice: Restrict SSH access to only your office IP (e.g., 203.0.113.5).
+5. Dynamic Scaling
+As traffic increases, AWS may add new servers.
+These new instances inherit Security Group rules automatically, maintaining security without manual intervention.
+Security Group Best Practices
+Component
+Allowed Ports
+Allowed Source
+Web Server
+80, 443
+Public (0.0.0.0/0)
+Database Server
+3306
+Only from Web Server
+SSH Access
+22
+Only from Office IP
+
+Common Security Group Configurations
+1. Web Server Security Group (For Hosting Websites)
+Rule Type
+Protocol
+Port
+Source/Destination
+Purpose
+Inbound
+HTTP (TCP)
+80
+0.0.0.0/0 (Everyone)
+Allow public access
+Inbound
+HTTPS (TCP)
+443
+0.0.0.0/0 (Everyone)
+Secure SSL access
+Outbound
+All
+All
+0.0.0.0/0 (Everyone)
+Allow web server to access the internet
+
+2. SSH Security Group (For Admin Access)
+Rule Type
+Protocol
+Port
+Source
+Purpose
+Inbound
+SSH (TCP)
+22
+Office IP (203.0.113.5)
+Secure access
+Outbound
+All
+All
+0.0.0.0/0 (Everyone)
+Allow admin to access the internet
+
+3. Load Balancer Security Group
+Rule Type
+Protocol
+Port
+Source/Destination
+Purpose
+Inbound
+HTTP (TCP)
+80
+0.0.0.0/0 (Everyone)
+Public website access
+Inbound
+HTTPS (TCP)
+443
+0.0.0.0/0 (Everyone)
+Secure traffic
+Outbound
+HTTP/HTTPS
+80/443
+Web Server SG
+Forward traffic
+
+Step-by-Step Guide to Creating and Configuring Security Groups
+Step 1: Open AWS Console
+Step 2: Navigate to EC2 Dashboard
+Step 3: Select Security Groups from the left navbar
+Step 4: Click "Create Security Group"
+Provide a Name and Description.
+Select the VPC where it will be applied.
+Step 5: Configure Inbound Rules
+Rule
+Type
+Protocol
+Port Range
+Source
+1
+HTTP
+TCP
+80
+0.0.0.0/0
+2
+HTTPS
+TCP
+443
+0.0.0.0/0
+3
+SSH
+TCP
+22
+Your IP (e.g., 203.0.113.5)
+
+Step 6: Configure Outbound Rules
+Allow all outbound traffic to ensure servers can connect externally.
+Step 7: Review and create the Security Group
+Step 8: Assign the Security Group to an Instance
+When launching an instance, select your Security Group or apply it later from the EC2 dashboard.
+Useful Networking Commands for Troubleshooting
+1. Ping Command
+Test connectivity between devices.
+ping google.com
+ping 8.8.8.8 (Google DNS)
+ping 192.168.1.1 (Local network check)
+2. Traceroute (Linux) / Tracert (Windows)
+Track the path packets take to a destination.
+traceroute google.com   # Linux
+tracert google.com      # Windows
+3. Netstat (View active connections and listening ports)
+netstat -a   # Show all connections
+netstat -an  # Show numeric IP addresses and ports
+netstat -r   # Display routing table
+4. Curl Commands
+Fetch website content:
+curl google.com
+Download a file:
+curl -o file.html google.com
+Send a POST request:
+curl -X POST -d "param=value" http://example.com/api
+5. Dig/Nslookup (DNS Troubleshooting)
+dig example.com      # Fetch domain information
+nslookup example.com # Resolve domain name
+nslookup 8.8.8.8     # Reverse lookup (Find domain from IP)
+Conclusion
+Security Groups are a critical aspect of cloud security. By correctly configuring rules, you ensure: ✅ Only necessary ports are open ✅ Traffic is securely managed ✅ Unauthorized access is blocked
+Follow best practices and use network commands to troubleshoot and secure your cloud environment effectively. 🚀
+
