@@ -1,0 +1,12 @@
+1st Day: We learned about Networking Topologies.
+
+Networking topologies refer to the arrangement of different elements (links, nodes, etc.) in a computer network. Common types include:
+
+- Bus Topology
+- Star Topology
+- Ring Topology
+- Mesh Topology
+- Tree Topology
+- Hybrid Topology
+
+Each topology has its own advantages and disadvantages in terms of performance, scalability, and fault tolerance.
