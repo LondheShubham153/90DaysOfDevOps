@@ -1,0 +1,19 @@
+
+Once forked:
+
+1. **Copy the HTTPS URL** of *your forked repository*.
+   It should look like:
+   `https://github.com/yourusername/90DaysOfDevOps.git`
+
+2. **Open your terminal** and run:
+
+   ```bash
+   git clone https://github.com/yourusername/90DaysOfDevOps.git
+   ```
+
+3. **Navigate to the target directory** (adjust the path as needed):
+
+   ```bash
+   cd 90DaysOfDevOps/2025/git/01_Git_and_Github_Basics
+   ```
+
