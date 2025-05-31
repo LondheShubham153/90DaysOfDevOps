@@ -1,0 +1,92 @@
+
+#### **Task 4: Explore Your Commit History**
+
+* View your commit log:
+
+  ```bash
+  git log
+  ```
+
+#### **Task 5: Advanced Branching and Switching**
+
+1. **Create and switch branches:**
+
+   ```bash
+   git branch feature-update
+   git switch feature-update
+   # OR: git checkout feature-update
+   ```
+
+2. **Modify `info.txt` and commit:**
+
+   ```bash
+   # Make edits to info.txt
+   git add info.txt
+   git commit -m "Feature update: Enhance info.txt with additional details"
+   git push origin feature-update
+   ```
+
+3. **Merge to `main`:**
+
+   * Open a Pull Request on GitHub to merge `feature-update` into `main`.
+
+4. **Optional Challenge – Simulate Merge Conflict:**
+
+   * Create and switch to `experimental`, make a conflicting edit in `info.txt`.
+   * Merge into `feature-update`:
+
+     ```bash
+     git checkout feature-update
+     git merge experimental
+     ```
+   * Resolve conflicts, then:
+
+     ```bash
+     git add info.txt
+     git commit -m "Resolve merge conflict between experimental and feature-update"
+     ```
+
+---
+
+### 📝 Task 6: Document Your Process in `solution.md`
+
+Include:
+
+* A list of all commands used from Tasks 1–5.
+* Explanation on branching strategies (e.g., Git Flow, GitHub Flow), highlighting:
+
+  * Isolation of work
+  * Collaboration without interference
+  * Safer code reviews
+  * Easier rollback
+
+---
+
+### 💡 Bonus: SSH Authentication
+
+1. Generate SSH key:
+
+   ```bash
+   ssh-keygen
+   ```
+
+   (Press Enter through the prompts)
+
+2. Add your public key (`~/.ssh/id_ed25519.pub`) to GitHub:
+   [GitHub SSH Setup Guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
+
+3. Change remote to SSH:
+
+   ```bash
+   git remote set-url origin git@github.com:<your-username>/90DaysOfDevOps.git
+   ```
+
+4. Test with a push:
+
+   ```bash
+   git push origin feature-update
+   ```
+
+---
+
+

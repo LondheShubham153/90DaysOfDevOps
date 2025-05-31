@@ -1,0 +1,59 @@
+**Task 2: Initialize a Local Repository and Create a File**:
+
+---
+
+### ✅ **1. Set Up Your Challenge Directory**
+
+From inside your cloned `90DaysOfDevOps` repo:
+
+```bash
+mkdir week-4-challenge
+cd week-4-challenge
+```
+
+---
+
+### ✅ **2. Initialize a Git Repository**
+
+Run:
+
+```bash
+git init
+```
+
+This creates a new `.git` directory, allowing Git to start tracking changes within this folder.
+
+---
+
+### ✅ **3. Create a File**
+
+Use your preferred editor or command-line tool to create the file. For example:
+
+```bash
+echo "Your Name - A brief intro about yourself" > info.txt
+```
+
+You can also use:
+
+```bash
+nano info.txt
+```
+
+…and manually type your content, then save and exit.
+
+---
+
+### ✅ **4. Stage and Commit Your File**
+
+1. **Stage the file:**
+
+   ```bash
+   git add info.txt
+   ```
+
+2. **Commit the file:**
+
+   ```bash
+   git commit -m "Initial commit: Add info.txt with introductory content"
+   ```
+=

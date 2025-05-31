@@ -1,0 +1,51 @@
+**Task 3: Configure Remote URL with PAT and Push/Pull** step-by-step:
+
+---
+
+### ✅ **1. Configure Remote URL with Your PAT**
+
+> ⚠️ **Warning:** Embedding your **Personal Access Token (PAT)** in a URL is not safe for production use. For better security, use Git credential managers or SSH in real projects.
+
+If `origin` doesn't exist yet:
+
+```bash
+git remote add origin https://<your-username>:<your-PAT>@github.com/<your-username>/90DaysOfDevOps.git
+```
+
+If `origin` already exists:
+
+```bash
+git remote set-url origin https://<your-username>:<your-PAT>@github.com/<your-username>/90DaysOfDevOps.git
+```
+
+📌 **Example** (Don’t use this literally—replace placeholders):
+
+```bash
+git remote set-url origin https://johndoe:ghp_abcd1234xyz@github.com/johndoe/90DaysOfDevOps.git
+```
+
+---
+
+### ✅ **2. Push Your Commit to Remote**
+
+Assuming you're still on `main`:
+
+```bash
+git push -u origin main
+```
+
+The `-u` flag sets the upstream, so future pushes can simply use `git push`.
+
+---
+
+### ✅ **3. (Optional) Pull Remote Changes**
+
+To verify that your remote is properly set and active:
+
+```bash
+git pull origin main
+```
+
+---
+
+✅ **Done!** Now your local changes are pushed to your GitHub fork. Let me know if you'd like help setting up a `.gitignore`, branching strategy, or working with pull requests.
