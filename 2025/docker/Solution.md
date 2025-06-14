@@ -81,17 +81,17 @@ kshitij@DESKTOP-CP5A3Q6:/mnt/f/DevOpsStudy/Week 5 - Docker/myapp$ touch app.py
 
 kshitij@DESKTOP-CP5A3Q6:/mnt/f/DevOpsStudy/Week 5 - Docker/myapp$ touch requirements.txt
 
-kshitij@DESKTOP-CP5A3Q6:/mnt/f/DevOpsStudy/Week 5 - Docker/myapp$ touch DockerFile
+kshitij@DESKTOP-CP5A3Q6:/mnt/f/DevOpsStudy/Week 5 - Docker/myapp$ touch Dockerfile
 
 #Folder Structure [File Structure]
 
 myapp/
 -app.py
--requirement.txt
--DockerFile => (Remove .txt from the extension it will automatically change the logo to Docker no need to write extenstion)
+-requirements.txt
+-Dockerfile => (Remove .txt from the extension it will automatically change the logo to Docker no need to write extenstion)
 
 Step 2: Write the Dockerfile 
-=> DockerFile Written ref(myapp/DockerFile) ref #Step1 //Creation for DockerFile in the app
+=> Dockerfile Written ref(myapp/Dockerfile) ref #Step1 //Creation for Dockerfile in the app
 
 Step 3 : Building Docker Image
 => kshitij@DESKTOP-CP5A3Q6:/mnt/f/DevOpsStudy/Week 5 - Docker$ docker build -t dockerhub-devkshitij7/myapp:latest .                       //building the image locally to run on the local envsss
