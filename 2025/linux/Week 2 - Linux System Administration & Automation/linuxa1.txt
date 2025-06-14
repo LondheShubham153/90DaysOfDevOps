@@ -1,0 +1,86 @@
+1
+
+sudo useradd -m devops_user
+
+cd /home
+kshitij@DESKTOP-CP5A3Q6:/home$ ls
+devops_user  kshitij
+
+
+kshitij@DESKTOP-CP5A3Q6:/home$ sudo passwd devops_user
+New password:
+Retype new password:
+passwd: password updated successfully
+
+
+kshitij@DESKTOP-CP5A3Q6:/home$ su devops_user
+Password:
+$ whoami
+devops_user
+
+sudo groupadd devops_team
+
+kshitij@DESKTOP-CP5A3Q6:/home$ cat /etc/group
+
+kshitij@DESKTOP-CP5A3Q6:/home$ sudo gpasswd -M devops_user  devops_team
+
+kshitij@DESKTOP-CP5A3Q6:/home$ cat /etc/group
+
+devops_team:x:1002:devops_user
+
+
+kshitij@DESKTOP-CP5A3Q6:/home$ sudo usermod -aG sudo devops_user
+
+
+kshitij@DESKTOP-CP5A3Q6:/home$ cat /etc/group
+
+sudo:x:27:kshitij,devops_user
+
+
+2.
+
+kshitij@DESKTOP-CP5A3Q6:/mnt/f/DevOpsStudy$ mkdir devops_workspace
+kshitij@DESKTOP-CP5A3Q6:/mnt/f/DevOpsStudy$ ls
+1.txt  da  demo.txt  devops  devops_workspace  test  user_management.sh  x
+kshitij@DESKTOP-CP5A3Q6:/mnt/f/DevOpsStudy$ ls -v
+1.txt  da  demo.txt  devops  devops_workspace  test  user_management.sh  x
+kshitij@DESKTOP-CP5A3Q6:/mnt/f/DevOpsStudy$ ls -l
+total 0
+-rwxrwxrwx 1 kshitij kshitij    0 Feb 18 08:57 1.txt
+drwxrwxrwx 1 kshitij kshitij 4096 Feb 18 09:02 da
+-rwxrwxrwx 1 kshitij kshitij   26 Feb 14 05:50 demo.txt
+drwxrwxrwx 1 kshitij kshitij 4096 Feb 18 09:02 devops
+drwxrwxrwx 1 kshitij kshitij 4096 Feb 18 10:52 devops_workspace
+drwxrwxrwx 1 kshitij kshitij 4096 Feb 18 09:02 test
+-rwxrwxrwx 1 kshitij kshitij  265 Feb 18 09:35 user_management.sh
+drwxrwxrwx 1 kshitij kshitij 4096 Feb 18 09:03 x
+kshitij@DESKTOP-CP5A3Q6:/mnt/f/DevOpsStudy$ cd devops_workspace
+kshitij@DESKTOP-CP5A3Q6:/mnt/f/DevOpsStudy/devops_workspace$ touch project_notes.txt
+kshitij@DESKTOP-CP5A3Q6:/mnt/f/DevOpsStudy/devops_workspace$ ls
+project_notes.txt
+kshitij@DESKTOP-CP5A3Q6:/mnt/f/DevOpsStudy/devops_workspace$
+
+
+
+3.
+
+kshitij@DESKTOP-CP5A3Q6:/mnt/f/DevOpsStudy$ grep -c "error" Linux_2k.log
+
+
+0
+
+
+kshitij@DESKTOP-CP5A3Q6:/mnt/f/DevOpsStudy$ awk -v start='2015-6-14 22:30' '$1 " " $2 > start { print $NF }' Linux_2k.log
+
+
+
+5.
+
+killing the process
+
+pkill ping
+
+ps -d
+
+
+[1]+  Terminated              ping google.com > ping_test.log
