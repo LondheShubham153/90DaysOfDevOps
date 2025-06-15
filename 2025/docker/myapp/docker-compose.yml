@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  myapp:
+    build: .
+    container_name: myapp-container
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
+    depends_on:
+      - redis
+
+  redis:
+    image: redis:7
+    container_name: redis-container
+    ports:
+      - "6379:6379"

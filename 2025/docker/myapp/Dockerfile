@@ -1,15 +1,30 @@
-# Use an official Python runtime as a base image
-FROM python:3.9-slim
+FROM python:3.12-slim AS builder
 
-# Set working directory
 WORKDIR /app
 
-# Copy requirements and install them
-COPY requirements.txt requirements.txt
-RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the rest of the app
+RUN apt-get update && apt-get install -y --no-install-recommends gcc
+
+
+COPY requirements.txt .
+RUN pip install --upgrade pip && pip install --prefix=/install -r requirements.txt
+
+
 COPY . .
 
-# Run the application
+
+FROM python:3.12-slim
+
+WORKDIR /app
+
+
+COPY --from=builder /install /usr/local
+
+
+COPY --from=builder /app /app
+
+EXPOSE 5000
+
+
 CMD ["python", "app.py"]
+

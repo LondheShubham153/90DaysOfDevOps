@@ -122,6 +122,137 @@ kshitij@DESKTOP-CP5A3Q6:/mnt/f/DevOpsStudy/Week 5 - Docker/myapp$ docker stop 51
 
 =====>Task 2 Completed <=======
 
+//Task 3: Explore Docker Terminologies and Components
+
+1. Image
+
+A Docker image is a read-only template that contains the instructions needed to create a container.
+
+It includes:
+
+a.Application code
+
+b.Libraries
+
+c.Dependencies
+
+d.Environment variables and configuration
+
+Images are built from a Dockerfile and are versioned.
+
+Stored in registries like Docker Hub, Amazon ECR, or GitHub Container Registry.
+
+2. Container
+
+A container is a runtime instance of a Docker image.
+
+It includes everything from the image but adds a writable layer on top.
+
+Containers are:
+
+a.Lightweight and fast
+
+b.Isolated from each other and the host OS
+
+c.Portable across environments (development, test, production)
+
+Think of it as a running application or service.	
+
+3.Dockerfile
+
+A Dockerfile is a text file that contains a series of instructions on how to build a Docker image.
+
+Common Dockerfile commands:
+
+//FROM: Base image to use (e.g., FROM ubuntu)
+
+//COPY / ADD: Include files/folders
+
+//RUN: Execute shell commands
+
+//CMD / ENTRYPOINT: Define default command to run
+
+//EXPOSE: Declare port the container listens on
+
+
+4.Volume
+
+A volume is a persistent storage mechanism for Docker containers.
+
+Used to store data outside the container’s filesystem, so it’s not lost when the container stops or is removed.
+
+Benefits:
+
+a.Share data between containers
+
+b.Back up and restore application state
+
+Types:
+
+i.Named volumes (docker volume create)
+
+ii.Anonymous volumes
+
+iii.Host bind mounts (map local directory to container)
+
+
+5.Network
+
+Docker networks enable communication between containers and between containers and the outside world.
+
+Default network types:
+
+a.bridge (default for standalone containers)
+
+b.host (container shares host’s network)
+
+c.none (no networking)
+
+You can create custom networks to allow multiple containers to discover 
+and communicate with each other securely (e.g., microservices setup).
+
+
+//Task 4. Optimize Your Docker Image with Multi-Stage Builds
+
+a.Implement a Multi-Stage Docker Build
+//Modified Previous Docker File with multistage build
+//[ref-myapp/Dockerfile]
+
+kshitij@DESKTOP-CP5A3Q6:/mnt/f/DevOpsStudy/Week 5 - Docker$ docker build -t myapp .
+
+b. Compare Image Sizes:
+
+kshitij@DESKTOP-CP5A3Q6:/mnt/f/DevOpsStudy/Week 5 - Docker$ docker images
+
+REPOSITORY          TAG       IMAGE ID       CREATED          SIZE
+myapp               latest    8ad53405aa72   11 minutes ago   193MB			//latest updated image with multistage build
+devkshitij7/myapp   latest    85e04f8a99db   20 minutes ago       207MB		//Older Version image without multistage build
+
+c.Document the Differences
+
+//Benefits of Multi-Stage Builds
+
+1.Smaller images by excluding dev tools, cache, and build dependencies
+
+2.Improved security with fewer attack surfaces
+
+3.Faster deployments due to reduced image size
+
+4.Cleaner separation between build and runtime stages
+
+5.Easier maintenance with modular build logic
+
+6.Better caching improves build efficiency
+
+//Impact on Image Size
+
+1.Can reduce image size by 50–80%
+
+2.Only necessary files and binaries are copied into the final image
+
+=======>Task 4 Completed <=======
+ 
+
 //Task 5: Manage Your Image with Docker Hub
 
 //Step 1: Tagging the Image
@@ -142,6 +273,43 @@ kshitij@DESKTOP-CP5A3Q6:/mnt/f/DevOpsStudy/Week 5 - Docker$ docker pull devkshit
 
 
 =====> Task 5 Completed <==============
+
+//Task 6: Persist Data with Docker Volumes
+
+1.Create a Docker Volume:
+
+kshitij@DESKTOP-CP5A3Q6:/mnt/f/DevOpsStudy/Week 5 - Docker$ docker volume create myapp_volume
+myapp_volume									//created new docker volume
+
+kshitij@DESKTOP-CP5A3Q6:/mnt/f/DevOpsStudy/Week 5 - Docker$ docker volume ls		//Listing all the available volumes
+
+local     myapp_volume
+
+2. Run a Container with the Volume
+
+kshitij@DESKTOP-CP5A3Q6:/mnt/f/DevOpsStudy/Week 5 - Docker$ docker run -d -v myapp_volume:/app/data myapp          //Runnig the container with the volume[Attaching the volume to container]
+
+3.Document the Process
+
+Docker Volumes:
+1.Persist data even when containers stop or are deleted
+
+2.Store app state, logs, databases, uploads, etc.
+
+3.Decouple data from container lifecycle
+
+4.Share data between multiple containers
+
+5.Avoid data loss during container rebuilds or updates
+
+6.Easier backups and restores
+
+7.Improves performance compared to bind mounts
+
+8.Keeps images lightweight by separating data from app code
+
+
+=======> Task 6 Complete <=======
 
 
 //Task 7: Configure Docker Networking
@@ -213,3 +381,41 @@ kshitij@DESKTOP-CP5A3Q6:/mnt/f/DevOpsStudy/Week 5 - Docker$ docker run -d \ -p 8
 //kshitij@DESKTOP-CP5A3Q6:/mnt/f/DevOpsStudy/Week 5 - Docker$ docker stop f4068d997996
 
 =====> Task 7 Completed <==============
+
+
+//Task 8: Orchestrate with Docker Compose
+
+1. Create a docker-compose.yml File
+//created docker-compose.yml file [ref=>myapp/docker-compose.yml]
+//With Two Service myapp-myapp & redis 
+//with docker compose up -d  command the images are build & their respective container are created...
+
+//kshitij@DESKTOP-CP5A3Q6:/mnt/f/DevOpsStudy/Week 5 - Docker$ docker compose up -d		//using docker compose up command in detached mode
+
+//kshitij@DESKTOP-CP5A3Q6:/mnt/f/DevOpsStudy/Week 5 - Docker$ docker ps
+CONTAINER ID   IMAGE         COMMAND                  CREATED          STATUS          PORTS                    NAMES
+9682eee5332d   myapp-myapp   "python app.py"          16 seconds ago   Up 8 seconds    0.0.0.0:5000->5000/tcp   myapp-container
+f6b553416356   redis:7       "docker-entrypoint.s…"   21 seconds ago   Up 14 seconds   0.0.0.0:6379->6379/tcp   redis-container
+
+
+//kshitij@DESKTOP-CP5A3Q6:/mnt/f/DevOpsStudy/Week 5 - Docker$ docker compose down	
+  Container myapp-container  Removed                                                           12.9s
+  Container redis-container  Removed                                                            2.1s
+
+Task 9: Analyze Your Image with Docker Scout
+
+1. Run Docker Scout Analysis:
+//Execute Docker Scout on your image to generate a detailed report of vulnerabilities and insights
+
+//kshitij@DESKTOP-CP5A3Q6:/mnt/f/DevOpsStudy/Week 5 - Docker$ docker scout quickview devkshitij7/myapp:latest
+
+
+//kshitij@DESKTOP-CP5A3Q6:/mnt/f/DevOpsStudy/Week 5 - Docker$ docker scout cves devkshitij7/myapp:latest
+
+3.Document Your Findings:
+
+//saving the output file to scout_report.txt[ref=>myapp/scout.report.txt]
+//kshitij@DESKTOP-CP5A3Q6:/mnt/f/DevOpsStudy/Week 5 - Docker$  docker scout cves devkshitij7/myapp:latest > scout_report.txt
+
+
+====> Task 9 Completed<=====
