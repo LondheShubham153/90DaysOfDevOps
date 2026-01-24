@@ -18,30 +18,33 @@ My current role is PHP developer and i want switch to DevOps and Cloud.
 2) Weekends: 4–6 hours total
 3) Total: ~14–16 hours per week
 
-1. What is your understanding of DevOps and Cloud Engineering?
-   DevOps is culture + midsent + set of practices + tools that helps to develoment teams (Dev) and Operation teams (Ops) works together to:
-   * Bulid software faster
-   * Deploy it safely & repeatedly
-   * Keep it stable, secure, and scalable
+# 1. What is your understanding of DevOps and Cloud Engineering?
+
+   DevOps is culture + midsent + set of practices + tools that helps to develoment teams (Dev)
+   and Operation teams (Ops) works together to:
+   1 Bulid software faster
+   2 Deploy it safely & repeatedly
+   3 Keep it stable, secure, and scalable
      
-2. Why you are starting learning DevOps & Cloud?
-   I am starting to learn DevOps and Cloud because modern software development is no longer just about writing code—it’s about how efficiently,
-    securely, and reliably that code is delivered and scaled.
-   DevOps helps me understand the end-to-end lifecycle of an application, from development to deployment and monitoring.
+# 2. Why you are starting learning DevOps & Cloud?
    
-4. Where do you want to reach?
+   1 I am starting to learn DevOps and Cloud because modern software development is no longer just about writing code
+   it’s about how efficiently,securely, and reliably that code is delivered and scaled.
+   2 DevOps helps me understand the end-to-end lifecycle of an application, from development to deployment and monitoring.
+   
+# 3. Where do you want to reach?
+
    I want to grow into a skilled DevOps & Cloud Engineer who can design, automate, deploy, and manage scalable, secure, and highly available systems.
    
-   My goal is to:
-    Master cloud platforms (like AWS/Azure/GCP)
-    Build end-to-end CI/CD pipelines
-    Automate infrastructure using Infrastructure as Code
-    Work with containers and orchestration tools
-    Ensure monitoring, reliability, and security in production systems.
+   # My goal is to:
+   1 Master cloud platforms (like AWS/Azure/GCP)
+   2 Build end-to-end CI/CD pipelines
+   3 Automate infrastructure using Infrastructure as Code
+   4 Work with containers and orchestration tools
+   5 Ensure monitoring, reliability, and security in production systems.
 
-5. How you will stay consistent every single day?
+# 4. How you will stay consistent every single day?
    I will stay consistent by building habits and systems, not relying on motivation.
-
   # My approach:
   
    1.  Daily small goals:
