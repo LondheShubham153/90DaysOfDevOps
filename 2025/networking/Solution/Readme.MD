@@ -1,2 +1,2 @@
 Hi this is me learning new concept tada!
-now lets try to get the latest pull from this repo
+today is april-4-2026 and practising advanced concept
