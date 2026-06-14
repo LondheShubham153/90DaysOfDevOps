@@ -1,0 +1,90 @@
+Week 1: Networking Challenge
+
+Welcome to Week 1 of the 90 Days of DevOps - 2025 Edition! This week's focus is on Networking, a foundational skill for every DevOps professional. 
+Let's dive into understanding key networking concepts, tools, and tasks essential for building a strong DevOps career.
+
+1. Understand OSI & TCP/IP Models
+
+OSI MODEL - OPEN SYSTEM  INTERCOMMUNICATION MODEL
+
+Physical Layer – Transfers raw bits (0s and 1s) through cables, wires, or signals.
+
+Data Link Layer – Transfers data between two devices on the same network and handles error detection (MAC address works here).
+
+Network Layer – Finds the best path and delivers data using IP address (routing).
+
+Transport Layer – Ensures reliable data delivery using TCP/UDP and manages ports.
+
+Session Layer – Establishes, manages, and terminates communication sessions between devices.
+
+Presentation Layer – Converts data format, and handles encryption and compression.
+
+Application Layer – Provides network services directly to user applications like HTTP, FTP, SMTP.
+
+
+TCP stands for Transmission Control Protocol. It is a connection-oriented and reliable protocol that works at the Transport Layer of the OSI model.
+It ensures data is delivered accurately, in order, and without loss using mechanisms like acknowledgements, sequence numbers, and error checking.
+Before sending data, TCP establishes a connection using a 3-way handshake. It is used in applications like HTTP, HTTPS, FTP, and email.”
+
+Explain 3-Way Handshake (Very commonly asked)
+
+You can say this:
+
+“TCP uses a 3-way handshake to establish connection:
+
+SYN – Client sends request to server
+
+SYN-ACK – Server responds with acknowledgement
+
+ACK – Client sends final acknowledgement and connection is established”
+
+2.Protocols and Ports for DevOps
+Protocol	Port	Use
+HTTP	    80	   Website
+HTTPS	    443	   Secure Website
+FTP	        21	   File Transfer
+SSH	        22	   Remote Login
+DNS	        53	   Domain to IP
+
+3. Step-by-Step Guide to Create and Configure Security Groups in Azure VM
+
+Introduction
+
+Cloud computing allows us to create virtual servers called Virtual Machines (VMs). However, securing these VMs is very important. 
+In Azure, Network Security Groups (NSG) act as a virtual firewall that controls inbound and outbound traffic.
+
+1.Login to Microsoft Azure Portal using your account.
+
+2.Go to Virtual Machines and click Create VM.
+
+3.Enter VM details like name, region, image, and size.
+
+4.Go to the Networking tab during VM creation.
+
+5.Click Create New Network Security Group (NSG).
+
+6.Add Inbound Rule to allow Port 22 for SSH access.
+
+7.Add Inbound Rule to allow Port 80 for HTTP (website access).
+
+8.Add Inbound Rule to allow Port 443 for HTTPS (secure website).
+
+9.Click Review and Create and launch the VM.
+
+10.Connect to VM using SSH and Public IP address.
+
+11.NSG will now control and secure traffic to your VM.
+
+4. Networking Commands
+
+ping – Checks connectivity between your system and a remote server.
+
+traceroute / tracert – Shows the path (hops) taken by packets to reach the destination.
+
+netstat – Displays active network connections and open/listening ports.
+
+curl – Sends HTTP request to a server and retrieves the response.
+
+dig – Performs DNS lookup to find IP address of a domain.
+
+nslookup – Queries DNS to get domain name or IP address information.
