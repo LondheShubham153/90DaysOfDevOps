@@ -1,6 +1,6 @@
 # Week 4: Git and GitHub Challenge
 
-Welcome to the Week 4 Challenge! In this task you will practice the essential Git and GitHub commands and concepts taught by Shubham Bhaiya. This includes:
+Welcome to the Week 4 Challenge! In this task you will practice the essential Git and GitHub commands and concepts. This includes:
 
 - **Git Basics:** `git init`, `git add`, `git commit`
 - **Repository Management:** `git clone`, forking a repository, and understanding how a GitHub repo is made
